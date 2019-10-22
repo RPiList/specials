@@ -1,5 +1,6 @@
 # _specials_ (Why is the orig repo named specials?)
 #### a list of malicious domains
+![GitHub](https://img.shields.io/github/license/RPiList/specials) ![GitHub file size in bytes](https://img.shields.io/github/size/RPiList/specials/notserious?label=notserious%20filesize)
 
 ### Original Video (by Sempervideo):
 **nie wieder Betrug im Internet:**

@@ -1,2 +1,6 @@
+  
+Anleitungen wie Sie die Einstellungen an Ihrem Router im LAN vornehmen können:
 
-Screenshots verschiedener Routermodelle zur Konfiguration mit dem Pi-hole.
+Fritz!Box 6490 Cable (Fritz!OS 7.10)
+
+![](FritzBox6490Cable-2.png?raw=true) 

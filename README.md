@@ -24,5 +24,6 @@ Man darf gespannt bleiben. :-)
 # Image Download unter:
 # http://sempervideo.de/svpihole1911.img
 
+sha512: b90aef284c556b43f4e7da242e2f0bc7fef282c9dd077e0dd8cc9626e1ba3e56ab7bb72ad4ed0951258d194ece261e0a15940b868f9364e700220ffc96a07d63
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f <br>
 md5: 5aefe8ee2fe041813318d056fa1ed085

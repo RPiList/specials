@@ -24,7 +24,7 @@ Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend 
 </table>
 
 
-<table border=0>
+<table>
 
 <tr><td valign=top>* <td>Auf Amazon gibt es auch einige Gehäuse, die ein Netzteil für den Raspberry Pi 4 B direkt mitbringen. Sie können auch diese kaufen.
 <tr><td valign=top>** <td>Der RaspberryPi 4 Modell B benötigt kein Gehäuse mit Kühlung, wenn Sie ihn nur als Pi-hole betreiben. Der Prozessor wird zwar ca. 60 Grad Celsius heiß, jedoch stellt das für den Raspberry Pi kein Problem dar. Der Raspberry Pi kann nicht überhitzen. Wenn Sie später mal noch andere Dinge über den Raspberry Pi erledigen möchten, können Sie sich immer noch ein Gehäuse kaufen und es problemlos austauschen. Selbst wenn Sie das nicht machen und trotzdem noch viele andere Dinge mit dem Raspberry Pi anstellen möchten, kann der Pi nicht überhitzen. Ab 80 Grad Celsius drosselt sich der Prozessor selbständig bis er wieder abgekühlt ist. Passieren kann also nichts.

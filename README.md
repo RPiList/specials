@@ -1,4 +1,4 @@
-# specials
+# notserious = unseriös = Fakeshops
 
 Was soll das hier sein???
 

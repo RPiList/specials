@@ -1,14 +1,16 @@
 
 Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend die Hardware, die Sie dazu benötigen. Alle Links sind sog. Affiliate Links auf Amazon. Sie können die gleichen Produkte aber auch bei jedem anderen Elektronik-Händler Ihrer Wahl kaufen.
 
-Top-Notch-Variante:
-
-https://amzn.to/34iEZ9S Raspberry Pi 4 Modell B 4GB 
-https://amzn.to/2DsOrf7 3A Netzteil Type-C USB Kabel Stecker Ladegerät* 
-https://amzn.to/2OnKxdL Raspberry Pi 4 Model B Gehäuse mit Kühlkörper**
-https://amzn.to/2KSwQRR SanDisk Ultra 16GB microSDHC***
-https://amzn.to/2OigiET SD/Micro SD Kartenleser Speicherkartenleser mit Micro USB 
-https://amzn.to/34nFxeG 5m - CAT.6 Ethernet Gigabit Lan Netzwerkkabel RJ45 - 10 100 1000Mbit s
+<table>
+<tr>
+<td>Top-Notch-Variante:<td>
+<tr><td>https://amzn.to/34iEZ9S <td>Raspberry Pi 4 Modell B 4GB 
+<tr><td>https://amzn.to/2DsOrf7 <td>3A Netzteil Type-C USB Kabel Stecker Ladegerät* 
+<tr><td>https://amzn.to/2OnKxdL <td>Raspberry Pi 4 Model B Gehäuse mit Kühlkörper**
+<tr><td>https://amzn.to/2KSwQRR <td>SanDisk Ultra 16GB microSDHC***
+<tr><td>https://amzn.to/2OigiET <td>SD/Micro SD Kartenleser Speicherkartenleser mit Micro USB 
+<tr><td>https://amzn.to/34nFxeG <td>5m - CAT.6 Ethernet Gigabit Lan Netzwerkkabel RJ45 - 10 100 1000Mbit s
+</table>
 
 Low-Buget-Variante:
 https://amzn.to/2XJh8O6 Raspberry Pi 3 Model B 1GB

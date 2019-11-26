@@ -26,3 +26,6 @@ Man darf gespannt bleiben. :-)
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f <br>
 md5: 5aefe8ee2fe041813318d056fa1ed085
+
+Mirrors:
+* https://repo.joestr.xyz/svpihole/images/1911/svpihole1911.img

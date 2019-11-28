@@ -26,3 +26,6 @@ Man darf gespannt bleiben. :-)
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f <br>
 md5: 5aefe8ee2fe041813318d056fa1ed085
+
+Torrent:
+magnet:?xt=urn:btih:125fa8aadc73b4a774b5568e1a29a37b31ab52db&dn=svpihole1911.img&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce

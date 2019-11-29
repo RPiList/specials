@@ -23,7 +23,7 @@ Man darf gespannt bleiben. :-)
 
 # Image Download unter:
 # http://sempervideo.de/svpihole1911.img
-# https://mirror.nickwasused.com/svpihole1911.img
+# https://mirror.nickwasused.com/sempervideo/svpihole1911.img
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f <br>
 md5: 5aefe8ee2fe041813318d056fa1ed085

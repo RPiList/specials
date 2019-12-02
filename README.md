@@ -22,13 +22,13 @@ Man darf gespannt bleiben. :-)
 
 
 # Image Download unter:
-# Raspberry Pi: http://sempervideo.de/svpihole1911.img
+## Raspberry Pi: http://sempervideo.de/svpihole1911.img
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f <br>
 md5: 5aefe8ee2fe041813318d056fa1ed085
 
-# VMware Player & QNAP NAS:
-# http://http://sempervideo.de/svPihole1911.zip
+## VMware Player & QNAP NAS:
+## http://http://sempervideo.de/svPihole1911.zip
 
 sha256: 93a4d91dc78898ebca0861d3124aae95fd73b6285cda2831ecc33c3542088dda
 md5: 24abf6430c1e8c53c4c464b4688d8148

@@ -27,6 +27,8 @@ Man darf gespannt bleiben. :-)
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
 md5: 5aefe8ee2fe041813318d056fa1ed085
 
+Mirror 1: https://eb-media.ch/downloads.htm
+
 ## VMware Player & QNAP NAS: http://sempervideo.de/svPihole1911.zip
 
 sha256: 93a4d91dc78898ebca0861d3124aae95fd73b6285cda2831ecc33c3542088dda<br>

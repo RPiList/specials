@@ -34,7 +34,7 @@ Mirror 1: https://eb-media.ch/downloads.htm
 sha256: 93a4d91dc78898ebca0861d3124aae95fd73b6285cda2831ecc33c3542088dda<br>
 md5: 24abf6430c1e8c53c4c464b4688d8148
 
-Erfolgreich getestet auf den Modellen: QNAP TS-251+
+Erfolgreich getestet auf den Modellen: QNAP TS-251+, Qnap TS-451+
 
 VMware Workstation Player Download unter: https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html
 

@@ -29,7 +29,9 @@ https://ipfs.io/ipfs/QmQFCTjh545CxENFLc62KhipTXVQ3q8dEzuotPfTXZEdur<br>
 http://download.heldendesbildschirms.dynv6.net/svpihole1911.img.zip<br>
 https://mega.nz/#!aJ5DgKqR!sKYPoTlftVpGKepWn358yEsZEAU8ShFfcpeMM2eW71s<br>
 http://www.mediafire.com/file/holvn19exyte9rc/svpihole1911.img/file<br>
-http://mirror.wtnet.de/pub/svpihole1911.img
+http://mirror.wtnet.de/pub/svpihole1911.img<br>
+https://mirror.joestr.xyz/sempervideo/pihole/1911/image/svpihole1911.img
+
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
 md5: 5aefe8ee2fe041813318d056fa1ed085
@@ -42,7 +44,8 @@ md5: 24abf6430c1e8c53c4c464b4688d8148<br>
 Weitere Download-Quellen:<br>
 https://ipfs.io/ipfs/QmVNA5CMZw9ZFvy6tovQFaEPfbWwxefDpgKXjpakNYUZ8D<br>
 http://download.heldendesbildschirms.dynv6.net/svPihole1911.zip<br>
-http://mirror.wtnet.de/pub/svPihole1911.zip
+http://mirror.wtnet.de/pub/svPihole1911.zip<br>
+https://mirror.joestr.xyz/sempervideo/pihole/1911/virtual-machine-image/svpihole1911.zip
 
 Erfolgreich getestet auf den Modellen: QNAP TS-251+, Qnap TS-451+
 

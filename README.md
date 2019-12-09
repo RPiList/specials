@@ -27,6 +27,8 @@ Weitere Download-Quellen:<br>
 https://eb-media.ch/downloads.htm<br>
 https://ipfs.io/ipfs/QmQFCTjh545CxENFLc62KhipTXVQ3q8dEzuotPfTXZEdur<br>
 http://download.heldendesbildschirms.dynv6.net/svpihole1911.img.zip<br>
+https://mega.nz/#!aJ5DgKqR!sKYPoTlftVpGKepWn358yEsZEAU8ShFfcpeMM2eW71s<br>
+http://www.mediafire.com/file/holvn19exyte9rc/svpihole1911.img/file<br>
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
 md5: 5aefe8ee2fe041813318d056fa1ed085

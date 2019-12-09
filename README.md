@@ -31,7 +31,8 @@ https://mega.nz/#!aJ5DgKqR!sKYPoTlftVpGKepWn358yEsZEAU8ShFfcpeMM2eW71s<br>
 http://www.mediafire.com/file/holvn19exyte9rc/svpihole1911.img/file<br>
 http://mirror.wtnet.de/pub/svpihole1911.img<br>
 https://mirror.joestr.xyz/sempervideo/pihole/1911/image/svpihole1911.img<br>
-https://mirror.nickwasused.com/sempervideo/svpihole1911.img
+https://mirror.nickwasused.com/sempervideo/svpihole1911.img<br>
+https://download.cromefire.myds.me/sv/svpihole1911.img (secure, compressed)
 
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
@@ -46,7 +47,8 @@ Weitere Download-Quellen:<br>
 https://ipfs.io/ipfs/QmVNA5CMZw9ZFvy6tovQFaEPfbWwxefDpgKXjpakNYUZ8D<br>
 http://download.heldendesbildschirms.dynv6.net/svPihole1911.zip<br>
 http://mirror.wtnet.de/pub/svPihole1911.zip<br>
-https://mirror.joestr.xyz/sempervideo/pihole/1911/virtual-machine-image/svpihole1911.zip
+https://mirror.joestr.xyz/sempervideo/pihole/1911/virtual-machine-image/svpihole1911.zip<br>
+https://download.cromefire.myds.me/sv/svPihole1911.zip (secure)
 
 Erfolgreich getestet auf den Modellen: QNAP TS-251+, Qnap TS-451+, Synology Diskstation DS918+
 

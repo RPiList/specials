@@ -24,13 +24,12 @@ Man darf gespannt bleiben. :-)
 # Image Download unter:
 ## Raspberry Pi: http://sempervideo.de/svpihole1911.img
 Weitere Download-Quellen:<br>
+https://eb-media.ch/downloads.htm<br>
 https://ipfs.io/ipfs/QmQFCTjh545CxENFLc62KhipTXVQ3q8dEzuotPfTXZEdur<br>
 http://download.heldendesbildschirms.dynv6.net/svpihole1911.img.zip<br>
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
 md5: 5aefe8ee2fe041813318d056fa1ed085
-
-Mirror 1: https://eb-media.ch/downloads.htm
 
 ## VMware Player & QNAP NAS: http://sempervideo.de/svPihole1911.zip
 

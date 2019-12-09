@@ -31,7 +31,7 @@ https://mega.nz/#!aJ5DgKqR!sKYPoTlftVpGKepWn358yEsZEAU8ShFfcpeMM2eW71s<br>
 http://www.mediafire.com/file/holvn19exyte9rc/svpihole1911.img/file<br>
 http://mirror.wtnet.de/pub/svpihole1911.img<br>
 https://mirror.joestr.xyz/sempervideo/pihole/1911/image/svpihole1911.img<br>
-https://mirror.nickwasused.com/svpihole1911.img
+https://mirror.nickwasused.com/sempervideo/svpihole1911.img
 
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>

@@ -23,6 +23,9 @@ Man darf gespannt bleiben. :-)
 
 # Image Download unter:
 ## Raspberry Pi: http://sempervideo.de/svpihole1911.img
+Weitere Download-Quellen:<br>
+https://ipfs.io/ipfs/QmQFCTjh545CxENFLc62KhipTXVQ3q8dEzuotPfTXZEdur<br>
+http://download.heldendesbildschirms.dynv6.net/svpihole1911.img.zip<br>
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
 md5: 5aefe8ee2fe041813318d056fa1ed085
@@ -32,7 +35,11 @@ Mirror 1: https://eb-media.ch/downloads.htm
 ## VMware Player & QNAP NAS: http://sempervideo.de/svPihole1911.zip
 
 sha256: 93a4d91dc78898ebca0861d3124aae95fd73b6285cda2831ecc33c3542088dda<br>
-md5: 24abf6430c1e8c53c4c464b4688d8148
+md5: 24abf6430c1e8c53c4c464b4688d8148<br>
+
+Weitere Download-Quellen:<br>
+https://ipfs.io/ipfs/QmVNA5CMZw9ZFvy6tovQFaEPfbWwxefDpgKXjpakNYUZ8D<br>
+http://download.heldendesbildschirms.dynv6.net/svPihole1911.zip<br>
 
 Erfolgreich getestet auf den Modellen: QNAP TS-251+, Qnap TS-451+
 

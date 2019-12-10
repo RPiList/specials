@@ -32,8 +32,8 @@ http://www.mediafire.com/file/holvn19exyte9rc/svpihole1911.img/file<br>
 http://mirror.wtnet.de/pub/svpihole1911.img<br>
 https://mirror.joestr.xyz/sempervideo/pihole/1911/image/svpihole1911.img<br>
 https://mirror.nickwasused.com/sempervideo/svpihole1911.img<br>
-https://download.cromefire.myds.me/sv/svpihole1911.img (secure, compressed)
-
+https://download.cromefire.myds.me/sv/svpihole1911.img (secure, compressed)<br>
+http://62.75.138.83/SemperVideo/svpihole1911.img
 
 sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
 md5: 5aefe8ee2fe041813318d056fa1ed085

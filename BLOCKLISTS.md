@@ -1,4 +1,4 @@
-Zusätzliche Listen in svPi-hole:
+Blocklisten in svPi-hole eingerichtet aber nicht zwingend aktiviert:
 
 # Tracking
 https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt

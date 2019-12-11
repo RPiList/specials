@@ -9,9 +9,9 @@ md5: a7eaf33abad203c53034b90b2fa92b3e
 
 Weitere Download-Quellen:<br>
 http://35.246.185.46/svpihole1912.zip (Google Cloud Server s. https://youtu.be/d5NhOcZ8tQc)<br>
-http://35.234.71.89/svpihole1912.zip (Google Cloud Server<br>
-http://35.246.219.235/svpihole1912.zip (Google Cloud Server<br>
-http://35.234.101.210/svpihole1912.zip (Google Cloud Server
+http://35.234.71.89/svpihole1912.zip (Google Cloud Server)<br>
+http://35.246.219.235/svpihole1912.zip (Google Cloud Server)<br>
+http://35.234.101.210/svpihole1912.zip (Google Cloud Server)
 
 ## VMware Player, QNAP NAS und Synology Diskstation: http://sempervideo.de/svPihole1912-VM.zip
 
@@ -20,9 +20,9 @@ md5:  ee398b848228b891ab6e14aa2597d0d0<br>
 
 Weitere Download-Quellen:<br>
 http://35.246.185.46/svPihole1912-VM.zip (Google Cloud Server s. https://youtu.be/d5NhOcZ8tQc)<br>
-http://35.234.71.89/svPihole1912-VM.zip (Google Cloud Server<br>
-http://35.246.219.235/svPihole1912-VM.zip (Google Cloud Server<br>
-http://35.234.101.210/svPihole1912-VM.zip (Google Cloud Server
+http://35.234.71.89/svPihole1912-VM.zip (Google Cloud Server)<br>
+http://35.246.219.235/svPihole1912-VM.zip (Google Cloud Server)<br>
+http://35.234.101.210/svPihole1912-VM.zip (Google Cloud Server)
 
 Erfolgreich getestet auf den Modellen: 
 

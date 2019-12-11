@@ -21,7 +21,7 @@ Wenn Sie sich einbringen wollen, können Sie uns die URLs per eMail an RPIList@g
 Man darf gespannt bleiben. :-)
 
 
-# <a href="./Download.md">Image Download</A> unter:
+# <a href="./Download.md">Image Download hier</A> unter:
 ## Raspberry Pi: http://sempervideo.de/svpihole1911.img
 Weitere Download-Quellen:<br>
 https://eb-media.ch/downloads.htm<br>

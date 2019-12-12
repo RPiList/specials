@@ -40,12 +40,12 @@ VMware Workstation Player: https://www.vmware.com/de/products/workstation-player
 
 ## Hilfe gefällig?
 
-Alles was Sie zum Starten brauchen finden Sie [hier](https://github.com/RPiList/specials/blob/master/Ben%C3%B6tigte%20Hardware.md) verlinkt.<br>
+Alles was Sie zum Starten brauchen finden Sie [hier](./doku/hardwareliste.md) verlinkt.<br>
 Wenn Sie Hilfe bei der Konfiguration Ihres Routers brauchen schaun Sie doch mal [hier](https://github.com/RPiList/specials/tree/master/RouterKonfiguration) vorbei.
 Sollten dennoch Fragen oder Probleme auftauchen können Sie gerne einen neuen [issue](https://github.com/RPiList/specials/issues) öffnen. Andere Community-Mitglieder werden Ihnen hier sicherlich helfen können.
 
 ## Mitmachen
-Sie wollen an diesem Projekt mitwirken? Schicken Sie die gefundenen Domains per [Mail](mailto:rpilist@gmail.com) oder erstellen Sie einen Pull Request.<br>
+Sie wollen an diesem Projekt mitwirken? Schicken Sie die gefundenen Domains per [Mail](mailto:rpilist@gmail.com) oder erstellen Sie einen [Pull Request](./doku/PullRequest.md).<br>
 ### Was können Sie beitragen?
 - Verdächtige Domains melden
 - Screenshots für die Routerkonfiguration bereitstellen

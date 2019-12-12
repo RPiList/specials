@@ -13,7 +13,7 @@ Deswegen hatten wir uns überlegt, genau solche "unseriösen" Webshops in dieser
 
 Man darf gespannt bleiben. :-)
 
-<<<<<<< HEAD
+
 ## Disclaimer
 Dieses Projekt lebt durch die Community. Es ist schlicht nicht möglich alle Einsendungen auf ihre Richtigkeit zu kontrollieren.<br>
 Diese Liste erhebt daher weder Anspruch auf Vollständigkeit noch kann garantiert werden, dass nicht auch legitime Seiten in einer Liste landen.<br>
@@ -53,6 +53,3 @@ Sie wollen an diesem Projekt mitwirken? Schicken Sie die gefundenen Domains per 
 
 ## Fehler gefunden? Irrtümlicherweise auf unserer Liste gelandet?
 Sie haben einen Fehler gefunden oder haben Ihre eigene Domain fälschlicherweise auf einer unserer Listen gefunden? Erstellen Sie einen [issue](https://github.com/RPiList/specials/issues) oder wenden Sie sich per [Mail](mailto:rpilist@gmail.com) an uns.
-=======
-# <a href="./Download.md">Zum Image Download hier klicken</A>
->>>>>>> upstream/master

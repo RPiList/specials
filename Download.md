@@ -26,7 +26,7 @@ http://35.234.71.89/svPihole1912-VM.zip (Google Cloud Server)<br>
 http://35.246.219.235/svPihole1912-VM.zip (Google Cloud Server)<br>
 http://35.234.101.210/svPihole1912-VM.zip (Google Cloud Server)<br>
 https://mirror.joestr.xyz/sempervideo/pihole/1912/virtual-machine-image/svPihole1912-VM.zip<br>
-https://download.cromefire.myds.me/sv/svpihole1912-VM.zip
+https://download.cromefire.myds.me/sv/svPihole1912-VM.zip
 
 Erfolgreich getestet auf den Modellen: 
 

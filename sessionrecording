@@ -1,0 +1,25 @@
+# Lead me to your Pihole
+# --------------------------------------------
+# Domains die man besser nicht aufrufen sollte.
+# Community-gepflegte Domainlist
+# Wenn Sie eine URL hinzufügen wollen, senden Sie bitte die URL
+# per eMail an RPiList@gmail.com.
+# Wenn Sie diese Domains blocken wollen, importieren Sie
+# diese Liste einfach in Ihr Pi-Hole.
+# -------------------------------------------
+# Liste mit Session-Recording Diensten
+
+clicktale.net
+decibelinsight.net
+fullstory.com
+hotjar.com
+inspectlet.com
+logrocket.com
+luckyorange.com
+mouseflow.com
+quantummetric.com
+salemove.com
+sessioncam.com
+smartlook.com
+userreplay.net
+yandex.ru

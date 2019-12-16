@@ -4,11 +4,12 @@
 
 ## Raspberry Pi (Version 1912)
 
-- [Sempervideo.de](http://sempervideo.de/svpihole1912.zip)<br>
-- [Mirror 1](http://35.246.185.46/svpihole1912.zip) (Google Cloud Server s. https://youtu.be/d5NhOcZ8tQc)<br>
-- [Mirror 2](http://35.234.71.89/svpihole1912.zip) (Google Cloud Server)<br>
-- [Mirror 3](http://35.246.219.235/svpihole1912.zip) (Google Cloud Server)<br>
-- [Mirror 4](http://35.234.101.210/svpihole1912.zip) (Google Cloud Server)<br>
+- [Mirror 1](http://sempervideo.de/svpihole1912.zip) (sempervideo.de)
+- [Mirror 2](http://35.246.185.46/svpihole1912.zip) (Google Cloud Server s. https://youtu.be/d5NhOcZ8tQc)
+- [Mirror 3](http://35.234.71.89/svpihole1912.zip) (Google Cloud Server)
+- [Mirror 4](http://35.246.219.235/svpihole1912.zip) (Google Cloud Server)
+- [Mirror 5](http://35.234.101.210/svpihole1912.zip) (Google Cloud Server)
+- [Mirror 6](https://mirror.joestr.xyz/sempervideo/pihole/1912/image/svpihole1912.zip) (joestr.xyz)
 
 <details><summary>Checksums</summary>
 sha256: 96376a381dee1c7f17ae34473b914ecfee24075d364febb85093046a0b8071af<br>
@@ -17,11 +18,12 @@ md5: a7eaf33abad203c53034b90b2fa92b3e
 
 ## QNAP NAS / VMWare (Version 1912)
 
-- [Sempervideo.de](http://sempervideo.de/svPihole1912-VM.zip)
-- [Mirror 1](http://35.246.185.46/svPihole1912-VM.zip) (Google Cloud Server s. https://youtu.be/d5NhOcZ8tQc)
-- [Mirror 2](http://35.234.71.89/svPihole1912-VM.zip) (Google Cloud Server)
-- [Mirror 3](http://35.246.219.235/svPihole1912-VM.zip) (Google Cloud Server)
-- [Mirror 4](http://35.234.101.210/svPihole1912-VM.zip) (Google Cloud Server)
+- [Mirror 1](http://sempervideo.de/svPihole1912-VM.zip) (sempervideo.de)
+- [Mirror 2](http://35.246.185.46/svPihole1912-VM.zip) (Google Cloud Server s. https://youtu.be/d5NhOcZ8tQc)
+- [Mirror 3](http://35.234.71.89/svPihole1912-VM.zip) (Google Cloud Server)
+- [Mirror 4](http://35.246.219.235/svPihole1912-VM.zip) (Google Cloud Server)
+- [Mirror 5](http://35.234.101.210/svPihole1912-VM.zip) (Google Cloud Server)
+- [Mirror 6](https://mirror.joestr.xyz/sempervideo/pihole/1912/virtual-machine-image/svPihole1912-VM.zip) (joestr.xyz)
 
 <details><summary>Checksums</summary>
 sha256: 9102421386732ebc0001a82724c3357c2f0aade9f0bf14eb82d5bf0f1e021fbf

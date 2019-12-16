@@ -38,5 +38,4 @@ Andere nützliche Listen:
 * https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
 # Divers
-* https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts

@@ -3,9 +3,9 @@
 ## Was soll das hier sein???
 
 Ist ganz einfach:<br>
-Schauen Sie sich das Video unter https://youtu.be/JpZbe1mEyqo an. Dann wissen Sie Bescheid.<br>
+Schauen Sie sich das [Video](https://youtu.be/JpZbe1mEyqo) an. Dann wissen Sie Bescheid.<br>
 Hier geht es um Webshops die aufgrund des Auftretens sehr unseriös erscheinen und unter dem Verdacht stehen, die Kunden übers Ohr zu hauen.<br>
-Die Community hat dann versucht das Problem an Googles Safebrowsing zu melden. Siehe https://youtu.be/_2dxJdX_5K0 <br>
+Die Community hat dann versucht das Problem an Googles Safebrowsing zu melden. Siehe [hier](https://youtu.be/_2dxJdX_5K0) <br>
 Das Problem wurde aber von Safebrowsing ignoriert. Vermutlich weil diese Art von Abzockern zu schwer zu erkennen ist.<br>
 Deswegen hatten wir uns überlegt, genau solche "unseriösen" Webshops in dieser List zusammen zufassen. Nutzer können die Liste in Ihr Pi-Hole importieren und damit die anderen Nutzer im Netzwerk davor schützen.
 
@@ -21,22 +21,7 @@ Finden Sie Ihre legitime Seite bitte einfach melden, wie lesen Sie am Ende diese
 
 ## Downloads:
 
-Image für den Raspberry Pi: http://sempervideo.de/svpihole1911.img
-<details><summary>Checksums</summary>
-sha256: 86134d69d18994754cbf367fc5b5e269060bf2b8aa7aff4b16f0109b72a7175f<br>
-md5: 5aefe8ee2fe041813318d056fa1ed085
-</details>
-
-Image für VMware Player & QNAP NAS: http://sempervideo.de/svPihole1911.zip
-
-<details><summary>Checksums</summary>
-sha256: 93a4d91dc78898ebca0861d3124aae95fd73b6285cda2831ecc33c3542088dda<br>
-md5: 24abf6430c1e8c53c4c464b4688d8148
-</details>
-
-Erfolgreich getestet auf den Modellen: QNAP TS-251+
-
-VMware Workstation Player: https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html
+Alles was Sie benötigen können Sie [hier](doku/Download.md) herunterladen.
 
 ## Hilfe gefällig?
 

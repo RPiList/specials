@@ -1,24 +1,21 @@
 Blocklisten in svPi-hole eingerichtet aber nicht zwingend aktiviert:
 
 # Tracking
-https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt	
-https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt	
-https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry	
+* https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
+* https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+* https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+* https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+* https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
 
 # Pornografische Inhalte
-https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list	
+* https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
 
 # Fakeshops und Abofallen
-https://raw.githubusercontent.com/RPiList/specials/master/Streaming	
-https://raw.githubusercontent.com/RPiList/specials/master/notserious
+* https://raw.githubusercontent.com/RPiList/specials/master/Streaming
+* https://raw.githubusercontent.com/RPiList/specials/master/notserious
 
 # Werbung
-https://raw.githubusercontent.com/RPiList/specials/master/easylist
-
-
-
+* https://raw.githubusercontent.com/RPiList/specials/master/easylist
 
 Andere nützliche Listen:
 

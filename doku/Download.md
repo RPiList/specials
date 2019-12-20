@@ -11,6 +11,7 @@
 - [Mirror 5](http://35.234.101.210/svpihole1912.zip) (Google Cloud Server)
 - [Mirror 6](https://mirror.joestr.xyz/sempervideo/pihole/1912/image/svpihole1912.zip) (joestr.xyz)
 - [Mirror 7](https://download.cromefire.myds.me/sv/svpihole1912.zip) (cromefire.myds.me)
+- [Mirror 8](https://mirror.wtnet.de/pub/Sempervideo/svPihole1912/svpihole1912.zip) (wtnet.de)
 
 <details><summary>Checksums</summary>
 sha256: 96376a381dee1c7f17ae34473b914ecfee24075d364febb85093046a0b8071af<br>
@@ -26,6 +27,7 @@ md5: a7eaf33abad203c53034b90b2fa92b3e
 - [Mirror 5](http://35.234.101.210/svPihole1912-VM.zip) (Google Cloud Server)
 - [Mirror 6](https://mirror.joestr.xyz/sempervideo/pihole/1912/virtual-machine-image/svPihole1912-VM.zip) (joestr.xyz)
 - [Mirror 7](https://download.cromefire.myds.me/sv/svPihole1912-VM.zip) (cromefire.myds.me)
+- [Mirror 8](https://mirror.wtnet.de/pub/Sempervideo/svPihole1912/svPihole1912-VM.zip) (wtnet.de)
 
 <details><summary>Checksums</summary>
 sha256: 9102421386732ebc0001a82724c3357c2f0aade9f0bf14eb82d5bf0f1e021fbf

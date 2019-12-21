@@ -21,10 +21,12 @@ Andere nützliche Listen:
 
 # Malware
 * https://mirror1.malwaredomains.com/files/justdomains
+* https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 
 # Tracking
 * https://v.firebog.net/hosts/Easyprivacy.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+* https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 
 # Werbung
 * http://sysctl.org/cameleon/hosts

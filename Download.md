@@ -1,4 +1,4 @@
-# Version 1912
+# Version 2001
 ## Hinweis zum Update:
 <b>Die manuelle Anpassung der Host-IP ist nun nicht mehr nötig. Das Image schreibt beim ersten Start die IP in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen. Um Rückmeldung wird gebeten. Vielen Dank.</b>
 

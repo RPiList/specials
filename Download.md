@@ -15,15 +15,18 @@ http://35.234.101.210/svpihole2001.zip<br>
 
 
 
-## VMware Player, QNAP NAS und Synology Diskstation: NEUE VERSION KOMMT!
+## VMware Player, QNAP NAS und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip
 
-sha256: 
+sha256: 3767f7d0a5b104d6ba6bf3503b40ecfd90a58daa390318ff2becd8836a8e47ab
 <br>
-md5:  
+md5: 17eb525711ba0e2432785971afbadba3
 <br>
 
 Weitere Download-Quellen:<br>
-
+http://35.246.185.46/svPiholeVM.zip<br>
+http://35.234.71.89/svPiholeVM.zip<br>
+http://35.246.219.235/svPiholeVM.zip<br>
+http://35.234.101.210/svPiholeVM.zip<br>
 
 Erfolgreich getestet auf den Modellen: 
 

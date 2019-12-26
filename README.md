@@ -21,7 +21,7 @@ Finden Sie Ihre legitime Seite bitte einfach melden, wie lesen Sie am Ende diese
 
 ## Downloads:
 
-Alles was Sie benötigen können Sie [hier](doku/Download.md) herunterladen.
+Alles was Sie benötigen können Sie [hier](Download.md) herunterladen.
 
 ## Hilfe gefällig?
 

@@ -4,8 +4,8 @@
 
 ## Raspberry Pi: http://sempervideo.de/svpihole2001.zip
 
-sha256: 542ceaa47fac1d5a7bf15aa1da77d447e6c3264d9829090554c01e662a87a624<br>
-md5: ca177971daef93808d82e8accc479ed1
+sha256: 2b474f43d69674c20d26afd4c3d6126c39059275fa11e38f4b30b72092500a9a<br>
+md5: 6888ce916d37e7ab3428a72944e34a32
 
 Weitere Download-Quellen:<br>
 http://35.246.185.46/svpihole2001.zip<br>

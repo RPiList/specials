@@ -13,6 +13,7 @@ http://35.234.71.89/svpihole2001.zip<br>
 http://35.246.219.235/svpihole2001.zip<br>
 http://35.234.101.210/svpihole2001.zip<br>
 https://mirror.joestr.xyz/sempervideo/pihole/2001/image/svpihole2001.zip<br>
+https://drop.banananet.work/files/svpihole2001.zip<br>
 
 ## VMware Player, QNAP NAS und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip
 
@@ -27,6 +28,7 @@ http://35.234.71.89/svPiholeVM.zip<br>
 http://35.246.219.235/svPiholeVM.zip<br>
 http://35.234.101.210/svPiholeVM.zip<br>
 https://mirror.joestr.xyz/sempervideo/pihole/2001/virtual-machine-image/svPihole2001-VM.zip<br/>
+https://drop.banananet.work/files/svpihole2001-vm.zip<br>
 
 Erfolgreich getestet auf den Modellen: 
 

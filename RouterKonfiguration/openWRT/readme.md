@@ -1,4 +1,11 @@
+openWRT
+
 Bild 1: Einloggen -> Network -> Interfaces.
+
+
+
+
+
 
 Bild 2: WAN bzw. WAN6 bearbeiten.
 

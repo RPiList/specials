@@ -17,9 +17,9 @@ https://drop.banananet.work/files/svpihole2001.zip<br>
 
 ## VMware Player, QNAP NAS und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip
 
-sha256: 3767f7d0a5b104d6ba6bf3503b40ecfd90a58daa390318ff2becd8836a8e47ab
+sha256: 652483f761bdd60f4c3051133afe40156bddb9b6301a7bcb5608ae38235f11bf
 <br>
-md5: 17eb525711ba0e2432785971afbadba3
+md5: 360beddfec9ce21f8d3abc3dcffede37  
 <br>
 
 Weitere Download-Quellen:<br>
@@ -27,8 +27,7 @@ http://35.246.185.46/svPiholeVM.zip<br>
 http://35.234.71.89/svPiholeVM.zip<br>
 http://35.246.219.235/svPiholeVM.zip<br>
 http://35.234.101.210/svPiholeVM.zip<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2001/virtual-machine-image/svPihole2001-VM.zip<br/>
-https://drop.banananet.work/files/svpihole2001-vm.zip<br>
+
 
 Erfolgreich getestet auf den Modellen: 
 

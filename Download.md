@@ -17,9 +17,9 @@ https://drop.banananet.work/files/svpihole2001.zip<br>
 
 ## VMware Player, QNAP NAS und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip
 
-sha256: 652483f761bdd60f4c3051133afe40156bddb9b6301a7bcb5608ae38235f11bf
+sha256: f76e9995ee425c95133a24d6c8700bfa3c31310cf19a30cc8ebacb0fb17f66e8  
 <br>
-md5: 360beddfec9ce21f8d3abc3dcffede37  
+md5: 8ddf949e09d59b5588309a64e442effe
 <br>
 
 Weitere Download-Quellen:<br>
@@ -29,7 +29,7 @@ http://35.246.219.235/svPiholeVM.zip<br>
 http://35.234.101.210/svPiholeVM.zip<br>
 
 
-Erfolgreich getestet auf den Modellen: 
+Erfolgreich getestet auf den Modellen: DS1019+
 
 VMware Workstation Player Download unter: https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html
 

@@ -14,6 +14,7 @@ http://35.246.219.235/svpihole2001.zip<br>
 http://35.234.101.210/svpihole2001.zip<br>
 https://mirror.joestr.xyz/sempervideo/pihole/2001/image/svpihole2001.zip<br>
 https://drop.banananet.work/files/svpihole2001.zip<br>
+https://drive.google.com/file/d/1JYExk1YTkIsjw_ineq9duIc2vqG4UZy-/view?usp=sharing<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip
 

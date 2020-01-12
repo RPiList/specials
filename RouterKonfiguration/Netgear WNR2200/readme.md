@@ -1,3 +1,3 @@
 Netgear WNR2200
 
-![](NetgearWNR2200.pdf)
+Anleitung siehe PDF-Datei weiter oben.

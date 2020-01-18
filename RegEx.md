@@ -1,3 +1,3 @@
 
-Sperrt alle Domains aus China:
+Sperrt alle Domains aus China:<br>
 (\w+\.)?(\w+)(\.cn)

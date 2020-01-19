@@ -1,5 +1,5 @@
 Sperrt alle Domains aus China:
-(\w+.)*(\w+)(.cn)
+([a-zA-Z0-9-\.]{2,256})(.cn)
 
 Sperrt alle URLs zu "sendgrit.net"
-(\w+.)*(sendgrid)(.net)
+([a-zA-Z0-9-\.]{2,256})(sendgrid)(.net)

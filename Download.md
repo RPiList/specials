@@ -29,6 +29,7 @@ http://35.234.71.89/svPiholeVM.zip<br>
 http://35.246.219.235/svPiholeVM.zip<br>
 http://35.234.101.210/svPiholeVM.zip<br>
 https://mirror.joestr.xyz/sempervideo/pihole/2001/virtual-machine-image/svPihole2001-VM.zip<br>
+https://drop.banananet.work/files/svpiholevm.zip<br>
 https://mirror.wtnet.de/pub/Sempervideo/svPiholeVM.zip<br>
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>

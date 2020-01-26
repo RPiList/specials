@@ -29,7 +29,6 @@ Andere nützliche Listen:
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 
 # Werbung
-* http://sysctl.org/cameleon/hosts
 * https://v.firebog.net/hosts/Prigent-Ads.txt
 * https://v.firebog.net/hosts/AdguardDNS.txt
 * https://hosts-file.net/ad_servers.txt

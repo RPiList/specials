@@ -2,6 +2,8 @@ Unitymedia Connect Box
 
 ![](UMconnectbox1.png)
 
+Auf dem Pi-hole geht es dann weiter...
+
 ![](Pi-DHCP.png)
 
 1. Im Menü auf der linken Seite "Settings" klicken<br>

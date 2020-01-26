@@ -2,6 +2,21 @@ Unitymedia Connect Box
 
 ![](UMconnectbox1.png)
 
+![](Pi-DHCP.png)
+
+1. Im Menü auf der linken Seite "Settings" klicken<br>
+2. "DHCP Server enabled" anklicken<br>
+3. Startbereich der IPs ändern (optional)<br>
+4. Router IP sollte stimmen, muss nicht geändert werden<br>
+5. Domain des LAN kann hier geändert werden (optional)<br>
+6. Überlassungszeit einer IP an die Geräte kann hier geändert werden (optional)<br>
+7. Schnellere IP-Vergabe aktiviern (optional)<br>
+
+![](Pi-DHCP2.png)
+
+Spätestens jetzt den DHCP-Server im Router abschalten<br>
+"Save"-Button klicken, damit der Pi-hole DHCP-Server gestartet wird<br>
+
 [![Video-Anleitung](http://img.youtube.com/vi/IYQOpsu1zqAE/0.jpg)](http://www.youtube.com/watch?v=IYQOpsu1zqAE "Connect Box")
 
 

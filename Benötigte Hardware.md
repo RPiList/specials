@@ -26,7 +26,7 @@ Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend 
 
 <table>
 <tr>
-  <td><b>Android: Image auf SD-Karte kopieren</b><td>
+  <td width="50%"><b>Android: Image auf SD-Karte kopieren</b><td width="50%">
 <tr><td>https://amzn.to/37DxrjH <td>Transcend USB 3.0 / 3.1 Gen 1 Multifunktionskartenleser
 <tr><td>https://amzn.to/2RDXL7N <td>UGREEN USB C OTG Kabel USB C Auf USB 3.1  
 <tr><td>https://amzn.to/2S3TuJP <td>UGREEN OTG Kabel USB 2.0 auf Micro USB OTG Adapter

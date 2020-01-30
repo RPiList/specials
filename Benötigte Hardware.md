@@ -25,6 +25,17 @@ Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend 
 
 
 <table>
+<tr>
+  <td><b>Android: Image auf SD-Karte kopieren</b><td>
+<tr><td>https://amzn.to/37DxrjH <td>Transcend USB 3.0 / 3.1 Gen 1 Multifunktionskartenleser
+<tr><td>https://amzn.to/2RDXL7N <td>UGREEN USB C OTG Kabel USB C Auf USB 3.1  
+<tr><td>https://amzn.to/2S3TuJP <td>UGREEN OTG Kabel USB 2.0 auf Micro USB OTG Adapter
+<tr><td>https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files&hl=de <td>Files von Google
+<tr><td>https://play.google.com/store/apps/details?id=eu.depau.etchdroid&hl=de <td>EtchDroid 
+  </table>
+
+
+<table>
 
 <tr><td valign=top>* <td>Auf Amazon gibt es auch einige Gehäuse, die ein Netzteil für den Raspberry Pi 4 B direkt mitbringen. Sie können auch diese kaufen.
 <tr><td valign=top>** <td>Der RaspberryPi 4 Modell B benötigt kein Gehäuse mit Kühlung, wenn Sie ihn nur als Pi-hole betreiben. Der Prozessor wird zwar ca. 60 Grad Celsius heiß, jedoch stellt das für den Raspberry Pi kein Problem dar. Der Raspberry Pi kann nicht überhitzen. Wenn Sie später mal noch andere Dinge über den Raspberry Pi erledigen möchten, können Sie sich immer noch ein Gehäuse kaufen und es problemlos austauschen. Selbst wenn Sie das nicht machen und trotzdem noch viele andere Dinge mit dem Raspberry Pi anstellen möchten, kann der Pi nicht überhitzen. Ab 80 Grad Celsius drosselt sich der Prozessor selbständig bis er wieder abgekühlt ist. Passieren kann also nichts.

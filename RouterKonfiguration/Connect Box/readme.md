@@ -20,5 +20,5 @@ Spätestens jetzt den DHCP-Server im Router abschalten<br>
 "Save"-Button klicken, damit der Pi-hole DHCP-Server gestartet wird<br>
 
 <center>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=IYQOpsu1zqAE" target="_blank"><img src="https://img.youtube.com/vi/IYQOpsu1zqAE/hqdefault.jpg" width="768" height="432" border="10"/></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IYQOpsu1zqAE" target="_blank"><img src="https://github.com/RPiList/specials/blob/master/RouterKonfiguration/sv-intro-2015.jpg" width="768" height="432" border="10"/></a>
 </center>

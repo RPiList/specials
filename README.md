@@ -1,4 +1,4 @@
-# Schutz vor Fakeshops, Werbung und anderen Angriffen aus dem Internet.
+# Schutz vor Fakeshops, Werbung, Tracking und anderen Angriffen aus dem Internet.
 
 Für weitere Informationen schauen Sie sich das Video unter https://youtu.be/JpZbe1mEyqo an.
 

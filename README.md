@@ -1,10 +1,6 @@
-# notserious = unseriös = Fakeshops
+# Schutz vor Fakeshops, Werbung und anderen Angriffen aus dem Internet.
 
-Was soll das hier sein???
-
-Ist ganz einfach.
-
-Schauen Sie sich das Video unter https://youtu.be/JpZbe1mEyqo an. Dann wissen Sie Bescheid.
+Für weitere Informationen schauen Sie sich das Video unter https://youtu.be/JpZbe1mEyqo an.
 
 Hier geht es um Webshops die aufgrund des Auftretens sehr unseriös erscheinen und unter dem Verdacht stehen, die Kunden übers Ohr zu hauen.
 

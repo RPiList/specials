@@ -19,10 +19,6 @@ Auf dem Pi-hole geht es dann weiter...
 Spätestens jetzt den DHCP-Server im Router abschalten<br>
 "Save"-Button klicken, damit der Pi-hole DHCP-Server gestartet wird<br>
 
-[![Video-Anleitung](http://img.youtube.com/vi/IYQOpsu1zqAE/0.jpg)](http://www.youtube.com/watch?v=IYQOpsu1zqAE "Connect Box")
-
 <center>
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=IYQOpsu1zqAE" target="_blank"><img src="http://img.youtube.com/vi/IYQOpsu1zqAE/0.jpg" width="240" height="180" border="10" /></a>
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IYQOpsu1zqAE" target="_blank"><img src="https://img.youtube.com/vi/IYQOpsu1zqAE/hqdefault.jpg" width="768" height="432" border="10"/></a>
 </center>

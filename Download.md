@@ -16,6 +16,8 @@ https://mirror.joestr.xyz/sempervideo/pihole/2001/image/svpihole2001.zip<br>
 https://drop.banananet.work/files/svpihole2001.zip<br>
 https://mirror.wtnet.de/pub/Sempervideo/svpihole2001.zip<br>
 https://enjoy-stuttgart.org/svpihole/svpihole2001.zip<br>
+https://files.usa.server.mycoding.systems/files/sempervideo/pihole/svpihole2001.zip<br>
+https://files.ffm.server.mycoding.systems/files/sempervideo/pihole/svpihole2001.zip<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip
 
@@ -33,6 +35,8 @@ https://mirror.joestr.xyz/sempervideo/pihole/2001/virtual-machine-image/svPihole
 https://drop.banananet.work/files/svpiholevm.zip<br>
 https://mirror.wtnet.de/pub/Sempervideo/svPiholeVM.zip<br>
 https://enjoy-stuttgart.org/svpihole/svPiholeVM.zip<br>
+https://files.ffm.server.mycoding.systems/files/sempervideo/pihole/svPiholeVM.zip<br>
+https://files.usa.server.mycoding.systems/files/sempervideo/pihole/svPiholeVM.zip<br>
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
 Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>

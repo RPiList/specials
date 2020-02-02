@@ -1,4 +1,4 @@
-Blocklisten in svPi-hole eingerichtet aber nicht zwingend aktiviert:
+# Blocklisten zur Ergänzung nach eigenem Ermessen. Die Listen stammen teilweise von Dritten und können daher nicht auf Richtigkeit geprüft werden.
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -6,6 +6,7 @@ Blocklisten in svPi-hole eingerichtet aber nicht zwingend aktiviert:
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
+
 
 # Pornografische Inhalte
 * https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
@@ -35,5 +36,5 @@ Andere nützliche Listen:
 * https://adaway.org/hosts.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
-# Divers
+# Diverses
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts

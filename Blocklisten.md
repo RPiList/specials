@@ -5,6 +5,7 @@
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+* https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
 
 

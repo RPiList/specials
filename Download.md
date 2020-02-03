@@ -8,7 +8,7 @@ Nein! Der einzige Unterschied zw. den Updates besteht darin, dass evtl. weitere 
 ## Häufig gestellte Frage 2: 
 <b>Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 1912 oder früher) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
 <br><br>
-Erst mal Gratulation, dass Sie diese Version ans laufen gebracht haben. Da sind Sie wahrscheinlich der Einzige der das geschafft hat. :-) Ja, da würden wir empfehlen das neueste Image auf die SD-Karte zu kopieren und neu zu starten.
+Erst mal Gratulation, dass Sie diese Version ans Laufen gebracht haben. Da sind Sie wahrscheinlich der Einzige der das geschafft hat. :-) Ja, da würden wir empfehlen das neueste Image auf die SD-Karte zu kopieren und neu zu starten.
 
 ## Hinweis:
 <b>Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen. Um Rückmeldung wird gebeten. Vielen Dank.</b>

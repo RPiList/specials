@@ -26,10 +26,8 @@ http://35.234.101.210/svpihole2002.zip<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2002.zip
 
-sha256: 842919470a3a6fd5c0dd494bb04d34f5a0dcc83cbf6f77a4bc4596bea5ef5773    
-<br>
-md5: e6a541c7d44c1862a85a65d4fc0f2aa6
-<br>
+sha256: 842919470a3a6fd5c0dd494bb04d34f5a0dcc83cbf6f77a4bc4596bea5ef5773<br>
+md5: e6a541c7d44c1862a85a65d4fc0f2aa6<br>
 
 Weitere Download-Quellen:<br>
 http://35.246.185.46/svpiholeVM2002.zip<br>

@@ -24,24 +24,19 @@ http://35.234.71.89/svpihole2002.zip<br>
 http://35.246.219.235/svpihole2002.zip<br>
 http://35.234.101.210/svpihole2002.zip<br>
 
-## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip (derzeit noch die Version 2001)
+## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2002.zip
 
-sha256: 69a1f8173c75ef80d9102d999cf20f973184971ca584c0d64dff414e3b5e1419  
+sha256: 842919470a3a6fd5c0dd494bb04d34f5a0dcc83cbf6f77a4bc4596bea5ef5773    
 <br>
-md5: d5fc1110088e0d5dd3c3a66076918fbb 
+md5: e6a541c7d44c1862a85a65d4fc0f2aa6
 <br>
 
 Weitere Download-Quellen:<br>
-http://35.246.185.46/svPiholeVM.zip<br>
-http://35.234.71.89/svPiholeVM.zip<br>
-http://35.246.219.235/svPiholeVM.zip<br>
-http://35.234.101.210/svPiholeVM.zip<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2001/virtual-machine-image/svPihole2001-VM.zip<br>
-https://drop.banananet.work/files/svpiholevm.zip<br>
-https://mirror.wtnet.de/pub/Sempervideo/svPiholeVM.zip<br>
-https://enjoy-stuttgart.org/svpihole/svPiholeVM.zip<br>
-https://files.ffm.server.mycoding.systems/files/sempervideo/pihole/svPiholeVM.zip<br>
-https://files.usa.server.mycoding.systems/files/sempervideo/pihole/svPiholeVM.zip<br>
+http://35.246.185.46/svpiholeVM2002.zip<br>
+http://35.234.71.89/svpiholeVM2002.zip<br>
+http://35.246.219.235/svpiholeVM2002.zip<br>
+http://35.234.101.210/svpiholeVM2002.zip<br>
+
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
 Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>

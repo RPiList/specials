@@ -1,25 +1,19 @@
-# Version 2001
+# Version 2002
 ## Hinweis zum Update:
 <b>Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen. Um Rückmeldung wird gebeten. Vielen Dank.</b>
 
-## Raspberry Pi: http://sempervideo.de/svpihole2001.zip
+## Raspberry Pi: http://sempervideo.de/svpihole2002.zip
 
-sha256: 2b474f43d69674c20d26afd4c3d6126c39059275fa11e38f4b30b72092500a9a<br>
-md5: 6888ce916d37e7ab3428a72944e34a32
+sha256: 45bb3cc4ba5f195c916eaef52dbd88fef2d2c63c31110b6d8c42e9eeeb672304<br>
+md5: 114c032345ef9907927cd205db57ad88<br>  
 
 Weitere Download-Quellen:<br>
-http://35.246.185.46/svpihole2001.zip<br>
-http://35.234.71.89/svpihole2001.zip<br>
-http://35.246.219.235/svpihole2001.zip<br>
-http://35.234.101.210/svpihole2001.zip<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2001/image/svpihole2001.zip<br>
-https://drop.banananet.work/files/svpihole2001.zip<br>
-https://mirror.wtnet.de/pub/Sempervideo/svpihole2001.zip<br>
-https://enjoy-stuttgart.org/svpihole/svpihole2001.zip<br>
-https://files.usa.server.mycoding.systems/files/sempervideo/pihole/svpihole2001.zip<br>
-https://files.ffm.server.mycoding.systems/files/sempervideo/pihole/svpihole2001.zip<br>
+http://35.246.185.46/svpihole2002.zip<br>
+http://35.234.71.89/svpihole2002.zip<br>
+http://35.246.219.235/svpihole2002.zip<br>
+http://35.234.101.210/svpihole2002.zip<br>
 
-## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip
+## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM.zip (derzeit noch die Version 2001)
 
 sha256: 69a1f8173c75ef80d9102d999cf20f973184971ca584c0d64dff414e3b5e1419  
 <br>

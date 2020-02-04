@@ -26,7 +26,7 @@ http://35.234.101.210/svpihole2002.zip<br>
 https://mirror.wtnet.de/pub/Sempervideo/svpihole2002.zip<br>
 https://mirror.joestr.xyz/sempervideo/pihole/2002/image/svpihole2002.zip<br>
 
-## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2002.zip
+## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2002.zip (v.2)
 
 sha256: 0a40fd4276917eed7f5877d1c4722362eedf292bb49161ac605da7f12c6dcb39<br>
 md5: db39f29031965526ae5f058831473855  <br>

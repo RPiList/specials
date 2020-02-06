@@ -1,12 +1,8 @@
 # Schutz vor Fakeshops, Werbung, Tracking und anderen Angriffen aus dem Internet.
 
-Für weitere Informationen schauen Sie sich das Video unter https://youtu.be/JpZbe1mEyqo an.
+Für weitere Informationen schauen Sie sich das Video unter https://youtu.be/yV2tD-5_X5Y an.
 
 Hier geht es um Webshops die aufgrund des Auftretens sehr unseriös erscheinen und unter dem Verdacht stehen, die Kunden übers Ohr zu hauen.
-
-Die Community hat dann versucht das Problem an Googles Safebrowsing zu melden. Siehe https://youtu.be/_2dxJdX_5K0 
-
-Das Problem wurde aber von Safebrowsing ignoriert. Vermutlich weil diese Art von Abzockern zu schwer zu erkennen ist.
 
 Deswegen hatten wir uns überlegt, genau solche "unseriösen" Webshops in dieser List zusammen zufassen. Nutzer können die Liste in Ihr Pi-Hole importieren und damit die anderen Nutzer im Netzwerk davor schützen.
 

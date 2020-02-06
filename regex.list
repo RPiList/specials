@@ -1,14 +1,14 @@
 Sperrt alle Domains aus China:
-([a-zA-Z0-9\-\._]{2,256})(\.cn)
+([a-zA-Z0-9\-\._]{2,256})(\.cn$)
 
 Sperrt alle Domains aus Russland:
-([a-zA-Z0-9\-\._]{2,256})(\.ru)
+([a-zA-Z0-9\-\._]{2,256})(\.ru$)
 
 Sperrt alle Domains aus Kolumbien:
 ([a-zA-Z0-9\-\._]{2,256})(\.co$)
 
-Sperrt alle Domains aus China, Russland  und Kolumbien:
-([a-zA-Z0-9\-\._]{2,256})(\.cn|\.ru|\.co$)
+Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
+([a-zA-Z0-9\-\._]{2,256})(\.cn$|\.ru$|\.co$|\.vn$)
 
 Sperrt alle URLs zu "sendgrid.net"
 ([a-zA-Z0-9\-\._]{0,256})(sendgrid)(\.net)

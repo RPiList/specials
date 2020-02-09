@@ -8,8 +8,34 @@ Unbound wurde zusätzlich eingerichtet. In den Versionen 2002 und früher war st
 <b>Soll ich also updaten?
 <br>
 Wenn bei Ihnen die Version 2002 läuft, würd' ich diese erst mal weiter laufen lassen. Es sei denn, Sie wissen was Unbound ist und wollen es unbedingt.</b>
+<br><br>
+
+
+## Raspberry Pi: http://sempervideo.de/svpihole2003.zip
+
+sha256: ee5d8f653df4c6bbb39491dc68c12e7b6a7613c8eafd296a182a3bc43441ebf4  <br>
+md5: 69fe8ade9e7a5a013b815248e280b403<br>  
+
+http://35.234.71.89/svpihole2003.zip<br>
+http://35.234.101.210/svpihole2003.zip<br>
 
 <br><br>
+
+
+## Raspberry Pi Zero: http://sempervideo.de/svpihole2003z.zip 
+! Bitte warten, bis das Info-Video dazu online ist.
+
+sha256: 1bf8f3d3580caf12592f01ff0f42ff18c726a32faae1ff9758cd6c5e880b1ed7 <br>
+md5: f5ed8fb8fbf949b17994b2b0dbee590d <br>  
+
+http://35.246.185.46/svpihole2003z.zip<br>
+http://35.246.219.235/svpihole2003z.zip<br>
+
+
+<br><br>
+
+
+
 # Version 2002
 
 ## Häufig gestellte Frage: 

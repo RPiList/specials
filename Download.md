@@ -1,7 +1,15 @@
+# Version 2003
+
+## Häufig gestellte Frage: 
+<b>Was ist neu?
+<br><br>
+Unbound wurde zusätzlich eingerichtet. In den Versionen 2002 und früher war standardmäßig Google als DNS-Server eingestellt, den man dann z.B. gegen den eigenen Provider-DNS austauschen konnte.</b> Unbound ist quasi ein eigener DNS-Server auf dem Pi. Damit wäre man unabhängiger gegenüber anderen DNS-Servern. Z.B. weil die Filtern (bzw. zum Filtern gezwungen werden #Vodafone) oder vollständig ausfallen (#Unitymedia). :-)
+<br><br>
+
 # Version 2002
 
 ## Häufig gestellte Frage: 
-<b>Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 2001) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
+<b>Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 2001 oder später) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
 <br><br>
 Nein! Der einzige Unterschied zw. den Updates besteht darin, dass evtl. weitere Listen und RegEx-Zeilen hinzugefügt wurden. Diese können Sie wesentlich schneller von Hand selbst hinzufügen.</b>
 

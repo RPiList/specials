@@ -1,11 +1,15 @@
-# Version 2003
+# Version 2003 (BETA)
 
 ## Häufig gestellte Frage: 
 <b>Was ist neu?
 <br>
-Unbound wurde zusätzlich eingerichtet. In den Versionen 2002 und früher war standardmäßig Google als DNS-Server eingestellt, den man dann z.B. gegen den eigenen Provider-DNS austauschen konnte. Unbound ist quasi ein eigener DNS-Server auf dem Pi. Damit wäre man unabhängiger gegenüber anderen DNS-Servern. Z.B. weil die Filtern (bzw. zum Filtern gezwungen werden #Vodafone) oder vollständig ausfallen (#Unitymedia). :-)</b>
+Unbound wurde zusätzlich eingerichtet. In den Versionen 2002 und früher war standardmäßig Google als DNS-Server eingestellt, den man dann z.B. gegen den eigenen Provider-DNS austauschen konnte. Unbound ist quasi ein eigener DNS-Server auf dem Pi. Damit wäre man unabhängiger gegenüber anderen DNS-Servern. Z.B. weil die Filtern (bzw. zum Filtern gezwungen werden #Vodafone) oder vollständig ausfallen (#Unitymedia). :-)
 <br><br>
+<b>Soll ich also updaten?
+<br>
+Wenn bei Ihnen die Version 2002 läuft, würd' ich diese erst mal weiter laufen lassen. Es sei denn, Sie wissen was Unbound ist und wollen es unbedingt.</b>
 
+<br><br>
 # Version 2002
 
 ## Häufig gestellte Frage: 

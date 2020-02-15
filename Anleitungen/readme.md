@@ -13,5 +13,11 @@ Videoanleitungen
 <tr><td>Turbo mit RegEx <td>https://youtu.be/v1df18q4rGI
 <tr><td>Lokal Auflösen lassen  <td>https://youtu.be/fLR-hr6EDVE
 <tr><td> &nbsp;  <td>
+<tr><td>Kein Pihole ins Internet stellen  <td>https://youtu.be/a5BxRZnMVTI
+<tr><td> Schutz vor Punycode und Emoji-Domains  <td>https://youtu.be/8HPVJeH-qQM
+<tr><td> Was ist Unbound <td> https://youtu.be/zccwkVRkDbI
+<tr><td> &nbsp;  <td>
+<tr><td> &nbsp;  <td>
+  
 <tr><td>Weitere werden folgen... <td>
 </table>

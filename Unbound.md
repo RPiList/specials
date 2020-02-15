@@ -4,12 +4,12 @@ https://docs.pi-hole.net/guides/unbound/
 
 Update-Datei:
 
-#!/bin/sh
-wget -O root.hints https://www.internic.net/domain/named.root
-rm /var/lib/unbound/roots.hints
-mv root.hints /var/lib/unbound/
+#!/bin/sh<br>
+wget -O root.hints https://www.internic.net/domain/named.root<br>
+rm /var/lib/unbound/roots.hints<br>
+mv root.hints /var/lib/unbound/<br>
 
-Crontab Eintrag:
+Crontab Eintrag:<br>
 0 0 1 */6 * /root/updatehints &
 
 

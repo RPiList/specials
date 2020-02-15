@@ -1,22 +1,33 @@
-Anleitung unter:
+**Anleitung**
 
 https://docs.pi-hole.net/guides/unbound/
 
-Update-Datei:
+**Update-Datei**
 
-#!/bin/sh<br>
-wget -O root.hints https://www.internic.net/domain/named.root<br>
-rm /var/lib/unbound/root.hints<br>
-mv root.hints /var/lib/unbound/<br>
+Die Datei `updateroot` öffnen:
+```
+nano /root/updateroot
+```
 
-Datei ausführbar machen:<br>
-chmod +x updateroot
+Folgenden Inhalt einfügen:
+```
+#!/bin/sh
+wget -O root.hints https://www.internic.net/domain/named.root
+rm /var/lib/unbound/root.hints
+mv root.hints /var/lib/unbound/
+```
 
-Crontab Eintrag:<br>
+Die Datei ausführbar machen:
+```
+chmod +x /root/updateroot
+```
 
-crontab -e<br>
+Cronjobs-Datei öffnen:<br>
+```
+crontab -e
+````
 
+Am Ende der Datei folgende Zeile einfügen:
+```
 0 0 1 */6 * /root/updateroot &
-
-
-
+```

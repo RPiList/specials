@@ -15,6 +15,7 @@ Folgenden Inhalt einfügen:
 wget -O root.hints https://www.internic.net/domain/named.root
 rm /var/lib/unbound/root.hints
 mv root.hints /var/lib/unbound/
+service unbound restart
 ```
 
 Die Datei ausführbar machen:

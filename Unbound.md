@@ -9,8 +9,14 @@ wget -O root.hints https://www.internic.net/domain/named.root<br>
 rm /var/lib/unbound/roots.hints<br>
 mv root.hints /var/lib/unbound/<br>
 
+Datei ausführbar machen:<br>
+chmod +x updateroot
+
 Crontab Eintrag:<br>
-0 0 1 */6 * /root/updatehints &
+
+crontab -e<br>
+
+0 0 1 */6 * /root/updateroot &
 
 
 

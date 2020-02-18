@@ -1,4 +1,14 @@
-# Blocklisten zur Ergänzung nach eigenem Ermessen. Die Listen stammen teilweise von Dritten und können daher nicht auf Richtigkeit geprüft werden.
+# Blocklisten zur Ergänzung nach eigenem Ermessen. Die Listen stammen teilweise von Dritten und können daher nicht auf Richtigkeit geprüft werden. Doppelnennungen möglich.
+
+# Eigene Listen
+* https://raw.githubusercontent.com/RPiList/specials/master/notserious
+* https://raw.githubusercontent.com/RPiList/specials/master/Streaming
+* https://raw.githubusercontent.com/RPiList/specials/master/Phishing-Angriffe
+* https://raw.githubusercontent.com/RPiList/specials/master/spam.mails
+* https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
+* https://raw.githubusercontent.com/RPiList/specials/master/Springer-Blocker
+* https://raw.githubusercontent.com/RPiList/specials/master/easylist
+* https://raw.githubusercontent.com/RPiList/specials/master/samsung
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -18,6 +28,7 @@
 
 # Werbung
 * https://raw.githubusercontent.com/RPiList/specials/master/easylist
+* https://raw.githubusercontent.com/RPiList/specials/master/spam.mails
 
 Andere nützliche Listen:
 
@@ -29,6 +40,8 @@ Andere nützliche Listen:
 * https://v.firebog.net/hosts/Easyprivacy.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+* https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
+* https://raw.githubusercontent.com/RPiList/specials/master/samsung
 
 # Werbung
 * https://v.firebog.net/hosts/Prigent-Ads.txt
@@ -39,3 +52,4 @@ Andere nützliche Listen:
 
 # Diverses
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+* https://raw.githubusercontent.com/RPiList/specials/master/Springer-Blocker

@@ -1,12 +1,25 @@
 # Lead me to your Pihole
-# --------------------------------------------
+# ----------------------------------------------
 # Domains auf denen in den letzten 30 Tagen
 # Phishing-Angriffe durchgeführt wurden.
-# -------------------------------------------
+# ----------------------------------------------
 # Domains, die ihr Problem in den Griff bekommen haben,
 # verschwinden automatisch von dieser Liste.
-# ------------------------------------------
-#
+# ----------------------------------------------
+# Die Liste wird weitgehend automatisch erstellt.
+# Insoweit ist es möglich, dass sich ungültige Domains
+# auf der Liste befinden. Da diese Domains ungültig sind,
+# können sie nicht aufgerufen werden, werden sie 
+# praktisch ignoriert.
+# ----------------------------------------------
+# Diese Liste wird NICHT fortgeschrieben.
+# Bei jedem Update wird die komplette Liste gelöscht
+# und neue Domains werden eingetragen. Dadurch
+# wird der Tatsache Rechnung getragen, dass gehackte
+# Domains ihr Problem in den Griff bekommen können und 
+# dann wieder als sicher gelten.
+# ---------------------------------------------
+
 www.misrecetasnaturales.com
 logln.lbllockhcoin.com
 help2019.xyz
@@ -25,7 +38,6 @@ healthy-line.com
 bankofamerica.com.laasdogin.update
 enticingse.com
 ciptateknika.com
-cibc.signon
 banco-online30horasatendimentoaocliente.clienteapp.info
 areanovabr.com
 app.itaucard.com.br

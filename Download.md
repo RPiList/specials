@@ -1,19 +1,3 @@
-# Version 2003 (Beta)
-
-## Häufig gestellte Frage: 
-<b>Wo ist der Unterschied zur Version 2002?<br>
-Version 2003 hat zusätzlich Unbound installiert und eingerichtet. Sie können sich das Video https://youtu.be/zccwkVRkDbI anschauen und entscheiden, ob Sie Unbound nutzen wollen.</b>
-<br>
-## Raspberry Pi: http://sempervideo.de/svpihole2003.zip
-
-sha256: 712751c6659b4170e2cac36add756c43a916c8239de9f711653518cf16e0ed47<br>
-md5: 8c2ba87740bbabe6afb86b19a37acbff  <br>  
-
-Weitere Download-Quellen:<br>
-http://35.246.185.46/svpihole2003.zip<br>
-http://35.234.71.89/svpihole2003.zip<br>
-http://35.246.219.235/svpihole2003.zip<br>
-http://35.234.101.210/svpihole2003.zip<br>
 
 # Version 2002
 

@@ -2,16 +2,13 @@
 # ----------------------------------------------
 # Domains auf denen in den letzten 30 Tagen
 # Phishing-Angriffe durchgeführt wurden.
-# ----------------------------------------------
 # Domains, die ihr Problem in den Griff bekommen haben,
 # verschwinden automatisch von dieser Liste.
-# ----------------------------------------------
 # Die Liste wird weitgehend automatisch erstellt.
 # Insoweit ist es möglich, dass sich ungültige Domains
 # auf der Liste befinden. Da diese Domains ungültig sind,
 # können sie nicht aufgerufen werden, werden sie 
 # praktisch ignoriert.
-# ----------------------------------------------
 # Diese Liste wird NICHT fortgeschrieben.
 # Bei jedem Update wird die komplette Liste gelöscht
 # und neue Domains werden eingetragen. Dadurch
@@ -423,10 +420,6 @@ www.vigneshfruits.com
 www.telefonia-celulares-pela-metade.com
 www.sso-meinelba.eu
 openid.return
-www.google.com
-3Dpsy-ab.3...17758.20234..20875...0.2..0.237.1501.0j7j2......0....1..gws
-2Fwww.google.com
-psy-ab.3..0i71l8.4910244.4910244..4910519...0.1..0.0.0.......0....2j1..gws-wiz.jnj
 openid.claimed
 2Fspecs.openid.net
 openid.ns
@@ -842,7 +835,6 @@ sigmaelastomers.com
 sfthinternationalinc.com
 www.globalcfs.com
 sevenstartradeandenterprises.com
-dropbox.com
 secure.runescape.com-vxa.top
 loginform.ws
 secure.runescape.com-kci.top
@@ -2392,7 +2384,7 @@ sabsab32x.com
 279102.z13.web.core.windows.net
 ryalcapital.com
 remycare.com
-google.com
+
 quiwopp.ga
 qtdir.com
 propertysmarketplaces.xyz
@@ -4688,7 +4680,7 @@ sms.centralderelacionamentocliente.com
 skinsxroll.com
 skin-index.com
 sixpointpartners-my.sharepoint.com
-sites.google.com
+
 signiniattempt.typeform.com
 services.runescape.com-ge.top
 selfschooling.com
@@ -13744,3 +13736,71 @@ magazine-oferta.com
 www.magazine-oferta.com
 magazine.antendimentonline.com
 berbagividiohot11.000webhostapp.com
+0s.mfrwg33vnz2hg.m5xw6z3mmuxgg33n.cmle.ru
+0s.mfrwg33vnz2hg.m5xw6z3mmuxgg33n.mbway.ru
+0s.mfrwg33vnz2hg.m5xw6z3mmuxgg33n.nblz.ru
+0s.n5vs44tv.verek.ru
+0s.nrxwo2lo.ozvs4y3pnu.cmla.ru
+0s.or3ws5dumvzc4y3pnu.drgo.ru
+0s.or3ws5dumvzc4y3pnu.mbway.ru
+0s.or3ws5dumvzc4y3pnu.xwerty.ru
+sns.webmail.aol.com
+1o2.ir
+23cctv.com
+3d-abgleich-ihrer-hinterlegten-inormationen.online
+user.identity
+aclimeinerzhagen.de
+veplas.si
+adspotbuldana.com
+adt.dev3.develag.com
+advoco-personal.org
+akaflieg-sb.de
+akras.bplaced.net
+alareentading-catalog.page.tl
+alfarepair.ru
+allmodel-pro.com
+alperturizm.com.tr
+alumar.com.pl
+aoharjgra.de
+apple.map-view.us
+www.host1plus.com
+arber-land.eu
+arztpraxis-drews.de
+athlet-pferd.de
+b2b.trenderia.com
+backup.din-14675.de
+baghira-wupperwolf.de
+bayerischer-wald-wellness-hotels.de
+bayrischerwald.org
+beautyresearchteam.de
+bedy.be
+bell-news.de
+biensorienter.com
+biotex.it
+sparkasse.de
+blog.elcia.com
+breuning-trauringe.de
+bricks-bricks.com
+365online.com
+brigade-c.de
+burdastyle.pt
+bwt1.com
+c0n.cc
+calienthe.fr
+camerounemergence.com
+caravansa.co.za
+catalogue-sample.page.tl
+catnip.de
+cc-gastro.de
+china-bridge.com.cn
+cftft.org
+cheetoo.com
+classic-blinds.co.uk
+client-impotgouv.fr
+close.square7.ch
+closing.square7.ch
+cms.pay-it-easy.de
+coachilka.de
+communication.durr.com
+cp5.astrahosting.com
+curtasgastronomia.pt

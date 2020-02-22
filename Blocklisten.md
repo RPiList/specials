@@ -21,6 +21,7 @@
 
 # Pornografische Inhalte
 * https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
+* https://raw.githubusercontent.com/RPiList/specials/master/wwwpornblock
 
 # Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Streaming

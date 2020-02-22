@@ -7,6 +7,12 @@ Sperrt alle Domains aus Russland:
 Sperrt alle Domains aus Kolumbien:
 ([a-zA-Z0-9\-\._]{2,256})(\.co$)
 
+Sperrt alle Domains aus Vietnam:
+([a-zA-Z0-9\-\._]{2,256})(\.vn$)
+
+Sperrt alle Domains der TLD .porn:
+([a-zA-Z0-9\-\._]{2,256})(\.porn$)
+
 Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
 ([a-zA-Z0-9\-\._]{2,256})(\.cn$|\.ru$|\.co$|\.vn$)
 

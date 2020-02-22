@@ -9,6 +9,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Springer-Blocker
 * https://raw.githubusercontent.com/RPiList/specials/master/easylist
 * https://raw.githubusercontent.com/RPiList/specials/master/samsung
+* https://raw.githubusercontent.com/RPiList/specials/master/wwwpornblock
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt

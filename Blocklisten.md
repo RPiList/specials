@@ -9,6 +9,9 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1v3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2v3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3v3
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -18,9 +21,10 @@
 * https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 
-
 # Pornografische Inhalte
-* https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1v3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2v3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3v3
 
 # Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming

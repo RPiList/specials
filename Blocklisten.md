@@ -1,15 +1,14 @@
 # Blocklisten zur Ergänzung nach eigenem Ermessen. Die Listen stammen teilweise von Dritten und können daher nicht auf Richtigkeit geprüft werden. Doppelnennungen möglich.
 
 # Eigene Listen
-* https://raw.githubusercontent.com/RPiList/specials/master/notserious
-* https://raw.githubusercontent.com/RPiList/specials/master/Streaming
-* https://raw.githubusercontent.com/RPiList/specials/master/Phishing-Angriffe
-* https://raw.githubusercontent.com/RPiList/specials/master/spam.mails
-* https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
-* https://raw.githubusercontent.com/RPiList/specials/master/Springer-Blocker
-* https://raw.githubusercontent.com/RPiList/specials/master/easylist
-* https://raw.githubusercontent.com/RPiList/specials/master/samsung
-* https://raw.githubusercontent.com/RPiList/specials/master/wwwpornblock
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -17,20 +16,19 @@
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 * https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
-* https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 
 
 # Pornografische Inhalte
 * https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
-* https://raw.githubusercontent.com/RPiList/specials/master/wwwpornblock
 
 # Fakeshops und Abofallen
-* https://raw.githubusercontent.com/RPiList/specials/master/Streaming
-* https://raw.githubusercontent.com/RPiList/specials/master/notserious
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
 # Werbung
-* https://raw.githubusercontent.com/RPiList/specials/master/easylist
-* https://raw.githubusercontent.com/RPiList/specials/master/spam.mails
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
 
 Andere nützliche Listen:
 
@@ -42,8 +40,8 @@ Andere nützliche Listen:
 * https://v.firebog.net/hosts/Easyprivacy.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-* https://raw.githubusercontent.com/RPiList/specials/master/Win10Telemetry
-* https://raw.githubusercontent.com/RPiList/specials/master/samsung
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
 
 # Werbung
 * https://v.firebog.net/hosts/Prigent-Ads.txt
@@ -54,4 +52,4 @@ Andere nützliche Listen:
 
 # Diverses
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-* https://raw.githubusercontent.com/RPiList/specials/master/Springer-Blocker
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker

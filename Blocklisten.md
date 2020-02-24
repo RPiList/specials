@@ -9,9 +9,10 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1v3
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2v3
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3v3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-1
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-2
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-4
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -22,9 +23,10 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 
 # Pornografische Inhalte
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1v3
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2v3
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3v3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-1
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-2
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-4
 
 # Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming

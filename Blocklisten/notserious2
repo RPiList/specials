@@ -1,3 +1,22 @@
+# Lead me to your Pihole
+# --------------------------------------------
+# Domains die man besser nicht aufrufen sollte.
+# Community-gepflegte Domainlist
+# Wenn Sie eine URL hinzufügen wollen, senden Sie bitte die URL
+# per eMail an RPiList@gmail.com.
+# Wenn Sie diese Domains blocken wollen, importieren Sie
+# diese Liste einfach in Ihr Pi-Hole.
+# -------------------------------------------
+# Woher kommen diese URLs?
+# Dass eine URL hier vertreten ist bedeutet NICHT
+# dass man zwingend Schadware auf der Website findet.
+# I.d.R. sind es Webshops, die es z.B. aufgrund eines
+# fehlenden Impressums, den Kunden sehr schwer machen
+# ihre Rechte (UmtauschRückabwicklung usw...) zu wahren.
+# Ferner findet man hier die URLs, die man auch in diversen
+# "Abzocker-Foren" findet.
+# ------------------------------------------
+#
 007drones.de
 1000-geschichten.de
 1000gratisproben.com

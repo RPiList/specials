@@ -1,3 +1,13 @@
+# Diese Datei stellt unsere Whitelist dar. 
+# I.d.R. werden alle unsere Listen mit dieser
+# Liste auf "falsche" Einträge geprüft.
+# 
+# Sollte eine wichtige Domain fehlen können Sie diese
+# über einen sog. Pull Request einfügen. Sollte nicht 
+# direkt erkenntlich sein, wofür die Domain wichtig ist
+# sollte das noch zusätzlich erklärt werden.
+
+
 netflix.com
 instagram.com
 www.netflix.com

@@ -10,11 +10,14 @@ Sperrt alle Domains aus Kolumbien:
 Sperrt alle Domains aus Vietnam:
 ([a-zA-Z0-9\-\._]{2,256})(\.vn$)
 
-Sperrt alle Domains der TLD .porn:
-([a-zA-Z0-9\-\._]{2,256})(\.porn$)
-
 Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
 ([a-zA-Z0-9\-\._]{2,256})(\.cn$|\.ru$|\.co$|\.vn$)
+
+Sperrt alle Domains der TLD .porn (Jugendschutz):
+([a-zA-Z0-9\-\._]{2,256})(\.porn$)
+
+Sperrt alle Domains der TLD .casino und .bet (Jugendschutz):
+([a-zA-Z0-9\-\._]{2,256})(\.casino$|\.bet$)
 
 Sperrt alle URLs zu "sendgrid.net"
 ([a-zA-Z0-9\-\._]{0,256})(sendgrid)(\.net)

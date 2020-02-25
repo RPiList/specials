@@ -13,6 +13,9 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-2
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-3
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-4
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -22,11 +25,13 @@
 * https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 
-# Pornografische Inhalte
+# Jugendschutz
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-1
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-2
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-3
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-4
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
 
 # Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
@@ -41,6 +46,7 @@ Andere nützliche Listen:
 # Malware
 * https://mirror1.malwaredomains.com/files/justdomains
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 
 # Tracking
 * https://v.firebog.net/hosts/Easyprivacy.txt

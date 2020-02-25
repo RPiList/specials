@@ -16,6 +16,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -47,6 +48,7 @@ Andere nützliche Listen:
 * https://mirror1.malwaredomains.com/files/justdomains
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 
 # Tracking
 * https://v.firebog.net/hosts/Easyprivacy.txt

@@ -24,6 +24,7 @@
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 * https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+* https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist
 
 # Jugendschutz
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-1

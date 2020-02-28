@@ -14,7 +14,7 @@ Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
 ([a-zA-Z0-9\-\._]{2,256})(\.cn$|\.ru$|\.co$|\.vn$)
 
 Sperrt alle Domains der TLD .porn (Jugendschutz):
-([a-zA-Z0-9\-\._]{2,256})(\.porn$)
+([a-zA-Z0-9\-\._]{2,256})(\.porn$|\.sex$|\.xxx$)
 
 Sperrt alle Domains der TLD .casino und .bet (Jugendschutz):
 ([a-zA-Z0-9\-\._]{2,256})(\.casino$|\.bet$)

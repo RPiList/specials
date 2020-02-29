@@ -9,10 +9,10 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-1
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-2
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-3
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-4
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
@@ -28,10 +28,10 @@
 * https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist
 
 # Jugendschutz
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-1
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-2
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-3
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock-4
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
 

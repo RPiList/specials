@@ -16,6 +16,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -66,3 +67,5 @@ Andere nützliche Listen:
 # Diverses
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+

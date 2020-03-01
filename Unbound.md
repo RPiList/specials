@@ -13,7 +13,7 @@ Folgenden Inhalt einfügen:
 ```
 #!/bin/bash
 
-if wget -O /tmp/root.hints https://www.internic.net/domain/named.root ; then
+if wget -O root.hints https://www.internic.net/domain/named.root ; then
     rm /var/lib/unbound/root.hints
     mv root.hints /var/lib/unbound/
     service unbound restart

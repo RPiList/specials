@@ -14,7 +14,8 @@ Folgenden Inhalt einfügen:
 #!/bin/bash
 
 if wget -O /tmp/root.hints https://www.internic.net/domain/named.root ; then
-    mv /tmp/root.hints /var/lib/unbound/root.hints
+    rm /var/lib/unbound/root.hints
+    mv root.hints /var/lib/unbound/
     service unbound restart
 fi
 ```

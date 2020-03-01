@@ -66,6 +66,7 @@ Andere nützliche Listen:
 
 # Diverses
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+* https://raw.githubusercontent.com/qyqsoft/Pihole/master/no-gez.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 

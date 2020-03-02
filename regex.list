@@ -28,3 +28,7 @@ Sperrt alle URLs zu "sendgrid.net"
 Sperrt alle Punycode-Domains:
 .*(xn--).*([a-zA-Z0-9\-\._]{2,256})*(\.[a-z]{2,18})
 
+Sperrt alle Domains in Zusammenhang mit Facebook:
+(facebook|fbcdn|fbsbx)\.[a-z]{2,4}
+
+

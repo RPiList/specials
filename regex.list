@@ -33,6 +33,7 @@ Sperrt alle Domains in Zusammenhang mit Facebook:
 # Die o.g. RegEx Zeile ist noch nicht praktisch getestet worden. 
 # Es ist möglich, dass die Nutzung von WhatsApp gestört wird. 
 # WhatsApp, als Teil von Facebook, nutzt teilweise die gleichen Domains. 
-# In dem Fall dann die Facebook Blocklist importieren. 
+# In dem Fall dann die Facebook Blocklist importieren und diese RegEX-
+# Anweisung aus Pi-hole wieder entfernen.
 
 

@@ -14,3 +14,4 @@ Erläuterung der einzelnen Blocklisten:
 * Samsung: Domains von Samsung Tracking Diensten.
 * Spam.Mails: Domains, die über eMail verteilt werden (Phishing)
 * Pornblock1-4: Webseiten, die für Minderjährige nicht geeignet sind.
+* Qualitaetsfernsehen: Blockiert RTL, Sat1 und co.

@@ -1,26 +1,26 @@
 Sperrt alle Domains aus China:
-([a-zA-Z0-9\-\._]{2,256})(\.cn$)
+([a-zA-Z0-9\-\._]{1,256})(\.cn$)
 
 Sperrt alle Domains aus Russland:
-([a-zA-Z0-9\-\._]{2,256})(\.ru$)
+([a-zA-Z0-9\-\._]{1,256})(\.ru$)
 
 Sperrt alle Domains aus Kolumbien:
-([a-zA-Z0-9\-\._]{2,256})(\.co$)
+([a-zA-Z0-9\-\._]{1,256})(\.co$)
 
 Sperrt alle Domains aus Vietnam:
-([a-zA-Z0-9\-\._]{2,256})(\.vn$)
+([a-zA-Z0-9\-\._]{1,256})(\.vn$)
 
 Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
-([a-zA-Z0-9\-\._]{2,256})(\.cn$|\.ru$|\.co$|\.vn$)
+([a-zA-Z0-9\-\._]{1,256})(\.cn$|\.ru$|\.co$|\.vn$)
 
 Sperrt alle Domains der TLD .porn (Jugendschutz):
-([a-zA-Z0-9\-\._]{2,256})(\.porn$|\.sex$|\.xxx$)
+([a-zA-Z0-9\-\._]{1,256})(\.porn$|\.sex$|\.xxx$)
 
 Sperrt alle Domains der TLD .casino und .bet (Jugendschutz):
-([a-zA-Z0-9\-\._]{2,256})(\.casino$|\.bet$)
+([a-zA-Z0-9\-\._]{1,256})(\.casino$|\.bet$)
 
 Sperrt alle Domains der TLD .link: (Linkverkürzer)
-([a-zA-Z0-9\-\._]{2,256})(\.link$)
+([a-zA-Z0-9\-\._]{1,256})(\.link$)
 
 Sperrt alle URLs zu "sendgrid.net"
 ([a-zA-Z0-9\-\._]{0,256})(sendgrid\.net)

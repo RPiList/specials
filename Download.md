@@ -24,23 +24,21 @@ http://35.246.185.46/svpihole2002.zip<br>
 http://35.234.71.89/svpihole2002.zip<br>
 http://35.246.219.235/svpihole2002.zip<br>
 http://35.234.101.210/svpihole2002.zip<br>
-https://mirror.wtnet.de/pub/Sempervideo/svpihole2002.zip<br>
 https://mirror.joestr.xyz/sempervideo/pihole/2002/image/svpihole2002.zip<br>
 https://mirror.wtnet.de/pub/Sempervideo/svpihole2002.zip<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2002.zip (v.2)
 
 sha256: 0a40fd4276917eed7f5877d1c4722362eedf292bb49161ac605da7f12c6dcb39<br>
-md5: db39f29031965526ae5f058831473855  <br>
+md5: db39f29031965526ae5f058831473855<br>
 
 Weitere Download-Quellen:<br>
 http://35.246.185.46/svpiholeVM2002.zip<br>
 http://35.234.71.89/svpiholeVM2002.zip<br>
 http://35.246.219.235/svpiholeVM2002.zip<br>
 http://35.234.101.210/svpiholeVM2002.zip<br>
+https://mirror.joestr.xyz/sempervideo/pihole/2002/virtual-machine-image/svpihole2002-vm.zip
 https://mirror.wtnet.de/pub/Sempervideo/svpiholeVM2002.zip<br>
-
-
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
 Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>

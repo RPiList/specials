@@ -32,7 +32,7 @@ Sperrt alle Domains in Zusammenhang mit Instagram:
 instagram\.com
 
 Sperrt alle Domains in Zusammenhang mit Facebook:
-(facebook|fbcdn|fbsbx)\.[a-z]{2,4}
+(facebook|fbcdn|fbsbx)\.[a-z]{3}
 # Die o.g. RegEx Zeile ist noch nicht praktisch getestet worden. 
 # Es ist möglich, dass die Nutzung von WhatsApp gestört wird. 
 # WhatsApp, als Teil von Facebook, nutzt teilweise die gleichen Domains. 

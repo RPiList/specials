@@ -1,3 +1,20 @@
+# Version 2003
+
+## Häufig gestellte Frage:
+
+Worin besteht der Unterschied zur Version 2002?
+Der Unterschied ist, dass Unbound installiert und eingerichtet ist. Ansonsten wurden einige neue Listen und RegEx-Zeilen hinzugefügt wurden. Diese können Sie wesentlich schneller von Hand selbst hinzufügen. 
+
+Hinweis:
+Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen.
+
+Raspberry Pi: http://sempervideo.de/svpihole2003.zip
+sha256: 
+md5: 
+
+VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2003.zip
+sha256: 
+md5: 
 
 # Version 2002
 

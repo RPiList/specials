@@ -6,7 +6,6 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1
@@ -68,6 +67,5 @@ Andere nützliche Listen:
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 * https://raw.githubusercontent.com/qyqsoft/Pihole/master/no-gez.txt
 * https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Springer-Blocker
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 

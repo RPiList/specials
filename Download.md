@@ -19,17 +19,17 @@ md5:
 # Version 2002
 
 ## Häufig gestellte Frage: 
-<b>Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 2001 oder später) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
+Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 2001 oder später) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
 <br>
-Nein! Der einzige Unterschied zw. den Updates besteht darin, dass evtl. weitere Listen und RegEx-Zeilen hinzugefügt wurden. Diese können Sie wesentlich schneller von Hand selbst hinzufügen.</b>
+Nein! Der einzige Unterschied zw. den Updates besteht darin, dass evtl. weitere Listen und RegEx-Zeilen hinzugefügt wurden. Diese können Sie wesentlich schneller von Hand selbst hinzufügen.
 
 ## Häufig gestellte Frage 2: 
-<b>Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 1912 oder früher) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
+Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 1912 oder früher) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
 <br>
 Erst mal Gratulation, dass Sie diese Version ans Laufen gebracht haben. Da sind Sie wahrscheinlich der Einzige der das geschafft hat. :-) Ja, da würden wir empfehlen das neueste Image auf die SD-Karte zu kopieren und neu zu starten.
 
 ## Hinweis:
-<b>Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen. Um Rückmeldung wird gebeten. Vielen Dank.</b>
+Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen. 
 
 ## Raspberry Pi: http://sempervideo.de/svpihole2002.zip
 

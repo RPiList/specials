@@ -5,7 +5,7 @@
 Erläuterung der einzelnen Blocklisten:
 
 * Phishing-Angriffe: Domains auf denen in den letzten 30 Tagen Phishing-Angriffe durchgeführt wurden.
-* Springer-Blocker: Domains die zu Produkten des Springer-Verlags gehören.
+* Malware: Domains die Schadware verbreiten.
 * Win10 Telemetry: Sog. Windows 10 Spy-Dienste werden geblockt.
 * Crypto: Domains auf denen Cryptomining und Co. betrieben wird.
 * Gambling: Domains auf denen Glücksspiele angeboten werden.

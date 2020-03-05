@@ -19,6 +19,7 @@ http://35.246.219.235/svpihole2003.zip<br>
 http://35.234.101.210/svpihole2003.zip<br>
 https://drop.banananet.work/svpihole2003.zip<br>
 https://enjoy-stuttgart.org/svpihole/svpihole2003.zip<br>
+https://mirror.joestr.xyz/sempervideo/pihole/2003/image/svpihole2003.zip<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2003.zip<br>
 sha256: 755f6a963fd6df4316b04728dc690d33c852e3c21e5b31a881b3971a735f759e<br>
@@ -31,6 +32,7 @@ http://35.246.219.235/svpiholeVM2003.zip<br>
 http://35.234.101.210/svpiholeVM2003.zip<br>
 https://drop.banananet.work/svpiholevm2003.zip<br>
 https://enjoy-stuttgart.org/svpihole/svpiholeVM2003.zip<br>
+https://mirror.joestr.xyz/sempervideo/pihole/2003/virtual-machine-image/svpihole2003vm.zip<br>
 
 # Version 2002
 
@@ -62,7 +64,7 @@ sha256: 0a40fd4276917eed7f5877d1c4722362eedf292bb49161ac605da7f12c6dcb39<br>
 md5: db39f29031965526ae5f058831473855<br>
 
 Weitere Download-Quellen:<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2002/virtual-machine-image/svpihole2002-vm.zip
+https://mirror.joestr.xyz/sempervideo/pihole/2002/virtual-machine-image/svpihole2002-vm.zip<br>
 https://mirror.wtnet.de/pub/Sempervideo/svpiholeVM2002.zip<br>
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>

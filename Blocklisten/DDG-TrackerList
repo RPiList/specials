@@ -1,9 +1,5 @@
-# Lead me to your Pihole
-# --------------------------------------------
-# Liste der Tracker-Domains gem. DuckDuckGo Trackerradar
-# https://github.com/duckduckgo/tracker-radar
 # -------------------------------------------
-
+# --------------------------------------------
 01net.com
 0ps.us
 1000ps.net
@@ -237,6 +233,7 @@ adrizer.com
 adroll.com
 adrsp.net
 adrta.com
+ads.1997media.com
 ads1-adnow.com
 ads3-adnow.com
 adsafeprotected.com
@@ -388,6 +385,7 @@ albacross.com
 alcidebrought.pro
 alcmpn.com
 aldi-international.com
+aldinordnl.2o7.net
 alexametrics.com
 alfasense.com
 aliadvert.ru
@@ -419,6 +417,9 @@ amain.com
 amateurpin.com
 amateur.tv
 amavirgin.pro
+amazditemplate.2o7.net
+amazdiusprod.2o7.net
+amazonservices.2o7.net
 ambientdsp.com
 amcdn.vn
 amcharts.com
@@ -439,6 +440,7 @@ anchor.host
 andbeyond.media
 and.co.uk
 androidbusiness.us
+angieslist.2o7.net
 anglomedia.net
 animegalleries.net
 animekisa.tv
@@ -466,6 +468,7 @@ apicit.net
 apihotels.net
 apimovie.xyz
 aplaut.io
+apnonline.2o7.net
 apolloprogram.io
 appadvice.com
 apparmor.com
@@ -745,6 +748,7 @@ blueconic.net
 bluecore.com
 bluekai.com
 bmetricpublisher.com
+bmwmotor.2o7.net
 bnmla.com
 bnqt.com
 bnrsis.com
@@ -758,6 +762,7 @@ boldcommerce.com
 bolt.com
 bonad.io
 bongacash.com
+bonniercorp.2o7.net
 bonnier-subscriptions.com
 bonus365.site
 bonzai.ad
@@ -769,6 +774,7 @@ bootstrapcdn.com
 borderfree.com
 bordertraffic.com
 borse.it
+boschautoprod.2o7.net
 bosspush.com
 botlers.io
 botradar.tech
@@ -776,6 +782,7 @@ bounceexchange.com
 bouncepilot.com
 bountyhunterporn.com
 boxever.com
+bpceceprod1609.2o7.net
 braaniare.site
 brainlyads.com
 braintreegateway.com
@@ -828,8 +835,10 @@ bwinpartypartners.com
 bwr-media.de
 bydlet.cz
 byside.com
+byuibyuiedu.2o7.net
 c212.net
 c3tag.com
+cablevisalticeoneboxprod.2o7.net
 cachefly.net
 cackle.me
 cadreon.com
@@ -880,6 +889,7 @@ carvana.io
 casalemedia.com
 casualportals.com
 cazamba.com
+cbncomdev.2o7.net
 cbox.ws
 cbsi.com
 cbsimg.net
@@ -889,7 +899,9 @@ cbtrk.net
 ccgateway.net
 ccscserver.com
 c-ctrip.com
+cdc.2o7.net
 cdn14tube.pro
+cdn.254a.com
 cdn77.org
 cdn7.rocks
 cdn-adtrue.com
@@ -899,10 +911,13 @@ cdnaz.win
 cdnimg.xyz
 cdnjs.com
 cdnjs.work
+cdn-main1.123formbuilder.com
+cdn-main.123formbuilder.com
 cdnmex.com
 cdn-net.com
 cdnondemand.org
 cdnpk.net
+cdn-sic.33across.com
 cdn-spurit.com
 cdntrf.com
 cdnvideo.ru
@@ -919,6 +934,7 @@ centrum.cz
 ceros.com
 certona.net
 cetrk.com
+cfa.2mdnsys.com
 cfgr2.com
 cfgr3.com
 cfigroup.com
@@ -956,6 +972,8 @@ c-i.as
 cifraclub.com.br
 cifras.com.br
 circularhub.com
+citgroup.2o7.net
+citiintl.2o7.net
 citiservi.es
 citrusad.co
 citydsp.com
@@ -968,7 +986,9 @@ ckies.net
 ck.page
 clario.us
 clarip.com
+classicindustries.2o7.net
 classic-porn.cc
+classifiedventures1.2o7.net
 classionreactice.info
 clcknads.pro
 clcktrax.com
@@ -1025,6 +1045,7 @@ clustrmaps.com
 cmadserver.de
 cmcdn.de
 cmgdigital.com
+cmpmedica.2o7.net
 cncenter.cz
 cnd-motionmedia.de
 cnetcontent.com
@@ -1053,6 +1074,7 @@ coinzilla.io
 coinzillatag.com
 coke.com
 colegialasdeverdad.com
+collect.1dmp.io
 collectcdn.com
 collegenet.com
 colossusssp.com
@@ -1124,6 +1146,7 @@ cookielaw.org
 cookiepro.com
 cookie-script.com
 cooladata.com
+cooperindustries.2o7.net
 cophys.xyz
 copypoison.com
 cordial.io
@@ -1131,7 +1154,10 @@ coremetrics.com
 corot-20c.com
 corrieredellosport.it
 corriereobjects.it
+coty.2o7.net
 counciladvertising.net
+counter.24log.com
+counter.24log.ru
 counters4u.com
 countingdownto.com
 countryflags.io
@@ -1168,6 +1194,7 @@ crownmediadev.com
 crptentry.com
 crptgate.com
 crsspxl.com
+crtvcrtvprod.2o7.net
 crtx.info
 crutchfieldonline.com
 crwdcntrl.net
@@ -1230,6 +1257,7 @@ daumcdn.net
 daynews.support
 d-bi.fr
 db-ip.com
+dbs.2o7.net
 dcmn.io
 dcmservice.de
 dc-storm.com
@@ -1253,6 +1281,7 @@ defpush.com
 delacon.com.au
 deliverimp.com
 deliveroo.com
+delivery.2d.net.co
 deliveryhero.net
 deloplen.com
 deltaction.com
@@ -1274,9 +1303,11 @@ detik.net.id
 devaltitude.com
 developermedia.com
 devmate.com
+devmlbglobal.2o7.net
 devolksbank.nl
 devscroll.com
 dexecure.net
+dfbfussballdeprod.2o7.net
 dfnb-ads.com
 df-srv.de
 dfs.uk
@@ -1330,6 +1361,7 @@ d-markets.net
 dmcdn.net
 dmgmediaprivacy.co.uk
 dmm.co.jp
+dmp.dmpkit.1dmp.io
 dmpxs.com
 dmxleo.com
 dmxxa.com
@@ -1340,6 +1372,7 @@ do4.co
 docomo.ne.jp
 docplanner.com
 dogannet.tv
+dominionenterprises.2o7.net
 domru.ru
 donorbox.org
 donstick.com
@@ -1357,16 +1390,20 @@ doubleverify.com
 dowjoneson.com
 downdetector.com
 doyoudreamup.com
+dp1.33across.com
+dp2.33across.com
 dpic.me
 dpmsrv.com
 drakorid.tv
 dreamlab.pl
 driftt.com
+driverside.2o7.net
 driverxxx.com
 dropboxusercontent.com
 dropkickmedia.com
 drostatic.com
 dspx.tv
+dtag.2o7.net
 dtprofit.com
 dtscout.com
 dtstmio.com
@@ -1387,6 +1424,7 @@ eacdn.com
 eadcceeibjejiiiic.ru
 eae5daf052d2673b.com
 early-birds.fr
+earthlink.2o7.net
 eastsideco.io
 easydmp.net
 easyfeeed.com
@@ -1408,6 +1446,7 @@ eclick.vn
 ecomm.events
 econda-monitor.de
 e-contenta.com
+ecosystem.24.com
 ecustomeropinions.com
 ecwid.com
 edgecastcdn.net
@@ -1422,6 +1461,7 @@ editmysite.com
 edkay.com
 edrone.me
 edugram.com
+ee.15gifts.com
 effectivemeasure.net
 effiliation.com
 efohk.com
@@ -1573,6 +1613,7 @@ faidoud.com
 fairfaxregional.com.au
 fairfaxstatic.com.au
 faktor.io
+falabella.2o7.net
 falconstudios.net
 fam-ad.com
 fancy.com
@@ -1596,6 +1637,7 @@ fbcdn2.com
 fbcdn.net
 fbthirdpartypixel.com
 fclmedia.com
+fdic.2o7.net
 feathr.co
 feboni.info
 feedbackify.com
@@ -1727,6 +1769,7 @@ frizbit.com
 frizzymedia.com
 fromdoppler.com
 frontapp.com
+frontend.1worldonline.com
 frontpages.gr
 frosmo.com
 fruitlandmesaverde.com
@@ -1768,6 +1811,7 @@ gammamaximum.com
 gammaplatform.com
 gatedcontent.com
 gatehousemedia.com
+gatescorporation,.2o7.net
 gaug.es
 gazeta.pl
 gazo.space
@@ -1782,6 +1826,9 @@ gelbe-liste.de
 gembiratech.com
 gemius.pl
 geneacdn.net
+generac.2o7.net
+generalelectric.2o7.net
+generalmotors.2o7.net
 genesyscloud.com
 genieedmp.com
 genieessp.com
@@ -1791,6 +1838,7 @@ genndi.com
 geoedge.be
 geoiplookup.io
 geojs.io
+geolocation.1trust.app
 geotix.com
 geotrust.com
 getamigo.io
@@ -1916,6 +1964,7 @@ groupondata.com
 growingio.com
 growsumo.com
 grrrgraphics.com
+grunerandjahr.2o7.net
 gruponn.com
 gsadserver.de
 gsecondscreen.com
@@ -1940,6 +1989,8 @@ gxxcbj.com
 h12-media.com
 h5v.eu
 hacon.de
+hallmarkcom.2o7.net
+hammacher.2o7.net
 handtalk.me
 hanesbrandscheckout.com
 hanesink.com
@@ -1951,6 +2002,7 @@ hatchbuck.com
 hatena.ne.jp
 havasedge.com
 hawksearch.com
+hb.20m.es
 h-bid.com
 hbo.com
 hcaptcha.com
@@ -1966,6 +2018,7 @@ headerbiddr.net
 headwayapp.co
 healthcentral.com
 healthgrades.com
+healyourlife.2o7.net
 heapanalytics.com
 hearst3pcc.com
 hearstapps.com
@@ -1989,6 +2042,7 @@ heroesdom.com
 herokuapp.com
 herolens.com
 herr.io
+herschend.2o7.net
 hexago.io
 hgbn1.com
 hg-bn.com
@@ -1997,6 +2051,7 @@ hgbnr.com
 hgbn.rocks
 hgbn.space
 hghit.com
+hickoryfarms.2o7.net
 hiconversion.com
 highcharts.com
 highereducation.com
@@ -2013,10 +2068,13 @@ hit.ua
 hive.co
 hlserve.com
 hmhco.com
+hobtron.2o7.net
 holidayvideogiftguide.com
 homeaway.com
+homedepotcastores.2o7.net
 homelycrown.com
 hometogo.net
+honeywell.2o7.net
 hongkongpools.ml
 hoood.info
 horizon.tv
@@ -2049,6 +2107,7 @@ hs-scripts.com
 htdvt.com
 htlbid.com
 html.it
+# https://github.com/duckduckgo/tracker-radar
 hubapi.com
 hubhawaii.com
 hubspot.com
@@ -2065,12 +2124,14 @@ hulkapps.com
 hull.io
 humana.com
 humany.net
+hunterdouglasnj.2o7.net
 hurpass.com
 hurra.com
 hushforms.com
 hwcdn.net
 hybrid.ai
 hypemarks.com
+hyperlinktech.2o7.net
 hypothes.is
 hytxg2.com
 i2i.jp
@@ -2147,6 +2208,8 @@ impactslam.com
 impression.link
 impressionmonster.com
 improvedigital.com
+imprvdirectcompactappliancelearn.2o7.net
+imprvdirectkegeratorlearn.2o7.net
 imrworldwide.com
 imtwjwoasak.com
 inabsolor.com
@@ -2255,6 +2318,7 @@ irsdn.net
 is.cc
 ishoutbox.com
 ispot.tv
+isrv02.21byte.de
 issuu.com
 isu.pub
 itdg.com.br
@@ -2283,6 +2347,7 @@ jalopnik.com
 janrain.com
 janrainsso.com
 japanesebeauties.net
+jasper.2o7.net
 jav789.com
 javabc.me
 javbus.com
@@ -2353,6 +2418,7 @@ jwpsrv.com
 k2s.cc
 kaieyr.ru
 kaizenplatform.net
+kakakucom.2o7.net
 kalevakonserni.fi
 kaltura.com
 kameleoon.com
@@ -2362,6 +2428,7 @@ kanade-ad.net
 k-analytix.com
 kantartns.lt
 kaptcha.com
+karavel.2o7.net
 kargo.com
 karousell.com
 karte.io
@@ -2444,10 +2511,13 @@ ladsp.com
 lagarderenews.io
 lagugratis.xyz
 laim.tv
+lakeland.2o7.net
 landbot.io
 languagetool.org
 lanmedia.fr
 launchdarkly.com
+lccrenodepotproduction.2o7.net
+lccronaproduction.2o7.net
 lcloud.com
 ldscdn.org
 le118000.fr
@@ -2458,6 +2528,7 @@ leadid.com
 leadintel.io
 leadlab.click
 leadlander.com
+# lead me to your pihole
 leadpages.co
 leadpages.io
 leadpages.net
@@ -2473,6 +2544,7 @@ lendingtree.com
 lengow.com
 lenmit.com
 leparticulier.fr
+leroymerlin.2o7.net
 letfap.com
 letreach.com
 level1cdn.com
@@ -2481,6 +2553,7 @@ levexis.com
 lexer.io
 lexipol.com
 lexity.com
+lexmark.2o7.net
 lflapi.com
 lfstmedia.com
 liadm.com
@@ -2514,6 +2587,7 @@ linuxhostsupport.com
 linximpulse.net
 liquifire.com
 liqwid.net
+# liste der tracker-domains gem. duckduckgo trackerradar
 listenlive.co
 listenloop.com
 listhub.net
@@ -2564,6 +2638,7 @@ logbor.com
 loggly.com
 logicanalytics.io
 loginradius.com
+logitechlogitechglobal.2o7.net
 logly.co.jp
 logo-net.co.uk
 logrocket.io
@@ -2665,6 +2740,7 @@ markandmini.com
 marketcarpenter.com
 marketingautomation.services
 marketlinc.com
+marketlive.2o7.net
 marketo.com
 marketo.net
 marketshot.com
@@ -2703,6 +2779,8 @@ maxymiser.net
 mb104.com
 mb-srv.com
 mbww.com
+mckinseyknowledge.2o7.net
+mclalprodesntls.2o7.net
 md.gov
 mdhv.io
 md-nx.com
@@ -2713,13 +2791,13 @@ measured.com
 medallia.com
 media01.eu
 media6degrees.com
-media-amazon.com
 mediaathay.org.uk
 mediabong.com
 mediabong.net
 mediacategory.com
 mediacdn.vn
 mediacnt.pro
+mediacorp.2o7.net
 mediacorp.sg
 mediaforge.com
 mediafuse.com
@@ -2836,6 +2914,7 @@ modernpostcard.com
 modthesims2.com
 moengage.com
 moevideo.biz
+mohawk.2o7.net
 monetate.net
 moneymakercdn.com
 monks-aerzte-im-netz.de
@@ -2889,6 +2968,7 @@ mts.ru
 mtstatic.com
 mtvnservices.com
 multiscreensite.com
+multiview.2o7.net
 multiview.com
 multiweb.cz
 mundiale.com.br
@@ -2933,7 +3013,9 @@ myvisualiq.net
 myvoicenation.com
 mywebgrocer.com
 n1272adserv.xyz
+n.254a.com
 n2.hk
+nadaguidesjdpower.2o7.net
 nadavi.net
 nagasaon4d.org
 nagich.com
@@ -2966,6 +3048,7 @@ nba.com
 nbcudigitaladops.com
 nbcuni.com
 nc0.co
+nci.2o7.net
 neatab.com
 needle.com
 neekstore.com
@@ -3026,9 +3109,11 @@ nfcube.com
 ngageics.com
 ngfiles.com
 ngpvan.com
+nhlbi.2o7.net
 nhlstatic.com
 nichehit.net
 nicherev.io
+nikonjp.2o7.net
 ninchat.com
 nine.com.au
 ning.com
@@ -3049,6 +3134,7 @@ nomor.net
 noowho.com
 nordcdn.com
 norton.com
+norwegiancruiseline.2o7.net
 nosto.com
 noterium.com
 notifyon.com
@@ -3194,6 +3280,7 @@ opentrack.org
 openx.net
 opinew.com
 opiniac.com
+opl.0ps.us
 opmnstr.com
 oprm.co
 optad360.io
@@ -3214,6 +3301,7 @@ optnmnstr.com
 optnmstr.com
 optum.com
 optvn.com
+oracle.2o7.net
 oraclecloud.com
 oracleinfinity.io
 oracleoutsourcing.com
@@ -3273,15 +3361,18 @@ parfumo.de
 parsely.com
 partyaccount.com
 passage.ai
+patagonia.2o7.net
 pathfactory.com
 patrizio.pro
 payments-amazon.com
 paypalobjects.com
 pbbl.co
+pbspreprod.2o7.net
 pc20160301.com
 pcdn.co
 pcmag.com
 pcrl.co
+pdrnetwork.2o7.net
 pdst.fm
 pebblemedia.be
 peerius.com
@@ -3312,7 +3403,9 @@ petitehdporn.com
 pexi.nl
 pgapi.io
 pgssl.com
+philips.2o7.net
 philips.co.uk
+phillipsvanheusen.2o7.net
 phncdn.com
 phokukse.com
 phonewagon.com
@@ -3336,6 +3429,7 @@ pippa.io
 pippio.com
 piwik.pro
 pix-cdn.org
+pixel.33across.com
 pixeleze.com
 pixfuture.com
 pixhost.icu
@@ -3418,6 +3512,7 @@ powerreviews.com
 powr.io
 poyopara.com
 ppcblogger.com
+ppm.2o7.net
 pprl.io
 practicaldatacore.com
 prcdn.co
@@ -3597,12 +3692,16 @@ rackcdn.com
 radfellas.com
 radial.com
 radiantmediatechs.com
+radiocanada.2o7.net
 radiojar.com
 r-ad.ne.jp
 ragazzeinvendita.com
 raidrush.ws
+raileurope4a.2o7.net
 rainbowred.com
+rakuten.2o7.net
 rakuten.co.jp
+rallypoint.2o7.net
 rambler.ru
 rampant.tv
 randomhouse.com
@@ -3625,6 +3724,7 @@ rba.nom.es
 rbfinance.com
 rbl.ms
 rbnt.org
+rcci.2o7.net
 rcgroups.net
 rcs.it
 rcsmetrics.it
@@ -3663,6 +3763,7 @@ recollect.net
 recommendifyapp.com
 recovermycart.com
 recreativ.ru
+recruit.2o7.net
 recruitics.com
 recurly.com
 redditmedia.com
@@ -3758,6 +3859,7 @@ ringier.ch
 ringrevenue.com
 riotgames.com
 riotpixels.net
+riptownmedia.2o7.net
 rise-ai.com
 riskified.com
 rivcash.com
@@ -3816,6 +3918,10 @@ rutorad.ru
 ruutu.fi
 ryvx.net
 ryzeo.com
+s0.2mdn.net
+s0qa.2mdn.net
+s108.123apps.com
+s109.123apps.com
 s2tu.com
 s3chat.com
 s3wfg.com
@@ -3825,6 +3931,7 @@ sa-as.com
 sabavision.com
 sabio.us
 sadtube.com
+saeiprod.2o7.net
 safefaststatic.com
 safelinku.com
 sage.com
@@ -3934,6 +4041,7 @@ servedbyadbutler.com
 servedby-buysellads.com
 servenobid.com
 server088.com
+server2.123stat.com
 serverable.com
 serverbid.com
 serverpower.net
@@ -3974,6 +4082,7 @@ sharethis.com
 sharethrough.com
 sharez.cc
 sharpschool.com
+shawtelevision.2o7.net
 sheerid.com
 shillivee.pro
 shinobi.jp
@@ -4000,6 +4109,7 @@ showheroes.com
 showmeyouradsnow.com
 sibautomation.com
 sibforms.com
+sic.33across.com
 sidearmsports.com
 sift.com
 siftscience.com
@@ -4088,6 +4198,7 @@ smi2.ru
 smile.io
 smilewanted.com
 smithsonian.museum
+smoprod.2o7.net
 smopy.com
 smpush.com
 smrk.io
@@ -4101,6 +4212,7 @@ snapsmedia.io
 snapware.com
 snapwidget.com
 sndcdn.com
+snickvia.2o7.net
 snipcart.com
 sniperlog.ru
 snmmd.nl
@@ -4135,6 +4247,8 @@ sometired.com
 s-onetag.com
 sonobi.com
 sony.com
+sonygs.2o7.net
+sonyhelpguideglobal.2o7.net
 sooqr.com
 sophi.io
 sophus3.com
@@ -4155,6 +4269,7 @@ speedcheckercdn.com
 speedcurve.com
 speedtestcustom.com
 speee-ad.jp
+spencergifts.2o7.net
 sphereup.com
 spiceworks.com
 spincar.com
@@ -4181,6 +4296,7 @@ spreedly.com
 springserve.com
 sprinklecontent.com
 sprinklr.com
+sprint.15gifts.com
 sputnik.ru
 squarelovin.com
 squarespace.com
@@ -4191,6 +4307,8 @@ srcloud.io
 srviral.com
 srvmath.com
 srvtrck.com
+ssc.33across.com
+ssc-cms.33across.com
 ssl-images-amazon.com
 sso-service.de
 sspinc.io
@@ -4202,6 +4320,7 @@ stack-sonar.com
 stacktome.com
 stadobaranoov.ru
 stamped.io
+standardandpoorsinternet.2o7.net
 standard.co.uk
 stankyrich.com
 starfieldtech.com
@@ -4213,8 +4332,11 @@ statcdn.com
 statcjs.com
 statcounter.com
 state.nj.us
+static.123apps.com
+static.1dmp.io
 statica.site
 static-bluray.com
+static.dmpkit.1dmp.io
 static-fra.de
 staticiv.com
 staticn.com
@@ -4239,10 +4361,12 @@ steelhousemedia.com
 stepnation.com
 stepsiblingscaught.com
 ster.nl
+stgeorge.2o7.net
 st-hatena.com
 stickyadstv.com
 stikilo.com
 stilyoapps.com
+stkrstrykercomreplatformprd.2o7.net
 storagespanner.com
 storetail.io
 storetail.net
@@ -4274,6 +4398,7 @@ styria-digital.com
 sub2tech.com
 subscribers.com
 substack.com
+subzwszwusa.2o7.net
 sugardaddy.com
 sugar-pearl.de
 suggestv.io
@@ -4289,7 +4414,9 @@ sunwingtravelgroup.com
 superawesome.tv
 supercounters.com
 superonclick.com
+superpagesdexknowsprod.2o7.net
 superprof.com
+superrtl.2o7.net
 supersaa.fi
 supplyframe.com
 support4sites.net
@@ -4312,6 +4439,9 @@ swpcld.com
 sylmyar.pw
 symantec.com
 synacormedia.com
+sync.101network.com
+sync.1dmp.io
+sync.1rx.io
 syncronex.com
 syncsearch.jp
 syndeca.com
@@ -4381,6 +4511,7 @@ teenlist.top
 teenlist.xyz
 teenspirithentai.com
 tehila.gov.il
+teleastral.2o7.net
 telefonica.es
 telefonica-partner.de
 telekom.de
@@ -4451,6 +4582,7 @@ thinglink.me
 thisagoodpage.com
 thisiswaldo.com
 threedeepmarketing.com
+threm2016prod.2o7.net
 thrive.today
 thron.com
 thrtle.com
@@ -4463,6 +4595,7 @@ tickettransaction.com
 tidaltv.com
 tid.es
 tidiochat.com
+tie.247-inc.net
 tiendeo.com
 timecommerce.net
 timeincuk.net
@@ -4478,6 +4611,7 @@ tiqcdn.com
 tisoomi-services.com
 titanads1.com
 titanads5.com
+tjxhomegoods.2o7.net
 tldw.me
 tlg-api.com
 tmall.ru
@@ -4507,11 +4641,13 @@ toplist.cz
 toplist.eu
 toplist.sk
 toploli.com
+toppan.2o7.net
 topperformance.xyz
 topsrvimp.com
 toptracker.ru
 torrentbr.com
 torrent.im
+torstardigital.2o7.net
 totalping.com
 tourispo.com
 tovarro.com
@@ -4576,6 +4712,7 @@ trfpump.com
 tribalfusion.com
 tribl.io
 triptease.io
+triseptsolutions.2o7.net
 trivago.com
 trk42.net
 trkn.us
@@ -4626,6 +4763,7 @@ tubecorporate.com
 tubecup.org
 tubemogul.com
 tubetubetube.com
+tuiinteractive.2o7.net
 tumoto.com.co
 tunegenie.com
 tunein.com
@@ -4687,6 +4825,7 @@ un-iq.de
 uniqodo.com
 unisender.com
 uniteu.net
+unive.2o7.net
 unless.com
 unpkg.com
 unrulymedia.com
@@ -4746,6 +4885,7 @@ usesfathom.com
 usocial.pro
 us-proxy.org
 usrwy.com
+usta.2o7.net
 ustatik.com
 usuarios-online.com
 utarget.ru
@@ -4774,6 +4914,7 @@ v-cdn.net
 vdo.ai
 vdvm.net
 vee24.com
+veeamgeneral.2o7.net
 veinteractive.com
 velaro.com
 veleto.ru
@@ -4805,6 +4946,9 @@ vhb.de
 vhx.tv
 viafoura.co
 viafoura.net
+viamtvintlweb.2o7.net
+viamtvuk.2o7.net
+vianickjr.2o7.net
 vic-m.co
 vid99.pro
 vid99.xyz
@@ -4849,7 +4993,9 @@ viralsweep.com
 vird.co
 virelin.com
 virgilio.it
+virgin.15gifts.com
 virginia.gov
+virginiatour.2o7.net
 virgul.com
 visa.com
 vi-serve.com
@@ -4875,6 +5021,7 @@ vlaanderen.be
 vliplatform.com
 vlyby.com
 vmg.host
+vmlnavycomprod.2o7.net
 vmmpxl.com
 vmweb.net
 vn.at
@@ -4920,6 +5067,7 @@ wap4dollar.com
 wapsite.info
 waptrick.org
 wap.vn
+warnerbros.2o7.net
 warumbistdusoarm.space
 watchdisneyfe.com
 watchingthat.net
@@ -5016,6 +5164,7 @@ windguru.net
 windowmentaria.com
 windows.net
 windsorcircle.com
+winecom.2o7.net
 wipe.de
 wisepops.com
 wishabi.com
@@ -5026,11 +5175,14 @@ wisokykulas.bid
 wistia.com
 wistia.net
 withcubed.com
+wlgore.2o7.net
 wlresources.com
 wmt.digital
 wmt.media
 wnyc.org
 wogaa.sg
+wolterskluwer.2o7.net
+wolverineworldwide.2o7.net
 womtp.com
 wonderanal.com
 wonderpush.com
@@ -5066,6 +5218,7 @@ wsimg.com
 wsj.net
 wsodcdn.com
 wsod.com
+wspublicprod.2o7.net
 wt-eu02.net
 wtg-ads.com
 wtp101.com
@@ -7728,7 +7881,6 @@ www.measured.com
 www.medallia.com
 www.media01.eu
 www.media6degrees.com
-www.media-amazon.com
 www.mediabong.com
 www.mediabong.net
 www.mediacategory.com
@@ -10245,6 +10397,7 @@ yapfiles.ru
 yastatic.net
 yektanet.com
 yellowmessenger.com
+yemeksepeti.2o7.net
 yext.com
 yieldify.com
 yieldlab.net

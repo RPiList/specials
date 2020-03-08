@@ -28,6 +28,18 @@ Sperrt alle URLs zu "sendgrid.net"
 Sperrt alle Punycode-Domains:
 .*(xn--).*([a-zA-Z0-9\-\._]{2,256})*(\.[a-z]{2,18})
 
+Sperrt Google-Werbung:
+(^|\.)doubleclick\.net$
+
+Sperrt Werbe- und Tracking-Domains:
+((^)|(.))metric.
+((^)|(.))telemetry.
+((^)|(.))analytic.
+((^)|(.))adchoice.
+((^)|(.))adsdk.
+((^)|(.))adserv.
+((^)|(.))tracking.
+
 Sperrt alle Domains in Zusammenhang mit Instagram:
 instagram\.com
 

@@ -1,5 +1,3 @@
-# -------------------------------------------
-# --------------------------------------------
 24flix.de
 aboplay.de
 adostream.de
@@ -47,7 +45,6 @@ cinemaflix.de
 cinemaxx24.com
 cineplex24.de
 coflix.de
-# community-gepflegte domainlist
 dadaplay.de
 daflix.de
 daftstream.de
@@ -55,13 +52,11 @@ dagaflix.de
 dasflix.de
 dasimax.de
 dexflix.de
-# diese liste einfach in ihr pi-hole.
 dinoflix.de
 dodoflix.com
 dodoplay.de
 doflix.de
 dogostream.de
-# domains die man besser nicht aufrufen sollte.
 domeflix.de
 domstream.de
 doxflix.de
@@ -181,7 +176,6 @@ kkiste.su
 koboplay.de
 labaflix.de
 laflix.de
-# lead me to your pihole
 lexflix.de
 lexplay.de
 lightflix.de
@@ -190,7 +184,6 @@ limaflix.de
 limeflix.de
 linaflix.de
 lionflix.de
-# liste mit streaming-diensten, inkl. abo-falle
 liteplay.de
 lobostream.de
 lofoflix.de
@@ -263,7 +256,6 @@ oneflix.de
 orangeflix.de
 papiflix.de
 paraflix.de
-# per email an rpilist@gmail.com.
 pidoflix.de
 pinoflix.de
 pinoplay.de
@@ -380,8 +372,6 @@ vagoflix.de
 voxstream.de
 wayplay.de
 weflix.de
-# wenn sie diese domains blocken wollen, importieren sie
-# wenn sie eine url hinzufügen wollen, senden sie bitte die url
 windflix.de
 wolfplay.de
 woplay.de

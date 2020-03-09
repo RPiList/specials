@@ -1,32 +1,32 @@
 Sperrt alle Domains aus China:
-([a-zA-Z0-9\-\._]{1,256})(\.cn$)
+\.cn$
 
 Sperrt alle Domains aus Russland:
-([a-zA-Z0-9\-\._]{1,256})(\.ru$)
+\.ru$
 
 Sperrt alle Domains aus Kolumbien:
-([a-zA-Z0-9\-\._]{1,256})(\.co$)
+\.co$
 
 Sperrt alle Domains aus Vietnam:
-([a-zA-Z0-9\-\._]{1,256})(\.vn$)
+\.vn$
 
 Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
-([a-zA-Z0-9\-\._]{1,256})(\.cn$|\.ru$|\.co$|\.vn$)
+(\.cn$|\.ru$|\.co$|\.vn$)
 
 Sperrt alle Domains der TLD .porn (Jugendschutz):
-([a-zA-Z0-9\-\._]{1,256})(\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$)
+(\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$)
 
 Sperrt alle Domains der TLD .casino und .bet (Jugendschutz):
-([a-zA-Z0-9\-\._]{1,256})(\.casino$|\.bet$)
+(\.casino$|\.bet$)
 
 Sperrt alle Domains der TLD .link: (Linkverkürzer)
-([a-zA-Z0-9\-\._]{1,256})(\.link$)
+\.link$
 
 Sperrt alle URLs zu "sendgrid.net"
 sendgrid\.net
 
 Sperrt alle Punycode-Domains:
-.*(xn--).*([a-zA-Z0-9\-\._]{1,256})*(\.[a-z]{2,18})
+.*(xn--).*
 
 Sperrt Google-Werbung:
 doubleclick\.net
@@ -35,11 +35,10 @@ Sperrt alle Domains in Zusammenhang mit Instagram:
 instagram\.com
 
 Sperrt alle Domains in Zusammenhang mit Facebook:
-(facebook|fbcdn|fbsbx)\.[a-z]{3}
+(facebook|fbcdn|fbsbx)
+
 # Die o.g. RegEx Zeile ist noch nicht praktisch getestet worden. 
 # Es ist möglich, dass die Nutzung von WhatsApp gestört wird. 
 # WhatsApp, als Teil von Facebook, nutzt teilweise die gleichen Domains. 
 # In dem Fall dann die Facebook Blocklist importieren und diese RegEX-
 # Anweisung aus Pi-hole wieder entfernen.
-
-

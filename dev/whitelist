@@ -6,11 +6,9 @@
 # über einen sog. Pull Request einfügen. Sollte nicht 
 # direkt erkenntlich sein, wofür die Domain wichtig ist
 # sollte das noch zusätzlich erklärt werden.
-
+ 
 3c.tmall.com
 9gag.com
-telekom.de
-www.telekom.de
 abs-cbn.com
 academia.edu
 accounts.google.com
@@ -25,8 +23,11 @@ aliexpress.com
 alipay.com
 aliyun.com
 alwafd.news
+amazon.co.uk
 amazon.com
 amazon.de
+amazon.fr
+amazon.it
 amazonaws.com
 americanexpress.com
 amzn.com
@@ -71,6 +72,7 @@ chase.com
 clients2.google.com
 clients4.google.com 
 cloud.google.com
+cloudflare.com
 cloudfront.net
 cnbc.com
 cnblogs.com
@@ -111,6 +113,7 @@ facebook.com
 fandom.com
 fc2.com
 fidelity.com
+firebasestorage.googleapis.com
 flipkart.com
 food.tmall.com
 forbes.com
@@ -129,6 +132,7 @@ gome.com
 goodreads.com
 google.co.uk
 google.com
+google.com
 google.com.au
 google.com.eg
 google.com.hk
@@ -137,6 +141,7 @@ googleapis.l.google.com
 googlevideo.com
 grammarly.com
 grid.id
+gstatic.com
 hao123.com
 hardwareluxx.de
 hardwareschotte.de
@@ -181,11 +186,13 @@ login.idm.telekom.com
 login.live.com
 login.microsoftonline.com
 login.tmall.com
+login.web.de
 ltn.com.tw
 m.facebook.com
 mail.yahoo.com
 market.spotify.com
 marketwatch.com
+media-amazon.com
 mediafire.com
 medium.com
 mercari.com
@@ -225,6 +232,7 @@ patreon.com
 pawelc.net
 paypal.com
 pinterest.com
+pinterest.com
 pixabay.com
 pixnet.net
 playstation.com
@@ -251,6 +259,7 @@ scribd.com
 secure.netflix.com
 setn.com
 shaparak.ir
+shop-apotheke.com
 shutterstock.com
 sina.com
 sindonews.com
@@ -278,6 +287,7 @@ target.com
 teeworlds.com
 telegram.org
 telekom.com
+telekom.de
 telewebion.com
 theguardian.com
 thepiratebay.org
@@ -303,6 +313,7 @@ upgrade.scdn.com
 ups.com
 varzesh3.com
 video-stats.l.google.com
+videodirect.amazon.com
 vim.org
 vimeo.com
 vk.com
@@ -335,8 +346,11 @@ www.aliexpress.com
 www.alipay.com
 www.aliyun.com
 www.alwafd.news
+www.amazon.co.uk
 www.amazon.com
 www.amazon.de
+www.amazon.fr
+www.amazon.it
 www.amazonaws.com
 www.americanexpress.com
 www.amzn.com
@@ -370,6 +384,7 @@ www.canva.com
 www.capitalone.com
 www.cdc.gov
 www.chase.com
+www.cloudflare.com
 www.cloudfront.net
 www.cnbc.com
 www.cnblogs.com
@@ -418,10 +433,12 @@ www.godaddy.com
 www.gome.com
 www.goodreads.com
 www.google.com
+www.google.com
 www.google.de
 www.googlevideo.com
 www.grammarly.com
 www.grid.id
+www.gstatic.com
 www.hao123.com
 www.hardwareluxx.de
 www.hardwareschotte.de
@@ -458,6 +475,7 @@ www.line.me
 www.linkedin.com
 www.live.com
 www.marketwatch.com
+www.media-amazon.com
 www.mediafire.com
 www.medium.com
 www.mercari.com
@@ -488,6 +506,7 @@ www.patreon.com
 www.pawelc.net
 www.paypal.com
 www.pinterest.com
+www.pinterest.com
 www.pixabay.com
 www.pixnet.net
 www.playstation.com
@@ -510,6 +529,7 @@ www.scol.com
 www.scribd.com
 www.setn.com
 www.shaparak.ir
+www.shop-apotheke.com
 www.shutterstock.com
 www.sina.com
 www.sindonews.com
@@ -535,6 +555,7 @@ www.target.com
 www.teeworlds.com
 www.telegram.org
 www.telekom.com
+www.telekom.de
 www.telewebion.com
 www.theguardian.com
 www.thepiratebay.org
@@ -597,24 +618,3 @@ zhihu.com
 zillow.com
 zoho.com
 zoom.us
-shop-apotheke.com
-www.shop-apotheke.com
-google.com
-cloudflare.com
-gstatic.com
-pinterest.com
-www.google.com
-www.cloudflare.com
-www.gstatic.com
-www.pinterest.com
-amazon.it
-amazon.co.uk
-amazon.fr
-www.amazon.it
-www.amazon.co.uk
-www.amazon.fr
-firebasestorage.googleapis.com
-media-amazon.com
-www.media-amazon.com
-videodirect.amazon.com
- 

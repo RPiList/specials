@@ -23,13 +23,13 @@ Sperrt alle Domains der TLD .link: (Linkverkürzer)
 ([a-zA-Z0-9\-\._]{1,256})(\.link$)
 
 Sperrt alle URLs zu "sendgrid.net"
-([a-zA-Z0-9\-\._]{0,256})(sendgrid\.net)
+sendgrid\.net
 
 Sperrt alle Punycode-Domains:
-.*(xn--).*([a-zA-Z0-9\-\._]{2,256})*(\.[a-z]{2,18})
+.*(xn--).*([a-zA-Z0-9\-\._]{1,256})*(\.[a-z]{2,18})
 
 Sperrt Google-Werbung:
-(^|\.)doubleclick\.net$
+doubleclick\.net
 
 Sperrt alle Domains in Zusammenhang mit Instagram:
 instagram\.com

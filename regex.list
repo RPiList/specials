@@ -13,10 +13,10 @@ Sperrt alle Domains aus Vietnam:
 Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
 (\.cn$|\.ru$|\.co$|\.vn$)
 
-Sperrt alle Domains der TLD .porn (Jugendschutz):
+Sperrt alle Domains verschiedener TLDs (Jugendschutz):
 (\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$|\.gay$)
 
-Sperrt alle Domains der TLD .casino und .bet (Jugendschutz):
+Sperrt alle Domains verschiedener TLDs (Jugendschutz):
 (\.casino$|\.bet$|\.poker$)
 
 Sperrt alle Domains der TLD .link: (Linkverkürzer)

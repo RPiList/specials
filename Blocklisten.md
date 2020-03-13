@@ -16,6 +16,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DisconnectMe
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
@@ -55,13 +56,13 @@ Andere nützliche Listen:
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DisconnectMe
 
 # Werbung
 * https://v.firebog.net/hosts/Prigent-Ads.txt
 * https://v.firebog.net/hosts/AdguardDNS.txt
 * https://hosts-file.net/ad_servers.txt
 * https://adaway.org/hosts.txt
-* https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
 # Diverses
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts

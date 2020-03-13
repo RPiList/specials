@@ -1,23 +1,19 @@
-Sperrt alle Domains aus China:
-\.cn$
+# Welche Einträge findet man hier?
+#
+# Auf der RegEx-Seite finden sich nur die Sperr-Einträge, welche über die normale Blocklist nur schwer zu blockieren wären.
+# Es ist einfacher alle Domains der TLD .porn über RegEx zu sperren, als die 14.000 einzelnen Domains zu sperren. 
+# Das gleiche für die hier aufgeführten ccTLDs.
 
-Sperrt alle Domains aus Russland:
-\.ru$
+# Ein weiterer Anwendungsfall:
+# Wenn Nutzer - aus Gründen des Jugendschutzes - den Zugang zu Facebook oder anderen sozialen Netzwerk verhindern wollen, 
+# ist es einfacher die Hauptdomain über RegEx zu sperren.
 
-Sperrt alle Domains aus Kolumbien:
-\.co$
+# Alle anderen Sperrungen werden (zumindest in Pihole 4) über die klassische Blocklist realisiert.
 
-Sperrt alle Domains aus Vietnam:
-\.vn$
+# Einträge für Spam- und Malware-Schutz:
 
 Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
 (\.cn$|\.ru$|\.co$|\.vn$)
-
-Sperrt alle Domains verschiedener TLDs (Jugendschutz):
-(\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$|\.gay$)
-
-Sperrt alle Domains verschiedener TLDs (Jugendschutz):
-(\.casino$|\.bet$|\.poker$)
 
 Sperrt alle Domains der TLD .link: (Linkverkürzer)
 \.link$
@@ -28,14 +24,17 @@ sendgrid\.net
 Sperrt alle Punycode-Domains:
 .*(xn--).*
 
+
+# Einträge für Jugendschutz:
+
+Sperrt alle Domains verschiedener TLDs (Jugendschutz):
+(\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$|\.gay$)
+
+Sperrt alle Domains verschiedener TLDs (Jugendschutz):
+(\.casino$|\.bet$|\.poker$)
+
 Sperrt alle Domains in Zusammenhang mit Instagram:
-instagram\.com
+instagram
 
 Sperrt alle Domains in Zusammenhang mit Facebook:
-(facebook|fbcdn|fbsbx)
-
-# Die o.g. RegEx Zeile ist noch nicht praktisch getestet worden. 
-# Es ist möglich, dass die Nutzung von WhatsApp gestört wird. 
-# WhatsApp, als Teil von Facebook, nutzt teilweise die gleichen Domains. 
-# In dem Fall dann die Facebook Blocklist importieren und diese RegEX-
-# Anweisung aus Pi-hole wieder entfernen.
+facebook

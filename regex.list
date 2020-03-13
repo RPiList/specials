@@ -28,9 +28,6 @@ sendgrid\.net
 Sperrt alle Punycode-Domains:
 .*(xn--).*
 
-Sperrt Google-Werbung:
-doubleclick\.net
-
 Sperrt alle Domains in Zusammenhang mit Instagram:
 instagram\.com
 

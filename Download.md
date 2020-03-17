@@ -1,4 +1,4 @@
-# Version 2003
+# Aktuelle Version
 
 ## Häufig gestellte Frage:
 
@@ -21,18 +21,11 @@ https://drop.banananet.work/svpihole2003.zip<br>
 https://enjoy-stuttgart.org/svpihole/svpihole2003.zip<br>
 https://mirror.joestr.xyz/sempervideo/pihole/2003/image/svpihole2003.zip<br>
 
-## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2003.zip<br>
-sha256: 755f6a963fd6df4316b04728dc690d33c852e3c21e5b31a881b3971a735f759e<br>
-md5: 03022e0563d0d08630fca84c23690efc<br>
+## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2004.zip<br>
+sha256: 
+md5: 
 
 Weitere Download-Quellen:<br>
-http://35.246.185.46/svpiholeVM2003.zip<br>
-http://35.234.71.89/svpiholeVM2003.zip<br>
-http://35.246.219.235/svpiholeVM2003.zip<br>
-http://35.234.101.210/svpiholeVM2003.zip<br>
-https://drop.banananet.work/svpiholevm2003.zip<br>
-https://enjoy-stuttgart.org/svpihole/svpiholeVM2003.zip<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2003/virtual-machine-image/svpihole2003vm.zip<br>
 
 # Version 2002
 

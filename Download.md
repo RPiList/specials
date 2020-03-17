@@ -8,18 +8,13 @@ Der Unterschied ist, dass Unbound installiert und eingerichtet ist. Ansonsten wu
 Hinweis:<br>
 Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen.
 
-## Raspberry Pi: http://sempervideo.de/svpihole2003.zip <br>
-sha256: 8dd75415aa413d090e168317f7ffd6718feeefd58269e097e02cec4d8ca04906<br>
-md5: 0fd7e1a80fbc0704e1ae42c4b542f676<br>
+## Raspberry Pi: http://sempervideo.de/svpihole2004.zip <br>
+sha256: 
+<br>
+md5
+<br>
 
 Weitere Download-Quellen:<br>
-http://35.246.185.46/svpihole2003.zip<br>
-http://35.234.71.89/svpihole2003.zip<br>
-http://35.246.219.235/svpihole2003.zip<br>
-http://35.234.101.210/svpihole2003.zip<br>
-https://drop.banananet.work/svpihole2003.zip<br>
-https://enjoy-stuttgart.org/svpihole/svpihole2003.zip<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2003/image/svpihole2003.zip<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2004.zip<br>
 sha256: 

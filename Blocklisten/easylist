@@ -1,3 +1,13 @@
+# Lead me to your Pihole
+# --------------------------------------------
+# The EasyList filter lists are sets of rules originally designed for Adblock
+# that automatically remove unwanted content from the internet, including annoying adverts, 
+# bothersome banners and troublesome tracking. 
+# 
+# Quelle: https://easylist.to/easylist/easylist.txt
+#
+# ------------------------------------------
+#
 0000mps.webpreview.dsl.net
 0001.2waky.com
 000lk3v.wcomhost.com

@@ -13,10 +13,10 @@ sha256: 861ffbaf36317ff02e0e955c167772456f472b986ddde76fdf8d320ec478dcff <br>
 md5 29635a12cffcd015c72aeabb3ec7a5af <br>
 
 Weitere Download-Quellen:<br>
-http://35.246.185.46/svpihole2004.zip
-http://35.234.71.89/svpihole2004.zip
-http://35.246.219.235/svpihole2004.zip
-http://35.234.101.210/svpihole2004.zip
+http://35.246.185.46/svpihole2004.zip<br>
+http://35.234.71.89/svpihole2004.zip<br>
+http://35.246.219.235/svpihole2004.zip<br>
+http://35.234.101.210/svpihole2004.zip<br>
 
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2004.zip<br>
@@ -24,10 +24,10 @@ sha256: fc7e4f1ffc50aae48e5f3e754ac4be536dc0c64e8ac2de6b7fe700fae2ba912a<br>
 md5: 6133ccad7a9f9e81c0112e56872d7806 <br>
 
 Weitere Download-Quellen:<br>
-http://35.246.185.46/svpiholeVM2004.zip
-http://35.234.71.89/svpiholeVM2004.zip
-http://35.246.219.235/svpiholeVM2004.zip
-http://35.234.101.210/svpiholeVM2004.zip
+http://35.246.185.46/svpiholeVM2004.zip<br>
+http://35.234.71.89/svpiholeVM2004.zip<br>
+http://35.246.219.235/svpiholeVM2004.zip<br>
+http://35.234.101.210/svpiholeVM2004.zip<br>
 
 
 # Version 2002

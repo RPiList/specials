@@ -17,6 +17,7 @@ http://35.246.185.46/svpihole2004.zip<br>
 http://35.234.71.89/svpihole2004.zip<br>
 http://35.246.219.235/svpihole2004.zip<br>
 http://35.234.101.210/svpihole2004.zip<br>
+https://drop.banananet.work/files/svpihole2004.zip<br>
 
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2004.zip<br>
@@ -28,6 +29,7 @@ http://35.246.185.46/svpiholeVM2004.zip<br>
 http://35.234.71.89/svpiholeVM2004.zip<br>
 http://35.246.219.235/svpiholeVM2004.zip<br>
 http://35.234.101.210/svpiholeVM2004.zip<br>
+https://drop.banananet.work/files/svpiholevm2004.zip<br>
 
 
 # Version 2002

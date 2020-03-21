@@ -17,6 +17,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DisconnectMe
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
 
 # Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt

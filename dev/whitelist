@@ -1,5 +1,3 @@
-
-# 
 3c.tmall.com
 notepad-plus-plus.org
 www.notepad-plus-plus.org
@@ -62,6 +60,7 @@ audible.in
 audible.it
 audio-ake.spotify.com.edgesuite.net
 avito.ru
+signin.ebay.de
 babytree.com
 baidu.com
 bbc.com
@@ -105,9 +104,7 @@ deepl.com
 deref-gmx.net
 detail.tmall.com
 detik.com
-# Diese Datei stellt unsere Whitelist dar. 
 digikala.com
-# direkt erkenntlich sein, wofür die Domain wichtig ist
 discordapp.com
 docs.google.com
 douban.com
@@ -396,7 +393,6 @@ hulu.com
 ichnaea.netflix.com
 icicibank.com
 idntimes.com
-# I.d.R. werden alle unsere Listen mit dieser
 ikea.com
 imdb.com
 imgur.com
@@ -420,7 +416,6 @@ ladbible.com
 lazada.sg
 line.me
 linkedin.com
-# Liste auf "falsche" Einträge geprüft.
 list.tmall.com
 live.com
 login.gmx.net
@@ -514,8 +509,6 @@ s.mzstatic.com
 so.com
 sogou.com
 sohu.com
-# sollte das noch zusätzlich erklärt werden.
-# Sollte eine wichtige Domain fehlen können Sie diese
 soso.com
 soundcloud.com
 sparkasse.de
@@ -557,7 +550,6 @@ tumblr.com
 twimg.com
 twitch.tv
 twitter.com
-# über einen sog. Pull Request einfügen. Sollte nicht 
 udemy.com
 uniqlo.tmall.com
 unsplash.com
@@ -588,7 +580,6 @@ wix.com
 wordpress.com
 worldometers.info
 wsj.com
-www.
 www.163.com
 www.9gag.com
 www.abs-cbn.com

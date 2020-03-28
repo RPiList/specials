@@ -15,5 +15,4 @@ Erläuterung der einzelnen Blocklisten:
 * Spam.Mails: Domains, die über eMail verteilt werden (Phishing).
 * Pornblock1-4: Webseiten, die für Minderjährige nicht geeignet sind.
 * Fake-Science: Liste der sog. Predatory Publishers a.k.a Fake Science.
-* DDG-TrackerList: Tracker-Liste, herausgegeben von der DuckDuckGo Suchmaschine.
-* EasyList: Domain Liste der sog. Easylist, die von vielen Adblockern genutzt wird.
+* EasyList: Erweiterte Easylist, vornehmlich um Werbung zu blockieren.

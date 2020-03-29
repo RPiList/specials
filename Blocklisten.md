@@ -67,7 +67,6 @@ Andere nützliche Listen:
 
 # Diverses
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-* https://raw.githubusercontent.com/qyqsoft/Pihole/master/no-gez.txt
 * https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 

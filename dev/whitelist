@@ -1,11 +1,7 @@
 0.client-channel.google.com
-corona.rki.de
-zhaw.ch
-www.zhaw.ch
 0.de.pool.ntp.org
 0.pool.ntp.org
 1.de.pool.ntp.org
-code.jquery.com
 1drv.com
 1.pool.ntp.org
 2.android.pool.ntp.org
@@ -172,8 +168,10 @@ cnbc.com
 cnblogs.com
 cnet.com
 cnn.com
+code.jquery.com
 codeload.github.com
 conntest.nintendowifi.net
+corona.rki.de
 cpms35.spop10.ams.plex.bz
 cpms.spop10.ams.plex.bz
 craigslist.org
@@ -216,6 +214,7 @@ dlvr.it
 dmqdd6hw24ucf.cloudfront.net
 dns.msftncsi.com
 docs.google.com
+docs.live.net
 dogvgb9ujhybx.cloudfront.net
 douban.com
 doubleclick.net
@@ -227,7 +226,10 @@ download.worldcommunitygrid.org
 drift.com
 driftt.com
 drive.google.com
+dropboxapi.com
 dropbox.com
+dropbox-dns.com
+dropboxstatic.com
 dssott.com
 dssott.com.akamaized.net
 duckduckgo.com
@@ -268,11 +270,15 @@ eff.org
 engadget.com
 ensonhaber.com
 envato.com
+epicgames.com
+epicgames-download1.akamaized.net
+epicgames.net
 err.tmall.com
 espn.com
 etsy.com
 ettoday.net
 expedia.com
+ext-twitch.tv
 facebook.com
 facebook.de
 facebook.fr
@@ -298,6 +304,7 @@ gateway.ea.com
 geeksforgeeks.org
 geo3.ggpht.com
 geo-prod.do.dsp.mp.microsoft.com
+getdropbox.com
 giphy.com
 gist.githubusercontent.com
 github.com
@@ -544,6 +551,9 @@ i1.ytimg.com
 ichnaea.netflix.com
 icicibank.com
 icloud.com
+icloud.com.akadns.net
+icloud.com.edgekey.net
+icloud-content.com
 idealo.de
 idntimes.com
 id.sonyentertainmentnetwork.com
@@ -580,6 +590,7 @@ jianshu.com
 jquery.com
 jrj.com
 jsdelivr.net
+jtvnw.net
 kakao.com
 keybase.io
 keystone.mwbsys.com
@@ -633,12 +644,15 @@ m.facebook.com
 miao.tmall.com
 microsoft.com
 microsoftonline.com
+minecraft.net
+minecraftprod.rtep.msgamestudios.com
 mirror1.malwaredomains.com
 mirror.cedia.org
 mmoga.de
 mobile-ap.spotify.com
 mobile.de
 mobile.twitter.com
+mojang.com
 momoshop.com.tw
 mozilla.org
 msftncsi.com
@@ -664,6 +678,8 @@ nflxvideo.net
 nianhuo.tmall.com
 nih.gov
 nine.plugins.plexapp.com
+nintendo.com
+nintendo.net
 node.plexapp.com
 no-ip.com
 notepad-plus-plus.org
@@ -687,6 +703,7 @@ okezone.com
 okta.com
 oldversion.com
 om.cbsi.com
+onedrive.com
 onedrive.live.com
 origin.com
 otto.de
@@ -710,6 +727,7 @@ placehold.it
 placeholdit.imgix.net
 players.brightcove.net
 playstation.com
+playstation.net
 plexapp.com
 plexapp.com.cdn.cloudflare.net
 plex.bz
@@ -783,6 +801,7 @@ shutterstock.com
 signin.ebay.de
 sina.com
 sindonews.com
+skyapi.live.net
 skyhook.sonarr.tv
 skype.com
 slack.com
@@ -792,6 +811,7 @@ smokingwheels.github.io
 smtp.gmail.com
 smtp.mail.yahoo.com
 s.mzstatic.com
+sndcdn.com
 so.com
 sogou.com
 sohu.com
@@ -825,6 +845,7 @@ steamcommunity.com
 steam.naeu.qtlglb.com
 steamstore-a.akamaihd.net
 stopforumspam.com
+storage.live.com
 store.steampowered.com
 suara.com
 support.apple.com
@@ -881,15 +902,19 @@ traffic.libsyn.com
 trello.com
 tribunnews.com
 tripadvisor.com
+ttvnw.net
 tumblr.com
 tvdb2.plex.tv
 tvthemes.plexapp.com
 twimg.com
+twitchcdn.net
+twitchsvc.net
 twitch.tv
 twitter.com
 udemy.com
 ui.skype.com
 uniqlo.tmall.com
+unrealengine.com
 unsplash.com
 uol.com.br
 upgrade.scdn.com
@@ -1096,7 +1121,10 @@ www.download.eac-cdn.com
 www.download.worldcommunitygrid.org
 www.drift.com
 www.driftt.com
+www.dropboxapi.com
 www.dropbox.com
+www.dropbox-dns.com
+www.dropboxstatic.com
 www.dssott.com
 www.duckduckgo.com
 www.ea.com
@@ -1131,10 +1159,13 @@ www.eff.org
 www.engadget.com
 www.ensonhaber.com
 www.envato.com
+www.epicgames.com
+www.epicgames.net
 www.espn.com
 www.etsy.com
 www.ettoday.net
 www.expedia.com
+www.ext-twitch.tv
 www.facebook.com
 www.facebook.de
 www.facebook.fr
@@ -1153,6 +1184,7 @@ www.gamepedia.com
 www.gamestar.de
 www.gateway.ea.com
 www.geeksforgeeks.org
+www.getdropbox.com
 www.giphy.com
 www.gist.githubusercontent.com
 www.github.com
@@ -1387,6 +1419,7 @@ www.huanqiu.com
 www.hulu.com
 www.icicibank.com
 www.icloud.com
+www.icloud-content.com
 www.idealo.de
 www.idntimes.com
 www.id.sonyentertainmentnetwork.com
@@ -1414,6 +1447,7 @@ www.jianshu.com
 www.jquery.com
 www.jrj.com
 www.jsdelivr.net
+www.jtvnw.net
 www.kakao.com
 www.keybase.io
 www.kompas.com
@@ -1445,10 +1479,12 @@ www.metager.de
 www.metropoles.com
 www.microsoft.com
 www.microsoftonline.com
+www.minecraft.net
 www.mirror1.malwaredomains.com
 www.mirror.cedia.org
 www.mmoga.de
 www.mobile.de
+www.mojang.com
 www.mozilla.org
 www.msftncsi.com
 www.msn.com
@@ -1468,6 +1504,8 @@ www.nflximg.net
 www.nflxso.net
 www.nflxvideo.net
 www.nih.gov
+www.nintendo.com
+www.nintendo.net
 www.no-ip.com
 www.notepad-plus-plus.org
 www.ns1.dropbox.com
@@ -1483,6 +1521,7 @@ www.office.net
 www.okezone.com
 www.okta.com
 www.oldversion.com
+www.onedrive.com
 www.origin.com
 www.otto.de
 www.passwordsgenerator.net
@@ -1500,6 +1539,7 @@ www.pixabay.com
 www.pixnet.net
 www.placehold.it
 www.playstation.com
+www.playstation.net
 www.plexapp.com
 www.plex.bz
 www.plex.direct
@@ -1558,6 +1598,7 @@ www.slideshare.net
 www.smokingwheels.github.io
 www.smtp.gmail.com
 www.smtp.mail.yahoo.com
+www.sndcdn.com
 www.so.com
 www.sogou.com
 www.sohu.com
@@ -1626,11 +1667,15 @@ www.tradingview.com
 www.trello.com
 www.tribunnews.com
 www.tripadvisor.com
+www.ttvnw.net
 www.tumblr.com
 www.twimg.com
+www.twitchcdn.net
+www.twitchsvc.net
 www.twitch.tv
 www.twitter.com
 www.udemy.com
+www.unrealengine.com
 www.unsplash.com
 www.upload.worldcommunitygrid.org
 www.ups.com
@@ -1671,6 +1716,7 @@ www.wp.com
 www.wsj.com
 www.xda-developers.com
 www.xinhuanet.com
+www.xyaz.cn
 www.y2mate.com
 www.yahoo.com
 www.yelp.com
@@ -1684,6 +1730,7 @@ www.zdf.de
 www.zerodha.com
 www.zerodot1.gitlab.io
 www.zeustracker.abuse.ch
+www.zhaw.ch
 www.zhihu.com
 www.zillow.com
 www.zoho.com
@@ -1695,6 +1742,7 @@ xflight.xboxlive.com
 xinhuanet.com
 xkms.xboxlive.com
 xsts.auth.xboxlive.com
+xyaz.cn
 y2mate.com
 yahoo.co.jp
 yahoo.com
@@ -1713,9 +1761,8 @@ zdf.de
 zerodha.com
 zerodot1.gitlab.io
 zeustracker.abuse.ch
+zhaw.ch
 zhihu.com
 zillow.com
 zoho.com
 zoom.us
-xyaz.cn
-www.xyaz.cn

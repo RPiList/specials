@@ -10,6 +10,10 @@
 #
 # Alle anderen Sperrungen werden (zumindest in Pihole 4) über die klassische Blocklist realisiert.
 #
+
+# "WPAD-Lücke": WPAD Protokoll im Netzwerk verbieten:
+^wpad\.
+
 # Einträge für Spam- und Malware-Schutz:
 
 Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:

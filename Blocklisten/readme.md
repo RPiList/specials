@@ -1,4 +1,4 @@
-* Die vollständigen URLs finden Sie in der Blocklisten.md Datei unter https://github.com/RPiList/specials/blob/master/Blocklisten.md
+# Die vollständigen URLs finden Sie unter <a href="./../Blocklisten.md">Blocklisten.md</a>.
 
 Erläuterung der einzelnen Blocklisten:
 

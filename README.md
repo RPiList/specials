@@ -15,7 +15,7 @@ Man darf gespannt bleiben. :-)
 # <a href="./Download.md">Zum Image Download hier klicken</A>
 
 Haben Sie bereits ein Pi-hole und wollen unsere Listen importieren? Unsere Liste sowie eine Auswahl dritter Listen 
-haben wir für Sie einfach zusammen gestellt. Alle Links können direkt per Copy&Paste zum Pi-hole hinzugefügt werden.
+haben wir für Sie bereits zusammen gestellt. Alle Links können ganz einfach, direkt per Copy&Paste, zum Pi-hole hinzugefügt werden.
 
 # <a href="./Blocklisten.md">Klicken Sie dafür bitte hier.</A>
 

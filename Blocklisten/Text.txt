@@ -1,0 +1,46 @@
+# In der Datei stehen die Urls zu allen Blocklisten die hier verwendet werden.
+
+# Corona Blocklist
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
+
+# Fake Science
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+
+# Phishing
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
+
+# Streaming
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+
+# Crypto
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+
+# Win10Telemetry
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+
+# Easylist
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+
+# Gambling
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
+
+# Jugendschutz
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
+
+# Malware
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+
+# Notserious
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+
+# Pornblock
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
+
+# Samsung
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
+
+# Spam.mails
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails

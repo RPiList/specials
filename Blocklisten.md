@@ -68,5 +68,4 @@ Andere nützliche Listen:
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 * https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
-* https://zerodot1.gitlab.io/CoinBlockerLists/white_list.txt
-
+* https://zerodot1.gitlab.io/CoinBlockerLists/list_browser.txt

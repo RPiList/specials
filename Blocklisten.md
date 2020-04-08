@@ -12,7 +12,6 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
@@ -69,4 +68,5 @@ Andere nützliche Listen:
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 * https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+* https://zerodot1.gitlab.io/CoinBlockerLists/white_list.txt
 

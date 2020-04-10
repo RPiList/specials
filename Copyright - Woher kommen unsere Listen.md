@@ -52,3 +52,4 @@ https://github.com/disconnectme<br>
 https://phishstats.info<br>
 https://easylist.to<br>
 https://www.cyberthreatcoalition.org
+https://phishing.army

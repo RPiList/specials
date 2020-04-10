@@ -1,6 +1,6 @@
 # Pull-Request erstellen
 
-- Einen Form vom Repository erstellen<br>
+- Einen Fork vom Repository erstellen<br>
 ![Fork erstellen](bilder/pullrequest1.png)
 
 - Zum eigenen Repository wechseln und dieses auf den PC klonen<br>

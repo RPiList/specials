@@ -62,7 +62,6 @@ Andere nützliche Listen:
 # Werbung
 * https://v.firebog.net/hosts/Prigent-Ads.txt
 * https://v.firebog.net/hosts/AdguardDNS.txt
-* https://hosts-file.net/ad_servers.txt
 * https://adaway.org/hosts.txt
 
 # Diverses

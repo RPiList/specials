@@ -53,4 +53,5 @@ https://phishstats.info<br>
 https://easylist.to<br>
 https://www.cyberthreatcoalition.org<br>
 https://phishing.army<br>
-
+https://www.google.de <br>
+sowie vielen Einsendungen per eMail<br>

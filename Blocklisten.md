@@ -16,7 +16,6 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DisconnectMe
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 

@@ -56,13 +56,6 @@ notify.xboxlive.com
 ocsp.digicert.com
 ocsp.msocsp.com
 peoplehub.xboxlive.com
-pfmsqosprod.australiaeast.cloudapp.azure.com
-pfmsqosprod.eastasia.cloudapp.azure.com
-pfmsqosprod.eastus2.cloudapp.azure.com
-pfmsqosprod.japanwest.cloudapp.azure.com
-pfmsqosprod.northcentralus.cloudapp.azure.com
-pfmsqosprod.westeurope.cloudapp.azure.com
-pfmsqosprod.westus.cloudapp.azure.com
 plaid.xboxservices.com
 privacy.xboxlive.com
 profile.xboxlive.com
@@ -96,7 +89,6 @@ v10.vortex-win.data.microsoft.com
 v20.events.data.microsoft.com
 video.mixer.com
 videocdn.mixer.com
-www.bing.com
 www.microsoft.com
 www.msftconnecttest.com
 www.msftncsi.com
@@ -111,7 +103,6 @@ xboxcare.xboxlive.com
 xboxexperiencesprod.experimentation.xboxlive.com
 xccs.xboxlive.com
 xflight.xboxlive.com
-xkms.xbolive.com
 xkms.xboxlive.com
 xncsi.xboxlive.com
 xnotify.xboxlive.com

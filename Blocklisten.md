@@ -56,7 +56,6 @@ Andere nützliche Listen:
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DisconnectMe
 
 # Werbung
 * https://v.firebog.net/hosts/Prigent-Ads.txt

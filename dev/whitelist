@@ -1,53 +1,3 @@
-www.urbandictionary.com
-i0.wp.com
-apkpure.com
-www.apkpure.com
-media-muc2-1.cdn.whatsapp.net
-static.whatsapp.net
-g.whatsapp.net
-chat.cdn.whatsapp.net
-whatsapp.com
-whatsapp.net
-www.whatsapp.com
-www.whatsapp.net
-web.whatsapp.com
-www.paypal.com
-paypal.com
-epl.paypal-communication.com
-www.paypalobjects.com
-paypalobjects.com
-t.paypal.com
-epidm.edgesuite.net
-images.ctfassets.net
-ds-apip.threema.ch
-ds-blobp-24.threema.ch
-ds.g-86.0.threema.ch
-threema.ch
-www.threema.ch
-werstreamt.es
-www.werstreamt.es
-blogger.com
-www.blogger.com
-fedex.com
-www.fedex.com
-californiacoronavirus.org
-coronavirusdatamap.com
-www.californiacoronavirus.org
-www.coronavirusdatamap.com
-phishing.army
-p.sfx.ms
-outlook.office365.com
-mail.live.com
-www.phishtank.com
-posteo.de
-www.posteo.de
-content.jwplatform.com
-klarmobil.de
-www.klarmobil.de
-phishtank.com
-openphish.com
-www.phishtank.com
-www.openphish.com
 0.client-channel.google.com
 0.de.pool.ntp.org
 0.pool.ntp.org
@@ -129,6 +79,7 @@ api.ipify.org
 api.rlje.net
 api.teams.skype.com
 api.twitter.com
+apkpure.com
 app-api.ted.com
 appboot.netflix.com
 appcenter.ms
@@ -184,6 +135,7 @@ bing.com
 bitbucket.org
 blackboard.com
 blender.org
+blogger.com
 blogspot.com
 bloomberg.com
 boinc1.ssl.berkeley.edu
@@ -195,6 +147,7 @@ brightcove.net
 bufferapp.com
 bukalapak.com
 businessinsider.com
+californiacoronavirus.org
 cambridge.org
 canva.com
 capitalone.com
@@ -213,6 +166,7 @@ cdn.samsungcloudsolution.com
 cdn.vidible.tv
 cert.mgt.xboxlive.com
 chase.com
+chat.cdn.whatsapp.net
 chip.de
 clientconfig.passport.net
 clients1.google.com
@@ -233,8 +187,10 @@ cnn.com
 code.jquery.com
 codeload.github.com
 conntest.nintendowifi.net
+content.jwplatform.com
 corona.rki.de
 coronavirus.app
+coronavirusdatamap.com
 covid19checkup.net
 coviditalia.com
 cpms35.spop10.ams.plex.bz
@@ -297,6 +253,9 @@ dropboxapi.com
 dropbox.com
 dropbox-dns.com
 dropboxstatic.com
+ds-apip.threema.ch
+ds-blobp-24.threema.ch
+ds.g-86.0.threema.ch
 dssott.com
 dssott.com.akamaized.net
 duckduckgo.com
@@ -341,6 +300,8 @@ envato.com
 epicgames.com
 epicgames-download1.akamaized.net
 epicgames.net
+epidm.edgesuite.net
+epl.paypal-communication.com
 err.tmall.com
 espn.com
 etsy.com
@@ -353,6 +314,7 @@ facebook.fr
 facebook.net
 fandom.com
 fc2.com
+fedex.com
 feedly.com
 fidelity.com
 firebasestorage.googleapis.com
@@ -598,6 +560,7 @@ grammarly.com
 gravatar.com
 grid.id
 gstatic.com
+g.whatsapp.net
 hao123.com
 hardreset.info
 hardwareluxx.de
@@ -617,6 +580,7 @@ _http._tcp.archive.raspberrypi.org
 _http._tcp.metadata.ftp-master.debian.org
 huanqiu.com
 hulu.com
+i0.wp.com
 i1.ytimg.com
 ichnaea.netflix.com
 icicibank.com
@@ -630,6 +594,7 @@ id.sonyentertainmentnetwork.com
 ifttt.com
 ikea.com
 imagesak.secureserver.net
+images.ctfassets.net
 imap.gmail.com
 imap.gmx.net
 imdb.com
@@ -667,6 +632,7 @@ kakao.com
 keybase.io
 keystone.mwbsys.com
 kindle-time.amazon.com
+klarmobil.de
 kompas.com
 kumparan.com
 kundencenter.telekom.de
@@ -691,6 +657,7 @@ login.web.de
 ltn.com.tw
 mail.gmx.net
 mail.google.com
+mail.live.com
 mail.yahoo.com
 maker.ifttt.com
 malwaredomainblacklist.org
@@ -701,6 +668,7 @@ media-amazon.com
 media.discordapp.net
 mediafire.com
 mediafiretrend.com
+media-muc2-1.cdn.whatsapp.net
 media.steampowered.com
 medium.com
 mercari.com
@@ -791,6 +759,7 @@ onedrive.com
 onedrive.live.com
 onenote.net
 onestore.ms
+openphish.com
 origin.com
 otto.de
 outlook.live.com
@@ -803,9 +772,12 @@ patreon.com
 pawelc.net
 paypal.com
 paypal.me
+paypalobjects.com
 pbs.twimg.com
 pcwelt.de
+phishing.army
 phishing.mailscanner.info
+phishtank.com
 pin-river.data.ea.com
 pinterest.com
 pixabay.com
@@ -823,6 +795,7 @@ plex.tv
 plex.tv.cdn.cloudflare.net
 pool.ntp.org
 post.ch
+posteo.de
 postlnk.com
 post.net.playstation.net
 pricelist.skype.com
@@ -838,6 +811,7 @@ proxy.plex.tv
 ps4-system.sec.np.dl.playstation.net
 ps4updptl.uk.np.community.playstation.net
 pscdn.co
+p.sfx.ms
 pubsub.plex.bz
 pubsub.plex.tv
 qq.com
@@ -930,6 +904,7 @@ stackoverflow.com
 staging.plex.tv
 start.duckduckgo.com
 startpage.com
+static.whatsapp.net
 status.github.com
 status.plex.tv
 steam.com
@@ -967,6 +942,7 @@ thepiratebay.org
 thesaurus.com
 thestartmagazine.com
 thetvdb.com
+threema.ch
 time-a-b.nist.gov
 time-a-g.nist.gov
 time-a-wwv.nist.gov
@@ -990,6 +966,7 @@ title.mgt.xboxlive.com
 tmall.com
 tokopedia.com
 t-online.de
+t.paypal.com
 tracking.epicgames.com
 tradingview.com
 traffic.libsyn.com
@@ -1039,10 +1016,13 @@ washingtonpost.com
 weather.com
 web.archive.org
 web.de
+web.whatsapp.com
 weibo.com
 wellsfargo.com
 welt.de
+werstreamt.es
 whatsapp.com
+whatsapp.net
 whitehouse.gov
 who.int
 widget-cdn.rpxnow.com
@@ -1136,6 +1116,7 @@ www.api2.origin.com
 www.api3.origin.com
 www.api4.origin.com
 www.api.twitter.com
+www.apkpure.com
 www.appcenter.ms
 www.apple.com
 www.arcgis.com
@@ -1168,6 +1149,7 @@ www.bing.com
 www.bitbucket.org
 www.blackboard.com
 www.blender.org
+www.blogger.com
 www.blogspot.com
 www.bloomberg.com
 www.boinc1.ssl.berkeley.edu
@@ -1179,6 +1161,7 @@ www.brightcove.net
 www.bufferapp.com
 www.bukalapak.com
 www.businessinsider.com
+www.californiacoronavirus.org
 www.cambridge.org
 www.canva.com
 www.capitalone.com
@@ -1205,6 +1188,7 @@ www.cnn.com
 www.codeload.github.com
 www.conntest.nintendowifi.net
 www.coronavirus.app
+www.coronavirusdatamap.com
 www.covid19checkup.net
 www.coviditalia.com
 www.craigslist.org
@@ -1287,6 +1271,7 @@ www.facebook.fr
 www.facebook.net
 www.fandom.com
 www.fc2.com
+www.fedex.com
 www.feedly.com
 www.fidelity.com
 www.flickr.com
@@ -1567,6 +1552,7 @@ www.jsdelivr.net
 www.jtvnw.net
 www.kakao.com
 www.keybase.io
+www.klarmobil.de
 www.kompas.com
 www.kumparan.com
 www.ladbible.com
@@ -1645,6 +1631,7 @@ www.oldversion.com
 www.onedrive.com
 www.onenote.net
 www.onestore.ms
+www.openphish.com
 www.origin.com
 www.otto.de
 www.passwordsgenerator.net
@@ -1654,8 +1641,11 @@ www.patreon.com
 www.pawelc.net
 www.paypal.com
 www.paypal.me
+www.paypalobjects.com
 www.pcwelt.de
+www.phishing.army
 www.phishing.mailscanner.info
+www.phishtank.com
 www.pin-river.data.ea.com
 www.pinterest.com
 www.pixabay.com
@@ -1669,6 +1659,7 @@ www.plex.direct
 www.plex.tv
 www.pool.ntp.org
 www.post.ch
+www.posteo.de
 www.postlnk.com
 www.post.net.playstation.net
 www.primevideo.com
@@ -1770,6 +1761,7 @@ www.thepiratebay.org
 www.thesaurus.com
 www.thestartmagazine.com
 www.thetvdb.com
+www.threema.ch
 www.time-a-b.nist.gov
 www.time-a-g.nist.gov
 www.time-a-wwv.nist.gov
@@ -1808,6 +1800,7 @@ www.unrealengine.com
 www.unsplash.com
 www.upload.worldcommunitygrid.org
 www.ups.com
+www.urbandictionary.com
 www.utcnist2.colorado.edu
 www.utcnist.colorado.edu
 www.valve555.steamcontent.com
@@ -1829,7 +1822,9 @@ www.web.de
 www.weibo.com
 www.wellsfargo.com
 www.welt.de
+www.werstreamt.es
 www.whatsapp.com
+www.whatsapp.net
 www.whitehouse.gov
 www.who.int
 www.wiinat.available.gs.nintendowifi.net

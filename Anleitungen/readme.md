@@ -17,7 +17,7 @@ Videoanleitungen
 <tr><td> Schutz vor Punycode und Emoji-Domains  <td>https://youtu.be/8HPVJeH-qQM
 <tr><td> Was ist Unbound <td> https://youtu.be/zccwkVRkDbI
 <tr><td> &nbsp;  <td>
-<tr><td> &nbsp;  <td>
+<tr><td> Killswitch einrichten <td> https://youtu.be/iAcwYbtKRUc
   
 <tr><td>Weitere werden folgen... <td>
 </table>

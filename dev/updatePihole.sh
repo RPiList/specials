@@ -1,11 +1,23 @@
 #!/bin/bash
 
 # Script: updatePihole.sh
-# Version: 1.0.0 - initial [Zelo72]
+# Version: 1.0.0 - [Zelo72]          - initial
+#          1.0.1 - [Zelo72/AleksCee] - Umstellung von wc -l auf grep -Evc '^#|^$' um auskommentierte und leere Zeilen
+#                                      beim Zählen herauszufiltern.
+#                                    - Damit die Mail mit dem Abschlussbericht nicht vom Mailserver des Empfaengers
+#                                      als Spam eingestuft wird, wurde die Ausgabe der Top 50 hinzugefuegten und
+#                                      geloeschten Domains auskommentiert.
+#                                    - Gesundheitsstatus von JA/NEIN/UNDEFINIERT auf OK/FEHELR/NICHT DURCHGEFUEHRT
+#                                      umgestellt.
+#                                    - Von Gesamtlogfile auf taegliche Logs umgestellt
+#                                    - Delimiter in der Ausgabe entfernt
+
+# Beschreibung und Installation:
+# in Arbeit ...
 
 # Aufrufparameter: optional E-Mailadresse, wird diese uebergeben, wird ein Abschlussbericht via Mail verschickt.
 #                  Aufruf: sudo ./updatePihole.sh rootoma@seniorenstift.xy <-- mit Mailversand
-#                          sudo ./updatePihole.sh                       <-- ohne Mailversand
+#                          sudo ./updatePihole.sh                          <-- ohne Mailversand
 
 # Prüfen ob das Script als root ausgefuehrt wird
 if [ "$(id -u)" != "0" ]; then
@@ -17,12 +29,12 @@ fi
 
 # Logging initialisieren
 logDir=/var/log/svpihole
-log=$logDir/updatePihole.sh.log
+log=$logDir/$(date +'%Y%m%d')_updatePihole.sh.log
 mkdir -p $logDir
 
 # Hilfsfunktion zum loggen
 writeLog() {
-   echo -e "[$(date +'%Y.%m.%d-%H:%M:%S')]" "$*" | tee -a $log
+   echo -e "[$(date +'%Y.%m.%d-%H:%M:%S')]" "$*" | tee -a "$log"
 }
 writeLog "[I] Start | Logfile: $log"
 
@@ -40,28 +52,24 @@ gravListDiff=$tmp/gravity_diff.list
 logStats=$logDir/updatePihole.stats.log
 
 # Variablen fuer "Gesundheitsstatus": -1: Undefiniert / 0: true / >0: false
-piholeUpdateOK=-1
-piholeGravUpdateOK=-1
-dnsTestOK=-1
-inetTestOK=-1
-rebootRequired=1
+piholeUpdateStatus=-1
+piholeGravUpdateStatus=-1
+dnsTestStatus=-1
+inetTestStatus=-1
+rebootRequired="NEIN"
 
 # *** Hilfsfunktionen ***
-
-delimiter() {
-   echo ""
-}
 
 status() {
    case "$*" in
    -1)
-      echo "UNDEFINIERT #$*"
+      echo "NICHT DURCHGEFUEHRT"
       ;;
    0)
-      echo "JA #$*"
+      echo "OK"
       ;;
    1 | *)
-      echo "NEIN #$*"
+      echo "FEHLER #Exitcode:$*"
       ;;
    esac
 }
@@ -71,11 +79,11 @@ checkinet() {
    writeLog "[I] Teste Internetverbindung ..."
    if ! (ping -c1 8.8.8.8 >/dev/null); then
       writeLog "[E] Keine Internetverbindung! Das Script wird beendet!"
-      inetTestOK=1
+      inetTestStatus=1
       exit 1
    fi
    writeLog "[I] Internetverbindungstest erfolgreich."
-   inetTestOK=0
+   inetTestStatus=0
    return 0
 }
 
@@ -84,11 +92,11 @@ checkdns() {
    writeLog "[I] Teste DNS Namensaufloesung ..."
    if ! (ping -c1 google.de >/dev/null); then
       writeLog "[E] Keine DNS Namensaufloesung moeglich!"
-      dnsTestOK=1
+      dnsTestStatus=1
       return 1
    fi
    writeLog "[I] DNS Namensaufloesung erfolgreich."
-   dnsTestOK=0
+   dnsTestStatus=0
    return 0
 }
 
@@ -97,28 +105,25 @@ checkdns() {
 # Internetverbindung / DNS testen
 checkinet # besteht keine Internetverbindung wird das Script mit exitcode 1 beendet
 checkdns
-delimiter
 
-# Nur Sonntags, die Raspberry Pakete und den Pi-hole selbst updaten.
-if test "$(date "+%w")" -eq 0; then # Sonntags?
+# Nur wenn dieses Script Sonntags am Wochentag 0 ausgeführt wird:
+# die Raspberry Pakete und die Pi-hole Software selbst updaten.
+if test "$(date "+%w")" -eq 0; then # Sonntags = Wochentag 0
    # Raspberry Pakete updaten
    writeLog "[I] Raspberry Pakete updaten ..."
    apt-get update
    apt-get -y upgrade
-   delimiter
 
    # Raspberry Pakete bereinigen
    writeLog "[I] Raspberry Pakete bereinigen ..."
    apt-get -y autoremove
    apt-get -y clean
-   delimiter
 
    # Pi-hole updaten
    writeLog "[I] Pi-hole updaten ..."
    pihole -up
-   piholeUpdateOK=$?
-   writeLog "[I] Pi-hole Update exitcode: $piholeUpdateOK"
-   delimiter
+   piholeUpdateStatus=$?
+   writeLog "[I] Pi-hole Update exitcode: $piholeUpdateStatus"
 
    # Pruefen ob durch die Updates ein Reboot erforderlich ist
    writeLog "[I] Pruefe ob ein Reboot erforderlich ist ..."
@@ -127,9 +132,8 @@ if test "$(date "+%w")" -eq 0; then # Sonntags?
       echo "*************************"
       echo "R E B O O T erforderlich!"
       echo "*************************"
-      rebootRequired=0
+      rebootRequired="JA"
    fi
-   delimiter
 fi
 
 # *** Pi-hole Gravity Update ***
@@ -139,22 +143,18 @@ fi
 writeLog "[I] Aktualisiere Pi-hole Gravity $gravListPihole ..."
 cp $gravListPihole $gravListBeforeUpdate
 pihole -g # Pi-hole Gravity aktualisieren
-piholeGravUpdateOK=$?
-writeLog "[I] Pi-hole Gravity Update exitcode: $piholeGravUpdateOK"
-delimiter
+piholeGravUpdateStatus=$?
+writeLog "[I] Pi-hole Gravity Update exitcode: $piholeGravUpdateStatus"
 
 # DNS nach Gravity Update testen
 checkdns
-delimiter
 
 # Aktualisierte Pi-hole Gravityliste mit Gravityliste vor der Aktualisierung
 # vergleichen und Aenderungen (hinzugefuegte/geloeschte Eintraege) in
 # $gravListDiff Datei zur weiteren Auswertung speichern
 writeLog "[I] Erstelle Aenderungs-Gravityliste $gravListDiff ..."
 diff $gravListPihole $gravListBeforeUpdate | grep '[><]' >$gravListDiff
-writeLog "[I] Aenderungs-Gravityliste mit $(wc <$gravListDiff -l) Eintraegen erstellt."
-delimiter
-delimiter
+writeLog "[I] Aenderungs-Gravityliste mit $(grep -Evc '^#|^$' $gravListDiff) Eintraegen erstellt."
 
 # *** Pi-hole Gravity Update Bericht/Statistik ***
 
@@ -163,41 +163,41 @@ id=$(date +"%Y.%m.%d-%H%M%S")
 
 # Gravity Update Bericht erzeugen und in die unter $logStats angegebene Datei schreiben.
 writeLog "[I] Erstelle PiHole Gravity Update Bericht/Statistik $id ..."
-delimiter
 (
    echo "Pi-hole Gravity Update Bericht: $id"
    echo ""
    echo "# Pi-hole Gesundheitsstatus #"
    echo ""
-   echo "Reboot erforderlich: $(status $rebootRequired)"
-   echo "Internetverbindung (OK? #Exitcode): $(status $inetTestOK)"
-   echo "DNS Test (OK? #Exitcode): $(status $dnsTestOK)"
-   echo "Pi-hole Update (OK? #Exitcode): $(status $piholeUpdateOK)"
-   echo "Pi-hole Gravity (OK? #Exitcode): $(status $piholeGravUpdateOK)"
+   echo "Reboot erforderlich: $rebootRequired"
+   echo "Internetverbindung: $(status $inetTestStatus)"
+   echo "DNS Test: $(status $dnsTestStatus)"
+   echo "Pi-hole Update: $(status $piholeUpdateStatus)"
+   echo "Pi-hole Gravity Update: $(status $piholeGravUpdateStatus)"
    echo ""
    echo "# Pi-hole Statistik #"
    echo ""
-   echo "Domains Gravitylist: $(wc <$gravListPihole -l)"
-   echo "Domains Blacklist: $(wc <${piholeDir}/blacklist.txt -l)"
-   echo "RegEx-Filter Blacklist: $(wc <${piholeDir}/regex.list -l)"
-   echo "Domains Whitelist: $(wc <${piholeDir}/whitelist.txt -l)"
+   echo "Domains Gravitylist: $(grep -Evc '^#|^$' $gravListPihole)"
+   echo "Domains Blacklist: $(grep -Evc '^#|^$' $piholeDir/blacklist.txt)"
+   echo "RegEx-Filter Blacklist: $(grep -Evc '^#|^$' $piholeDir/regex.list)"
+   echo "Domains Whitelist: $(grep -Evc '^#|^$' $piholeDir/whitelist.txt)"
    echo ""
-   echo "Anzahl Blocklisten: $(wc <${piholeDir}/adlists.list -l)"
+   echo "Anzahl Blocklisten: $(grep -Evc '^#|^$' $piholeDir/adlists.list)"
    echo ""
    echo "# Pi-hole Gravity Updatestatistik #"
    echo ""
    echo "(+): $(grep -c '<' $gravListDiff) hinzugefuegte Domains"
    echo "(-): $(grep -c '>' $gravListDiff) geloeschte Domains"
-   echo "(S): $(wc <$gravListDiff -l) insgesamt geaenderte Domains"
-   echo ""
-   echo "(+) Hinzugefuegte Domains (Top 50):"
-   grep -m50 '<' $gravListDiff
-   echo ""
-   echo "(-) Geloeschte Domains (Top 50):"
-   grep -m50 '>' $gravListDiff
+   echo "(S): $(grep -Evc '^#|^$' $gravListDiff) insgesamt geaenderte Domains"
+
+   # Auskommentiert, damit der Spamfilter des Mailservers wegen den Domains nicht "glueht"!
+   #echo ""
+   #echo "(+) Hinzugefuegte Domains (Top 50):"
+   #grep -m50 '<' $gravListDiff
+   #echo ""
+   #echo "(-) Geloeschte Domains (Top 50):"
+   #grep -m50 '>' $gravListDiff
 ) | tee $logStats #Ausgaben innerhalb von () in die $logStats Datei schreiben
 writeLog "[I] Pi-hole Gravity Update Bericht/Statistik $logStats erstellt."
-delimiter
 
 # *** E-Mail Versand des Update Berichtes ***
 
@@ -216,6 +216,5 @@ if [ -n "$email" ]; then
    else
       writeLog "[I] E-Mailversand an $email erfolgreich."
    fi
-   delimiter
 fi
 writeLog "[I] Ende | Logfile: $log"

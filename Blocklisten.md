@@ -19,6 +19,15 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 
+# Listen von Drittanbietern
+
+ Pi-hole Standardlisten
+* https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+* https://mirror1.malwaredomains.com/files/justdomains
+* http://sysctl.org/cameleon/hosts
+* https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+* https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+
 # Listen, sortiert nach Themen, inkl. Listen von Drittanbietern.:
 
 # Tracking

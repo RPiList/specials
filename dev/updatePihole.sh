@@ -1,20 +1,26 @@
 #!/bin/bash
 
 # Script: updatePihole.sh
-# Version: 1.0.0 - [Zelo72]          - initial
+# Version: 1.0.0 - [Zelo72]          - initiale Version
 #          1.0.1 - [Zelo72/AleksCee] - Umstellung von wc -l auf grep -Evc '^#|^$' um auskommentierte und leere Zeilen
 #                                      beim Zählen herauszufiltern.
 #                                    - Damit die Mail mit dem Abschlussbericht nicht vom Mailserver des Empfaengers
 #                                      als Spam eingestuft wird, wurde die Ausgabe der Top 50 hinzugefuegten und
 #                                      geloeschten Domains auskommentiert.
-#                                    - Gesundheitsstatus von JA/NEIN/UNDEFINIERT auf OK/FEHELR/NICHT DURCHGEFUEHRT
+#                                    - Gesundheitsstatus von JA/NEIN/UNDEFINIERT auf OK/FEHLER/NICHT DURCHGEFUEHRT
 #                                      umgestellt.
 #                                    - Von Gesamtlogfile auf taegliche Logs umgestellt
 #                                    - Delimiter in der Ausgabe entfernt
-
+#          1.0.2 - [Zelo72/AleksCee] - n Sekunden warten bevor der DNS Check nach dem Pi-hole Update durchgefuehrt
+#                                      wird. Der Pi-Hole DNS Service braucht manchmal etwas bis er verfuegbar ist.
+#                                    - Versuch von RestartDNS wenn der DNS Service nach dem Pi-hole Update nicht
+#                                      mehr reagiert.
+#                                    - Möglicher Fehler Exitcode 127 bei Aufruf des pihole binaries aus einem Cron
+#                                      Job heraus behoben: von pihole -u/-g auf /usr/local/bin/pihole ... umgestellt.
+#
 # Beschreibung und Installation:
 # in Arbeit ...
-
+#
 # Aufrufparameter: optional E-Mailadresse, wird diese uebergeben, wird ein Abschlussbericht via Mail verschickt.
 #                  Aufruf: sudo ./updatePihole.sh rootoma@seniorenstift.xy <-- mit Mailversand
 #                          sudo ./updatePihole.sh                          <-- ohne Mailversand
@@ -46,6 +52,7 @@ cd $tmp || exit
 
 # Variablen fuer Dateien
 piholeDir=/etc/pihole
+piholeBinDir=/usr/local/bin
 gravListPihole=$piholeDir/gravity.list
 gravListBeforeUpdate=$tmp/gravity_before_update.list
 gravListDiff=$tmp/gravity_diff.list
@@ -100,6 +107,12 @@ checkdns() {
    return 0
 }
 
+# Auf DNS Service warten
+waitfordns() {
+   writeLog "[I] Warte $1 Sek. auf DNS Service ..."
+   sleep "$1"
+}
+
 # *** Pi-hole Update ***
 
 # Internetverbindung / DNS testen
@@ -121,7 +134,7 @@ if test "$(date "+%w")" -eq 0; then # Sonntags = Wochentag 0
 
    # Pi-hole updaten
    writeLog "[I] Pi-hole updaten ..."
-   pihole -up
+   $piholeBinDir/pihole -up
    piholeUpdateStatus=$?
    writeLog "[I] Pi-hole Update exitcode: $piholeUpdateStatus"
 
@@ -142,12 +155,19 @@ fi
 # Pi-hole Gravity aktualisieren
 writeLog "[I] Aktualisiere Pi-hole Gravity $gravListPihole ..."
 cp $gravListPihole $gravListBeforeUpdate
-pihole -g # Pi-hole Gravity aktualisieren
+$piholeBinDir/pihole -g # Pi-hole Gravity aktualisieren
 piholeGravUpdateStatus=$?
 writeLog "[I] Pi-hole Gravity Update exitcode: $piholeGravUpdateStatus"
 
 # DNS nach Gravity Update testen
+waitfordns 30
 checkdns
+if [ ! $? ]; then
+   writeLog "[E] Pi-hole DNS Service reagiert nicht, versuche RestartDNS ..."
+   $piholeBinDir/pihole restartdns
+   waitfordns 60
+   checkdns
+fi
 
 # Aktualisierte Pi-hole Gravityliste mit Gravityliste vor der Aktualisierung
 # vergleichen und Aenderungen (hinzugefuegte/geloeschte Eintraege) in
@@ -201,7 +221,7 @@ writeLog "[I] Pi-hole Gravity Update Bericht/Statistik $logStats erstellt."
 
 # *** E-Mail Versand des Update Berichtes ***
 
-# Aufrufparameter 1
+# Aufrufparameter 1: sudo ./updatePihole.sh rootoma@seniorenstift.xy
 email="$1"
 
 # Mail mit Gravity Update Bericht wird nur versendet wenn beim Aufruf des Scriptes eine

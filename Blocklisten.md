@@ -28,6 +28,9 @@
 * https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
+OISD Domain Blocklist (täglich aktualisiert, 1.1 Mio. Eintraege)
+* https://dbl.oisd.nl/
+
 # Listen, sortiert nach Themen, inkl. Listen von Drittanbietern.:
 
 # Tracking

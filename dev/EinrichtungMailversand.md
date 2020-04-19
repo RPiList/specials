@@ -18,7 +18,6 @@ defaults
 auth           on
 tls            on
 tls_trust_file /etc/ssl/certs/ca-certificates.crt
-logfile         /var/log/msmtp/msmtp.log
 aliases        /etc/aliases
 
 # Mailaccountdaten

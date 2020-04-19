@@ -63,6 +63,7 @@
 * https://adaway.org/hosts.txt
 
 # Malware
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 * https://mirror1.malwaredomains.com/files/justdomains
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto

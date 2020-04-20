@@ -1,29 +1,52 @@
 #!/bin/bash
 
-# Script: updatePihole.sh
-# Version: 1.0.0 - [Zelo72]          - initiale Version
-#          1.0.1 - [Zelo72/AleksCee] - Umstellung von wc -l auf grep -Evc '^#|^$' um auskommentierte und leere Zeilen
-#                                      beim Zählen herauszufiltern.
-#                                    - Damit die Mail mit dem Abschlussbericht nicht vom Mailserver des Empfaengers
-#                                      als Spam eingestuft wird, wurde die Ausgabe der Top 50 hinzugefuegten und
-#                                      geloeschten Domains auskommentiert.
-#                                    - Gesundheitsstatus von JA/NEIN/UNDEFINIERT auf OK/FEHLER/NICHT DURCHGEFUEHRT
-#                                      umgestellt.
-#                                    - Von Gesamtlogfile auf taegliche Logs umgestellt
-#                                    - Delimiter in der Ausgabe entfernt
-#          1.0.2 - [Zelo72/AleksCee] - n Sekunden warten bevor der DNS Check nach dem Pi-hole Update durchgefuehrt
-#                                      wird. Der Pi-Hole DNS Service braucht manchmal etwas bis er verfuegbar ist.
-#                                    - Versuch von RestartDNS wenn der DNS Service nach dem Pi-hole Update nicht
-#                                      mehr reagiert.
-#                                    - Möglicher Fehler Exitcode 127 bei Aufruf des pihole binaries aus einem Cron
-#                                      Job heraus behoben: von pihole -u/-g auf /usr/local/bin/pihole ... umgestellt.
+# Script: updatePihole.sh - https://github.com/RPiList/specials (/dev/)
 #
-# Beschreibung und Installation:
-# in Arbeit ...
+# Beschreibung: Das Script aktualisiert bei jedem Lauf die Pi-hole Gravity (gravity.list) auf Basis der in Pi-hole
+#               konfigurierten Blocklisten (adlists.list). Zusaetzlich werden, wenn das Script an einem Sonntag ausgefuehrt
+#               wird, die Raspberry Pakete und die Pi-hole Software selbst aktualisiert sofern ein Update vorliegt.
+#               Bei Bedarf wird ein Gravity-Update Bericht als Mail versendet. Dieser beinhaltet neben einem Pi-Hole
+#               Gesundheitstatus auch die Statistik für das Pi-Hole und Gravity Update.
 #
-# Aufrufparameter: optional E-Mailadresse, wird diese uebergeben, wird ein Abschlussbericht via Mail verschickt.
-#                  Aufruf: sudo ./updatePihole.sh rootoma@seniorenstift.xy <-- mit Mailversand
-#                          sudo ./updatePihole.sh                          <-- ohne Mailversand
+# Aufruf:       sudo ./updatePihole.sh rootoma@senioren.xy <-- mit Mailversand
+#               sudo ./updatePihole.sh                     <-- ohne Mailversand
+#
+# Ausgabedateien: /var/log/svpihole/Ymd_updatePihole.sh.log   --> taegliches Logfile
+#                 /var/log/svpihole/updatePihole.stats.log    --> Pi-hole Gravity Update Bericht/Statistik
+#                 /var/var/log/svpihole/updatePihole.cron.log --> Logifile des Cron-Jobs
+#
+# Installation:   1. Script nach /root kopieren.
+# (als Cron-Job)  2. mit sudo chmod +x updatePihole.sh das Script ausfuehrbar machen.
+#                 3. Cron-Job mit sudo crontab -e erstellen
+#                    Am Ende der Datei z.B. folgendes einfuegen um das Script taeglich um 03:00 Uhr zu starten
+#                    und eine Mail mit dem Gravity Update Bericht an "rootoma" zu schicken:
+#                      0 3 * * * /root/updatePihole.sh rootoma@senioren.xy > /var/log/svpihole/updatePihole.cron.log
+#                  4. Datei speichern und schliessen.
+#
+#                  -------
+#                 :HINWEIS: Damit der Mailversand funktioniert, muss msmtp und mailutils installiert und konfiguriert
+#                  -------  sein. Eine Anleitung dazu ist hier zu finden:
+#                                   https://github.com/RPiList/specials/blob/master/dev/EinrichtungMailversand.md
+#
+# Versionshistorie:
+# Version 1.0.0 - [Zelo72]          - initiale Version
+#         1.0.1 - [Zelo72/AleksCee] - Umstellung von wc -l auf grep -Evc '^#|^$' um auskommentierte und leere Zeilen
+#                                     beim Zählen herauszufiltern.
+#                                   - Damit die Mail mit dem Abschlussbericht nicht vom Mailserver des Empfaengers
+#                                     als Spam eingestuft wird, wurde die Ausgabe der Top 50 hinzugefuegten und
+#                                     geloeschten Domains auskommentiert.
+#                                   - Gesundheitsstatus von JA/NEIN/UNDEFINIERT auf OK/FEHLER/NICHT DURCHGEFUEHRT
+#                                     umgestellt.
+#                                   - Von Gesamtlogfile auf taegliche Logs umgestellt
+#                                   - Delimiter in der Ausgabe entfernt
+#         1.0.2 - [Zelo72/AleksCee] - n Sekunden warten bevor der DNS Check nach dem Pi-hole Update durchgefuehrt
+#                                     wird. Der Pi-Hole DNS Service braucht manchmal etwas bis er verfuegbar ist.
+#                                   - Versuch von RestartDNS wenn der DNS Service nach dem Pi-hole Update nicht
+#                                     mehr reagiert.
+#                                   - Möglicher Fehler Exitcode 127 bei Aufruf des pihole binaries aus einem Cron
+#                                     Job heraus behoben: von pihole -u/-g auf /usr/local/bin/pihole ... umgestellt.
+#         1.0.3 - [Zelo72]          - Beschreibung, Aufruf, Ausgabedateien und Installation beschrieben.
+#
 
 # Prüfen ob das Script als root ausgefuehrt wird
 if [ "$(id -u)" != "0" ]; then

@@ -46,6 +46,7 @@
 #                                   - Möglicher Fehler Exitcode 127 bei Aufruf des pihole binaries aus einem Cron
 #                                     Job heraus behoben: von pihole -u/-g auf /usr/local/bin/pihole ... umgestellt.
 #         1.0.3 - [Zelo72]          - Beschreibung, Aufruf, Ausgabedateien und Installation beschrieben.
+#         1.0.4 - [Zelo72]          - Logverzeichnis bereinigen, Logs aelter als 7 Tage werden geloescht.
 #
 
 # Prüfen ob das Script als root ausgefuehrt wird
@@ -72,6 +73,11 @@ tmp=/tmp/svpihole
 writeLog "[I] Initialisiere Tempverzeichnis $tmp ..."
 mkdir -p $tmp
 cd $tmp || exit
+
+# Logverzeichnis bereinigen, Logs aelter als 7 Tage (10080 Minuten) werden geloescht.
+writeLog "[I] Bereinige Logverzeichnis $logDir ..."
+find $logDir/*updatePihole*.log -type f -mmin +10080 -exec rm {} \;
+writeLog "[I] Logverzeichnis $logDir bereinigt."
 
 # Variablen fuer Dateien
 piholeDir=/etc/pihole

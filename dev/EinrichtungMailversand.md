@@ -1,18 +1,21 @@
-**msmtp und mailutils installieren**
+# Mailversand auf dem Raspberry Pi einrichten
 
-`sudo apt-get install msmtp msmtp-mta mailutils`
+**msmtp, mutt, mailutils und ca-certificates installieren**
+
+`sudo apt-get install msmtp msmtp-mta mutt mailutils ca-certificates`
+
+***Hinweis:** In der folgenden Konfigurationsanleitung werden unterschiedliche Mailaccounts für den root und den pi Benutzer verwendet. Sollte nur ein Mailaccount gewünscht sein, kann dieser bei allen Konfigurationen verwendet werden.*
+
+# msmtp
 
 **msmtp Konfiguration Systemweit und benutzerdefiniert anlegen**
 
-Systemweit (root):
+Systemweite Konfiguration (root, ...):
 
 `sudo nano /etc/msmtprc`
 
-Benutzerdefiniert (pi):
+Inhalt systemweite Konfiguration:
 
-`nano ~/.msmtprc`
-
-Für beide Konfigurationen kann man folgende Konfiguration verwenden, ggf. für root eine andere Mailadresse verwenden, falls vorhanden oder gewünscht:
 ```
 defaults
 auth           on
@@ -21,34 +24,104 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt
 aliases        /etc/aliases
 
 # Mailaccountdaten
-account          me@gmail.com
-host             smtp.gmail.com
-port             587
-from             me@gmail.com
-user             me@gmail.com
-password         my@P4ssW0rt:0815+PiHol3
-account default: me@gmail.com
+account        mailadresse@rootuser.xy
+host           smtp.mailanbieter.de
+port           587
+from           mailadresse@rootuser.xy
+user           mailadresse@rootuser.xy
+password       my@P4ssW0rt:0815+PiHol3
+
+# Default Account festlegen
+account default: mailadresse@rootuser.xy
 ```
-Weil wir in der Datei Passwörter speichern, müssen die Zugriffsrechte eingeschränkt werden:
+***password**: bei Multi Faktor Authentifizierung anwendungsspezifisches Passwort für den Raspberry beim Mailanbieter anlegen.*
 
-`sudo chmod 600 /etc/msmtprc`
+Benutzerdefinierte Konfiguration (pi):
 
-`chmod 600 ~/.msmtprc`
+`nano /home/pi/.msmtprc`
 
-**Fallback Empfänger-Adresse und die des Root-Accounts festlegen. An diese Mailadresse werden E-Mails versendet wenn z.B. ein Cronjob fehlschlägt.** 
+Inhalt benutzerdefinierte Konfirguration:
+
+```
+defaults
+auth           on
+tls            on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+aliases        /etc/aliases
+
+# Mailaccountdaten
+account        mailadresse@piuser.xy
+host           smtp.mailanbieter.de
+port           587
+from           mailadresse@piuser.xy
+user           mailadresse@piuser.xy
+password       my@P4ssW0rt
+
+# Default Account festlegen
+account default: mailadresse@piuser.xy
+```
+***password**: bei Multi Faktor Authentifizierung anwendungsspezifisches Passwort für den Raspberry beim Mailanbieter anlegen.*
+
+Zugriff auf benutzerdefinierte Konfiguration beschränken:
+
+`chmod 600 /home/pi/.msmtprc`
+
+**Empfänger-Adressen der Useraccounts und Fallback-Adresse (default) festlegen** 
 
 `sudo nano /etc/aliases`
 
 ```
-root: root@meinedomain.xy
-default: root@meinedomain.xy
+root: mailadresse@rootuser.xy
+pi: mailadresse@piuser.xy
+default: mailadresse@rootuser.xy
 ```
 
 **Mailprogramm definieren**
 
 `sudo nano /etc/mail.rc`
 
+Inhalt der mail.rc:
+
 `set sendmail="/usr/bin/msmtp -t"`
+
+# Mutt
+
+**Mutt Konfiguration Systemweit und benutzerdefiniert anlegen**
+
+Systemweite Konfiguration:
+
+`sudo nano /etc/muttrc`
+
+Inhalt systemweite Konfiguration:
+
+```
+my_hdr From: mailadresse@rootuser.xy
+set realname="system"
+```
+
+Benutzerdefinierte Konfiguration für root User:
+
+`sudo nano /root/.muttrc`
+
+Inhalt root Konfiguration:
+
+```
+my_hdr From: mailadresse@rootuser.xy
+set realname="root"
+```
+
+Benutzerdefinierte Konfiguration für pi User:
+
+`nano /home/pi/.muttrc`
+
+Inhalt pi Konfiguration:
+
+```
+my_hdr From: mailadresse@piuser.xy
+set realname="pi"
+```
+
+# Test der Konfiguration
 
 **Mailversand testen**
 
@@ -56,6 +129,13 @@ default: root@meinedomain.xy
 
 `echo "Inhalt der E-Mail" | mail -s "Betreff" mein@empfaenger.xy`
 
+**Über mutt mit Dateianhang testen:**
+
+```
+echo "Das ist ein Anhang" > anhang.txt
+echo "Inhalt der E-Mail" | mutt -s "Betreff" mein@empfaenger.xy -a anhang.txt
+```
+
 **Über msmtp direkt mit Ausgabe von Debuginformationen falls eine Fehlersuche nötig ist:**
 
-`echo "Inhalt der E-Mail" | msmtp -debug mein@empfaenger.xy`
+`echo "Debug" | msmtp -debug mein@empfaenger.xy`

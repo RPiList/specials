@@ -55,7 +55,11 @@
 #         1.0.4 - [Zelo72]          - Logverzeichnis bereinigen, Logs aelter als 7 Tage werden geloescht.
 #         1.0.5 - [Zelo72/AleksCee] - Logbereinigung von Minuten auf Tage umgestellt und Unterscheidung zwischen
 #                                     Startpunkt und Suchmuster
-#
+#         1.0.6 - [Zelo72]          - Gravity Update Bericht erweitert: Hostname, CPU Temperatur, RAM Nutzung,
+#                                                                       HDD Nutzung, Pi-hole Status (aktiv/offline)
+#                                   - Fehler behoben: Nach waitfordns und anschliessend fehlgeschlagenem DNS-Test
+#                                                     wurde der Code im If-Zweig zum erneuten DNS-Test nicht
+#                                                     ausgefuehrt.
 
 # Prüfen ob das Script als root ausgefuehrt wird
 if [ "$(id -u)" != "0" ]; then
@@ -197,13 +201,15 @@ piholeGravUpdateStatus=$?
 writeLog "[I] Pi-hole Gravity Update exitcode: $piholeGravUpdateStatus"
 
 # DNS nach Gravity Update testen
-waitfordns 30
-checkdns
-if [ ! $? ]; then
-   writeLog "[E] Pi-hole DNS Service reagiert nicht, versuche RestartDNS ..."
-   $piholeBinDir/pihole restartdns
-   waitfordns 60
-   checkdns
+waitfordns 15
+if ! checkdns; then
+   waitfordns 30
+   if ! checkdns; then
+      writeLog "[E] Pi-hole DNS Service reagiert nicht, versuche RestartDNS ..."
+      $piholeBinDir/pihole restartdns
+      waitfordns 90
+      checkdns
+   fi
 fi
 
 # Aktualisierte Pi-hole Gravityliste mit Gravityliste vor der Aktualisierung
@@ -218,33 +224,45 @@ writeLog "[I] Aenderungs-Gravityliste mit $(grep -Evc '^#|^$' $gravListDiff) Ein
 # Id für Pi-hole Gravity Update Bericht erzeugen
 id=$(date +"%Y.%m.%d-%H%M%S")
 
+# Ermittle Pi-hole Status
+if [[ "$($piholeBinDir/pihole status web 2>/dev/null)" == "1" ]]; then
+   phStatus="AKTIV"
+else
+   phStatus="OFFLINE!"
+fi
+
 # Gravity Update Bericht erzeugen und in die unter $logStats angegebene Datei schreiben.
-writeLog "[I] Erstelle PiHole Gravity Update Bericht/Statistik $id ..."
+writeLog "[I] Erstelle Pi-hole Gravity Update Bericht/Statistik $id ..."
 (
-   echo "Pi-hole Gravity Update Bericht: $id"
+   echo "# Raspberry Info #"
    echo ""
-   echo "# Pi-hole Gesundheitsstatus #"
+   echo "Hostname: $(hostname)"
+   echo "CPU Temperatur: $(($(cat /sys/class/thermal/thermal_zone0/temp) / 1000)) Grad"
+   echo "RAM Nutzung: $(awk '/^Mem/ {printf("%.2f%%", 100*($2-$4-$6)/$2);}' <(free -m))"
+   echo "HDD Nutzung: $(df -B1 / 2>/dev/null | awk 'END{ print $5 }')"
+   echo "Reboot erforderlich?: $rebootRequired"
    echo ""
-   echo "Reboot erforderlich: $rebootRequired"
-   echo "Internetverbindung: $(status $inetTestStatus)"
-   echo "DNS Test: $(status $dnsTestStatus)"
-   echo "Pi-hole Update: $(status $piholeUpdateStatus)"
-   echo "Pi-hole Gravity Update: $(status $piholeGravUpdateStatus)"
+   echo "# Pi-hole Info #"
+   echo ""
+   echo "Pi-hole Status: $phStatus"
+   echo "Internet: $(status $inetTestStatus)"
+   echo "DNS-Test: $(status $dnsTestStatus)"
+   echo "Update: $(status $piholeUpdateStatus)"
+   echo "Gravity Update: $(status $piholeGravUpdateStatus)"
    echo ""
    echo "# Pi-hole Statistik #"
    echo ""
    echo "Domains Gravitylist: $(grep -Evc '^#|^$' $gravListPihole)"
    echo "Domains Blacklist: $(grep -Evc '^#|^$' $piholeDir/blacklist.txt)"
-   echo "RegEx-Filter Blacklist: $(grep -Evc '^#|^$' $piholeDir/regex.list)"
+   echo "RegEx Blacklist: $(grep -Evc '^#|^$' $piholeDir/regex.list)"
    echo "Domains Whitelist: $(grep -Evc '^#|^$' $piholeDir/whitelist.txt)"
-   echo ""
-   echo "Anzahl Blocklisten: $(grep -Evc '^#|^$' $piholeDir/adlists.list)"
+   echo "Aktive Blocklisten: $(grep -Evc '^#|^$' $piholeDir/adlists.list)"
    echo ""
    echo "# Pi-hole Gravity Updatestatistik #"
    echo ""
-   echo "(+): $(grep -c '<' $gravListDiff) hinzugefuegte Domains"
-   echo "(-): $(grep -c '>' $gravListDiff) geloeschte Domains"
-   echo "(S): $(grep -Evc '^#|^$' $gravListDiff) insgesamt geaenderte Domains"
+   echo "(+): $(grep -c '<' $gravListDiff) Domains hinzugefuegt"
+   echo "(-): $(grep -c '>' $gravListDiff) Domains geloescht"
+   echo "(S): $(grep -Evc '^#|^$' $gravListDiff) Domains geaendert"
 
    # Auskommentiert, damit der Spamfilter des Mailservers wegen den Domains nicht "glueht"!
    #echo ""

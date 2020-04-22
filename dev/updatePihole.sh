@@ -47,6 +47,8 @@
 #                                     Job heraus behoben: von pihole -u/-g auf /usr/local/bin/pihole ... umgestellt.
 #         1.0.3 - [Zelo72]          - Beschreibung, Aufruf, Ausgabedateien und Installation beschrieben.
 #         1.0.4 - [Zelo72]          - Logverzeichnis bereinigen, Logs aelter als 7 Tage werden geloescht.
+#         1.0.5 - [Zelo72/AleksCee] - Logbereinigung von Minuten auf Tage umgestellt und Unterscheidung zwischen
+#                                     Startpunkt und Suchmuster
 #
 
 # Prüfen ob das Script als root ausgefuehrt wird
@@ -74,9 +76,9 @@ writeLog "[I] Initialisiere Tempverzeichnis $tmp ..."
 mkdir -p $tmp
 cd $tmp || exit
 
-# Logverzeichnis bereinigen, Logs aelter als 7 Tage (10080 Minuten) werden geloescht.
+# Logverzeichnis bereinigen, Logs aelter als 7 Tage werden geloescht.
 writeLog "[I] Bereinige Logverzeichnis $logDir ..."
-find $logDir/*updatePihole*.log -type f -mmin +10080 -exec rm {} \;
+find $logDir -daystart -type f -mtime +7 -name \*updatePihole\*.log -exec rm -v {} \;
 writeLog "[I] Logverzeichnis $logDir bereinigt."
 
 # Variablen fuer Dateien

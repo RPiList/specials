@@ -14,7 +14,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
@@ -49,7 +49,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/jugendschutz
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
 
 # Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
@@ -63,6 +63,7 @@
 * https://adaway.org/hosts.txt
 
 # Malware
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 * https://mirror1.malwaredomains.com/files/justdomains
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto

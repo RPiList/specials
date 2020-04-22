@@ -7,7 +7,7 @@ Erläuterung der einzelnen Blocklisten:
 * Win10Telemetry: Sog. Windows 10 Spy-Dienste werden geblockt.
 * Crypto: Domains auf denen Cryptomining und Co. betrieben wird.
 * Gambling: Domains auf denen Glücksspiele angeboten werden.
-* Jugendschutz: Webseiten die für Minderjährige nicht geeignet sind.
+* Child-Protection: Webseiten die für Minderjährige nicht geeignet sind.
 * Notserious: Domains auf denen Fake-Shops und sonstige Abzocker zu finden sind.
 * Samsung: Domains von Samsung Tracking Diensten.
 * Spam.Mails: Domains, die über eMail verteilt werden (Phishing).

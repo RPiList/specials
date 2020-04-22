@@ -95,8 +95,6 @@
 
 * https://dbl.oisd.nl/ (Ads, Mobile Ads, Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking and some Telemetry, Analytics, Tracking)
 * https://v.firebog.net/hosts/static/w3kbl.txt (Ads, CryptoJacking, Telemetry, Tracking)
-
-* https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 
 # Einzelne Dienste sperren
@@ -111,5 +109,13 @@
 * https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Twitch.txt
 * https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Ubisoft.txt
 * https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Xiaomi.txt
+* https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+* https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+* https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+* https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist
+* https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+* https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
+
 
 

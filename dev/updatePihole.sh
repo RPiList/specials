@@ -15,18 +15,24 @@
 #                 /var/log/svpihole/updatePihole.stats.log    --> Pi-hole Gravity Update Bericht/Statistik
 #                 /var/var/log/svpihole/updatePihole.cron.log --> Logifile des Cron-Jobs
 #
-# Installation:   1. Script nach /root kopieren.
-# (als Cron-Job)  2. mit sudo chmod +x updatePihole.sh das Script ausfuehrbar machen.
+# Installation:   1. Script downloaden:
+#                    wget https://raw.githubusercontent.com/RPiList/specials/master/dev/updatePihole.sh
+#                 2. Script mittels sudo chmod +x updatePihole.sh ausführbar machen.
+#
+# Installation:   1. Script mittels sudo cp updatePihole.sh /root nach /root kopieren.
+# (als Cron-Job)  2. Script mittels sudo chmod +x /root/updatePihole.sh ausfuehrbar machen.
 #                 3. Cron-Job mit sudo crontab -e erstellen
 #                    Am Ende der Datei z.B. folgendes einfuegen um das Script taeglich um 03:00 Uhr zu starten
 #                    und eine Mail mit dem Gravity Update Bericht an "rootoma" zu schicken:
+#
 #                      0 3 * * * /root/updatePihole.sh rootoma@senioren.xy > /var/log/svpihole/updatePihole.cron.log
-#                  4. Datei speichern und schliessen.
+#
+#                  4. Datei speichern und schliessen. (im nano Editor: Strg+o/Enter/Strg+x).
 #
 #                  -------
 #                 :HINWEIS: Damit der Mailversand funktioniert, muss msmtp und mailutils installiert und konfiguriert
 #                  -------  sein. Eine Anleitung dazu ist hier zu finden:
-#                                   https://github.com/RPiList/specials/blob/master/dev/EinrichtungMailversand.md
+#                                 https://github.com/RPiList/specials/blob/master/dev/EinrichtungMailversand.md
 #
 # Versionshistorie:
 # Version 1.0.0 - [Zelo72]          - initiale Version

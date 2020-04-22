@@ -11,25 +11,38 @@
 #                   - Pihole Konfiguration setupVars.conf
 #                   - Pihole-listen: adlists.list, auditlog.list, blacklist.txt, regex.list, whitelist.txt
 #
-# Aufruf:       sudo ./backupPiholeSettings.sh /mnt/nas/rpi/ <-- Pfad an dem das Archic abgelegt werden soll
+# Aufrufparameter: 1. Backupverzeichnis              --> Pfad an dem das Archiv abgelegt werden soll
+#                  2. Bereinigungsintervall in Tagen --> (optional) Logs und Archive älter als
+#                                                                   X Tage löschen.
+#                                                                   Standartwert ist: 90 Tage
+#
+# Aufruf:          sudo ./backupPiholeSettings.sh /mnt/nas/rpi/
+#                  optional: sudo ./backupPiholeSettings.sh /mnt/nas/rpi/ 180
 #
 # Ausgabedateien: /var/log/svpihole/Ym_backupPiholeSettings.sh.log   --> monatliches Logfile
 #                 /var/log/svpihole/backupPiholeSettings.cron.log    --> Logifile des Cron-Jobs
 #                 /.../pi-hole-teleporter_Y-m-d_H-M-S.tar.gz         --> Teleporter Sicherungsarchiv
 #
-# Installation:   1. Script nach /root kopieren.
-# (als Cron-Job)  2. mit sudo chmod +x backupPiholeSettings.sh das Script ausführbar machen.
+# Installation:   1. Script downloaden:
+#                    wget https://raw.githubusercontent.com/RPiList/specials/master/dev/backupPiholeSettings.sh
+#                 2. Script mittels sudo chmod +x backupPiholeSettings.sh ausführbar machen.
+#
+# Installation:   1. Script mittels sudo cp backupPiholeSettings.sh /root nach /root kopieren.
+# (als Cron-Job)  2. Script mittels sudo chmod +x /root/backupPiholeSettings.sh ausführbar machen.
 #                 3. Cron-Job mit sudo crontab -e erstellen
 #                    Am Ende der Datei z.B. folgendes einfügen um das Script 2 x monatlich am 15. und 30. um 00:00 Uhr
 #                    auszuführen:
 #
 #                    0 0 */15 * * /root/backupPiholeSettings.sh /mnt/nas/rpi/ > /var/log/svpihole/backupPiholeSettings.cron.log
 #
-#                  4. Datei speichern und schliessen.
+#                  4. Datei speichern und schliessen (im nano Editor: Strg+o/Enter/Strg+x).
 #
 # Versionshistorie:
-# Version 1.0.0 - [Zelo72] - initiale Version
-#
+# Version 1.0.0 - [Zelo72]          - initiale Version
+#         1.0.1 - [Zelo72/AleksCee] - Bereinigung von Minuten auf Tage umgestellt und Unterscheidung zwischen
+#                                     Startpunkt und Suchmuster.
+#                                   - Aufrufparameter für Bereinigungsintervall in Tagen hinzugefügt,
+#                                     Standardwert ist 90 Tage
 
 # Prüfen ob das Script als root ausgeführt wird
 if [ "$(id -u)" != "0" ]; then
@@ -49,6 +62,13 @@ if [ ! -d "$1" ]; then
     exit 1
 fi
 
+# Bereiniung nach x Tagen, Default: 90 Tage
+cleaningInterval=90
+# Prüfen ob ein Bereinigungsintervall in Tagen als 2. Aufrufparameter mitgegeben wurde.
+if [ -n "$2" ]; then
+    cleaningInterval=$2
+fi
+
 # *** Initialisierung ***
 
 # Logging initialisieren
@@ -62,9 +82,9 @@ writeLog() {
 }
 writeLog "[I] Start | Logfile: $log"
 
-# Logverzeichnis bereinigen, Logs älter als 90 Tage (129600 Minuten) werden gelöscht.
+# Logverzeichnis bereinigen, Logs älter als 90 Tage werden gelöscht.
 writeLog "[I] Bereinige Logverzeichnis $logDir ..."
-find $logDir/*backupPiholeSettings*.log -type f -mmin +129600 -exec rm {} \;
+find $logDir -daystart -type f -mtime +"$cleaningInterval" -name \*backupPiholeSettings\*.log -exec rm -v {} \;
 writeLog "[I] Logverzeichnis $logDir bereinigt."
 
 # Variablen
@@ -82,9 +102,10 @@ else
     writeLog "[I] Backup erfolgreich durchgeführt."
 fi
 
-# Alte Teleporter Archive bereinigen, Archive älter als 90 Tage (129600 Minuten) werden gelöscht.
-writeLog "[I] Bereinige Backupverzeichnis $backupDir ..."
-find "$backupDir"/pi-hole-teleporter*.* -type f -mmin +129600 -exec rm {} \;
+# Alte Teleporter Archive bereinigen, Archive älter als 90 Tage werden gelöscht.
+writeLog "[I] Bereinige Backupverzeichnis $backupDir älter als $cleaningInterval Tage ..."
+find "$backupDir" -daystart -type f -mtime +"$cleaningInterval" -name pi-hole-teleporter\*.\* -exec rm -v {} \;
+
 writeLog "[I] Alte Backuparchive unter $backupDir wurden bereinigt."
 
 writeLog "[I] Ende | Logfile: $log"

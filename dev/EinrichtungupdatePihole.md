@@ -9,9 +9,11 @@
 4. STRG+X
 5. "Y" für yes
 6. ENTER
-7. Das skript mit folgendem Befehl testen:
+7. Folgendes eingeben um Skript ausführen zu können:
+`sudo chmod +x updatePihole.sh`
+8. Das Skript mit folgendem Befehl testen:
 `sudo ./updatePihole.sh`
-8. Das Ergebnis sollte in der Konsole wie folgt aussehen:
+9. Das Ergebnis sollte in der Konsole ungefähr wie folgt aussehen:
 `[2020.04.19-19:16:44] [I] Pi-hole Gravity Update exitcode: 0
 [2020.04.19-19:16:44] [I] Teste DNS Namensaufloesung ...
 ping: google.de: Temporary failure in name resolution

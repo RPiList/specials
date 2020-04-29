@@ -1,3 +1,5 @@
 Auf vielfachen Wunsch bieten wir hier Proxylisten an.
 
 Pi-hole Nutzer brauchen diese Listen <b>NICHT</b>. Proxy-Server bieten ebenfalls die Möglichkeit Domains zu sperren. ABER leider i.d.R. immer nur duch eine Liste. D.h. das Importieren von mehreren Listen, ganz nach Geschmack, ist bei Proxy-Servern nicht möglich. Dort kann dann immer nur eine Liste importiert werden. Deswegen haben wir aus unseren Listen kummulierte Versionen erstellt. Ferner ist in diesen Dateien die bentöigte Nennung des Hosts drin, auf den der Proxy-Zugriff umgeleitet werden soll. Es gibt Versionen die auf 0.0.0.0 sowie auf 127.0.0.1 umleiten.
+
+Viel Erfolg und abschließend: Ein Pi-hole ist auf jeden Fall geeigneter für den Job und absolut zu empfehlen!

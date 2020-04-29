@@ -13,10 +13,10 @@ Da die Listen teilweise zu groß sind, werden sie hier nur verlinkt.
 
 # <a href="http://sempervideo.de/proxylisten/domains20.zip">Domains2</a> (Host 0.0.0.0) ca. 1,1 Mio. Domains<br>
 # <a href="http://sempervideo.de/proxylisten/domains2127.zip">Domains2</a> (Host 127.0.0.1) ca. 1,1 Mio. Domains<br>
-<blockquote><b>Beinhaltet zusätzliche die Listen child-protection, gambling, Streaming</b>
+<blockquote><b>Beinhaltet zusätzlich die Listen child-protection, gambling, Streaming</b>
 </blockquote>
 
 # <a href="http://sempervideo.de/proxylisten/domains30.zip">Domains3</a> (Host 0.0.0.0) ca. 4,4 Mio. Domains<br>
 # <a href="http://sempervideo.de/proxylisten/domains3127.zip">Domains3</a> (Host 127.0.0.1) ca. 4,4 Mio. Domains<br>
-<blockquote><b>Beinhaltet zusätzliche die Listen pornblock1, pornblock2, pornblock3, pornblock4</b>
+<blockquote><b>Beinhaltet zusätzlich die Listen pornblock1, pornblock2, pornblock3, pornblock4</b>
 </blockquote>

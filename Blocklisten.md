@@ -41,7 +41,6 @@
 * https://v.firebog.net/hosts/Easyprivacy.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
 * https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 * https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt

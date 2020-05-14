@@ -5,8 +5,6 @@
 Worin besteht der Unterschied zur Version 2002?
 Der Unterschied ist, dass Unbound installiert und eingerichtet ist. Ansonsten wurden einige neue Listen und RegEx-Zeilen hinzugefügt wurden. Wenn Sie eine funktionierende Version 2002 im Einsatz haben können Sie die Listen und RegEx-Zeilen auch von Hand selbst eintragen.<br>
 
-Hinweis:<br>
-Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen.
 
 ## Raspberry Pi: http://sempervideo.de/svpihole2004.zip <br>
 sha256: 861ffbaf36317ff02e0e955c167772456f472b986ddde76fdf8d320ec478dcff <br>

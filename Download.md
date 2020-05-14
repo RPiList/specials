@@ -20,50 +20,10 @@ http://35.234.101.210/svpihole2004.zip<br>
 https://drop.banananet.work/files/svpihole2004.zip<br>
 
 
-## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2004.zip<br>
-sha256: fc7e4f1ffc50aae48e5f3e754ac4be536dc0c64e8ac2de6b7fe700fae2ba912a<br>
-md5: 6133ccad7a9f9e81c0112e56872d7806 <br>
+## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2005.zip<br>
+sha256: c4c6271b8b3fb0a651a258d047d8f1453ad906ad565464f729cc8439b7de5fe3<br>
+md5: 9e62f3155e73762280670bdf53177307 <br>
 
-Weitere Download-Quellen:<br>
-http://35.246.185.46/svpiholeVM2004.zip<br>
-http://35.234.71.89/svpiholeVM2004.zip<br>
-http://35.246.219.235/svpiholeVM2004.zip<br>
-http://35.234.101.210/svpiholeVM2004.zip<br>
-https://drop.banananet.work/files/svpiholevm2004.zip<br>
-
-
-# Version 2002
-
-## Häufig gestellte Frage: 
-Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 2001 oder später) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
-<br>
-Nein! Der einzige Unterschied zw. den Updates besteht darin, dass evtl. weitere Listen und RegEx-Zeilen hinzugefügt wurden. Diese können Sie wesentlich schneller von Hand selbst hinzufügen.
-
-## Häufig gestellte Frage 2: 
-Ich habe bereits eine frühere Version des SV-Pihole (z.B. Version 1912 oder früher) installiert. Soll ich für ein Update das komplette Image ziehen und neu installieren?
-<br>
-Erst mal Gratulation, dass Sie diese Version ans Laufen gebracht haben. Da sind Sie wahrscheinlich der Einzige der das geschafft hat. :-) Ja, da würden wir empfehlen das neueste Image auf die SD-Karte zu kopieren und neu zu starten.
-
-## Hinweis:
-Das Image schreibt beim ersten Start die IPs für IPv4 und IPv6 in die entsprechende Datei. Danach wird der Pi bzw. die VM automatisch neu gestartet. Das ganze dauert ca. 45 Sekunden nach dem ersten Start. Danach sollte der PI bzw. die VM sich problemlos nutzen lassen. 
-
-## Raspberry Pi: http://sempervideo.de/svpihole2002.zip
-
-sha256: 45bb3cc4ba5f195c916eaef52dbd88fef2d2c63c31110b6d8c42e9eeeb672304<br>
-md5: 114c032345ef9907927cd205db57ad88<br>  
-
-Weitere Download-Quellen:<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2002/image/svpihole2002.zip<br>
-https://mirror.wtnet.de/pub/Sempervideo/svpihole2002.zip<br>
-
-## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2002.zip (v.2)
-
-sha256: 0a40fd4276917eed7f5877d1c4722362eedf292bb49161ac605da7f12c6dcb39<br>
-md5: db39f29031965526ae5f058831473855<br>
-
-Weitere Download-Quellen:<br>
-https://mirror.joestr.xyz/sempervideo/pihole/2002/virtual-machine-image/svpihole2002-vm.zip<br>
-https://mirror.wtnet.de/pub/Sempervideo/svpiholeVM2002.zip<br>
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
 Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>

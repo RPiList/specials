@@ -6,17 +6,9 @@ Worin besteht der Unterschied zur Version 2002?
 Der Unterschied ist, dass Unbound installiert und eingerichtet ist. Ansonsten wurden einige neue Listen und RegEx-Zeilen hinzugefügt wurden. Wenn Sie eine funktionierende Version 2002 im Einsatz haben können Sie die Listen und RegEx-Zeilen auch von Hand selbst eintragen.<br>
 
 
-## Raspberry Pi: http://sempervideo.de/svpihole2004.zip <br>
-sha256: 861ffbaf36317ff02e0e955c167772456f472b986ddde76fdf8d320ec478dcff <br>
-md5 29635a12cffcd015c72aeabb3ec7a5af <br>
-
-Weitere Download-Quellen:<br>
-http://35.246.185.46/svpihole2004.zip<br>
-http://35.234.71.89/svpihole2004.zip<br>
-http://35.246.219.235/svpihole2004.zip<br>
-http://35.234.101.210/svpihole2004.zip<br>
-https://drop.banananet.work/files/svpihole2004.zip<br>
-
+## Raspberry Pi: http://sempervideo.de/svpihole2005.zip <br>
+sha256:  wird noch erstellt  <br>
+md5 wird noch erstellt <br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2005.zip<br>
 sha256: c4c6271b8b3fb0a651a258d047d8f1453ad906ad565464f729cc8439b7de5fe3<br>

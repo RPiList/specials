@@ -7,8 +7,8 @@ Der Unterschied ist, dass Unbound installiert und eingerichtet ist. Ansonsten wu
 
 
 ## Raspberry Pi: http://sempervideo.de/svpihole2005.zip <br>
-sha256:  wird noch erstellt  <br>
-md5 wird noch erstellt <br>
+sha256: 24d200bb5bbb465d1c7f5e5148b63a083d4674e710043fe7725b04cb3ccbf4dd  <br>
+md5: 174b5a1736c7553810c08f8da0577f1b <br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2005.zip<br>
 sha256: c4c6271b8b3fb0a651a258d047d8f1453ad906ad565464f729cc8439b7de5fe3<br>

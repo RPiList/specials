@@ -11,9 +11,15 @@ Die Version 2005 enthält nun das neueste Update auf Pi-hole 5.
 sha256: 24d200bb5bbb465d1c7f5e5148b63a083d4674e710043fe7725b04cb3ccbf4dd  <br>
 md5: 174b5a1736c7553810c08f8da0577f1b <br>
 
+Weitere Download-Quellen:<br>
+https://drop.banananet.work/svpihole2005.zip<br>
+
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2005.zip<br>
 sha256: c4c6271b8b3fb0a651a258d047d8f1453ad906ad565464f729cc8439b7de5fe3<br>
 md5: 9e62f3155e73762280670bdf53177307 <br>
+
+Weitere Download-Quellen:<br>
+https://drop.banananet.work/svpiholevm2005.zip<br>
 
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>

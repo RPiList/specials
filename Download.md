@@ -2,8 +2,9 @@
 
 ## Häufig gestellte Frage:
 
-Worin besteht der Unterschied zur Version 2002?
-Der Unterschied ist, dass Unbound installiert und eingerichtet ist. Ansonsten wurden einige neue Listen und RegEx-Zeilen hinzugefügt wurden. Wenn Sie eine funktionierende Version 2002 im Einsatz haben können Sie die Listen und RegEx-Zeilen auch von Hand selbst eintragen.<br>
+Worin besteht der Unterschied zur Vorversion?<br>
+Die Version 2005 enthält nun das neueste Update auf Pi-hole 5.
+<br>
 
 
 ## Raspberry Pi: http://sempervideo.de/svpihole2005.zip <br>

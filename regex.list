@@ -16,29 +16,29 @@
 
 # Einträge für Spam- und Malware-Schutz:
 
-Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
+# Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
 (\.cn$|\.ru$|\.co$|\.vn$)
 
-Sperrt alle Domains der TLD .link: (Linkverkürzer)
+# Sperrt alle Domains der TLD .link: (Linkverkürzer)
 \.link$
 
-Sperrt alle URLs zu "sendgrid.net"
+# Sperrt alle URLs zu "sendgrid.net"
 sendgrid\.net
 
-Sperrt alle Punycode-Domains:
+# Sperrt alle Punycode-Domains:
 .*(xn--).*
 
 
 # Einträge für Jugendschutz:
 
-Sperrt alle Domains verschiedener TLDs (Jugendschutz):
+# Sperrt alle Domains verschiedener TLDs (Jugendschutz):
 (\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$|\.gay$)
 
-Sperrt alle Domains verschiedener TLDs (Jugendschutz):
+# Sperrt alle Domains verschiedener TLDs (Jugendschutz):
 (\.casino$|\.bet$|\.poker$)
 
-Sperrt alle Domains in Zusammenhang mit Instagram:
+# Sperrt alle Domains in Zusammenhang mit Instagram:
 instagram
 
-Sperrt alle Domains in Zusammenhang mit Facebook:
+# Sperrt alle Domains in Zusammenhang mit Facebook:
 facebook

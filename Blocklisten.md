@@ -41,7 +41,6 @@
 * https://v.firebog.net/hosts/Easyprivacy.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
-* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
 * https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 * https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
@@ -116,6 +115,7 @@
 * https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist
 * https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 * https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
+* https://raw.githubusercontent.com/ChefTyler/MiscHostsFiles/master/ChanBlocker.txt
 
 
 

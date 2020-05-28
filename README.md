@@ -17,3 +17,5 @@ haben wir für Sie bereits zusammen gestellt. Alle Links können ganz einfach, d
 
 # <a href="./Blocklisten.md">Klicken Sie dafür bitte hier.</A>
 
+Disclaimer: These pages and the entire project is in no way affiliated with Pi-hole, which you can find on https://pi-hole.net/ 
+We are only offering blocklists you can import to your Pi-hole. If you are not familiar using a terminal or linux, you can download our preconfigured rasbian image containing Pi-hole.

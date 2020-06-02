@@ -1,12 +1,44 @@
-Sperrt alle Domains aus China:
-([a-zA-Z0-9-\.]{2,256})(.cn)
+# Welche Einträge findet man hier?
+#
+# Auf der RegEx-Seite finden sich nur die Sperr-Einträge, welche über die normale Blocklist nur schwer zu blockieren wären.
+# Es ist einfacher alle Domains der TLD .porn über RegEx zu sperren, als die 14.000 einzelnen Domains zu sperren. 
+# Das gleiche für die hier aufgeführten ccTLDs.
+#
+# Ein weiterer Anwendungsfall:
+# Wenn Nutzer - aus Gründen des Jugendschutzes - den Zugang zu Facebook oder anderen sozialen Netzwerk verhindern wollen, 
+# ist es einfacher die Hauptdomain über RegEx zu sperren.
+#
+# Alle anderen Sperrungen werden (zumindest in Pihole 4) über die klassische Blocklist realisiert.
+#
 
-Sperrt alle URLs zu "sendgrid.net"
-([a-zA-Z0-9-\.]{0,256})(sendgrid)(.net)
+# "WPAD-Lücke": WPAD Protokoll im Netzwerk verbieten:
+^wpad\.
 
-Sperrt alle Punycode-Domains:
-.*(xn--)([a-zA-Z0-9-\.]{2,256})*(\.[a-z]{2,6})
+# Einträge für Spam- und Malware-Schutz:
 
-Sperrt alle Punycode-Domains, außer die mit deutscher TLD:
-.*(xn--)([a-zA-Z0-9-\.]{2,256})*(?!\.de)(\.[a-z]{2,6})
+# Sperrt alle Domains aus China, Russland, Kolumbien und Vietnam:
+(\.cn$|\.ru$|\.co$|\.vn$)
 
+# Sperrt alle Domains der TLD .link: (Linkverkürzer)
+\.link$
+
+# Sperrt alle URLs zu "sendgrid.net"
+sendgrid\.net
+
+# Sperrt alle Punycode-Domains:
+.*(xn--).*
+
+
+# Einträge für Jugendschutz:
+
+# Sperrt alle Domains verschiedener TLDs (Jugendschutz):
+(\.porn$|\.sex$|\.xxx$|\.sexy$|\.webcam$|\.cam$|\.tube$|\.adult$|\.gay$)
+
+# Sperrt alle Domains verschiedener TLDs (Jugendschutz):
+(\.casino$|\.bet$|\.poker$)
+
+# Sperrt alle Domains in Zusammenhang mit Instagram:
+instagram
+
+# Sperrt alle Domains in Zusammenhang mit Facebook:
+facebook

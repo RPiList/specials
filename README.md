@@ -1,23 +1,21 @@
-# notserious = unseriös = Fakeshops
+# Schutz vor Fakeshops, Werbung, Tracking und anderen Angriffen aus dem Internet.
 
-Was soll das hier sein???
-
-Ist ganz einfach.
-
-Schauen Sie sich das Video unter https://youtu.be/JpZbe1mEyqo an. Dann wissen Sie Bescheid.
+Für weitere Informationen schauen Sie sich das Video unter https://youtu.be/yV2tD-5_X5Y an.
 
 Hier geht es um Webshops die aufgrund des Auftretens sehr unseriös erscheinen und unter dem Verdacht stehen, die Kunden übers Ohr zu hauen.
-
-Die Community hat dann versucht das Problem an Googles Safebrowsing zu melden. Siehe https://youtu.be/_2dxJdX_5K0 
-
-Das Problem wurde aber von Safebrowsing ignoriert. Vermutlich weil diese Art von Abzockern zu schwer zu erkennen ist.
 
 Deswegen hatten wir uns überlegt, genau solche "unseriösen" Webshops in dieser List zusammen zufassen. Nutzer können die Liste in Ihr Pi-Hole importieren und damit die anderen Nutzer im Netzwerk davor schützen.
 
 Wenn Sie sich einbringen wollen, können Sie uns die URLs per eMail an RPIList@gmail.com senden. 
 
-<b>ABER bitte nur die URLs einsenden, die auch in die zuvor genannte Nische passen. D.h. die Standard-Phishing-URL brauchen wir NICHT in unserer Liste. Die werden i.d.R. innerhalb von 24 Std. von Safebrowsing erkennt und verschwinden selbst dann auch wieder nach 48 Std. Ferner werden diese URLs auch schon von anderen beliebten Listen auf dem Pi-Hole geführt. Es ist also nicht das Ziel einfach nur viele URLs anzusammeln.</b>
-
 Man darf gespannt bleiben. :-)
 
 # <a href="./Download.md">Zum Image Download hier klicken</A>
+
+Haben Sie bereits ein Pi-hole und wollen unsere Listen importieren? Unsere Listen sowie eine Auswahl dritter Listen, 
+haben wir für Sie bereits zusammen gestellt. Alle Links können ganz einfach, direkt per Copy&Paste, zum Pi-hole hinzugefügt werden.
+
+# <a href="./Blocklisten.md">Klicken Sie dafür bitte hier.</A>
+
+Disclaimer: These pages and the entire project is in no way affiliated with Pi-hole, which you can find on https://pi-hole.net/ 
+We are only offering blocklists you can import to your Pi-hole. If you are not familiar using a terminal or linux, you can download our preconfigured rasbian image containing Pi-hole.

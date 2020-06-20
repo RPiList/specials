@@ -8,8 +8,14 @@ Deswegen hatten wir uns überlegt, genau solche "unseriösen" Webshops in dieser
 
 Wenn Sie sich einbringen wollen, können Sie uns die URLs per eMail an RPIList@gmail.com senden. 
 
-<b>ABER bitte nur die URLs einsenden, die auch in die zuvor genannte Nische passen. D.h. die Standard-Phishing-URL brauchen wir NICHT in unserer Liste. Die werden i.d.R. innerhalb von 24 Std. von Safebrowsing erkennt und verschwinden selbst dann auch wieder nach 48 Std. Ferner werden diese URLs auch schon von anderen beliebten Listen auf dem Pi-Hole geführt. Es ist also nicht das Ziel einfach nur viele URLs anzusammeln.</b>
-
 Man darf gespannt bleiben. :-)
 
 # <a href="./Download.md">Zum Image Download hier klicken</A>
+
+Haben Sie bereits ein Pi-hole und wollen unsere Listen importieren? Unsere Listen sowie eine Auswahl dritter Listen, 
+haben wir für Sie bereits zusammen gestellt. Alle Links können ganz einfach, direkt per Copy&Paste, zum Pi-hole hinzugefügt werden.
+
+# <a href="./Blocklisten.md">Klicken Sie dafür bitte hier.</A>
+
+Disclaimer: These pages and the entire project is in no way affiliated with Pi-hole, which you can find on https://pi-hole.net/ 
+We are only offering blocklists you can import to your Pi-hole. If you are not familiar using a terminal or linux, you can download our preconfigured rasbian image containing Pi-hole.

@@ -19,6 +19,11 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 
+# Copy & Paste ab Pi-hole 5:
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious  https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+
+
+
 # Listen von Drittanbietern
 
  Pi-hole Standardlisten

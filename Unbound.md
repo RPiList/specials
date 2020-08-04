@@ -34,3 +34,8 @@ Am Ende der Datei folgende Zeile einfügen:
 ```
 0 0 1 */6 * /root/updateroot &
 ```
+
+Cron zum Schluss noch neustarten:
+```
+service cron restart
+```

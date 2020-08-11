@@ -3,16 +3,16 @@
 ## Häufig gestellte Frage:
 
 Worin besteht der Unterschied zur Vorversion?<br>
-Die Version 2005 enthält nun das neueste Update auf Pi-hole 5.
+Die Version 2008 enthält nun das Update auf die neuste Version des Pi-hole 5 sowie Webmin zur Administration.
 <br>
 
 
-## Raspberry Pi: http://sempervideo.de/svpihole2005.zip <br>
-sha256: 24d200bb5bbb465d1c7f5e5148b63a083d4674e710043fe7725b04cb3ccbf4dd  <br>
-md5: 174b5a1736c7553810c08f8da0577f1b <br>
+## Raspberry Pi: http://sempervideo.de/svpihole2008.zip <br>
+sha256: 0fd0c19690e66f73f6a936526b4a744808919cdfd8d40d61d52ba1d177b0b111  <br>
+md5: 20da3015f5a53183db3fd659fb1c6100 <br>
 
 Weitere Download-Quellen:<br>
-https://drop.banananet.work/svpihole2005.zip<br>
+
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2008.zip<br>
 sha256: bad1b2ec4d27b1582de68219cd14eaaf9c56b45c3bccdcc02b1058796de0a24c<br>

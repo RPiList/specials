@@ -14,13 +14,9 @@ md5: 174b5a1736c7553810c08f8da0577f1b <br>
 Weitere Download-Quellen:<br>
 https://drop.banananet.work/svpihole2005.zip<br>
 
-## VMware Player und Synology Diskstation: http://sempervideo.de/svpiholeVM2005.zip<br>
-sha256: c4c6271b8b3fb0a651a258d047d8f1453ad906ad565464f729cc8439b7de5fe3<br>
-md5: 9e62f3155e73762280670bdf53177307 <br>
-
-Weitere Download-Quellen:<br>
-https://drop.banananet.work/svpiholevm2005.zip<br>
-
+## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2008.zip<br>
+sha256: bad1b2ec4d27b1582de68219cd14eaaf9c56b45c3bccdcc02b1058796de0a24c<br>
+md5: a6aaa84771effc31a431067200adc35f <br>
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
 Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>

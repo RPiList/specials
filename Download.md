@@ -12,6 +12,7 @@ sha256: 0fd0c19690e66f73f6a936526b4a744808919cdfd8d40d61d52ba1d177b0b111  <br>
 md5: 20da3015f5a53183db3fd659fb1c6100 <br>
 
 Weitere Download-Quellen:<br>
+https://drop.banananet.work/svpihole2008.zip ([direct](https://drop.banananet.work/files/svpihole2008.zip))<br>
 
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2008.zip<br>

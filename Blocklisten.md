@@ -54,6 +54,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://adaway.org/hosts.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 * https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+* https://www.sunshine.it/blacklist.txt
 
 
 # Malware

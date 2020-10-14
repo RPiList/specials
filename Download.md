@@ -8,8 +8,8 @@ Wenn in Ihrem Netzwerk nur volljährige Nutzer unterwegs sind, können Sie alter
 <br>
 
 ## Raspberry Pi: http://sempervideo.de/svpihole2010.zip <br>
-sha256: wird noch ergänzt  <br>
-md5: wird noch ergänzt <br>
+sha256: 0a078403c93195c5a3cd60e2481529265582f118617d1cbfd2933aaf6bc4462a <br>
+md5: 25ed6f77cc3fd32f43218472105956c1 <br>
 <br>
 <hr>
 <br>

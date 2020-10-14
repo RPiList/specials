@@ -1,7 +1,21 @@
 # Aktuelle Version
 
 ## Häufig gestellte Frage:
+Worin besteht der Unterschied zur Vorversion?<br>
+Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellung bestimmt dass die Listen zum Schutz von Minderjährigen (Glückspiel/FSK18-Seiten usw...) für den Standard-Nutzer gelten. Möchte ein Nutzer auf die zuvor genannten Seiten zugreifen, schiebt er seinen PC/Tablet in die Nutzergruppe "Adults". Eine ausführliche Erläuterung finden Sie hier: https://youtu.be/_Jj4Jv1s_hE
+<br>
+Wenn in Ihrem Netzwerk nur volljährige Nutzer unterwegs sind, können Sie alternativ auch die Version 2008 runterladen, die die Gruppenfunktion nicht aktiviert hat.
+<br>
 
+<br>
+## Raspberry Pi: http://sempervideo.de/svpihole2010.zip <br>
+sha256: wird noch ergänzt  <br>
+md5: wird noch ergänzt <br>
+<br>
+<hr>
+<hr>
+<br>
+## Häufig gestellte Frage:
 Worin besteht der Unterschied zur Vorversion?<br>
 Die Version 2008 enthält nun das Update auf die neuste Version des Pi-hole 5 sowie Webmin zur Administration.
 <br>

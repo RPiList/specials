@@ -12,7 +12,7 @@ sha256: 0a078403c93195c5a3cd60e2481529265582f118617d1cbfd2933aaf6bc4462a <br>
 md5: 25ed6f77cc3fd32f43218472105956c1 <br>
 
 Weitere Download-Quellen:<br>
-https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2010/ ([direct](https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2010/))<br>
+https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2010/<br>
 
 <br>
 <hr>
@@ -29,7 +29,7 @@ sha256: 0fd0c19690e66f73f6a936526b4a744808919cdfd8d40d61d52ba1d177b0b111  <br>
 md5: 20da3015f5a53183db3fd659fb1c6100 <br>
 
 Weitere Download-Quellen:<br>
-https://drop.banananet.work/svpihole2008.zip ([direct](https://drop.banananet.work/files/svpihole2008.zip))<br>
+https://drop.banananet.work/svpihole2008.zip <br>
 https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2008/<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2008.zip<br>
@@ -37,7 +37,7 @@ sha256: bad1b2ec4d27b1582de68219cd14eaaf9c56b45c3bccdcc02b1058796de0a24c<br>
 md5: a6aaa84771effc31a431067200adc35f <br>
 
 Weitere Download-Quellen:<br>
-https://drop.banananet.work/svpiholevm2008.zip ([direct](https://drop.banananet.work/files/svpiholevm2008.zip))<br>
+https://drop.banananet.work/svpiholevm2008.zip<br>
 https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svPiholeVM2008/
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>

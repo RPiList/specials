@@ -13,7 +13,7 @@ md5: 25ed6f77cc3fd32f43218472105956c1 <br>
 
 Weitere Download-Quellen:<br>
 https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2010/<br>
-
+https://ipfs.io/ipfs/QmUKAPG1MNwoJ79kXbZrLRSNtPZkivS9hFg86tgREgoW53?filename=svpihole2010.zip<br>
 <br>
 <hr>
 <br>
@@ -31,6 +31,7 @@ md5: 20da3015f5a53183db3fd659fb1c6100 <br>
 Weitere Download-Quellen:<br>
 https://drop.banananet.work/svpihole2008.zip <br>
 https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2008/<br>
+https://ipfs.io/ipfs/Qman5EqMB2kFWQdGNGwjH3cghXDQfEG5nkKqpfnELfcSZQ?filename=svpihole2008.zip<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2008.zip<br>
 sha256: bad1b2ec4d27b1582de68219cd14eaaf9c56b45c3bccdcc02b1058796de0a24c<br>
@@ -38,7 +39,8 @@ md5: a6aaa84771effc31a431067200adc35f <br>
 
 Weitere Download-Quellen:<br>
 https://drop.banananet.work/svpiholevm2008.zip<br>
-https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svPiholeVM2008/
+https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svPiholeVM2008/<br>
+https://ipfs.io/ipfs/QmSsRcmma1bbcPKNvqwu8E4iW6S4uJwDtzM8X4y3W2tD54?filename=svPiholeVM2008.zip<br>
 
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
 Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>

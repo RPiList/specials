@@ -12,6 +12,7 @@ sha256: 0a078403c93195c5a3cd60e2481529265582f118617d1cbfd2933aaf6bc4462a <br>
 md5: 25ed6f77cc3fd32f43218472105956c1 <br>
 
 Weitere Download-Quellen:<br>
+https://drop.banananet.work/svpihole2010.zip<br>
 https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2010/<br>
 https://ipfs.io/ipfs/QmUKAPG1MNwoJ79kXbZrLRSNtPZkivS9hFg86tgREgoW53?filename=svpihole2010.zip<br>
 <br>

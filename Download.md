@@ -15,6 +15,7 @@ Weitere Download-Quellen:<br>
 https://drop.banananet.work/svpihole2010.zip<br>
 https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2010/<br>
 https://ipfs.io/ipfs/QmUKAPG1MNwoJ79kXbZrLRSNtPZkivS9hFg86tgREgoW53?filename=svpihole2010.zip<br>
+[Torrent Magnet-Link](magnet:?xt=urn:btih:8d76d7c53e50558ab4cba9f7745bed6066cd8b2c&dn=svpihole2010.zip&tr=magnet%3a%3fxt%3durn%3abtih%3a125fa8aadc73b4a774b5568e1a29a37b31ab52db%26dn%3dsvpihole1911.img%26tr%3dudp%253A%252F%252Ftracker.opentrackr.org%253A1337%252Fannounce)
 <br>
 <hr>
 <br>

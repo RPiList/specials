@@ -16,7 +16,7 @@
 
 # Einträge für Spam- und Malware-Schutz:
 
-# Sperrt alle Domains aus China, Russland, Kolumbien, Vietnam sowie die .top-TLD, aus der scheinbar nur Spammails kommen.:
+# Sperrt alle Domains aus China, Russland, Kolumbien, Vietnam sowie die .top-TLD, aus der scheinbar nur Spammails kommen:
 (\.cn$|\.ru$|\.co$|\.vn$|\.top$)
 
 # Sperrt alle Domains der TLD .link: (Linkverkürzer)

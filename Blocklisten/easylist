@@ -6,7 +6,7 @@
 # eMail zukommen lassen. Drittquellen sind beallslist.net, bsi.bund.de, github.com/duckduckgo/
 # tracker-radar, cybercrime-tracker.net, openphish.com, zonefiles.io, ut-capitole.fr, isc.sans.edu,
 # github.com/disconnectme, phishstats.info, easylist.to, cyberthreatcoalition.org, phishing.army, 
-# google.com sowie lumendatabase.org.
+# google.com, mailscanner.info sowie lumendatabase.org.
 # 
 001shop.cz
 0026645142c89aeb1.com
@@ -921,7 +921,6 @@ abc2news.com
 abc-7.com
 abcactionnews.com
 abc.hearst.co.uk
-abcnews.go.com
 abc.pema.cl
 abcstats.com
 abctrack.bid
@@ -1686,6 +1685,7 @@ adrent.net
 adreport.de
 adrequest.net
 adresellers.com
+adresponse.it
 adrevenuerescue.com
 adreviewcamp.com
 adrevolver.com
@@ -3309,6 +3309,7 @@ astoapsu.com
 astonwin.org
 astpvgpwbewx.com
 astro-way.com
+aswpsdkeu.com
 aswpsdkus.com
 aszyzwbjs.com
 atacjnqbkok.com
@@ -10493,6 +10494,7 @@ hitslog.com
 hitsniffer.com
 hitsprocessor.com
 hits.sys.lv
+hitstatus.com
 hitsteps.com
 hittail.com
 hittracker.com
@@ -10616,6 +10618,7 @@ hoqqzlvwukpo.com
 horedi.com
 horheloopo.com
 horjhksl.com
+hornsbundlebetter.com
 hornsgrid.com
 hornymatches.com
 hornyspots.com
@@ -17665,6 +17668,7 @@ pluginnetwork.net
 plugin.ws
 plugrush.com
 plugs.co
+pluralbreakpractice7.live
 plurielmediacenter.com
 plusfind.net
 plusservicepartners.com
@@ -23035,6 +23039,7 @@ tracklab.club
 trackmackweldon.com
 trackmethod.com
 trackmkxoffers.se
+trackmstr.com
 track.mypcbackup.com
 trackmytarget.com
 trackmyusers.com
@@ -24431,6 +24436,7 @@ vitaquotidiana.com
 vitoryjober.club
 viunypnvhcw.com
 viurihkwo.com
+vivaclix.com
 vividcash.com
 vivocha.com
 viwsqbbvfknp.com
@@ -25089,6 +25095,7 @@ whies.info
 whipcountry.pw
 whirlclick.com
 whiteboardnez.com
+whiteclick.biz
 white-eyes.com
 whitepixel.com
 whitwise.com
@@ -27063,6 +27070,7 @@ www.adrent.net
 www.adreport.de
 www.adrequest.net
 www.adresellers.com
+www.adresponse.it
 www.adrevenuerescue.com
 www.adreviewcamp.com
 www.adrevolver.com
@@ -28562,6 +28570,7 @@ www.astoapsu.com
 www.astonwin.org
 www.astpvgpwbewx.com
 www.astro-way.com
+www.aswpsdkeu.com
 www.aswpsdkus.com
 www.aszyzwbjs.com
 www.atacjnqbkok.com
@@ -35454,6 +35463,7 @@ www.hitslink.com
 www.hitslog.com
 www.hitsniffer.com
 www.hitsprocessor.com
+www.hitstatus.com
 www.hitsteps.com
 www.hittail.com
 www.hittracker.com
@@ -35576,6 +35586,7 @@ www.hoqqzlvwukpo.com
 www.horedi.com
 www.horheloopo.com
 www.horjhksl.com
+www.hornsbundlebetter.com
 www.hornsgrid.com
 www.hornymatches.com
 www.hornyspots.com
@@ -42389,6 +42400,7 @@ www.pluginnetwork.net
 www.plugin.ws
 www.plugrush.com
 www.plugs.co
+www.pluralbreakpractice7.live
 www.plurielmediacenter.com
 www.plusfind.net
 www.plusservicepartners.com
@@ -47502,6 +47514,7 @@ www.tracklab.club
 www.trackmackweldon.com
 www.trackmethod.com
 www.trackmkxoffers.se
+www.trackmstr.com
 www.trackmytarget.com
 www.trackmyusers.com
 www.trackmyweb.net
@@ -48849,6 +48862,7 @@ www.vitaquotidiana.com
 www.vitoryjober.club
 www.viunypnvhcw.com
 www.viurihkwo.com
+www.vivaclix.com
 www.vividcash.com
 www.vivocha.com
 www.viwsqbbvfknp.com
@@ -49482,6 +49496,7 @@ www.whies.info
 www.whipcountry.pw
 www.whirlclick.com
 www.whiteboardnez.com
+www.whiteclick.biz
 www.white-eyes.com
 www.whitepixel.com
 www.whitwise.com
@@ -50514,6 +50529,7 @@ www.ylx-1.com
 www.ylx-2.com
 www.ylx-3.com
 www.ylx-4.com
+www.ym-a.cc
 www.ymbpndswe.com
 www.ymerjqsynqoxdm.com
 www.ymetrica1.com
@@ -51929,6 +51945,7 @@ ylx-1.com
 ylx-2.com
 ylx-3.com
 ylx-4.com
+ym-a.cc
 ymbpndswe.com
 ymerjqsynqoxdm.com
 ymetrica1.com

@@ -1,4 +1,6 @@
-
+# Do NOT import this File to your Pi-hole UNLESS you know what you are doing.
+#
+# Source is https://reports.exodus-privacy.eu.org/en/
 #
 adc3-launch.adcolony.com
 adcolony.com
@@ -44,7 +46,6 @@ crashlytics.firebase.google.com
 c.w.inmobi.com
 debug.aerserv.com
 detector.beacon.android.beaconinspace.com
-# Do NOT import this File to your Pi-hole UNLESS you know what you are doing.
 doubleclick.ads.gms.android.google.com
 dserver.unityads.unity3d.com
 duapps.com
@@ -90,7 +91,6 @@ sdk.chartboost.com
 sdkm.w.inmobi.com
 sdktm.w.inmobi.com
 sejs.moatads.com
-# Source is https://reports.exodus-privacy.eu.org/en/
 stats.unity3d.com
 tagmanager.gms.android.google.com
 tagmanager.google.com

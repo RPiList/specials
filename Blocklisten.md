@@ -77,6 +77,10 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 # Phishing
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
 
+# Coinmining / Cryptojacking
+* https://zerodot1.gitlab.io/CoinBlockerLists/hosts / [CoinBlockerLists Homepage](https://zerodot1.gitlab.io/CoinBlockerListsWeb/)
+* https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+
 # Diverse - All-in-One Listen
 
 * https://dbl.oisd.nl/ (Ads, Mobile Ads, Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking and some Telemetry, Analytics, Tracking)

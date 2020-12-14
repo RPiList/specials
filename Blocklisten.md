@@ -78,8 +78,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
 
 # Coinmining / Cryptojacking
-* https://zerodot1.gitlab.io/CoinBlockerLists/hosts / [CoinBlockerLists Homepage](https://zerodot1.gitlab.io/CoinBlockerListsWeb/)
-* https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+* https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 
 # Diverse - All-in-One Listen
 

@@ -38,6 +38,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
 
 # Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming

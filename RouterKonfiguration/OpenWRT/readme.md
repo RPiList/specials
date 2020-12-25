@@ -1,14 +1,22 @@
-OpenWRT
+openWRT
 
-![](openwrt1.png)<br>
--Klick auf „Netzwerk“ (englisch "Network")<br>
--Klick auf „Schnittstellen“ (englisch „Interfaces“)<br>
+Bild 1: Einloggen -> Network -> Interfaces.
 
-![](openwrt2.png)<br>
--Klick auf den „Bearbeiten“ (englisch „Edit“) Button des LAN-Interfaces<br>
+![](1.jpg)
 
-![](openwrt3.png)<br>
--Auf der Bearbeiten-Seite des LAN-Interfaces ganz nach unten scrollen<br>
--Klick auf den Reiter „Erweiterte Einstellungen“ (englisch „Advanced Settings“) des DHCP-Servers des LAN-Interfaces<br>
--Im Feld „DHCP-Optionen“ (englisch „DHCP-Options“) das Pi-Hole als DNS-Server eintragen: Syntax: „6, IP.DES.PI.HOLES“<br>
--Klick auf „Speichern und Anwenden“ (englisch „Save & Apply“)
+Bild 2: WAN bzw. WAN6 bearbeiten.
+
+![](2.jpg)
+
+Bild 3: Unter Advanced Settings die IP eintragen und ggf. das Häkchen bei: „Use DNS servers advertised by peer“ entfernen.
+
+![](3.jpg)
+
+Bild 4: Unter Advanced Settings die IP eintragen und ggf. das Häkchen bei: „Use DNS servers advertised by peer“ entfernen.
+
+![](4.jpg)
+
+Bild 5: Unter Advanced Settings die IP eintragen und ggf. das Häkchen bei: „Use DNS servers advertised by peer“ entfernen.
+
+![](5.jpg)
+

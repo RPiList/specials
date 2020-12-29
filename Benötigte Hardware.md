@@ -5,7 +5,7 @@ Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend 
 <tr>
   <td><b>Top-Notch-Variante:</b><td>
 <tr><td>https://amzn.to/34iEZ9S <td>Raspberry Pi 4 Modell B 4GB 
-<tr><td>https://amzn.to/2DsOrf7 <td>3A Netzteil Type-C USB Kabel Stecker Ladegerät* 
+<tr><td>https://t1p.de/e15r <td>Offizielles Raspberry Pi 4 Netzteil* 
 <tr><td>https://amzn.to/2OnKxdL <td>Raspberry Pi 4 Model B Gehäuse mit Kühlkörper**
 <tr><td>https://t1p.de/yi8k <td>SanDisk Ultra 32GB microSDHC***
 <tr><td>https://t1p.de/nfw6 <td>Vanja SD/Micro SD Kartenleser, Micro USB OTG Adapter und USB 2.0 Speicherkartenleser für SDXC, SDHC, SD, MMC, RS-MMC, Micro SDXC, Micro SD, Micro SDHC Karte

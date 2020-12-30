@@ -7,8 +7,8 @@ Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend 
 <tr><td>https://amzn.to/34iEZ9S <td>Raspberry Pi 4 Modell B 4GB 
 <tr><td>https://amzn.to/2DsOrf7 <td>3A Netzteil Type-C USB Kabel Stecker Ladegerät* 
 <tr><td>https://amzn.to/2OnKxdL <td>Raspberry Pi 4 Model B Gehäuse mit Kühlkörper**
-<tr><td>https://t1p.de/yi8k <td>SanDisk Ultra 32GB microSDHC***
-<tr><td>https://t1p.de/nfw6 <td>Vanja SD/Micro SD Kartenleser, Micro USB OTG Adapter und USB 2.0 Speicherkartenleser für SDXC, SDHC, SD, MMC, RS-MMC, Micro SDXC, Micro SD, Micro SDHC Karte
+<tr><td>https://amzn.to/2KSwQRR <td>SanDisk Ultra 16GB microSDHC***
+<tr><td>https://amzn.to/3pEMbHH <td>SD/Micro SD Kartenleser Speicherkartenleser mit Micro USB 
 <tr><td>https://amzn.to/34nFxeG <td>5m - CAT.6 Ethernet Gigabit Lan Netzwerkkabel RJ45 - 10 100 1000Mbits
 </table>
 
@@ -16,7 +16,7 @@ Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend 
 <tr>
   <td><b>Low-Buget-Variante:</b><td>
 <tr><td>https://amzn.to/2XJh8O6 <td>Raspberry Pi 3 Model B 1GB
-<tr><td>https://amzn.to/2DsOrf7 <td>3A Netzteil Type-C USB Kabel Stecker Ladegerät* 
+<tr><td>https://amzn.to/38KwTdt <td>Micro USB Stecker Netzteil 5V 3A EU DC Adapter Strom Kabel 
 <tr><td>https://amzn.to/2XLeQxS <td>Gehäuse für Raspberry Pi 3 ****
 <tr><td>https://t1p.de/yi8k <td>SanDisk Ultra 32GB microSDHC***
 <tr><td>https://t1p.de/nfw6 <td>Vanja SD/Micro SD Kartenleser, Micro USB OTG Adapter und USB 2.0 Speicherkartenleser für SDXC, SDHC, SD, MMC, RS-MMC, Micro SDXC, Micro SD, Micro SDHC Karte

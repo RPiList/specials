@@ -18,8 +18,8 @@ Sie wollen ein Pi-hole für Ihr Netzwerk? Nichts einfacher als das. Nachfolgend 
 <tr><td>https://amzn.to/2XJh8O6 <td>Raspberry Pi 3 Model B 1GB
 <tr><td>https://amzn.to/38KwTdt <td>Micro USB Stecker Netzteil 5V 3A EU DC Adapter Strom Kabel 
 <tr><td>https://amzn.to/2XLeQxS <td>Gehäuse für Raspberry Pi 3 ****
-<tr><td>https://amzn.to/2KSwQRR <td>SanDisk Ultra 16GB microSDHC***
-<tr><td>https://amzn.to/2OigiET <td>SD/Micro SD Kartenleser Speicherkartenleser mit Micro USB 
+<tr><td>https://amzn.to/3n260GQ <td>SanDisk Ultra 32GB microSDHC***
+<tr><td>https://amzn.to/3pEMbHH <td>SD/Micro SD Kartenleser Speicherkartenleser mit Micro USB 
 <tr><td>https://amzn.to/34nFxeG <td>5m - CAT.6 Ethernet Gigabit Lan Netzwerkkabel RJ45 - 10 100 1000Mbits
 </table>
 

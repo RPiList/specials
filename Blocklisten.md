@@ -1,21 +1,39 @@
-# Blocklisten zur Ergänzung nach eigenem Ermessen. Die Listen stammen teilweise von Dritten und können daher nicht auf Richtigkeit geprüft werden. Doppelnennungen möglich.
+# Blocklisten
+Zur Ergänzung nach eigenem Ermessen. Die Listen stammen teilweise von Dritten und können daher nicht auf Richtigkeit geprüft werden. Doppelnennungen möglich.
 
-# Eigene Listen (Copy & Paste ab Pi-hole 5):
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious  https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry
+## Eigene Listen (Copy & Paste ab Pi-hole 5):
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/samsung
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry
 
+## Listen von Drittanbietern
 
-
-# Listen von Drittanbietern
-
- Pi-hole Standardlisten
+### Pi-hole Standardlisten
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 * http://sysctl.org/cameleon/hosts
 * https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
-# Listen, sortiert nach Themen, inkl. Listen von Drittanbietern.:
+## Weitere Listen
+Sortiert nach Themen, inklusive Listen von Drittanbietern.
 
-# Tracking
+### Tracking
 * https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
 * https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
@@ -30,7 +48,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 * https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 
-# Jugendschutz
+### Jugendschutz
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
@@ -39,11 +57,11 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
 
-# Fakeshops und Abofallen
+### Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
-# Werbung
+### Werbung
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
 * https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
@@ -56,8 +74,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
 * https://www.sunshine.it/blacklist.txt
 
-
-# Malware
+### Malware
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 * https://mirror1.malwaredomains.com/files/justdomains
 * https://www.malwaredomainlist.com/hostslist/hosts.txt
@@ -74,19 +91,19 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 * https://urlhaus.abuse.ch/downloads/hostfile/
 
-# Phishing
+### Phishing
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
 
-# Coinmining / Cryptojacking
+### Coinmining / Cryptojacking
 * https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 
-# Diverse - All-in-One Listen
+## Diverse All-in-One Listen
 
 * https://dbl.oisd.nl/ (Ads, Mobile Ads, Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking and some Telemetry, Analytics, Tracking)
 * https://v.firebog.net/hosts/static/w3kbl.txt (Ads, CryptoJacking, Telemetry, Tracking)
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 
-# Einzelne Dienste sperren
+## Einzelne Dienste sperren
 
 * https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Amazon.txt
 * https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Baidu.txt
@@ -106,6 +123,3 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 * https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all (oder als <a href="https://github.com/RPiList/specials/blob/master/regex.list">RegEx</a>)
 * https://raw.githubusercontent.com/ChefTyler/MiscHostsFiles/master/ChanBlocker.txt
-
-
-

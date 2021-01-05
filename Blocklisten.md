@@ -9,9 +9,6 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
  Pi-hole Standardlisten
 * https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-* http://sysctl.org/cameleon/hosts
-* https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
-* https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
 # Listen, sortiert nach Themen, inkl. Listen von Drittanbietern.:
 

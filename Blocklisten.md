@@ -39,6 +39,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 # Fakeshops und Abofallen
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
+* https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
 
 # Werbung
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist

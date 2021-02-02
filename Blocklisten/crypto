@@ -6,7 +6,7 @@
 # eMail zukommen lassen. Drittquellen sind beallslist.net, bsi.bund.de, github.com/duckduckgo/
 # tracker-radar, cybercrime-tracker.net, openphish.com, zonefiles.io, ut-capitole.fr, isc.sans.edu,
 # github.com/disconnectme, phishstats.info, easylist.to, cyberthreatcoalition.org, phishing.army, 
-# google.com sowie lumendatabase.org.
+# google.com, mailscanner.info sowie lumendatabase.org.
 # 
 000.0x1f4b0.com
 001.0x1f4b0.com
@@ -8920,7 +8920,6 @@ ipfswallet.tk
 ip.hashhot.com
 iphonelog.shouji.baofeng.com
 iphwttyqzuhucw.bid
-ipinfo.io
 ipinyou.com
 ipm.atm.youku.com
 ipmi.poloniex.com
@@ -10041,7 +10040,6 @@ lmiutil.com
 lmjjenhdubpu.com
 lmjklpukbbwxm.bid
 lmjpcirfvt.bid
-lm.licenses.adobe.com
 lmlicenses.wip4.adobe.com
 lmn.suprnova.cc
 lmodr.biz
@@ -24846,7 +24844,6 @@ www.ipfs.io
 www.ipfswallet.tk
 www.ip.hashhot.com
 www.iphwttyqzuhucw.bid
-www.ipinfo.io
 www.ipinyou.com
 www.ipinyou.com.cn
 www.ipmi.poloniex.com

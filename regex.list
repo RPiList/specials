@@ -28,6 +28,8 @@ sendgrid\.net
 # Sperrt alle Punycode-Domains:
 .*(xn--).*
 
+# Sperrt alle URLS zu "duckdns.org"
+duckdns\.org
 
 # Einträge für Jugendschutz:
 

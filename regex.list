@@ -19,6 +19,11 @@
 # Sperrt alle Domains aus China, Russland, Sowjetunion, Kolumbien, Vietnam sowie die .top-TLD, aus der scheinbar nur Spammails kommen:
 (\.cn$|\.ru$|\.su$|\.co$|\.vn$|\.top$)
 
+# Wenn Sie den obigen RegEx und Spotify verwenden, werden die Album-Covers nicht mehr geladen, da die von der Domain i.scdn.co geladen werden.
+# Hierzu einfach eine Whitelist-Regel für
+i.scdn.co
+# hinzufügen
+
 # Sperrt alle Domains der TLD .link: (Linkverkürzer)
 \.link$
 

@@ -57,13 +57,11 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
 # Malware
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
-* https://mirror1.malwaredomains.com/files/justdomains
 * https://www.malwaredomainlist.com/hostslist/hosts.txt
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 * https://v.firebog.net/hosts/Prigent-Malware.txt
 * https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
-* https://mirror.cedia.org.ec/malwaredomains/immortal_domains.txt
 * https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
 * https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 * https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt

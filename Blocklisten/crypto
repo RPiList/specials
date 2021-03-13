@@ -6,7 +6,7 @@
 # eMail zukommen lassen. Drittquellen sind beallslist.net, bsi.bund.de, github.com/duckduckgo/
 # tracker-radar, cybercrime-tracker.net, openphish.com, zonefiles.io, ut-capitole.fr, isc.sans.edu,
 # github.com/disconnectme, phishstats.info, easylist.to, cyberthreatcoalition.org, phishing.army, 
-# google.com, mailscanner.info sowie lumendatabase.org.
+# google.com, mailscanner.info, github.com/AdguardTeam sowie lumendatabase.org.
 # 
 000.0x1f4b0.com
 001.0x1f4b0.com
@@ -19310,7 +19310,6 @@ water.suprnova.cc
 wat.pool.mn
 watson.microsoft.com
 watson.ppe.telemetry.microsoft.com
-watson.telemetry.microsoft.com
 watson.telemetry.microsoft.com.nsatc.net
 wattpool.net
 watunxckibtvfm.bid

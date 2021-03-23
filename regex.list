@@ -19,6 +19,10 @@
 # Sperrt alle Domains aus China, Russland, Sowjetunion, Kolumbien, Vietnam sowie die .top-TLD, aus der scheinbar nur Spammails kommen:
 (\.cn$|\.ru$|\.su$|\.co$|\.vn$|\.top$)
 
+# Sperrt alle Domains aus China, Russland, Sowjetunion, Vietnam sowie die .top-TLD, aus der scheinbar nur Spammails kommen:
+(\.cn$|\.ru$|\.su$|\.vn$|\.top$)
+# Gleiche Zeile wie oben, nur ohne "Kolumbien", da der Twitter-Linkverkürzer und Spotify einige .co Domains nutzen.
+
 # Sperrt alle Domains der TLD .link: (Linkverkürzer)
 \.link$
 

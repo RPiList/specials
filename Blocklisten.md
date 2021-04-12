@@ -77,11 +77,14 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 # Coinmining / Cryptojacking
 * https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 
-# Diverse - All-in-One Listen
+# Diverse
 
 * https://dbl.oisd.nl/ (Ads, Mobile Ads, Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking and some Telemetry, Analytics, Tracking)
 * https://v.firebog.net/hosts/static/w3kbl.txt (Ads, CryptoJacking, Telemetry, Tracking)
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
+* https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt (Lieferando Shadow-Fake-Websites)
+
+
 
 # Einzelne Dienste sperren
 

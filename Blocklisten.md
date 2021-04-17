@@ -73,6 +73,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
 # Phishing
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
+* https://raw.githubusercontent.com/namePlayer/dhl-scamlist/main/dns-blocklists/pihole-blacklist
 
 # Coinmining / Cryptojacking
 * https://zerodot1.gitlab.io/CoinBlockerLists/hosts

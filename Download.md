@@ -17,17 +17,6 @@ Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellun
 <br>
 Wenn in Ihrem Netzwerk nur volljährige Nutzer unterwegs sind, können Sie alternativ auch die Version 2008 runterladen, die die Gruppenfunktion nicht aktiviert hat.
 <br>
-
-## Raspberry Pi: http://sempervideo.de/svpihole2010.zip <br>
-sha256: 0a078403c93195c5a3cd60e2481529265582f118617d1cbfd2933aaf6bc4462a <br>
-md5: 25ed6f77cc3fd32f43218472105956c1 <br>
-
-Weitere Download-Quellen:<br>
-https://drop.banananet.work/svpihole2010.zip<br>
-https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2010/<br>
-https://ipfs.io/ipfs/QmUKAPG1MNwoJ79kXbZrLRSNtPZkivS9hFg86tgREgoW53?filename=svpihole2010.zip<br>
-[Torrent Magnet-Link](magnet:?xt=urn:btih:8d76d7c53e50558ab4cba9f7745bed6066cd8b2c&dn=svpihole2010.zip&tr=magnet%3a%3fxt%3durn%3abtih%3a125fa8aadc73b4a774b5568e1a29a37b31ab52db%26dn%3dsvpihole1911.img%26tr%3dudp%253A%252F%252Ftracker.opentrackr.org%253A1337%252Fannounce)
-<br>
 <hr>
 <br>
 
@@ -37,14 +26,6 @@ Die Version 2008 enthält nun das Update auf die neuste Version des Pi-hole 5 so
 <br>
 
 
-## Raspberry Pi: http://sempervideo.de/svpihole2008.zip <br>
-sha256: 0fd0c19690e66f73f6a936526b4a744808919cdfd8d40d61d52ba1d177b0b111  <br>
-md5: 20da3015f5a53183db3fd659fb1c6100 <br>
-
-Weitere Download-Quellen:<br>
-https://drop.banananet.work/svpihole2008.zip <br>
-https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole2008/<br>
-https://ipfs.io/ipfs/Qman5EqMB2kFWQdGNGwjH3cghXDQfEG5nkKqpfnELfcSZQ?filename=svpihole2008.zip<br>
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2105.zip<br>
 sha256: bf92e9b71eef4ef1448d3a0eed5320b51b76540a0ddd5885c200162228372f5c<br>

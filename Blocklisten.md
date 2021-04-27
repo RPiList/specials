@@ -58,7 +58,6 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
 # Malware
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
-* https://www.malwaredomainlist.com/hostslist/hosts.txt
 * https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
 * https://v.firebog.net/hosts/Prigent-Malware.txt

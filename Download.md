@@ -8,7 +8,6 @@ Die Version 2103 wurde auf die neueste Pi-hole Version aktualisiert.
 sha256: feb9e65f272e7cbe336637c33f4d04cc31b4a87a96fb8cf5a42f83fe51344abf <br>
 md5: ce4974bd53e4b9b6a8f9f38f4570fe00 <br>
 <br>
-<hr>
 <br>
 
 ## Häufig gestellte Frage:
@@ -19,13 +18,6 @@ Wenn in Ihrem Netzwerk nur volljährige Nutzer unterwegs sind, können Sie alter
 <br>
 <hr>
 <br>
-
-## Häufig gestellte Frage:
-Worin besteht der Unterschied zur Vorversion?<br>
-Die Version 2008 enthält nun das Update auf die neuste Version des Pi-hole 5 sowie Webmin zur Administration.
-<br>
-
-
 
 ## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2105.zip<br>
 sha256: bf92e9b71eef4ef1448d3a0eed5320b51b76540a0ddd5885c200162228372f5c<br>

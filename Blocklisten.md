@@ -65,6 +65,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
 * https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 * https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+* https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt
 * https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
 * https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 * https://urlhaus.abuse.ch/downloads/hostfile/

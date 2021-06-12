@@ -29,6 +29,11 @@ md5: 21a5719d26e439333ccc243182d2b0c2 <br>
 
 Weitere Download-Quellen:<br>
 
+- https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.dweb.link
+- https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.cf-ipfs.com
+<br>
+<br>
+
 Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
 Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>
 Serie 19: RS1619xs+, RS1219+, DS2419+, DS1819+, DS1019+, DVA3219<br>

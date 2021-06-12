@@ -7,6 +7,11 @@ Die Version 2103 wurde auf die neueste Pi-hole Version aktualisiert.
 ## Raspberry Pi: http://sempervideo.de/svpihole2103.zip <br>
 sha256: feb9e65f272e7cbe336637c33f4d04cc31b4a87a96fb8cf5a42f83fe51344abf <br>
 md5: ce4974bd53e4b9b6a8f9f38f4570fe00 <br>
+
+Weitere Download-Quellen:<br>
+
+- https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.dweb.link
+- https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.cf-ipfs.com
 <br>
 <br>
 

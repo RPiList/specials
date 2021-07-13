@@ -10,6 +10,7 @@ md5: ce4974bd53e4b9b6a8f9f38f4570fe00 <br>
 
 Weitere Download-Quellen:<br>
 
+- https://cdn.privatedns.org/svpihole/svpihole2103.zip
 - https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.dweb.link
 - https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.cf-ipfs.com
 <br>
@@ -29,6 +30,7 @@ md5: 21a5719d26e439333ccc243182d2b0c2 <br>
 
 Weitere Download-Quellen:<br>
 
+- https://cdn.privatedns.org/svpihole/svPiholeVM2105.zip
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.dweb.link
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.cf-ipfs.com
 <br>

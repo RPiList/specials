@@ -69,6 +69,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 * https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
 * https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 * https://urlhaus.abuse.ch/downloads/hostfile/
+* https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt
 
 # Phishing
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe

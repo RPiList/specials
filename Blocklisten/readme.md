@@ -15,3 +15,4 @@ Erläuterung der einzelnen Blocklisten:
 * Pornblock1-4: Webseiten, die für Minderjährige nicht geeignet sind.
 * Fake-Science: Liste der sog. Predatory Publishers a.k.a Fake Science.
 * EasyList: Erweiterte Easylist, vornehmlich um Werbung zu blockieren.
+* Streaming: Domains auf welchen urheberrechtlich geschütztes Material zum streamen angeboten wird.

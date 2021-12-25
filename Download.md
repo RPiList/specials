@@ -13,6 +13,8 @@ Weitere Download-Quellen:<br>
 - https://cdn.privatedns.org/svpihole/svpihole2103.zip
 - https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.dweb.link
 - https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.cf-ipfs.com
+- https://ipfs.io/ipfs/QmXYKzninZE5s9DHWYtExvuQwoDFU9SBxXdwFrthBFBMAU?filename=svpihole2013.zip
+- https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svpihole/
 <br>
 <br>
 
@@ -33,6 +35,8 @@ Weitere Download-Quellen:<br>
 - https://cdn.privatedns.org/svpihole/svPiholeVM2105.zip
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.dweb.link
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.cf-ipfs.com
+- https://ipfs.io/ipfs/QmQtGpaXT3uRWx2oZ69chxrKJS7TMaKPuUgzSeP3QkpkTz?filename=svPiholeVM2103.zip
+- https://heldendesbildschirms.dynv6.net/download/software/betriebssysteme/svPiholeVM/
 <br>
 <br>
 

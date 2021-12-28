@@ -20,6 +20,7 @@
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 * https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry
+* https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting
 
 # Listen von Drittanbietern
 

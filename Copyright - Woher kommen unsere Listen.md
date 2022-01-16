@@ -53,7 +53,8 @@ https://phishstats.info<br>
 https://easylist.to<br>
 https://www.cyberthreatcoalition.org<br>
 https://phishing.army<br>
-https://blog.confiant.com/tag-barnakle-the-malvertiser-that-hacks-revive-ad-servers-redirects-victims-to-malware-50cdc57435b1
+https://api.hyperphish.com/gimme-domains<br>
+https://blog.confiant.com/tag-barnakle-the-malvertiser-that-hacks-revive-ad-servers-redirects-victims-to-malware-50cdc57435b1<br>
 https://www.google.com <br>
 https://lumendatabase.org
 sowie vielen Einsendungen per eMail<br>

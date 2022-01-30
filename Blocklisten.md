@@ -104,8 +104,6 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
 https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
 
-https://raw.githubusercontent.com/Zelo72/rpi/master/pihole/blocklists/fake.txt
-
 # Werbung
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist
@@ -170,9 +168,6 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 
 https://dbl.oisd.nl/
 #(Ads, Mobile Ads, Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking and some Telemetry, Analytics, Tracking)
-
-https://raw.githubusercontent.com/Zelo72/rpi/master/pihole/blocklists/multi.txt
-#(Werbung, Tracking, Phishing, Malware und Coinmining)
 
 https://v.firebog.net/hosts/static/w3kbl.txt
 #(Ads, CryptoJacking, Telemetry, Tracking)

@@ -96,6 +96,12 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-prot
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
 
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt
+#(Methoden um zu verhindern dass der Pi-Hole umgangen wird: Blockt DoH/DoT/VPNs/Proxies)
+
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt
+#(Blockt Suchmaschinen die kein Safesearch unterstützen)
+
 # Fakeshops und Abofallen
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
@@ -103,6 +109,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
 https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
 
 # Werbung
 
@@ -125,6 +133,8 @@ https://adaway.org/hosts.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt
 
 # Malware
 
@@ -154,6 +164,8 @@ https://urlhaus.abuse.ch/downloads/hostfile/
 
 https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt
 
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
+
 # Phishing
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
@@ -176,6 +188,9 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Scien
 
 https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
 #(Lieferando Shadow-Fake-Websites)
+
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt
+#(Ads, Tracking, Metrics, Telemetry, Fake, Phishing, Malware, Scam, Coins, geparkte Domains und mehr.)
 
 # Einzelne Dienste sperren
 

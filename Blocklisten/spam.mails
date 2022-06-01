@@ -143,11 +143,8 @@ ads.yap.yahoo.com
 ads.youtube.com
 adsdk.yandex.ru
 adservetx.media.net
-adtago.s3.amazonaws.com
 advertising-api-eu.amazon.com
 advertising.twitter.com
-advice-ads.s3.amazonaws.com
-affiliationjs.s3.amazonaws.com
 agenciagrip.com
 ahoy-wut.top
 alarmdirect.us
@@ -173,7 +170,6 @@ analytics.pointdrive.linkedin.com
 analytics.samsungknox.com
 analytics.tiktok.com
 analytics.yahoo.com
-analyticsengine.s3.amazonaws.com
 andrillapp.com
 ankywlc.w09eanox.space
 another-notification.one
@@ -202,8 +198,10 @@ astralife.deka-research.com
 atlantfin.com
 atruvia.sitman.de
 autoconfig.spk-event.com
+autoconfig.zoll-paysafe.de
 autodiscover.spk-grip.hr
 autodiscover.warung-koding.com
+autodiscover.zoll-paysafe.de
 averainvestments.com
 avyutcv.profibtceurope.online
 awada.co.uk
@@ -288,6 +286,7 @@ bogastowealth.com
 boiniznamena.eu
 booost.live
 bounce.paypal.mkt2944.com
+box.zoll-paysafe.de
 branizericing.top
 bravenewfoundation2.org
 brexit-millionaire.co.uk
@@ -362,7 +361,6 @@ card.wazzl.me
 carlisle.lollipopdigitalmedia02.com.au
 casualfrugal.de
 cavalierlivestock.com
-cbjdfhqd.s3.amazonaws.com
 cdn.fastclick.net
 cdn.luckyorange.com
 ch.projekt-alphabit.de
@@ -392,7 +390,6 @@ conservationnm.net
 conservationnorthdakota.org
 contacts.conuti.de
 controlstatus.com
-cordobatttf.s3.amazonaws.com
 corporatecomputers.in
 cpanel.polish-spk-foundation.org.au
 cpanel.spk-borisova.com
@@ -884,6 +881,8 @@ hotjar.com
 hsitesreviewmail.com
 htc-advertising.store
 htc-desire.online
+https-amazonde.zoll-pay.de
+https-meine-de.zoll-pay.de
 i2f5v8c2.stackpathcdn.com
 i2g5f5v3.stackpathcdn.com
 i2m3f7k2.stackpathcdn.com
@@ -948,6 +947,8 @@ icarus10.com
 idrive.spk-stroy.pro
 imansyafii.pandalas.id
 imap.saarpfalz-kreis.de
+img.deka-inv.com
+img.deka-sparkasse.com
 industrialproductdemos.com
 infinixtech.online
 infocenter.top
@@ -1662,10 +1663,12 @@ mondoblack.com
 mouseflow.com
 ms-shopdata.su
 mscb-sy.com
+mta-sts.box.zoll-paysafe.de
 mta-sts.saarpfalz-kreis.saarland
 mta-sts.saarpfalz.eu
 mta-sts.saarpfalzkreis.saarland
 mta-sts.sp-kreis.eu
+mta-sts.zoll-paysafe.de
 mummywork.com
 mumo.spk-immo.de
 mylink.today
@@ -1908,6 +1911,7 @@ qulinstersa.online
 qulinstersae.shop
 qulinstersae.space
 qulinstersaen.online
+r.spk-service.com
 r20.rs6.net
 r2g5q5h5.stackpathcdn.com
 r2i5k6h5.stackpathcdn.com
@@ -2183,6 +2187,7 @@ spk-japan.com
 spk-jet.ir
 spk-joy.com
 spk-juravushka.ru
+spk-k.com
 spk-klg.ru
 spk-koblenz.amy.particulate.me
 spk-kontakt.ru
@@ -3639,6 +3644,7 @@ www.spk-japan.com
 www.spk-jet.ir
 www.spk-joy.com
 www.spk-juravushka.ru
+www.spk-k.com
 www.spk-klg.ru
 www.spk-kontakt.ru
 www.spk-kontoauthenfizierung.top
@@ -4034,7 +4040,11 @@ www.zeitsonline.blogspot.com
 www.zhengzhouseo.cyou
 www.zingotdeal.tk
 www.zipocodersioe.store
+www.zoll-einstellungstest.de
+www.zoll-manager.de
 www.zoll-otp.de
+www.zoll-pay.de
+www.zoll-paysafe.de
 www.zte-company.store
 x2r5p4j2.stackpathcdn.com
 x2s6e8m6.stackpathcdn.com
@@ -4202,6 +4212,10 @@ zeitsonline.blogspot.com
 zhengzhouseo.cyou
 zingotdeal.tk
 zipocodersioe.store
+zoll-einstellungstest.de
+zoll-manager.de
 zoll-otp.de
+zoll-pay.de
+zoll-paysafe.de
 zte-company.store
 zustimmung.spk-demo.de

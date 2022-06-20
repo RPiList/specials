@@ -166,6 +166,8 @@ https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_n
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
 
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
+
 # Phishing
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe

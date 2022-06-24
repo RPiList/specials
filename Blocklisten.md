@@ -192,6 +192,9 @@ https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt
 #(Ads, Tracking, Metrics, Telemetry, Fake, Phishing, Malware, Scam, Coins, geparkte Domains und mehr.)
 
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
+#(Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking)
+
 # Einzelne Dienste sperren
 
 https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Amazon.txt

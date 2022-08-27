@@ -8,9 +8,8 @@
 # github.com/disconnectme, phishstats.info, easylist.to, cyberthreatcoalition.org, phishing.army, 
 # google.com, mailscanner.info, github.com/AdguardTeam, HyperPhish.com, CryptoScamDB 
 # sowie lumendatabase.org.
-# 
+
 0-ico.com
-0.r.msn.com
 000.0x1f4b0.com
 001.0x1f4b0.com
 002.0x1f4b0.com
@@ -487,8 +486,6 @@ a-o.ninja
 a-xbt.com
 a.adk2x.com
 a.ads.cn.miaozhen.com
-a.ads1.msn.com
-a.ads2.msn.com
 a.ai.inmobi.com
 a.alimama.cn
 a.appjiagu.com
@@ -618,7 +615,6 @@ ac.mmstat.com
 ac.pool.mn
 ac2.hashhot.com
 ac2.pool.mn
-ac3.msn.com
 acashtech.com
 acbp0020171456.page.tl
 acc-pool.pw
@@ -909,12 +905,10 @@ ads.bitcoin.com
 ads.bssdl.kugou.com
 ads.creative-serving.com
 ads.cryptobrowser.site
-ads.eu.msn.com
 ads.flurry.com
 ads.gionee.com
 ads.gmodules.com
 ads.locationforexpert.com
-ads.msn.com
 ads.ninemsn.com.au
 ads.pubmatic.com
 ads.servebom.com
@@ -929,9 +923,7 @@ ads.yahoo.com
 ads.yam.com
 ads.yimg.com
 ads1.msads.net
-ads1.msn.com
 ads2.msads.net
-ads2.msn.com
 adsamer.adsame.com
 adscdn.baidu.com
 adsclick.qq.com
@@ -964,7 +956,6 @@ adstream.123.sogoucdn.com
 adsunflower.com
 adsview.qq.com
 adsview2.qq.com
-adsyndication.msn.com
 adt.cryptominer.net
 adtest.adwo.com
 adtrack.ucweb.com
@@ -1478,9 +1469,7 @@ analytics.atdmt.com
 analytics.blue
 analytics.hz.netease.com
 analytics.live.com
-analytics.msn.com
 analytics.query.yahoo.com
-analytics.r.msn.com
 analytics.snssdk.com
 analytics.spotify.com
 analytics.tool.lu
@@ -2490,7 +2479,6 @@ b-crypto.me
 b-lockchian.com
 b-nance.com
 b-promo.online
-b.ads1.msn.com
 b.appjiagu.com
 b.bdstatic.com
 b.clkservice.youdao.com
@@ -3157,7 +3145,6 @@ bincomance.com
 binconamce.com
 binconarnce.com
 binexor.com
-bingads.microsoft.com
 bingdianhuanyuan.cn
 bingmancol.com
 binjerseygbpeur.com
@@ -4505,7 +4492,6 @@ c.gj.qq.com
 c.l.qq.com
 c.m.cn.miaozhen.com
 c.minisplat.cn
-c.msn.com
 c.msn.com.cn
 c.netcodepool.org
 c.nz.gt.igexin.com
@@ -4658,7 +4644,6 @@ cat.speedup-faucet.com
 cat.xtrapool.com
 cata.suprnova.cc
 catalanscoin.cat
-catalog.video.msn.com
 catbot.ru
 catc.hashhot.com
 catc.pool.mn
@@ -4969,7 +4954,6 @@ chn.thecoin.pw
 chnvilhrmeaw.bid
 chock.suprnova.cc
 choice.cryptomininggame.com
-choice.microsoft.com
 choice.microsoft.com.nsatc.net
 chqulqxfghdz.com
 chr0xy.xyz
@@ -5955,7 +5939,6 @@ creyboif.bid
 critictruck.com
 crk.hashhot.com
 crkliqlyabacgt.bid
-crl.microsoft.com
 crm-eve.b2b.alibaba-inc.com
 crm-jurine.com
 crnxueioe.bid
@@ -6911,7 +6894,6 @@ dextestnet.com
 dexuniswap.org
 dexxlaunch.com
 df.tanx.com
-df.telemetry.microsoft.com
 dfbtmkwdcajsy.bid
 dfc1.benbaisteel.com
 dfcwecvmjtdj.com
@@ -6990,7 +6972,6 @@ dhvaigzy.com
 dhxjrqegphza.bid
 dhzmxkoq.bid
 di.ckpool.org
-diagnostics.support.microsoft.com
 diamondback.miner.center
 diamondback.xminingpool.com
 diaopic.14bobo.com
@@ -11751,7 +11732,6 @@ gzyddiyiyme.bid
 h.atdmt.com
 h.chileminers.cl
 h.domob.cn
-h.msn.com
 h.sora.yoyi.com.cn
 h.suprnova.cc
 h1.18sd.cn
@@ -12544,7 +12524,6 @@ i.w55c.net
 i.zsw8.cc
 i0.btcguild.com
 i1.go2yd.com
-i1.services.social.microsoft.com
 i1.services.social.microsoft.com.nsatc.net
 i18n.res.ethfans.org
 i2p.emercoin.com
@@ -12783,7 +12762,6 @@ iegservers.com
 iekztyhqfs.bid
 ielqcwzwjczpx.bid
 ieoexdjxrwtq.com
-ieonline.microsoft.com
 ieqprskfariw.com
 ieuro.suprnova.cc
 iexecplatform.com
@@ -16346,7 +16324,6 @@ mobile.miningpoolhub.com
 mobile.thecoin.pw
 mobile2.da.mgtv.com
 mobileaccess.clona.ru
-mobileads.msn.com
 mobilelog.kugou.com
 mobilemsg.youku.com
 mobodb.ethosdistro.com
@@ -20108,7 +20085,6 @@ oc.pool.mn
 oc.suprnova.cc
 oc.umeng.co
 oc.umeng.com
-oca.telemetry.microsoft.com
 oca.telemetry.microsoft.com.nsatc.net
 occ.hashhot.com
 occ.suprnova.cc
@@ -20502,7 +20478,6 @@ otch.ethosdistro.com
 otcqlckpafizv.bid
 otes.ethosdistro.com
 otewxlcmkih.com
-otf.msn.com
 oth.eve.mdt.qq.com
 oth.str.mdt.qq.com
 oth.update.mdt.qq.com
@@ -21762,7 +21737,6 @@ popadscdn.net
 popme.163.com
 poppoob.no-ip.org
 populous.network
-popup.msn.com
 popzkvfimbox.com
 porkcoin.miningpoolhub.com
 porloneix.com
@@ -22549,7 +22523,6 @@ r.dmp.sina.cn
 r.domob.cn
 r.l.youku.com
 r.mail.163.com
-r.msn.com
 r.ow.domob.cn
 r.peermine.com
 r.twotouchauthentication.online
@@ -22569,7 +22542,6 @@ race.suprnova.cc
 rack.cryptaloot.pro
 rack.poolmining.org
 rad.live.com
-rad.microsoft.com
 radbtqjfp.bid
 radiotaku.net
 rafbit.com
@@ -22740,7 +22712,6 @@ reddit-securepage-hdsjhg3jh5gjasged32h4i2349803434553.secglobal.icu
 redeem-myetherwallet.pw
 redencoin.org
 redhex.my
-redir.metaservices.microsoft.com
 redirect.simba.taobao.com
 redis.p00l.org
 redmine.emercoin.com
@@ -22794,7 +22765,6 @@ report.huatuo.qq.com
 report.qcloud.com
 report.vip.qq.com
 reports.clona.ru
-reports.wes.df.telemetry.microsoft.com
 republic-protocol.net
 republicprotocol.eu
 reqest.network
@@ -22985,8 +22955,6 @@ rm.cointraffic.io
 rm.gdt.qq.com
 rm.ra.icast.cn
 rm.sina.com.cn
-rmads.eu.msn.com
-rmads.msn.com
 rmawm7mw.top
 rmbilhzcytee.com
 rmc.one
@@ -24224,7 +24192,6 @@ service.pirl.minerpool.net
 service.urchin.com
 service4refresh.info
 servicer.adskeeper.co.uk
-services.wes.df.telemetry.microsoft.com
 sestat.baidu.com
 set0.hhtt.1209k.com
 seth-transaction.info
@@ -24232,7 +24199,6 @@ sether.in
 sether.ws
 setting.snswin.qq.com
 settings-liverez.com
-settings-sandbox.data.microsoft.com
 settings.crashlytics.com
 setup-game.xyz
 sevabit.com
@@ -24977,8 +24943,6 @@ sql.coinking.io
 sql.eth.pp.ua
 sql.monerominers.net
 sql.p00l.org
-sqm.df.telemetry.microsoft.com
-sqm.telemetry.microsoft.com
 sqm.telemetry.microsoft.com.nsatc.net
 sqmeqfffehg.bid
 sqnezuqjdbhe.com
@@ -25235,8 +25199,6 @@ stats.umsns.com
 stats.whalesburg.com
 stats.zpool.guru
 stats2.btgpool.pro
-statsfe1.ws.microsoft.com
-statsfe2.ws.microsoft.com
 statum.bitcoin.cz
 staturm.bitcoin.cz
 status-api.2miners.com
@@ -25646,7 +25608,6 @@ surfreturn.com
 surge.lightninghash.com
 surge.suprnova.cc
 survey.miaozhen.com
-survey.watson.microsoft.com
 susanreno.com
 susapi.dev.surepush.cn
 susapi.lenovomm.com
@@ -25950,7 +25911,6 @@ tekyboycrypto.xyz
 telcoin.pro
 telcoinairdrop.com
 telcointoken.com
-telecommand.telemetry.microsoft.com
 telecommand.telemetry.microsoft.com.nsatc.net
 telegram-airdrop.com
 telegram-coin.org
@@ -25979,8 +25939,6 @@ telegramsale.com
 telegramtoken.global
 telegramtoken.io
 telemetry.appex.bing.net
-telemetry.microsoft.com
-telemetry.urs.microsoft.com
 telos-foundation.io
 telos-fundation.io
 telstra.imrworldwide.com
@@ -26545,7 +26503,6 @@ tonpresale.com
 tonpublic.org
 tony-btc.info
 toolbar.baidu.com
-toolbar.msn.com
 tools.3g.qq.com
 tools.cryptomininggame.com
 top-binance.com
@@ -28174,9 +28131,6 @@ volyncftzhw.bid
 vomhhsovuu.bid
 voot.pool.mn
 voot.suprnova.cc
-vortex-sandbox.data.microsoft.com
-vortex-win.data.microsoft.com
-vortex.data.microsoft.com
 vot.ehashcoins.org
 vot.pool.sexy
 vote.cryptobrowser.site
@@ -28550,9 +28504,6 @@ water.suprnova.cc
 waterhole.io
 watermelon.coinking.io
 waterparkmining.com
-watson.microsoft.com
-watson.ppe.telemetry.microsoft.com
-watson.telemetry.microsoft.com
 watson.telemetry.microsoft.com.nsatc.net
 wattpool.net
 watunxckibtvfm.bid
@@ -28719,7 +28670,6 @@ weogkfxrkgyezq.bid
 wepower.vision
 wepowers.network
 weqpkntrxqzh.com
-wes.df.telemetry.microsoft.com
 west-us.aeonminingpool.com
 west1.us.stratum.dedicatedpool.com
 westcoastxmr.ca
@@ -31407,7 +31357,6 @@ www.bincomance.com
 www.binconamce.com
 www.binconarnce.com
 www.binexor.com
-www.bingads.microsoft.com
 www.bingdianhuanyuan.cn
 www.bingmancol.com
 www.binjerseygbpeur.com

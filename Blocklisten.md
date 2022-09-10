@@ -191,6 +191,9 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt
 https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
 #(Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking)
 
+https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts
+#(great german fakenews company)
+
 # Einzelne Dienste sperren
 
 https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Amazon.txt

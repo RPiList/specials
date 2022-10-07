@@ -24,6 +24,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock5
+
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
@@ -89,6 +91,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock3
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock4
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock5
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 

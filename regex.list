@@ -48,3 +48,6 @@ instagram
 
 # Sperrt alle Domains in Zusammenhang mit Facebook:
 facebook
+
+# Sperrt Telemetrie-Endpunkte für Windows:
+watson\..*\.microsoft\.com

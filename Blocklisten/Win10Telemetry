@@ -55,5 +55,7 @@ v20.vortex-win.data.microsoft.com
 vortex-win.data.microsoft.com
 vortex-win-sandbox.data.microsoft.com
 watson.telemetry.microsoft.com
+watson.events.data.microsoft.com
+watson.ppe.telemetry.microsoft.com
 weus2watcab01.blob.core.windows.net
 weus2watcab02.blob.core.windows.net

@@ -4,8 +4,12 @@ import re, os, shutil, requests, sys
 from pathlib import Path
 from contextlib3 import suppress
 
+# Create a single file list out of several pi-hole lists
+# Customize the Data Division to your liking.
+
 # Copyright 2022 by Sprecher und Twitch-Chat
 # Data Division:
+
 homepfad = str(Path.home())
 
 liste = 'megalist'

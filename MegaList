@@ -76,7 +76,7 @@ os.system('clear')
 
 MyURLs.clear()
 
-print(printmessage4, end="\r")
+print(printmessage4)
 pattern6 = re.compile("^[a-z0-9\-\.]{2,256}\.[a-z]{2,18}$")
 with open(tempfile, "r") as f1:
     for line in f1:

@@ -4,6 +4,10 @@
 Worin besteht der Unterschied zur Vorversion?<br>
 Die Version 2103 wurde auf die neueste Pi-hole Version aktualisiert. 
 
+## Raspberry Pi: http://sempervideo.de/svpihole/svpihole2211alpha.img
+sha256: 678f9e5822e89ae723df60174494b631fbb481222e3fe4fb978ed1e93fa0b9d2 <br>
+md5: fcdfd935ae9dd5e2eb551fd12b75dbc5 <br>
+
 ## Raspberry Pi: http://sempervideo.de/svpihole2103.zip <br>
 sha256: feb9e65f272e7cbe336637c33f4d04cc31b4a87a96fb8cf5a42f83fe51344abf <br>
 md5: ce4974bd53e4b9b6a8f9f38f4570fe00 <br>

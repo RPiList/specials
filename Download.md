@@ -1,7 +1,7 @@
 # Aktuelle Version
 
 ## Raspberry Pi: http://sempervideo.de/svpihole/svpihole2211alpha.img
-<b>Check Twitch-Chat before using the alpha version!</B>
+<b> *** Check Twitch-Chat before using the alpha version! ***</B> <br>
 sha256: 678f9e5822e89ae723df60174494b631fbb481222e3fe4fb978ed1e93fa0b9d2 <br>
 md5: fcdfd935ae9dd5e2eb551fd12b75dbc5 <br>
 

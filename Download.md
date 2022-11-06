@@ -1,20 +1,16 @@
 # Aktuelle Version
 
-## Häufig gestellte Frage:
-Worin besteht der Unterschied zur Vorversion?<br>
-Die Version 2103 wurde auf die neueste Pi-hole Version aktualisiert. 
+## Raspberry Pi: http://sempervideo.de/svpihole/svpihole2211beta.iso <br>
+sha256: a6fdbc8dc7d6999cb78f8fef03f062126db7be46bcaddafc66d4977b37fde857 <br>
+md5: afd6bebe9b2f11a527d486b1ec63a459 <br>
 
-## Raspberry Pi: http://sempervideo.de/svpihole2103.zip <br>
-sha256: feb9e65f272e7cbe336637c33f4d04cc31b4a87a96fb8cf5a42f83fe51344abf <br>
-md5: ce4974bd53e4b9b6a8f9f38f4570fe00 <br>
+Wichtige Infos:
+Das SSH-Passwort ist 123456
+Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Ferner ist noch Webmin über den Port 10000 erreichbar. Login-Daten sind die gleichen wie für den SSH-Zugriff. Docker und Portainer sind ebenfalls installiert. Zu all den Punkten gibt es entsprechende Videos die genaueres erläutern.
 
 Weitere Download-Quellen:<br>
 
-- https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.dweb.link
-- https://bafybeieiw37hap64ayjirt2nugckwlmj7rm3qguzkpyauzdugqiqo5seeu.ipfs.cf-ipfs.com
-- https://ipfs.io/ipfs/QmXYKzninZE5s9DHWYtExvuQwoDFU9SBxXdwFrthBFBMAU?filename=svpihole2013.zip
-- https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
-- https://cdn.clouddrop.tk/svpihole/svpihole2103.zip
+- no keine.
 <br>
 <br>
 

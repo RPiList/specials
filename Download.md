@@ -6,7 +6,7 @@ md5: afd6bebe9b2f11a527d486b1ec63a459 <br>
 
 Wichtige Infos:
 Das SSH-Passwort ist 123456
-Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Ferner ist noch Webmin über den Port 10000 erreichbar. Login-Daten sind die gleichen wie für den SSH-Zugriff. Docker und Portainer sind ebenfalls installiert. Zu all den Punkten gibt es entsprechende Videos die genaueres erläutern.
+Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Ferner ist noch Webmin über den Port 10000 erreichbar. Login-Daten sind die gleichen wie für den SSH-Zugriff. Docker und Portainer sind ebenfalls installiert. Zu all den Punkten gibt es entsprechende Videos die genaueres erläutern. Bei Portainer ist noch kein Admin-Zugang eingereichtet. Also Pi neustarten und dann direkt Portainer aufrufen. Dann verlangt Portainer vom Nutzer die Erstellung des Admin-Accounts.
 
 Weitere Download-Quellen:<br>
 

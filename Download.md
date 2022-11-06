@@ -10,7 +10,7 @@ Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nu
 
 Weitere Download-Quellen:<br>
 
-- no keine.
+- noch keine.
 <br>
 <br>
 

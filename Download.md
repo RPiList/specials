@@ -10,7 +10,7 @@ Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nu
 
 Weitere Download-Quellen:<br>
 
-- https://mindstormsit.net/download/svpihole2211beta.iso.torrent
+- https://mindstormsit.net/download/torrent/svpihole2211beta.iso.torrent
 <br>
 <br>
 

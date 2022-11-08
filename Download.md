@@ -11,6 +11,8 @@ Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nu
 Weitere Download-Quellen:<br>
 
 - https://mindstormsit.net/download/torrent/svpihole2211beta.iso.torrent
+- https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
+- https://ipfs.io/ipfs/QmdGeqEVRGGt1s89zLTu6185euHbi32NXCT3GamL3kFz3L?filename=svpihole2211beta.zip
 <br>
 <br>
 

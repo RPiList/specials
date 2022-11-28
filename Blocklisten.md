@@ -44,7 +44,13 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry
 
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting1
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting2
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting3
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting4
 
 # Listen von Drittanbietern
 

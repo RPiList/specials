@@ -52,6 +52,20 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSqua
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting4
 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank1
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank2
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank3
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank4
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank5
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank6
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank7
+
 # Listen von Drittanbietern
 
 # Pi-hole Standardlisten

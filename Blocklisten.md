@@ -194,11 +194,33 @@ https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_n
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/tif.txt
 
-# Phishing
+# Phishing & Domain-Squatting
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
 
 https://raw.githubusercontent.com/namePlayer/dhl-scamlist/main/dns-blocklists/pihole-blacklist
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting1
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting2
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting3
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting4
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank1
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank2
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank3
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank4
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank5
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank6
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank7
 
 # Diverse
 

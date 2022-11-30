@@ -16,3 +16,5 @@ Erläuterung der einzelnen Blocklisten:
 * Fake-Science: Liste der sog. Predatory Publishers a.k.a Fake Science.
 * EasyList: Erweiterte Easylist, vornehmlich um Werbung zu blockieren.
 * Streaming: Domains auf welchen urheberrechtlich geschütztes Material zum streamen angeboten wird.
+* DomainSquatting1-4: Angriffe durch mögl. <a href="https://de.wikipedia.org/wiki/Typosquatting">TypoSquatting</a>
+* DSquatt1-7: s. DomainSquatting für Domains von VR-Banken

@@ -1,1 +1,1 @@
-DomainSquatting geordnet nach Bank/Sparkasse und Land.
+Zuordnung nach Ländern

@@ -1,1 +1,1 @@
-Infos kommen noch.
+Aufteilung nach Postleitzahl.

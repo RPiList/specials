@@ -52,7 +52,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSqua
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting4
 
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank1
+[https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank1
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank2
 
@@ -64,7 +64,44 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank6
 
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank7
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DSquatt-VR-Bank7]
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-0
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-1
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-2
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-3
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-4
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-5
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-6
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-7
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-8
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/BadenWuertemberg1
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/BadenWuertemberg2
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/BadenWuertemberg3
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/BadenWuertemberg4
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/Bayern1
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/Bayern2
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/Bayern3
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Sparkasse/Bayern4
+
 
 # Listen von Drittanbietern
 

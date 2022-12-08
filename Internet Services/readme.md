@@ -1,13 +1,5 @@
 # Mitunter stellt man fest, dass einige Internet-Dienste nicht mehr korrekt funktionieren, weil eine notwendige Domain gesperrt wird. Da die "Fehlersuche" zu aufwendig ist oder der Listemaintainer die Domain nicht entfernen will/kann, kann es für den Nutzer einfacher sein, die Domain in die Pi-hole eigene Whitelist aufzunehmen.
 
-https://raw.githubusercontent.com/mschabhuettl/PiholeLists/main/whitelist.txt
-
-https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
-
-https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt
-
-https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt
-
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Amazon-Video
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iCloud

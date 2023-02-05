@@ -250,6 +250,14 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSqua
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/AT/ZuercherKantonalbank
 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/CH/A-G
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/CH/H-R
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/CH/S-Z
+
+
+
 # Listen von Drittanbietern
 
 # Pi-hole Standardlisten

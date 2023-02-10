@@ -147,7 +147,10 @@ MyURLs = ['https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/AT/VolksbankTirol',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/AT/VolksbankVorarlberg',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/AT/VolksbankWien',
-          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/AT/ZuercherKantonalbank']
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/AT/ZuercherKantonalbank',
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/CH/A-G',
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/CH/H-R',
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/CH/S-Z']
 
 # END Data Division:
 

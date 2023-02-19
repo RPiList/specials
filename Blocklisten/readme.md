@@ -17,4 +17,4 @@ Erläuterung der einzelnen Blocklisten:
 * EasyList: Erweiterte Easylist, vornehmlich um Werbung zu blockieren.
 * Streaming: Domains auf welchen urheberrechtlich geschütztes Material zum streamen angeboten wird.
 * DomainSquatting1-4: Angriffe durch mögl. <a href="https://de.wikipedia.org/wiki/Typosquatting">TypoSquatting</a>
-* DSquatt-VR-Bank1-7: s. DomainSquatting für Domains von VR-Banken
+* DomainSquatting-Verzeichnis: s. DomainSquatting für Banken getrennt nach Ländern.

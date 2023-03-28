@@ -528,6 +528,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSqua
 
 https://raw.githubusercontent.com/namePlayer/dhl-scamlist/main/dns-blocklists/pihole-blacklist
 
+https://www.einmalzahlungzweihundert.de/bl-einmalzahlung.txt
+
 
 # Diverse
 

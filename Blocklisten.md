@@ -534,24 +534,18 @@ https://www.einmalzahlungzweihundert.de/bl-einmalzahlung.txt
 # Diverse
 
 https://dbl.oisd.nl/
-#(Ads, Mobile Ads, Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking and some Telemetry, Analytics, Tracking)
 
 https://v.firebog.net/hosts/static/w3kbl.txt
-#(Ads, CryptoJacking, Telemetry, Tracking)
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 
 https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
-#(Lieferando Shadow-Fake-Websites)
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt
-#(Ads, Tracking, Metrics, Telemetry, Fake, Phishing, Malware, Scam, Coins, geparkte Domains und mehr.)
 
 https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
-#(Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking)
 
 https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts
-#(great german fakenews company)
 
 # Einzelne Dienste sperren
 

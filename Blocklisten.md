@@ -316,11 +316,6 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-prot
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
 
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/doh-vpn-proxy-bypass.txt
-#(Methoden um zu verhindern dass der Pi-Hole umgangen wird: Blockt DoH/DoT/VPNs/Proxies)
-
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/nosafesearch.txt
-#(Blockt Suchmaschinen die kein Safesearch unterstützen)
 
 # Fakeshops und Abofallen
 
@@ -330,7 +325,6 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious
 
 https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
 
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/fake.txt
 
 # Werbung
 

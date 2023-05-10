@@ -26,6 +26,10 @@
 # Sperrt alle Domains der TLD .link: (Linkverkürzer)
 \.link$
 
+# Sperrt Suchmaschinen-Schrott Domains:
+(softonic\.com$|uptodown\.com$)
+
+
 # Sperrt alle URLs zu "sendgrid.net"
 sendgrid\.net$
 

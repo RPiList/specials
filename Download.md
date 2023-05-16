@@ -9,6 +9,13 @@ Wichtige Infos:
 Das SSH-Passwort ist 123456
 Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'. Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso.
 
+Weitere Download-Quellen:<br>
+
+- https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
+- https://ipfs.io/ipfs/QmdGeqEVRGGt1s89zLTu6185euHbi32NXCT3GamL3kFz3L?filename=svpihole2211beta.zip
+<br>
+<br>
+
 ## Raspberry Pi: http://sempervideo.de/svpihole/svpihole2211beta.iso <br>
 sha256: a6fdbc8dc7d6999cb78f8fef03f062126db7be46bcaddafc66d4977b37fde857 <br>
 md5: afd6bebe9b2f11a527d486b1ec63a459 <br>

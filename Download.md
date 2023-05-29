@@ -48,7 +48,6 @@ Weitere Download-Quellen:<br>
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.cf-ipfs.com
 - https://ipfs.io/ipfs/QmQtGpaXT3uRWx2oZ69chxrKJS7TMaKPuUgzSeP3QkpkTz?filename=svPiholeVM2105.zip
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svPiholeVM/
-- https://cdn.clouddrop.tk/svpihole/svPiholeVM2105.zip
 <br>
 <br>
 

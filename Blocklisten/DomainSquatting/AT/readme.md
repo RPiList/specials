@@ -1,1 +1,1 @@
-Infos kommen noch.
+Zuordnung nach Geldinstituten

@@ -12,7 +12,7 @@ Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nu
 Weitere Download-Quellen:<br>
 
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
-- https://ipfs.io/ipfs/QmdGeqEVRGGt1s89zLTu6185euHbi32NXCT3GamL3kFz3L?filename=svpihole2211beta.zip
+- https://ipfs.io/ipfs/Qmab2Pc3pxrLqpt18JWmVvUbVptKKqaNBSevWiezgHVMkw?filename=svpihole2212.zip
 <br>
 <br>
 
@@ -27,8 +27,6 @@ Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nu
 Weitere Download-Quellen:<br>
 
 - https://mindstormsit.net/download/torrent/svpihole2211beta.iso.torrent
-- https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
-- https://ipfs.io/ipfs/QmdGeqEVRGGt1s89zLTu6185euHbi32NXCT3GamL3kFz3L?filename=svpihole2211beta.zip
 <br>
 <br>
 
@@ -48,9 +46,8 @@ Weitere Download-Quellen:<br>
 
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.dweb.link
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.cf-ipfs.com
-- https://ipfs.io/ipfs/QmQtGpaXT3uRWx2oZ69chxrKJS7TMaKPuUgzSeP3QkpkTz?filename=svPiholeVM2103.zip
+- https://ipfs.io/ipfs/QmQtGpaXT3uRWx2oZ69chxrKJS7TMaKPuUgzSeP3QkpkTz?filename=svPiholeVM2105.zip
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svPiholeVM/
-- https://cdn.clouddrop.tk/svpihole/svPiholeVM2105.zip
 <br>
 <br>
 

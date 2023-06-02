@@ -32,7 +32,6 @@
 # Sperrt Suchmaschinen-Schrott Domains:
 (softonic\.com$|uptodown\.com$|malavida\.com$)
 
-
 # Sperrt alle URLs zu "sendgrid.net"
 sendgrid\.net$
 

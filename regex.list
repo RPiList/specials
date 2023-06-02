@@ -26,6 +26,9 @@
 # Sperrt alle Domains der TLD .link: (Linkverkürzer)
 \.link$
 
+# Sperrt alle Domains der TLD .zip:
+\.zip$
+
 # Sperrt Suchmaschinen-Schrott Domains:
 (softonic\.com$|uptodown\.com$|malavida\.com$)
 

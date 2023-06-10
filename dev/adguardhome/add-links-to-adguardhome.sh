@@ -6,7 +6,7 @@ configfile=/etc/adguardhome/AdGuardHome.yaml
 # Die Textdatei in den die Links eingetragen sind. Es dürfen keine Leerzeilen dazwischen sein.
 linkfile=./links.txt
 
-# Vorher in AdguardHome alle bisher bzw. die Standard Listen löschen damit, das Script das besser einfügen kann.
+# Vorher in AdguardHome alle bisher eingetragenen bzw. die Standard Listen löschen damit, das Script das besser einfügen kann.
 
 
 sed -i 's/^filters: .*$/ /g' $configfile

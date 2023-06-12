@@ -42,5 +42,9 @@ for url in "${scripturls[@]}"; do
     # Scriptdateiname aus URL mittels RegEx extrahieren
     scriptfile=$(echo "$url" | sed 's/.*\///')
     # Script ausführbar machen
+    echo ""
     chmod -v +x "$downloadDir"/"$scriptfile"
+    echo ""
+    echo "*************************************************"
+    echo ""
 done

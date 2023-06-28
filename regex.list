@@ -13,6 +13,7 @@
 
 # "WPAD-Lücke": WPAD Protokoll im Netzwerk verbieten:
 ^wpad\.
+# Kann aber Probleme mit VPN-Sofware verursachen, z.B.: Cisco AnyConnect Secure Mobility Client.
 
 # Einträge für Spam- und Malware-Schutz:
 

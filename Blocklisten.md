@@ -363,7 +363,7 @@ https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 
-https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/combined_disguised_trackers_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
 
 # Jugendschutz
 

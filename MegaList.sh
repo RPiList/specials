@@ -10,6 +10,18 @@ blocklistenmd=https://github.com/RPiList/specials/raw/master/Blocklisten.md
 abp_style=${1:-n}
 
 # ---------------------------------------------------------------------------
+if [ "$abp_style" != "y" ] && [ "$abp_style" != "n" ]; then
+	echo please enter "n" for no or "y" for yes as the parameter to define
+	echo whether you want to receive the abp_style values in the megalist.
+	echo e.g.
+	echo ./MegaList.sh y
+	echo or
+	echo ./MegaList.sh n
+	echo it also works to start the script without parameters.
+	echo Without parameter also means "n"
+	exit 1
+fi
+
 function cleanup() {
 	rm $linkfile
 	rm $blocklistfile-*.txt

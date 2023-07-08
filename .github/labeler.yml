@@ -23,3 +23,8 @@ question:
     - '(frage|question|fragen|questions|\
         Frage|Question|Fragen|Questions|\
         FRAGE|QUESTION|FRAGEN|QUESTIONS)'
+
+false-positive:
+    - '(false-positive|false positive|falsch positiv|falsch-positiv|falsch positive|falsch-positive|false positiv|false-positiv|\
+        False-Positive|False Positive|Falsch Positiv|Falsch-Positiv|Falsch Positive|Falsch-Positive|False Positiv|False-Positiv|\
+        FALSE-POSITIVE|FALSE POSITIVE|FALSCH POSITIV|FALSCH-POSITIV|FALSCH POSITIVE|FALSCH-POSITIVE|FALSE POSITIV|FALSE-POSITIV)'

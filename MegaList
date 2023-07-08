@@ -15,14 +15,14 @@ liste = 'megalist'
 tempfile = homepfad + '/Desktop/filter/temp.txt'
 targetfile = homepfad + '/Desktop/filter/' + liste
 whitelist = homepfad + '/Desktop/filter/6whitelist'
-printmessage1 = 'Mega-Liste wird erstellt...'
-printmessage2 = 'Lade Quellen...'
-printmessage3 = 'Lade Quelle...'
-printmessage4 = 'Neue Liste wird erstellt...                                    '
-printmessage5 = 'Anzahl Domains: '
-printmessage6 = 'Liste wird sortiert...'
-printmessage7 = 'Zieldatei wird geschrieben...'
-printmessage8 = 'Fertig.                                  '
+printmessage1 = ' Mega-Liste wird erstellt...'
+printmessage2 = ' Lade Quellen...'
+printmessage3 = ' Lade Quelle...'
+printmessage4 = ' Neue Liste wird erstellt...                                    '
+printmessage5 = ' Anzahl Domains: '
+printmessage6 = ' Liste wird sortiert...'
+printmessage7 = ' Zieldatei wird geschrieben...'
+printmessage8 = ' Fertig.                                  '
 
 MyURLs = ['https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming',
@@ -219,16 +219,19 @@ MyURLs.clear()
 
 print(printmessage4)
 pattern6 = re.compile("^[a-z0-9\-\.]{2,256}\.[a-z]{2,18}$")
+pattern7 = re.compile("^\|\|[a-z0-9\-\.]{2,256}\.[a-z]{2,18}\^$")
 with open(tempfile, "r") as f1:
     for line in f1:
         if pattern6.match(line) is not None:
-            MySet.add(line)
+            MySet.add(line.strip())
+        if pattern7.match(line) is not None:
+            MySet.add(line[2:-2].strip())
 
 # START Whitelisting
 if os.path.exists(whitelist):
     with open(whitelist, "r") as f3:
         for line in f3:
-            MySetWhite.add(line)
+            MySetWhite.add(line.strip())
     MySet = MySet.difference(MySetWhite)
     # Spare RAM durch Löschen alter Sets
     MySetWhite.clear()
@@ -238,10 +241,7 @@ FormatSetCounter = '{:,}'.format(len(MySet)).replace(',', '.')
 print(printmessage5 + str(FormatSetCounter) + '            ')
 
 for item in MySet:
-    if not item.endswith('\n'):
-        MySet2.add(item + '\n')
-    else:
-        MySet2.add(item)
+    MySet2.add(item.strip() + '\n')
 
 # Spare RAM durch Löschen alter Sets
 MySet.clear()

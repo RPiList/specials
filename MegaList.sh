@@ -6,11 +6,16 @@ megalist=megalist.txt
 blocklistenmd=https://github.com/RPiList/specials/raw/master/Blocklisten.md
 
 # "n" (no) or "y" (yes)
-abp-style=n
+# Accept cli input, if nothing is provided pass "n"
+abp_style=${1:-n}
 
 # ---------------------------------------------------------------------------
-rm $linkfile
-rm $blocklistfile-*.txt
+function cleanup() {
+	rm $linkfile
+	rm $blocklistfile-*.txt
+}
+
+cleanup
 
 echo downloading $blocklistenmd
 curl -L -o $linkfile $blocklistenmd
@@ -38,18 +43,17 @@ cat $linkfile | grep "RPiList/specials" > $linkfile.tmp
 mv $linkfile.tmp $linkfile
 
 
-while read line; do
-	echo downloading $line
-	curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt $line
+while read -r line; do
+	echo downloading "$line"
+	curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt "$line"
 	RESULT=$?
 	if [ $RESULT -ne 0 ]; then
-		echo downloading $line failed;
-		curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt $line;
+		echo downloading "$line" failed;
+		curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt "$line";
 		RESULT=$?
 		if [ $RESULT -ne 0 ]; then
-			echo downloading $line failed again;
-			rm $linkfile
-			rm $blocklistfile-*.txt
+			echo downloading "$line" failed again;
+			cleanup
 			exit 1;
 		fi
 	fi
@@ -66,7 +70,7 @@ sort -u /tmp/$megalist > /tmp/$megalist.tmp
 mv /tmp/$megalist.tmp $megalist
 
 
-if [ "$abp-style" != "y" ]; then
+if [ "$abp_style" != "y" ]; then
 	echo remove ABP-Style values out of $megalist
 	sed -i 's/^||.*$//g' $megalist
 	sed -i 's/^@@.*$//g' $megalist
@@ -77,7 +81,6 @@ if [ "$abp-style" != "y" ]; then
 	mv /tmp/$megalist.tmp $megalist
 fi
 
-rm $linkfile
-rm $blocklistfile-*.txt
+cleanup
 
 echo $megalist was created

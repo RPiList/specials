@@ -6,7 +6,8 @@ megalist=megalist.txt
 blocklistenmd=https://github.com/RPiList/specials/raw/master/Blocklisten.md
 
 # "n" (no) or "y" (yes)
-abp_style=n
+# Accept cli input, if nothing is provided pass "n"
+abp_style=${1:-n}
 
 # ---------------------------------------------------------------------------
 function cleanup() {

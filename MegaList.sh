@@ -9,8 +9,12 @@ blocklistenmd=https://github.com/RPiList/specials/raw/master/Blocklisten.md
 abp_style=n
 
 # ---------------------------------------------------------------------------
-rm $linkfile
-rm $blocklistfile-*.txt
+function cleanup() {
+	rm $linkfile
+	rm $blocklistfile-*.txt
+}
+
+cleanup
 
 echo downloading $blocklistenmd
 curl -L -o $linkfile $blocklistenmd
@@ -48,8 +52,7 @@ while read -r line; do
 		RESULT=$?
 		if [ $RESULT -ne 0 ]; then
 			echo downloading "$line" failed again;
-			rm $linkfile
-			rm $blocklistfile-*.txt
+			cleanup
 			exit 1;
 		fi
 	fi
@@ -77,7 +80,6 @@ if [ "$abp_style" != "y" ]; then
 	mv /tmp/$megalist.tmp $megalist
 fi
 
-rm $linkfile
-rm $blocklistfile-*.txt
+cleanup
 
 echo $megalist was created

@@ -6,7 +6,7 @@ megalist=megalist.txt
 blocklistenmd=https://github.com/RPiList/specials/raw/master/Blocklisten.md
 
 # "n" (no) or "y" (yes)
-abp-style=n
+abp_style=n
 
 # ---------------------------------------------------------------------------
 rm $linkfile
@@ -66,7 +66,7 @@ sort -u /tmp/$megalist > /tmp/$megalist.tmp
 mv /tmp/$megalist.tmp $megalist
 
 
-if [ "$abp-style" != "y" ]; then
+if [ "$abp_style" != "y" ]; then
 	echo remove ABP-Style values out of $megalist
 	sed -i 's/^||.*$//g' $megalist
 	sed -i 's/^@@.*$//g' $megalist

@@ -39,15 +39,15 @@ mv $linkfile.tmp $linkfile
 
 
 while read -r line; do
-	echo downloading $line
-	curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt $line
+	echo downloading "$line"
+	curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt "$line"
 	RESULT=$?
 	if [ $RESULT -ne 0 ]; then
-		echo downloading $line failed;
-		curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt $line;
+		echo downloading "$line" failed;
+		curl -L -o $blocklistfile-$RANDOM$RANDOM$RANDOM.txt "$line";
 		RESULT=$?
 		if [ $RESULT -ne 0 ]; then
-			echo downloading $line failed again;
+			echo downloading "$line" failed again;
 			rm $linkfile
 			rm $blocklistfile-*.txt
 			exit 1;

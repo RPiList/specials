@@ -25,6 +25,8 @@ question:
         FRAGE|QUESTION|FRAGEN|QUESTIONS)'
 
 false-positive:
-    - '(false-positive|false positive|falsch positiv|falsch-positiv|falsch positive|falsch-positive|false positiv|false-positiv|\
-        False-Positive|False Positive|Falsch Positiv|Falsch-Positiv|Falsch Positive|Falsch-Positive|False Positiv|False-Positiv|\
-        FALSE-POSITIVE|FALSE POSITIVE|FALSCH POSITIV|FALSCH-POSITIV|FALSCH POSITIVE|FALSCH-POSITIVE|FALSE POSITIV|FALSE-POSITIV)'
+    - '(false-positives|false positives|falsch positives|falsch-positives|false-positive|false positive|falsch positiv|falsch-positiv|falsch positive|falsch-positive|false positiv|false-positiv|\
+        False-Positives|False Positives|Falsch Positives|Falsch-Positives|False-Positive|False Positive|Falsch Positiv|Falsch-Positiv|Falsch Positive|Falsch-Positive|False Positiv|False-Positiv|\
+        FALSE-POSITIVES|FALSE POSITIVES|FALSCH POSITIVES|FALSCH-POSITIVES|FALSE-POSITIVE|FALSE POSITIVE|FALSCH POSITIV|FALSCH-POSITIV|FALSCH POSITIVE|FALSCH-POSITIVE|FALSE POSITIV|FALSE-POSITIV|\
+        False-positives|False positives|Falsch positives|Falsch-positives|False-positive|False positive|Falsch positiv|Falsch-positiv|Falsch positive|Falsch-positive|False positiv|False-positiv|\
+        false-Positives|false Positives|falsch Positives|falsch-Positives|false-Positive|false Positive|falsch Positiv|falsch-Positiv|falsch Positive|falsch-Positive|false Positiv|false-Positiv)'

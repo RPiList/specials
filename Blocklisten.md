@@ -385,6 +385,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-prot
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
 
+https://nsfw.oisd.nl
+
 
 # Fakeshops und Abofallen
 
@@ -548,7 +550,7 @@ https://www.einmalzahlungzweihundert.de/bl-einmalzahlung.txt
 
 # Diverse
 
-https://dbl.oisd.nl/
+https://big.oisd.nl
 
 https://v.firebog.net/hosts/static/w3kbl.txt
 

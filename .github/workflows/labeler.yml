@@ -1,9 +1,9 @@
-name: "Issue and Pull request Labeler"
+name: "Issue Labeler"
 on:
   issues:
     types: [opened, edited]
-  pull_request:
-    types: [opened, edited]
+#  pull_request:
+#    types: [opened, edited]
 
 permissions:
   contents: read
@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: read
       issues: write
-      pull-requests: write
+#      pull-requests: write
       
     runs-on: ubuntu-latest
     steps:

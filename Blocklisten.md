@@ -564,6 +564,8 @@ https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/ma
 
 https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts
 
+https://raw.githubusercontent.com/tsirolnik/spam-domains-list/master/spamdomains.txt
+
 # Einzelne Dienste sperren
 
 https://raw.githubusercontent.com/bloodhunterd/pi-hole-blocklists/master/Amazon.txt

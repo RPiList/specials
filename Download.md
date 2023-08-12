@@ -22,7 +22,12 @@ Weitere Download-Quellen:<br>
 <br>
 <br>
 
-## Raspberry Pi: http://sempervideo.de/svpihole/svpihole2211beta.iso <br>
+## Raspberry Pi: <br>
+http://o4.sempervideo.de/svpihole2211beta.iso <br>
+http://o3.sempervideo.de/svpihole2211beta.iso <br>
+http://o2.sempervideo.de/svpihole2211beta.iso <br>
+http://o1.sempervideo.de/svpihole2211beta.iso <br>
+
 sha256: a6fdbc8dc7d6999cb78f8fef03f062126db7be46bcaddafc66d4977b37fde857 <br>
 md5: afd6bebe9b2f11a527d486b1ec63a459 <br>
 

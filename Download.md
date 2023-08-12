@@ -1,7 +1,8 @@
 # Aktuelle Version
 
 
-## Raspberry Pi: http://o4.sempervideo.de/svpihole2212.zip <br>
+## Raspberry Pi: <br>
+http://o4.sempervideo.de/svpihole2212.zip <br>
 http://o3.sempervideo.de/svpihole2212.zip <br>
 sha256: 616d6acb
 sha256: 616d6acbb8dedf63b77911859f5f3b84042728eec1da338f942c7a3eb22739ec <br>
@@ -9,7 +10,7 @@ md5: de7d7db594c779600965c1fda9ce8522 <br>
 
 Wichtige Infos:
 Das SSH-Passwort ist 123456
-Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'. Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso.
+Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'. Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso umbenennen.
 
 Weitere Download-Quellen:<br>
 

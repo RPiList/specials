@@ -4,6 +4,9 @@
 ## Raspberry Pi: <br>
 http://o4.sempervideo.de/svpihole2212.zip <br>
 http://o3.sempervideo.de/svpihole2212.zip <br>
+http://o2.sempervideo.de/svpihole2212.zip <br>
+http://o1.sempervideo.de/svpihole2212.zip <br>
+
 sha256: 616d6acb
 sha256: 616d6acbb8dedf63b77911859f5f3b84042728eec1da338f942c7a3eb22739ec <br>
 md5: de7d7db594c779600965c1fda9ce8522 <br>

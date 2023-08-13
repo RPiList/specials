@@ -2,8 +2,6 @@
 # to support Russia. Import this list to your Pihole
 # if you want to block those websites.
 
-
-
 ||1688.com^
 ||3musketeers.com^
 ||7days.com^

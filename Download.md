@@ -22,25 +22,6 @@ Weitere Download-Quellen:<br>
 <br>
 <br>
 
-## Raspberry Pi: <br>
-http://o4.sempervideo.de/svpihole2211beta.iso <br>
-http://o3.sempervideo.de/svpihole2211beta.iso <br>
-http://o2.sempervideo.de/svpihole2211beta.iso <br>
-http://o1.sempervideo.de/svpihole2211beta.iso <br>
-
-sha256: a6fdbc8dc7d6999cb78f8fef03f062126db7be46bcaddafc66d4977b37fde857 <br>
-md5: afd6bebe9b2f11a527d486b1ec63a459 <br>
-
-Wichtige Infos:
-Das SSH-Passwort ist 123456
-Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Ferner ist noch Webmin über den Port 10000 erreichbar. Login-Daten sind die gleichen wie für den SSH-Zugriff. Docker und Portainer sind ebenfalls installiert. Zu all den Punkten gibt es entsprechende Videos die genaueres erläutern. Bei Portainer ist noch kein Admin-Zugang eingereichtet. Also Pi neustarten und dann direkt Portainer aufrufen. Dann verlangt Portainer vom Nutzer die Erstellung des Admin-Accounts.
-
-Weitere Download-Quellen:<br>
-
-- https://mindstormsit.net/download/torrent/svpihole2211beta.iso.torrent
-<br>
-<br>
-
 ## Häufig gestellte Frage:
 Worin besteht der Unterschied zur Vorversion?<br>
 Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellung bestimmt dass die Listen zum Schutz von Minderjährigen (Glückspiel/FSK18-Seiten usw...) für den Standard-Nutzer gelten. Möchte ein Nutzer auf die zuvor genannten Seiten zugreifen, schiebt er seinen PC/Tablet in die Nutzergruppe "Adults". Eine ausführliche Erläuterung finden Sie hier: https://youtu.be/_Jj4Jv1s_hE

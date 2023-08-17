@@ -337,7 +337,7 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 
 # Tracking
 
-https://raw.github.com/notracking/hosts-blocklists/master/hostnames.txt
+https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt
 
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
 
@@ -363,7 +363,7 @@ https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 
-https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers.txt
 
 # Jugendschutz
 
@@ -419,7 +419,9 @@ https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
 
-https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt
+
+https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_ads.txt
 
 # Malware
 
@@ -433,7 +435,7 @@ https://v.firebog.net/hosts/Prigent-Malware.txt
 
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
 
-https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
 
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 
@@ -560,7 +562,7 @@ https://raw.githubusercontent.com/SoftCreatR/fakerando-domains/main/all.txt
 
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/multi.txt
 
-https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames.txt
+https://raw.githubusercontent.com/elliotwutingfeng/Inversion-DNSBL-Blocklists/main/Google_hostnames_ABP.txt
 
 https://raw.githubusercontent.com/autinerd/anti-axelspringer-hosts/master/axelspringer-hosts
 

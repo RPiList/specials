@@ -1,32 +1,24 @@
 # Aktuelle Version
 
 
-## Raspberry Pi: http://sempervideo.de/svpihole/svpihole2212.zip <br>
+## Raspberry Pi: <br>
+http://o4.sempervideo.de/svpihole2212.zip <br>
+http://o3.sempervideo.de/svpihole2212.zip <br>
+http://o2.sempervideo.de/svpihole2212.zip <br>
+http://o1.sempervideo.de/svpihole2212.zip <br>
+
+sha256: 616d6acb
 sha256: 616d6acbb8dedf63b77911859f5f3b84042728eec1da338f942c7a3eb22739ec <br>
 md5: de7d7db594c779600965c1fda9ce8522 <br>
 
 Wichtige Infos:
 Das SSH-Passwort ist 123456
-Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'. Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso.
+Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'. Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso umbenennen.
 
 Weitere Download-Quellen:<br>
 
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
 - https://ipfs.io/ipfs/Qmab2Pc3pxrLqpt18JWmVvUbVptKKqaNBSevWiezgHVMkw?filename=svpihole2212.zip
-<br>
-<br>
-
-## Raspberry Pi: http://sempervideo.de/svpihole/svpihole2211beta.iso <br>
-sha256: a6fdbc8dc7d6999cb78f8fef03f062126db7be46bcaddafc66d4977b37fde857 <br>
-md5: afd6bebe9b2f11a527d486b1ec63a459 <br>
-
-Wichtige Infos:
-Das SSH-Passwort ist 123456
-Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Ferner ist noch Webmin über den Port 10000 erreichbar. Login-Daten sind die gleichen wie für den SSH-Zugriff. Docker und Portainer sind ebenfalls installiert. Zu all den Punkten gibt es entsprechende Videos die genaueres erläutern. Bei Portainer ist noch kein Admin-Zugang eingereichtet. Also Pi neustarten und dann direkt Portainer aufrufen. Dann verlangt Portainer vom Nutzer die Erstellung des Admin-Accounts.
-
-Weitere Download-Quellen:<br>
-
-- https://mindstormsit.net/download/torrent/svpihole2211beta.iso.torrent
 <br>
 <br>
 

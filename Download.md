@@ -36,7 +36,6 @@ Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellun
 
 | Kryptografie | Prüfsummen                                                       |
 |:------------:|:----------------------------------------------------------------:|
-| crc32        | 616d6acb                                                         |
 | sha256       | bf92e9b71eef4ef1448d3a0eed5320b51b76540a0ddd5885c200162228372f5c |
 | md5          | 21a5719d26e439333ccc243182d2b0c2                                 |
 
@@ -62,4 +61,6 @@ Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellun
 | Serie 19 | RS1619xs+, RS1219+, DS2419+, DS1819+, DS1019+, DVA3219                                                            |
 | Serie 20 | FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400                                                       |
 
-#### VMware Workstation Player Download unter: https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html
+
+#### VMware Workstation Player Download unter: 
+- https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html

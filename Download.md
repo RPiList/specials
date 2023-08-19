@@ -1,58 +1,66 @@
 # Aktuelle Version
 
 
-## Raspberry Pi: <br>
-http://o4.sempervideo.de/svpihole2212.zip <br>
-http://o3.sempervideo.de/svpihole2212.zip <br>
-http://o2.sempervideo.de/svpihole2212.zip <br>
-http://o1.sempervideo.de/svpihole2212.zip <br>
+## Raspberry Pi:
+- http://o1.sempervideo.de/svpihole2212.zip
 
-sha256: 616d6acb
-sha256: 616d6acbb8dedf63b77911859f5f3b84042728eec1da338f942c7a3eb22739ec <br>
-md5: de7d7db594c779600965c1fda9ce8522 <br>
+- http://o2.sempervideo.de/svpihole2212.zip
 
-Wichtige Infos:
+- http://o3.sempervideo.de/svpihole2212.zip
+
+- http://o4.sempervideo.de/svpihole2212.zip
+
+| Kryptografie | Prüfsummen                                                       |
+|:------------:|:----------------------------------------------------------------:|
+| crc32        | 616d6acb                                                         |
+| sha256       | 616d6acbb8dedf63b77911859f5f3b84042728eec1da338f942c7a3eb22739ec |
+| md5          | de7d7db594c779600965c1fda9ce8522                                 |
+
+#### Wichtige Infos:
 Das SSH-Passwort ist 123456
 Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'. Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso umbenennen.
 
-Weitere Download-Quellen:<br>
-
+### Weitere Download-Quellen:
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
+
 - https://ipfs.io/ipfs/Qmab2Pc3pxrLqpt18JWmVvUbVptKKqaNBSevWiezgHVMkw?filename=svpihole2212.zip
-<br>
-<br>
 
-## Häufig gestellte Frage:
-Worin besteht der Unterschied zur Vorversion?<br>
+#### Häufig gestellte Frage:
+Worin besteht der Unterschied zur Vorversion?
 Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellung bestimmt dass die Listen zum Schutz von Minderjährigen (Glückspiel/FSK18-Seiten usw...) für den Standard-Nutzer gelten. Möchte ein Nutzer auf die zuvor genannten Seiten zugreifen, schiebt er seinen PC/Tablet in die Nutzergruppe "Adults". Eine ausführliche Erläuterung finden Sie hier: https://youtu.be/_Jj4Jv1s_hE
-<br>
-<br>
-<hr>
-<br>
 
-## VMware Player und Synology Diskstation: http://sempervideo.de/svPiholeVM2105.zip<br>
-sha256: bf92e9b71eef4ef1448d3a0eed5320b51b76540a0ddd5885c200162228372f5c<br>
-md5: 21a5719d26e439333ccc243182d2b0c2 <br>
+-----
 
-Weitere Download-Quellen:<br>
+## VMware Player und Synology Diskstation: 
+-  http://sempervideo.de/svPiholeVM2105.zip
 
+| Kryptografie | Prüfsummen                                                       |
+|:------------:|:----------------------------------------------------------------:|
+| sha256       | bf92e9b71eef4ef1448d3a0eed5320b51b76540a0ddd5885c200162228372f5c |
+| md5          | 21a5719d26e439333ccc243182d2b0c2                                 |
+
+### Weitere Download-Quellen:
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.dweb.link
+
 - https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.cf-ipfs.com
+
 - https://ipfs.io/ipfs/QmQtGpaXT3uRWx2oZ69chxrKJS7TMaKPuUgzSeP3QkpkTz?filename=svPiholeVM2105.zip
+
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svPiholeVM/
-<br>
-<br>
 
-Synology Modelle die die Virtualisierung unterstützen: https://youtu.be/jujGbcDrPdE <br>
-Serie 20: FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400<br>
-Serie 19: RS1619xs+, RS1219+, DS2419+, DS1819+, DS1019+, DVA3219<br>
-Serie 18: FS1018, RS3618xs, RS2818RP+, RS2418RP+, RS2418+, RS818RP+, RS818+, DS3018xs, DS1618+, DS918+, DS718+, DS218+<br>
-Serie 17: FS3017, FS2017, RS18017xs+, RS4017xs+, RS3617xs+, RS3617RPxs, RS3617xs, DS3617xs, DS1817+, DS1517+<br>
-Serie 16: RS18016xs+, RS2416RP+, RS2416+, DS916+Serie 15: RS815RP+, RS815+, RC18015xs+, DS3615xs, DS2415+, DS1815+, DS1515+<br>
-Serie 14: RS3614xs+, RS3614RPxs, RS3614xs<br>
-Serie 13: RS10613xs+, RS3413xs+<br>
-Serie 12: RS3412RPxs, RS3412xs, DS3612xs<br>
-Serie 11: RS3411RPxs, RS3411xs, DS3611xs<br>
+#### [Synology Modelle die die Virtualisierung unterstützen](https://youtu.be/jujGbcDrPdE): 
+| Serie    | Modelle                                                                                                           |
+|:--------:|:-----------------------------------------------------------------------------------------------------------------:|
+| Serie 11 | RS3411RPxs, RS3411xs, DS3611xs                                                                                    |
+| Serie 12 | RS3412RPxs, RS3412xs, DS3612xs                                                                                    |
+| Serie 13 | RS10613xs+, RS3413xs+                                                                                             |
+| Serie 14 | RS3614xs+, RS3614RPxs, RS3614xs                                                                                   |
+| Serie 16 | RS18016xs+, RS2416RP+, RS2416+, DS916+Serie 15: RS815RP+, RS815+, RC18015xs+, DS3615xs, DS2415+, DS1815+, DS1515+ |
+| Serie 17 | FS3017, FS2017, RS18017xs+, RS4017xs+, RS3617xs+, RS3617RPxs, RS3617xs, DS3617xs, DS1817+, DS1517+                |
+| Serie 18 | FS1018, RS3618xs, RS2818RP+, RS2418RP+, RS2418+, RS818RP+, RS818+, DS3018xs, DS1618+, DS918+, DS718+, DS218+      |
+| Serie 19 | RS1619xs+, RS1219+, DS2419+, DS1819+, DS1019+, DVA3219                                                            |
+| Serie 20 | FS6400, FS3400, RS820RP+, RS820+, DS620slim, SA3600, SA3400                                                       |
 
-VMware Workstation Player Download unter: https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html
 
+#### VMware Workstation Player Download unter: 
+- https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html

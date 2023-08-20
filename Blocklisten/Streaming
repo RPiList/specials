@@ -1,12 +1,12 @@
-# Alle Listen des Projekts RPi-List sind selbst erstellte Listen, teilweise basierend auf Grunddaten
-# aus verschiedenen Quellen (s.u.). Genauere Erläuterung dazu finden Sie unter
+# Alle Listen des Projekts RPi-List sind selbst erstellte Listen, teilweise basierend auf Grunddaten 
+# aus verschiedenen Quellen (s.u.). Genauere Erläuterung dazu finden Sie unter 
 # github.com/RPiList/specials/blob/master/Copyright%20-%20Woher%20kommen%20unsere%20Listen.md
-#
-# Wir bedanken uns bei allen Nutzern des Projekt, die uns Ihre Domains über unsere Website sowie per
+# 
+# Wir bedanken uns bei allen Nutzern des Projekt, die uns Ihre Domains über unsere Website sowie per 
 # eMail zukommen lassen. Drittquellen sind beallslist.net, bsi.bund.de, github.com/duckduckgo/
 # tracker-radar, cybercrime-tracker.net, openphish.com, zonefiles.io, ut-capitole.fr, isc.sans.edu,
-# github.com/disconnectme, phishstats.info, easylist.to, cyberthreatcoalition.org, phishing.army,
-# google.com, mailscanner.info, github.com/AdguardTeam, HyperPhish.com, CryptoScamDB
+# github.com/disconnectme, phishstats.info, easylist.to, cyberthreatcoalition.org, phishing.army, 
+# google.com, mailscanner.info, github.com/AdguardTeam, HyperPhish.com, CryptoScamDB 
 # sowie lumendatabase.org.
 
 ||007-os-diamantes-sao-eternos.olink.tv^
@@ -128,7 +128,6 @@
 ||anime-planet.com^
 ||anime-tv.fun^
 ||anime1.com^
-||anime2you.de^
 ||anime8.me^
 ||anime8.ru^
 ||animebam.net^
@@ -897,7 +896,6 @@
 ||katcr.to^
 ||katmoviehd.nl^
 ||kawaiifu.com^
-||kaze-online.de^
 ||khaanflix.com^
 ||kickass-kat.com^
 ||kickass.sh^

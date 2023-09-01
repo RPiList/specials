@@ -36,9 +36,13 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DatingSites
+
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Corona-Blocklist
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/SupportingRussia
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 
@@ -382,6 +386,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock6
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/child-protection
+
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DatingSites
 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/proxies
 

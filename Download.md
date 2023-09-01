@@ -31,29 +31,6 @@ Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellun
 
 -----
 
-## VMware Player / VirtualBox (OVA-Datei): 
--  http://sempervideo.de/svPiholeVM2105.zip
-
-| Kryptografie | Prüfsummen                                                       |
-|:------------:|:----------------------------------------------------------------:|
-| sha256       | bf92e9b71eef4ef1448d3a0eed5320b51b76540a0ddd5885c200162228372f5c |
-| md5          | 21a5719d26e439333ccc243182d2b0c2                                 |
-
-### Weitere Download-Quellen:
-- https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.dweb.link
-
-- https://bafybeibf2e256taj642lknfmhzfml57yigl2uqy3qhvbuslvvvmokdt2ce.ipfs.cf-ipfs.com
-
-- https://ipfs.io/ipfs/QmQtGpaXT3uRWx2oZ69chxrKJS7TMaKPuUgzSeP3QkpkTz?filename=svPiholeVM2105.zip
-
-- https://heldendesbildschirms.de/download/software/betriebssysteme/svPiholeVM/
-
-#### Benötigt eines der folgenden Programme:
-- [VMware](https://www.vmware.com/de/products/workstation-player/workstation-player-evaluation.html)
-- [VirtualBox](https://www.virtualbox.org/) 
-
------
-
 ## Synology Diskstation:
 -  [Installation von Pihole über docker-compose](https://www.youtube.com/watch?v=dZKDlfqXRuc)
 

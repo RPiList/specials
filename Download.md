@@ -34,7 +34,7 @@ Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellun
 ## Synology Diskstation:
 -  [Installation von Pihole über docker-compose](https://www.youtube.com/watch?v=dZKDlfqXRuc)
 
-#### [Synology Modelle die die Docker unterstützen](https://www.youtube.com/watch?v=2X1vrnZBpzc):
+#### [Synology Modelle die Docker unterstützen](https://www.youtube.com/watch?v=2X1vrnZBpzc):
 | Serie    | Modelle                                                                                                                   |
 |:--------:|:-------------------------------------------------------------------------------------------------------------------------:|
 | Serie 10 | RS810RP+, RS810+, DS1010+, DS710+                                                                                         |

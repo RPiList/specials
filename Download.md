@@ -17,8 +17,13 @@
 | md5          | de7d7db594c779600965c1fda9ce8522                                 |
 
 #### Wichtige Infos:
-Das SSH-Passwort ist 123456
-Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden. Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'. Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso umbenennen.
+- Das SSH-Passwort ist 123456
+- Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden.
+- Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'.
+- Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso umbenennen.
+- **Problembehandlung**
+	- Falls sich seit dem letzten Update des svpihole Images Probleme bezüglich Pihole und u. a. den neuen ABP-style Listen ergeben, dann ggf. das Pihole manuell mit den Befehl `pihole -up` aktualisieren.
+	- Falls sich die Links zu bereits hinzugefügten Listen ändern, dann diese Listen erneut mit den richtigen Links aus der [Blocklisten.md](./Blocklisten.md) hinzufügen.
 
 ### Weitere Download-Quellen:
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/

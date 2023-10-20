@@ -1,5 +1,11 @@
 # Blocklisten zur Ergänzung nach eigenem Ermessen. Die Listen stammen teilweise von Dritten und können daher nicht auf Richtigkeit geprüft werden. Doppelnennungen möglich.
 
+# Blocklist-Generator von Sefinek
+
+**Wähle deinen Werbeblocker:** https://sefinek.net/blocklist-generator  
+**Offizielle Webseite:** https://blocklist.sefinek.net
+**GitHub:** https://github.com/sefinek24/Sefinek-Blocklist-Collection
+
 # Eigene Listen (Copy & Paste):
 
 - https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious

@@ -2,6 +2,8 @@
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Amazon-Video
 
+https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-Music
+
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iCloud
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Apple-iTunes
@@ -24,6 +26,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Ep
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Kindle
 
+https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Last.fm
+
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Microsoft
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Microsoft%20Office%20365
@@ -34,9 +38,13 @@ https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Mi
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Minecraft
 
+https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Napster
+
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Netflix
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Nintendo
+
+https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Pandora
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/PayPal
 
@@ -56,6 +64,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/St
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Threema
 
+https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Tidal
+
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Twitch
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Twitter
@@ -67,3 +77,6 @@ https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Wh
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/XBOX
 
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Yahoo
+
+https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/iHeartRadio
+

@@ -1,14 +1,15 @@
-OpenWRT
+### OpenWRT
 
-![](openwrt1.png)<br>
--Klick auf „Netzwerk“ (englisch "Network")<br>
--Klick auf „Schnittstellen“ (englisch „Interfaces“)<br>
+1. Klick auf **"Netzwerk"** (englisch "Network")
+2. Klick auf **„Schnittstellen“** (englisch „Interfaces“)
+![](openwrt1.png)
 
-![](openwrt2.png)<br>
--Klick auf den „Bearbeiten“ (englisch „Edit“) Button des LAN-Interfaces<br>
 
-![](openwrt3.png)<br>
--Auf der Bearbeiten-Seite des LAN-Interfaces ganz nach unten scrollen<br>
--Klick auf den Reiter „Erweiterte Einstellungen“ (englisch „Advanced Settings“) des DHCP-Servers des LAN-Interfaces<br>
--Im Feld „DHCP-Optionen“ (englisch „DHCP-Options“) das Pi-Hole als DNS-Server eintragen: Syntax: „6, IP.DES.PI.HOLES“<br>
--Klick auf „Speichern und Anwenden“ (englisch „Save & Apply“)
+3. Klick auf den **„Bearbeiten“** (englisch „Edit“) Button des LAN-Interfaces
+![](openwrt2.png)
+
+4. Auf der Bearbeiten-Seite des LAN-Interfaces ganz nach unten scrollen
+5. Klick auf den Reiter **„Erweiterte Einstellungen“** (englisch „Advanced Settings“) des DHCP-Servers des LAN-Interfaces
+6. Im Feld **„DHCP-Optionen“** (englisch „DHCP-Options“) das Pi-Hole als DNS-Server eintragen: Syntax: `6, IP.DES.PI.HOLES`
+7. Klick auf **„Speichern und Anwenden“** (englisch „Save & Apply“)
+![](openwrt3.png)

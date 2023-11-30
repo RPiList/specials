@@ -558,7 +558,6 @@
 ||bank-bgld-at.aramco^
 ||bank-bgld-at.archi^
 ||bank-bgld-at.army^
-||bank-bgld-at.arpa^
 ||bank-bgld-at.art^
 ||bank-bgld-at.arte^
 ||bank-bgld-at.as^
@@ -1896,7 +1895,6 @@
 ||bank-bgld.aramco^
 ||bank-bgld.archi^
 ||bank-bgld.army^
-||bank-bgld.arpa^
 ||bank-bgld.art^
 ||bank-bgld.arte^
 ||bank-bgld.as^
@@ -1973,7 +1971,6 @@
 ||bank-bgld.at.aramco^
 ||bank-bgld.at.archi^
 ||bank-bgld.at.army^
-||bank-bgld.at.arpa^
 ||bank-bgld.at.art^
 ||bank-bgld.at.arte^
 ||bank-bgld.at.as^
@@ -5017,7 +5014,6 @@
 ||banking-co-at.aramco^
 ||banking-co-at.archi^
 ||banking-co-at.army^
-||banking-co-at.arpa^
 ||banking-co-at.art^
 ||banking-co-at.arte^
 ||banking-co-at.as^
@@ -6363,7 +6359,6 @@
 ||banking.co-at.aramco^
 ||banking.co-at.archi^
 ||banking.co-at.army^
-||banking.co-at.arpa^
 ||banking.co-at.art^
 ||banking.co-at.arte^
 ||banking.co-at.as^
@@ -7701,7 +7696,6 @@
 ||banking.co.aramco^
 ||banking.co.archi^
 ||banking.co.army^
-||banking.co.arpa^
 ||banking.co.art^
 ||banking.co.arte^
 ||banking.co.as^
@@ -7778,7 +7772,6 @@
 ||banking.co.at.aramco^
 ||banking.co.at.archi^
 ||banking.co.at.army^
-||banking.co.at.arpa^
 ||banking.co.at.art^
 ||banking.co.at.arte^
 ||banking.co.at.as^

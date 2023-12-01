@@ -165,7 +165,6 @@
 ||home-saxo.aramco^
 ||home-saxo.archi^
 ||home-saxo.army^
-||home-saxo.arpa^
 ||home-saxo.art^
 ||home-saxo.arte^
 ||home-saxo.as^
@@ -1499,7 +1498,6 @@
 ||home.aramco^
 ||home.archi^
 ||home.army^
-||home.arpa^
 ||home.art^
 ||home.arte^
 ||home.as^
@@ -2466,14 +2464,6 @@
 ||home.sarl^
 ||home.sas^
 ||home.save^
-||home.saxo-ag.web.app^
-||home.saxo-app.com^
-||home.saxo-app.online^
-||home.saxo-app.site^
-||home.saxo-banking.app^
-||home.saxo-id.site^
-||home.saxo-mobile.com^
-||home.saxo-site.com^
 ||home.saxo.aaa^
 ||home.saxo.aarp^
 ||home.saxo.abarth^
@@ -2544,7 +2534,6 @@
 ||home.saxo.aramco^
 ||home.saxo.archi^
 ||home.saxo.army^
-||home.saxo.arpa^
 ||home.saxo.art^
 ||home.saxo.arte^
 ||home.saxo.as^
@@ -4408,11 +4397,6 @@
 ||saxotradef.com^
 ||saxotradeff.com^
 ||saxotradep.com^
-||saxotrader-ag.web.app^
-||saxotrader-app.com^
-||saxotrader-app.online^
-||saxotrader-app.site^
-||saxotrader-banking.app^
 ||saxotrader-com.aaa^
 ||saxotrader-com.aarp^
 ||saxotrader-com.abarth^
@@ -4483,7 +4467,6 @@
 ||saxotrader-com.aramco^
 ||saxotrader-com.archi^
 ||saxotrader-com.army^
-||saxotrader-com.arpa^
 ||saxotrader-com.art^
 ||saxotrader-com.arte^
 ||saxotrader-com.as^
@@ -5747,9 +5730,6 @@
 ||saxotrader-com.zone^
 ||saxotrader-com.zuerich^
 ||saxotrader-com.zw^
-||saxotrader-id.site^
-||saxotrader-mobile.com^
-||saxotrader-site.com^
 ||saxotrader.aaa^
 ||saxotrader.aarp^
 ||saxotrader.abarth^
@@ -5820,7 +5800,6 @@
 ||saxotrader.aramco^
 ||saxotrader.archi^
 ||saxotrader.army^
-||saxotrader.arpa^
 ||saxotrader.art^
 ||saxotrader.arte^
 ||saxotrader.as^
@@ -6090,7 +6069,6 @@
 ||saxotrader.com.aramco^
 ||saxotrader.com.archi^
 ||saxotrader.com.army^
-||saxotrader.com.arpa^
 ||saxotrader.com.art^
 ||saxotrader.com.arte^
 ||saxotrader.com.as^

@@ -4949,11 +4949,6 @@
 ||heritage-2.pbg-ate.services^
 ||heritage-2.pbga-te.services^
 ||heritage-2.pbgat-e.services^
-||heritage-ag.web.app^
-||heritage-app.com^
-||heritage-app.online^
-||heritage-app.site^
-||heritage-banking.app^
 ||heritage-ch.aaa^
 ||heritage-ch.aarp^
 ||heritage-ch.abarth^
@@ -5024,7 +5019,6 @@
 ||heritage-ch.aramco^
 ||heritage-ch.archi^
 ||heritage-ch.army^
-||heritage-ch.arpa^
 ||heritage-ch.art^
 ||heritage-ch.arte^
 ||heritage-ch.as^
@@ -6288,9 +6282,6 @@
 ||heritage-ch.zone^
 ||heritage-ch.zuerich^
 ||heritage-ch.zw^
-||heritage-id.site^
-||heritage-mobile.com^
-||heritage-site.com^
 ||heritage.2.pbgate.services^
 ||heritage.aaa^
 ||heritage.aarp^
@@ -6362,7 +6353,6 @@
 ||heritage.aramco^
 ||heritage.archi^
 ||heritage.army^
-||heritage.arpa^
 ||heritage.art^
 ||heritage.arte^
 ||heritage.as^
@@ -6593,7 +6583,6 @@
 ||heritage.ch.aramco^
 ||heritage.ch.archi^
 ||heritage.ch.army^
-||heritage.ch.arpa^
 ||heritage.ch.art^
 ||heritage.ch.arte^
 ||heritage.ch.as^
@@ -9138,7 +9127,6 @@
 ||heritage2-pbgate-services.aramco^
 ||heritage2-pbgate-services.archi^
 ||heritage2-pbgate-services.army^
-||heritage2-pbgate-services.arpa^
 ||heritage2-pbgate-services.art^
 ||heritage2-pbgate-services.arte^
 ||heritage2-pbgate-services.as^
@@ -10470,13 +10458,6 @@
 ||heritage2.pbgata.services^
 ||heritage2.pbgatc.services^
 ||heritage2.pbgatd.services^
-||heritage2.pbgate-ag.web.app^
-||heritage2.pbgate-app.com^
-||heritage2.pbgate-app.online^
-||heritage2.pbgate-app.site^
-||heritage2.pbgate-banking.app^
-||heritage2.pbgate-id.site^
-||heritage2.pbgate-mobile.com^
 ||heritage2.pbgate-services.aaa^
 ||heritage2.pbgate-services.aarp^
 ||heritage2.pbgate-services.abarth^
@@ -10547,7 +10528,6 @@
 ||heritage2.pbgate-services.aramco^
 ||heritage2.pbgate-services.archi^
 ||heritage2.pbgate-services.army^
-||heritage2.pbgate-services.arpa^
 ||heritage2.pbgate-services.art^
 ||heritage2.pbgate-services.arte^
 ||heritage2.pbgate-services.as^
@@ -11811,7 +11791,6 @@
 ||heritage2.pbgate-services.zone^
 ||heritage2.pbgate-services.zuerich^
 ||heritage2.pbgate-services.zw^
-||heritage2.pbgate-site.com^
 ||heritage2.pbgate.aaa^
 ||heritage2.pbgate.aarp^
 ||heritage2.pbgate.abarth^
@@ -11882,7 +11861,6 @@
 ||heritage2.pbgate.aramco^
 ||heritage2.pbgate.archi^
 ||heritage2.pbgate.army^
-||heritage2.pbgate.arpa^
 ||heritage2.pbgate.art^
 ||heritage2.pbgate.arte^
 ||heritage2.pbgate.as^
@@ -12948,7 +12926,6 @@
 ||heritage2.pbgate.services.aramco^
 ||heritage2.pbgate.services.archi^
 ||heritage2.pbgate.services.army^
-||heritage2.pbgate.services.arpa^
 ||heritage2.pbgate.services.art^
 ||heritage2.pbgate.services.arte^
 ||heritage2.pbgate.services.as^

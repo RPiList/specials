@@ -127,6 +127,21 @@ docker-compose up -d
 Quellen: [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-convenience-script); [Pihole](https://github.com/pi-hole/docker-pi-hole#quick-start)
 
 #### Hinweise
+- Wo ist das Passwort für das Pihole?
+
+Der Pihole Container generiert sich ein eigenes Zufallspasswort.
+Das Passwort kann wie folgt geändert werden:
+
+```bash
+# Bis Pihole Version 5
+docker exec -it pihole pihole -a -p
+```
+
+```bash
+# Ab Pihole Version 6
+docker exec -it pihole pihole setpassword
+```
+
 - Der Pihole Container sollte hin und wieder aktualisiert werden
 
 ```bash

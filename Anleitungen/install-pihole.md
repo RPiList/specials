@@ -1,22 +1,64 @@
-## Installation von Pihole für Raspberry Pi (gilt auch für VMs und Thin Clients)
+## Installation von Pihole für Raspberry Pi, VMs und Thin Clients
 
 #### Hinweise vorab
-- bei Ubuntu Systemen muss der Systemctl resolve deaktiviert werden um den Port 53 nutzen zu können
-
-  - Beschreibung folgt
-
-
-### Installation von Docker und Pihole über Docker compose
+<details>
+  <summary>- Bei Ubuntu Systemen muss der Systemctl resolve deaktiviert werden um den Port 53 nutzen zu können</summary>
 
 1. Root Shell erlangen
 
-- Als Root anmelden oder als User folgendes eingeben um auf die Root Shell zu kommen
+- Als Root anmelden oder als User folgendes eingeben, um auf die Root Shell zu kommen
 
 ```bash
 sudo -s
 ```
 
-2. Docker und Docker-compose installieren
+2. Deaktivieren und stoppen Sie den systemd-aufgelösten Dienst:
+
+```bash
+systemctl disable systemd-resolved
+systemctl stop systemd-resolved
+```
+
+Fügen Sie dann die folgende Zeile in den Abschnitt [main] Ihrer /etc/NetworkManager/NetworkManager.conf ein:
+
+```
+dns=default
+```
+
+Löschen Sie den Symlink /etc/resolv.conf
+
+```bash
+rm /etc/resolv.conf
+```
+
+Starte NetworkManager neu
+
+```bash
+systemctl restart NetworkManager
+```
+
+Quelle: [askubuntu.com](https://askubuntu.com/questions/907246/how-to-disable-systemd-resolved-in-ubuntu)
+</details>
+
+### Installation von Docker und Pihole über Docker compose
+
+1. Root Shell erlangen
+
+- Als Root anmelden oder als User folgendes eingeben, um auf die Root Shell zu kommen
+
+```bash
+sudo -s
+```
+
+2. System aktualisieren
+
+- Das System (Debian und Ubuntu) auf den neusten stand bringen
+
+```bash
+apt update && apt upgrade -y && apt autoremove -y
+```
+
+3. Docker und Docker-compose installieren
 
 - Docker installieren (Debian und Ubuntu)
 
@@ -32,7 +74,7 @@ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
 
-3. Pihole über Docker-compose installieren
+4. Pihole über Docker-compose installieren
 
 - Erstelle einen neuen Ordner und erstelle in den neuen Ordner eine docker-compose.yml
 
@@ -45,7 +87,7 @@ cd ~/server/docker/pihole
 nano docker-compose.yml
 ```
 
-- In den "nano" Fenster dann folgenden Inhalt rein kopieren
+- In den "nano" Fenster dann folgenden Inhalt reinkopieren
 
 ```yaml
 version: "3"
@@ -62,6 +104,7 @@ services:
       - "67:67/udp" # DHCP server
       - "80:80/tcp" # Webserver
     volumes:
+      # Volume mount for pihole userdata
       - './etc-pihole:/etc/pihole'
       - './etc-dnsmasq.d:/etc/dnsmasq.d'
       # Sync Timezone
@@ -71,18 +114,20 @@ services:
     restart: unless-stopped
 ```
 
-- Dann den Inhalt speichern mit strg + O-Taste dann Enter und dann Strg + X-Taste zum verlassen
+- Dann den Inhalt speichern mit Strg + O-Taste dann Enter und dann Strg + X-Taste zum Verlassen
 
-- Dann den Container starten mit folgenden Befehl
+- Dann den Container starten mit folgendem Befehl
 
 ```bash
-docker-compose up - d
+docker-compose up -d
 ```
 
-- Das Pihole ist nun über die ip Adresse des Gerätes und den in der compose file angegebenen Port (Webserver) erreichbar
+- Das Pihole ist nun über die IP-Adresse des Gerätes und den in der compose file angegebenen Port (Webserver) erreichbar
+
+Quellen: [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-convenience-script); [Pihole](https://github.com/pi-hole/docker-pi-hole#quick-start)
 
 #### Hinweise
-- der Pihole Container sollte hin und wieder aktualisiert werden
+- Der Pihole Container sollte hin und wieder aktualisiert werden
 
 ```bash
 cd ~/server/docker/pihole
@@ -90,6 +135,6 @@ docker-compose pull
 docker-compose up -d
 ```
 
-- Ein automatisches update über Watchtower ist auch möglich
+- Ein automatisches Update über Watchtower ist auch möglich
 
 [Installation von Watchtower](https://youtu.be/6EujFKzsvvA)

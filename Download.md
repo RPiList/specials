@@ -1,7 +1,11 @@
 # Aktuelle Version
 
+## Raspberry Pi, VMs und Thin Clients:
+- [Installation von Pihole über docker-compose (Schriftliche Anleitung)](./Anleitungen/install-pihole.md)
 
-## Raspberry Pi:
+<details>
+  <summary>SVPihole Image für Raspberry Pi (deprecated)</summary>
+
 - http://o1.sempervideo.de/svpihole2212.zip
 
 - http://o2.sempervideo.de/svpihole2212.zip
@@ -28,18 +32,17 @@
 ### Weitere Download-Quellen:
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
 
-- https://ipfs.io/ipfs/Qmab2Pc3pxrLqpt18JWmVvUbVptKKqaNBSevWiezgHVMkw?filename=svpihole2212.zip
-
 #### Häufig gestellte Frage:
 Worin besteht der Unterschied zur Vorversion?
 Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellung bestimmt dass die Listen zum Schutz von Minderjährigen (Glückspiel/FSK18-Seiten usw...) für den Standard-Nutzer gelten. Möchte ein Nutzer auf die zuvor genannten Seiten zugreifen, schiebt er seinen PC/Tablet in die Nutzergruppe "Adults". Eine ausführliche Erläuterung finden Sie hier: https://youtu.be/_Jj4Jv1s_hE
+</details>
 
 -----
 
 ## Synology Diskstation:
--  [Installation von Pihole über docker-compose](https://www.youtube.com/watch?v=dZKDlfqXRuc)
+-  [Installation von Pihole über docker-compose (Video)](https://www.youtube.com/watch?v=dZKDlfqXRuc)
 
-#### [Synology Modelle die Docker unterstützen](https://www.youtube.com/watch?v=2X1vrnZBpzc):
+#### [Synology Modelle die Docker unterstützen (Video)](https://www.youtube.com/watch?v=2X1vrnZBpzc):
 | Serie    | Modelle                                                                                                                   |
 |:--------:|:-------------------------------------------------------------------------------------------------------------------------:|
 | Serie 10 | RS810RP+, RS810+, DS1010+, DS710+                                                                                         |

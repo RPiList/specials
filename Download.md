@@ -32,8 +32,6 @@
 ### Weitere Download-Quellen:
 - https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
 
-- https://ipfs.io/ipfs/Qmab2Pc3pxrLqpt18JWmVvUbVptKKqaNBSevWiezgHVMkw?filename=svpihole2212.zip
-
 #### Häufig gestellte Frage:
 Worin besteht der Unterschied zur Vorversion?
 Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellung bestimmt dass die Listen zum Schutz von Minderjährigen (Glückspiel/FSK18-Seiten usw...) für den Standard-Nutzer gelten. Möchte ein Nutzer auf die zuvor genannten Seiten zugreifen, schiebt er seinen PC/Tablet in die Nutzergruppe "Adults". Eine ausführliche Erläuterung finden Sie hier: https://youtu.be/_Jj4Jv1s_hE

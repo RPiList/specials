@@ -19,19 +19,19 @@ systemctl disable systemd-resolved
 systemctl stop systemd-resolved
 ```
 
-Fügen Sie dann die folgende Zeile in den Abschnitt [main] Ihrer /etc/NetworkManager/NetworkManager.conf ein:
+3. Fügen Sie dann die folgende Zeile in den Abschnitt [main] Ihrer /etc/NetworkManager/NetworkManager.conf ein:
 
 ```
 dns=default
 ```
 
-Löschen Sie den Symlink /etc/resolv.conf
+4. Löschen Sie den Symlink /etc/resolv.conf
 
 ```bash
 rm /etc/resolv.conf
 ```
 
-Starte NetworkManager neu
+5. Starte NetworkManager neu
 
 ```bash
 systemctl restart NetworkManager

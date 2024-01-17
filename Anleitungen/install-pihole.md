@@ -2,7 +2,7 @@
 
 #### Hinweise vorab
 <details>
-  <summary>- Bei Ubuntu Systemen muss der Systemctl resolve deaktiviert werden um den Port 53 nutzen zu können</summary>
+  <summary>- Bei Ubuntu Betriebssystemen muss der `systemd-resolved` deaktiviert werden um den Port 53 nutzen zu können</summary>
 
 1. Root Shell erlangen
 
@@ -12,26 +12,26 @@
 sudo -s
 ```
 
-2. Deaktivieren und stoppen Sie den systemd-aufgelösten Dienst:
+2. Deaktivieren und stoppen Sie den `systemd-resolved` Dienst:
 
 ```bash
 systemctl disable systemd-resolved
 systemctl stop systemd-resolved
 ```
 
-3. Fügen Sie dann die folgende Zeile in den Abschnitt [main] Ihrer /etc/NetworkManager/NetworkManager.conf ein:
+3. Fügen Sie dann die folgende Zeile in den Abschnitt [main] Ihrer `/etc/NetworkManager/NetworkManager.conf` ein:
 
 ```
 dns=default
 ```
 
-4. Löschen Sie den Symlink /etc/resolv.conf
+4. Löschen Sie den Symlink `/etc/resolv.conf`
 
 ```bash
 rm /etc/resolv.conf
 ```
 
-5. Starte NetworkManager neu
+5. Starte den `NetworkManager` neu
 
 ```bash
 systemctl restart NetworkManager
@@ -52,21 +52,21 @@ sudo -s
 
 2. System aktualisieren
 
-- Das System (Debian und Ubuntu) auf den neusten stand bringen
+- Das Betriebssystem (Debian und Ubuntu) auf den neusten Stand bringen
 
 ```bash
 apt update && apt upgrade -y && apt autoremove -y
 ```
 
-3. Docker und Docker-compose installieren
+3. `docker` und `docker-compose` installieren
 
-- Docker installieren (Debian und Ubuntu)
+- `docker` installieren (Debian und Ubuntu)
 
 ```bash
 curl -sSL https://get.docker.com | bash
 ```
 
-- Docker compose installieren
+- `docker-compose` installieren
 
 ```bash
 curl -SL $(curl -L -s https://api.github.com/repos/docker/compose/releases/latest | grep -o -E "https://(.*)docker-compose-linux-$(uname -m)") -o /usr/local/bin/docker-compose
@@ -74,9 +74,9 @@ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ```
 
-4. Pihole über Docker-compose installieren
+4. `pihole` über `docker-compose` installieren
 
-- Erstelle einen neuen Ordner und erstelle in den neuen Ordner eine docker-compose.yml
+- Erstelle einen neuen Ordner und erstelle in den neuen Ordner eine `docker-compose.yml`
 
 ```bash
 mkdir ~/server/docker/pihole -p
@@ -87,7 +87,7 @@ cd ~/server/docker/pihole
 nano docker-compose.yml
 ```
 
-- In den "nano" Fenster dann folgenden Inhalt reinkopieren
+- In den `nano`-Fenster dann folgenden Inhalt reinkopieren
 
 ```yaml
 version: "3"
@@ -114,33 +114,41 @@ services:
     restart: unless-stopped
 ```
 
-- Dann den Inhalt speichern mit Strg + O-Taste dann Enter und dann Strg + X-Taste zum Verlassen
+- Dann den Inhalt speichern mit Strg + O-Taste dann Enter und dann Strg + X-Taste zum verlassen
 
-- Dann den Container starten mit folgendem Befehl
+- Dann den Container starten mit dem folgenden Befehl
 
 ```bash
 docker-compose up -d
 ```
 
-- Das Pihole ist nun über die IP-Adresse des Gerätes und den in der compose file angegebenen Port (Webserver) erreichbar
+- Das `pihole` ist nun über die IP-Adresse des Gerätes und den in der `docker-compose.yml`-Datei angegebenen Port (Webserver) erreichbar
 
 Quellen: [Docker](https://docs.docker.com/engine/install/debian/#install-using-the-convenience-script); [Pihole](https://github.com/pi-hole/docker-pi-hole#quick-start)
 
 #### Hinweise
-- Wo ist das Passwort für das Pihole?
+- Wo ist das Passwort für das `pihole`?
 
-Der Pihole Container generiert sich ein eigenes Zufallspasswort.
+Der `pihole` Container generiert sich ein eigenes Zufallspasswort.
 Das Passwort kann wie folgt geändert werden:
 
+<details>
+  <summary>Bis pihole Version: 5</summary>
+  
 ```bash
-# Bis Pihole Version 5
 docker exec -it pihole pihole -a -p
 ```
 
-```bash
-# Ab Pihole Version 6
+</details>
+
+<details>
+  <summary>Ab pihole Version: 6</summary>
+
+  ```bash
 docker exec -it pihole pihole setpassword
 ```
+
+</details>
 
 - Der Pihole Container sollte hin und wieder aktualisiert werden
 

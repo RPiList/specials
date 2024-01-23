@@ -1,0 +1,71 @@
+name: gen_blocklisten.md
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - '.github/workflows/gen_blocklisten.md.yml'
+      - '.github/scripts/gen_blocklisten.md.sh'
+      - 'Template/Blocklisten.md/*'
+  schedule:
+    - cron: '20 12 * * *'
+  workflow_dispatch:
+
+env:
+  SCRIPT: .github/scripts/gen_blocklisten.md.sh
+
+jobs:
+  build:
+    container:
+      image: ubuntu:22.04
+
+    runs-on: ubuntu-latest
+    if: github.repository == 'RPiList/specials'
+
+    steps:
+
+      - name: key
+        id: key
+        run: |
+          export KEY="${GITHUB_WORKFLOW%-*}"
+          echo "key=$KEY" >> $GITHUB_OUTPUT
+          echo "################################################################" && bash -c "echo KEY=$KEY"
+
+      - name: update
+        run: apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
+
+      - name: install
+        run: |
+          DEBIAN_FRONTEND=noninteractive apt-get -y install \
+            git locales
+
+      - name: locale
+        run: locale-gen en_US.utf8 && locale-gen de_DE.UTF-8 && update-locale
+
+      - name: clone
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          git clone https://github-actions:$GITHUB_TOKEN@${GITHUB_SERVER_URL##*/}/$GITHUB_REPOSITORY.git $GITHUB_WORKSPACE --branch $GITHUB_REF_NAME
+
+      - name: generate
+        run: |
+          export LANG=en_US.utf8
+          [ "${{ github.workflow }}" != "${{ steps.key.outputs.key }}" ] && c=5 || c=1
+          seq $c | while read x; do chmod +x ${{ env.SCRIPT }} && ./${{ env.SCRIPT }}; done
+
+      - name: commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          git pull
+          git add .
+          git status
+          git config --local user.name github-actions
+          git config --local user.email github-actions@github.com
+          git diff --cached --quiet && exit 0 || git commit -m "Auto-Update"
+          git config --local credential.helper '!x() { echo "password=$GITHUB_TOKEN"; };x'
+          git push origin $GITHUB_REF_NAME
+

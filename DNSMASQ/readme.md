@@ -4,6 +4,7 @@
  
 ``` 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/Corona-Blocklist 
+https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/crypto 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DatingSites 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting1 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting2 

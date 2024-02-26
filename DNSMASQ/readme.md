@@ -3,6 +3,7 @@
 # Eigene Listen (Copy & Paste): 
  
 ``` 
+https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/child-protection 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/Corona-Blocklist 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/crypto 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DatingSites 

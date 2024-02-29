@@ -13,6 +13,7 @@
 # Offizielle BSI Liste für Windows 21H2: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Telemetrie-Endpunkte_Windows10_Build_Build_21H2.xlsx?__blob=publicationFile&v=3
 
 alpha.telemetry.microsoft.com
+beta.telemetry.microsoft.com
 asimov-win.settings.data.microsoft.com.akadns.net
 au-v10.events.data.microsoft.com
 au-v20.events.data.microsoft.com

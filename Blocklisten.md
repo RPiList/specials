@@ -345,5 +345,4 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telem
 https://raw.githubusercontent.com/wlqY8gkVb9w1Ck5MVD4lBre9nWJez8/W10TelemetryBlocklist/master/W10TelemetryBlocklist 
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt 
 https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all 
-https://raw.githubusercontent.com/ChefTyler/MiscHostsFiles/master/ChanBlocker.txt 
 ``` 

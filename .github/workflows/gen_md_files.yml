@@ -1,29 +1,33 @@
-name: gen_dnsmasq_readme.md
+name: generate selected *.md files
 
 on:
   push:
     branches: [ master ]
     paths:
-      - '.github/workflows/gen_dnsmasq_readme.md.yml'
+      - '.github/workflows/gen_md_files.yml'
+  
+      - '.github/scripts/gen_blocklisten.md.sh'
+      - 'Template/Blocklisten.md/*'
+      
       - '.github/scripts/gen_dnsmasq_readme.md.sh'
       - 'Template/DNSMASQ/readme.md/*'
+  
   schedule:
     - cron: '20 12 * * *'
   workflow_dispatch:
 
 env:
-  SCRIPT: .github/scripts/gen_dnsmasq_readme.md.sh
+  SCRIPT01: .github/scripts/gen_blocklisten.md.sh
+  SCRIPT02: .github/scripts/gen_dnsmasq_readme.md.sh
 
 jobs:
-  build:
+  generate-and-deploy:
     container:
       image: ubuntu:22.04
-
     runs-on: ubuntu-latest
     if: github.repository == 'RPiList/specials'
 
     steps:
-
       - name: key
         id: key
         run: |
@@ -53,7 +57,9 @@ jobs:
         run: |
           export LANG=en_US.utf8
           [ "${{ github.workflow }}" != "${{ steps.key.outputs.key }}" ] && c=5 || c=1
-          seq $c | while read x; do chmod +x ${{ env.SCRIPT }} && ./${{ env.SCRIPT }}; done
+          
+          seq $c | while read x; do echo run ${{ env.SCRIPT01 }} && chmod +x ${{ env.SCRIPT01 }} && ./${{ env.SCRIPT01 }}; done
+          seq $c | while read x; do echo run ${{ env.SCRIPT02 }} && chmod +x ${{ env.SCRIPT02 }} && ./${{ env.SCRIPT02 }}; done
 
       - name: commit
         env:

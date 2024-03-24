@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e # Beende das Skript bei einem Fehler
 
 # Voreinstellungen
 SUCHVERZEICHNIS=DNSMASQ
@@ -10,7 +11,9 @@ TEMPLATE_S2=./Template/$SUCHVERZEICHNIS/$PATCHTHEFILE/02
 LINKS=/tmp/$SUCHVERZEICHNIS.txt
 
 # Hole die Links
-rm $LINKS
+if [ -e "$LINKS" ]; then
+  rm "$LINKS"
+fi
 
 find ./$SUCHVERZEICHNIS/* -name '*' -type f \
   | grep -v ".md" \

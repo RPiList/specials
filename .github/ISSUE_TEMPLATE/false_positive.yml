@@ -1,28 +1,42 @@
-name: False positive domains on blocklists
-description: Report a false positive domain entry on blocklists.
-title: 'false-positive: `replace-with-your-domain-entry.url`'
+name: False positive Domains on Blocklists
+description: Report a false positive Domain entry on Blocklists.
+title: 'false-positive: '
 labels: ['false-positive']
 body:
   - type: textarea
     attributes:
       label: Domain(s)
       description: |
-        - specify which domain entries are blocked 
+        - Specify which Domain entries are blocked 
         - (domain entry per line)
       render: shell
+      placeholder: |
+        test.com
+        www.test.com
+        *.test.com
+        
+        testing.org
+        www.testing.org
+        *.testing.org
     validations:
         required: true
   - type: textarea
     attributes:
       label: Reason
-      description: state why it is a false positive entry
+      description: State why it is a false positive entry
     validations:
         required: true
   - type: textarea
     attributes:
       label: Which blocklists
       description: |
-        - [optional]
-        - specifies where the domains are blocked by which block lists (e.g. domainsquatting)
-        - This can also be read out via the pihole
+        - [Optional]
+        - Specifies where the Domains are blocked by which Blocklists (e.g. DomainSquatting)
+        - This can also be read out via the Pihole 
+      render: shell
+      placeholder: |
+        Exact match for test.com found in:
+         - https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
+        Exact match for www.test.com found in:
+         - https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware
 

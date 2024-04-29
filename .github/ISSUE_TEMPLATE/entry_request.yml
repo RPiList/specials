@@ -1,0 +1,21 @@
+name: New domains to blocklists
+description: Report a new domain entry to blocklists so that it is included in the blocklists.
+title: 'entry_request: `replace-with-your-domain-entry.url`'
+labels: ['enhancement']
+body:
+  - type: textarea
+    attributes:
+      label: Domain(s)
+      description: |
+        - Describe which domains should be included in the block lists
+        - (domain entry per line)
+      render: shell
+    validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Reason
+      description: For what reason should the domains be included in the block lists?
+    validations:
+        required: true
+

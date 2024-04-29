@@ -1,0 +1,28 @@
+name: False positive domains on blocklists
+description: Report a false positive domain entry on blocklists.
+title: 'false-positive: `replace-with-your-domain-entry.url`'
+labels: ['false-positive']
+body:
+  - type: textarea
+    attributes:
+      label: Domain(s)
+      description: |
+        - specify which domain entries are blocked 
+        - (domain entry per line)
+      render: shell
+    validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Reason
+      description: state why it is a false positive entry
+    validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Which blocklists
+      description: |
+        - [optional]
+        - specifies where the domains are blocked by which block lists (e.g. domainsquatting)
+        - This can also be read out via the pihole
+

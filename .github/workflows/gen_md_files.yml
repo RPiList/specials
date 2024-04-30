@@ -7,10 +7,10 @@ on:
       - '.github/workflows/gen_md_files.yml'
   
       - '.github/scripts/gen_blocklisten.md.sh'
-      - 'Template/Blocklisten.md/*'
+      - '.github/markdown_templates/Blocklisten.md/*'
       
       - '.github/scripts/gen_dnsmasq_readme.md.sh'
-      - 'Template/DNSMASQ/readme.md/*'
+      - '.github/markdown_templates/DNSMASQ/readme.md/*'
   
   schedule:
     - cron: '20 12 * * *'

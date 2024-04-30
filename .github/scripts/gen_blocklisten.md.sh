@@ -5,8 +5,8 @@ set -e # Beende das Skript bei einem Fehler
 SUCHVERZEICHNIS=Blocklisten
 PATCHTHEFILE=Blocklisten.md
 
-TEMPLATE_S1=./Template/$PATCHTHEFILE/01
-TEMPLATE_S2=./Template/$PATCHTHEFILE/02
+TEMPLATE_S1=./.github/markdown_templates/$PATCHTHEFILE/01
+TEMPLATE_S2=./.github/markdown_templates/$PATCHTHEFILE/02
 
 LINKS=/tmp/$SUCHVERZEICHNIS.txt
 

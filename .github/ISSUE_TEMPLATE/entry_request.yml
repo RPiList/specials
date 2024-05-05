@@ -1,6 +1,6 @@
 name: New Domains to Blocklists
 description: Report a new Domain entry to Blocklists so that it is included in the Blocklists.
-title: 'entry_request: '
+title: 'entry-request: '
 labels: ['enhancement']
 body:
   - type: textarea

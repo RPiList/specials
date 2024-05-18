@@ -6,13 +6,7 @@
 <details>
   <summary>SVPihole Image für Raspberry Pi (deprecated)</summary>
 
-- http://o1.sempervideo.de/svpihole2212.zip
-
-- http://o2.sempervideo.de/svpihole2212.zip
-
-- http://o3.sempervideo.de/svpihole2212.zip
-
-- http://o4.sempervideo.de/svpihole2212.zip
+- https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
 
 | Kryptografie | Prüfsummen                                                       |
 |:------------:|:----------------------------------------------------------------:|
@@ -30,7 +24,7 @@
 	- Falls sich die Links zu bereits hinzugefügten Listen ändern, dann diese Listen erneut mit den richtigen Links aus der [Blocklisten.md](./Blocklisten.md) hinzufügen.
 
 ### Weitere Download-Quellen:
-- https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
+- https://cloudflare-ipfs.com/ipfs/Qmab2Pc3pxrLqpt18JWmVvUbVptKKqaNBSevWiezgHVMkw?filename=svpihole2212.zip
 
 #### Häufig gestellte Frage:
 Worin besteht der Unterschied zur Vorversion?
@@ -63,5 +57,3 @@ Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellun
 | Serie FS | FS6400, FS3600, FS3400, FS3017, FS2017, FS1018, FS2500                                                                    |
 | Serie HD | HD6500                                                                                                                    |
 | Serie SA | SA6400, SA3610, SA3600, SA3410, SA3400, SA3200D                                                                           |
-
-

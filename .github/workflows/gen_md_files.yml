@@ -23,7 +23,7 @@ env:
 jobs:
   generate-and-deploy:
     container:
-      image: ubuntu:22.04
+      image: ubuntu:24.04
     runs-on: ubuntu-latest
     if: github.repository == 'RPiList/specials'
 

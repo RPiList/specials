@@ -16,7 +16,7 @@ version: '2'
 services:
   pihole:
     container_name: pihole
-    image: pihole/pihole:2024.05.0 # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
+    image: pihole/pihole:2024.06.0 # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
     ports:
       - 53:53/tcp   # DNS
       - 53:53/udp   # DNS

@@ -16,7 +16,7 @@ version: '2'
 services:
   pihole:
     container_name: pihole
-    image: pihole/pihole:2024.06.0 # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
+    image: pihole/pihole:2024.07.0 # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
     ports:
       - 53:53/tcp   # DNS
       - 53:53/udp   # DNS
@@ -27,7 +27,8 @@ services:
       - FTLCONF_LOCAL_IPV4=<IP-Adresse von Docker Host>
       - TZ=Europe/Berlin
       - WEBPASSWORD=<Hier das Passwort eintragen>
-      # Für das Lokale erreichen der Geräte unter der Domain des Routers (z.B. fritz.box
+      # Für das Lokale erreichen der Geräte unter der Domain des Routers (z.B. fritz.box)
+      # Siehe: https://github.com/pi-hole/docker-pi-hole?tab=readme-ov-file#optional-variables
       - REV_SERVER=
       - REV_SERVER_TARGET=
       - REV_SERVER_DOMAIN=
@@ -81,7 +82,8 @@ services:
       # Standardangaben
       - TZ=Europe/Berlin
       - FTLCONF_webserver_api_password=<Hier das Passwort eintragen>
-      # Für das Lokale erreichen der Geräte unter der Domain des Routers (z.B. fritz.box
+      # Für das Lokale erreichen der Geräte unter der Domain des Routers (z.B. fritz.box)
+      # Siehe: https://github.com/pi-hole/docker-pi-hole/tree/development-v6?tab=readme-ov-file#optional-variables
       - FTLCONF_dns_revServers=
       # Verbindung zu Unbound
       - FTLCONF_dns_upstreams=unbound # Hardcoded to our Unbound server

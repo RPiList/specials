@@ -5,12 +5,8 @@ on:
     branches: [ master ]
     paths:
       - '.github/workflows/gen_md_files.yml'
-  
-      - '.github/scripts/gen_blocklisten.md.sh'
-      - '.github/markdown_templates/Blocklisten.md/*'
-      
-      - '.github/scripts/gen_dnsmasq_readme.md.sh'
-      - '.github/markdown_templates/DNSMASQ/readme.md/*'
+      - '.github/scripts/gen_*.sh'
+      - '.github/markdown_templates/*'
   
   schedule:
     - cron: '20 12 * * *'
@@ -19,6 +15,7 @@ on:
 env:
   SCRIPT01: .github/scripts/gen_blocklisten.md.sh
   SCRIPT02: .github/scripts/gen_dnsmasq_readme.md.sh
+  SCRIPT03: .github/scripts/gen_mikrotik_readme.md.sh
 
 jobs:
   generate-and-deploy:
@@ -60,6 +57,7 @@ jobs:
           
           seq $c | while read x; do echo run ${{ env.SCRIPT01 }} && chmod +x ${{ env.SCRIPT01 }} && ./${{ env.SCRIPT01 }}; done
           seq $c | while read x; do echo run ${{ env.SCRIPT02 }} && chmod +x ${{ env.SCRIPT02 }} && ./${{ env.SCRIPT02 }}; done
+          seq $c | while read x; do echo run ${{ env.SCRIPT03 }} && chmod +x ${{ env.SCRIPT03 }} && ./${{ env.SCRIPT03 }}; done
 
       - name: commit
         env:

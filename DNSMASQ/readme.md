@@ -12,6 +12,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquattin
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting3 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting4 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/easylist 
+https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/Fake-Science 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/gambling 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/malware 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/notserious 

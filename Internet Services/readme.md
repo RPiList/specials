@@ -119,4 +119,6 @@ https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/Ya
 ```
 https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/iHeartRadio
 ```
-
+```
+https://raw.githubusercontent.com/RPiList/specials/master/Internet%20Services/zip-Domains
+```

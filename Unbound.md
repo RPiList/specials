@@ -8,7 +8,7 @@ https://docs.pi-hole.net/guides/unbound/
 
 
 <details>
-  <summary>mit Pihole Version 5</summary>
+  <summary>Pi-hole Version: 5</summary>
 
 ```yaml
 version: '2'
@@ -64,7 +64,7 @@ volumes:
 
 
 <details>
-  <summary>mit Pihole Version 6</summary>
+  <summary>Pi-hole Version: 6</summary>
 
 ```yaml
 version: '2'
@@ -72,7 +72,7 @@ version: '2'
 services:
   pihole:
     container_name: pihole
-    image: pihole/pihole:development-v6 # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
+    image: pihole/pihole:development # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
     ports:
       - 53:53/tcp   # DNS
       - 53:53/udp   # DNS

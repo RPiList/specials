@@ -58,7 +58,10 @@ sudo -s
 apt update && apt upgrade -y && apt autoremove -y
 ```
 
-3. `docker` und `docker-compose` installieren
+3. `docker` installieren
+
+> [!NOTE]
+> `docker compose` ist Teil von `docker` und muss nicht separat nachinstalliert werden.
 
 - `docker` installieren (Debian und Ubuntu)
 
@@ -66,15 +69,7 @@ apt update && apt upgrade -y && apt autoremove -y
 curl -sSL https://get.docker.com | bash
 ```
 
-- `docker-compose` installieren
-
-```bash
-echo -e '#!/bin/sh\nexec docker compose "$@"' | tee /usr/local/bin/docker-compose && \
-  ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose && \
-  chmod +x /usr/local/bin/docker-compose
-```
-
-4. `pihole` über `docker-compose` installieren
+4. `pihole` über `docker compose` installieren
 
 - Erstelle einen neuen Ordner und erstelle in den neuen Ordner eine `docker-compose.yml`
 
@@ -119,7 +114,7 @@ services:
 - Dann den Container starten mit dem folgenden Befehl
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 - Das `pihole` ist nun über die IP-Adresse des Gerätes und den in der `docker-compose.yml`-Datei angegebenen Port (Webserver) erreichbar
@@ -133,7 +128,7 @@ Der `pihole` Container generiert sich ein eigenes Zufallspasswort.
 Das Passwort kann wie folgt geändert werden:
 
 <details>
-  <summary>Bis pihole Version: 5</summary>
+  <summary>Pi-hole Version: 5 und älter</summary>
   
 ```bash
 docker exec -it pihole pihole -a -p
@@ -142,7 +137,7 @@ docker exec -it pihole pihole -a -p
 </details>
 
 <details>
-  <summary>Ab pihole Version: 6</summary>
+  <summary>Pi-hole Version: 6 und neuer</summary>
 
   ```bash
 docker exec -it pihole pihole setpassword
@@ -154,8 +149,8 @@ docker exec -it pihole pihole setpassword
 
 ```bash
 cd ~/server/docker/pihole
-docker-compose pull
-docker-compose up -d
+docker compose pull
+docker compose up -d
 ```
 
 - Ein automatisches Update über Watchtower ist auch möglich

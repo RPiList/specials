@@ -58,3 +58,10 @@ facebook
 
 # Sperrt Telemetrie-Endpunkte für Windows:
 watson\..*\.microsoft\.com
+
+# Raptor-Train Schadware Kampagne Crossbill, Finch, Oriole, Nosedive
+# Quelle: https://assets.lumen.com/is/content/Lumen/raptor-train-handbook-copy?Creativeid=17b819e2-06d1-4f29-a43f-a4e01b4a4fba
+\.[a-z][0-9]{4}\.com$
+^hy[0-9]{2,4}.com$
+
+

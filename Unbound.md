@@ -72,7 +72,7 @@ version: '2'
 services:
   pihole:
     container_name: pihole
-    image: pihole/pihole:2025.02.4 # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
+    image: pihole/pihole:2025.02.7 # <- update image version here, see: https://github.com/pi-hole/docker-pi-hole/releases
     ports:
       - 53:53/tcp   # DNS
       - 53:53/udp   # DNS
@@ -83,7 +83,7 @@ services:
       - TZ=Europe/Berlin
       - FTLCONF_webserver_api_password=<Hier das Passwort eintragen>
       # Für das Lokale erreichen der Geräte unter der Domain des Routers (z.B. fritz.box)
-      # Siehe: https://github.com/pi-hole/docker-pi-hole/tree/2025.02.4?tab=readme-ov-file#optional-variables
+      # Siehe: https://github.com/pi-hole/docker-pi-hole/tree/2025.02.7?tab=readme-ov-file#optional-variables
       - FTLCONF_dns_revServers=
       # Verbindung zu Unbound
       - FTLCONF_dns_upstreams=unbound # Hardcoded to our Unbound server

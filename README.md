@@ -6,11 +6,9 @@ Hier geht es um Webshops die aufgrund des Auftretens sehr unseriös erscheinen u
 
 Deswegen hatten wir uns überlegt, genau solche "unseriösen" Webshops in dieser List zusammen zufassen. Nutzer können die Liste in Ihr Pi-Hole importieren und damit die anderen Nutzer im Netzwerk davor schützen.
 
-Wenn Sie sich einbringen wollen, können Sie uns die URLs per eMail an RPIList@gmail.com senden. 
+Wenn Sie sich einbringen wollen, können Sie uns die URLs per eMail an RPIList@gmail.com senden oder direkt ein Issue hier auf Github eröffnen. Vielen Dank. 
 
 Man darf gespannt bleiben. :-)
-
-### <a href="./Download.md">Zum Image Download hier klicken</A>
 
 -----
 

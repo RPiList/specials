@@ -3,34 +3,6 @@
 ## Raspberry Pi, VMs und Thin Clients:
 - [Installation von Pihole über docker-compose (Schriftliche Anleitung)](./Anleitungen/install-pihole.md)
 
-<details>
-  <summary>SVPihole Image für Raspberry Pi (deprecated)</summary>
-
-- https://heldendesbildschirms.de/download/software/betriebssysteme/svpihole/
-
-| Kryptografie | Prüfsummen                                                       |
-|:------------:|:----------------------------------------------------------------:|
-| crc32        | 616d6acb                                                         |
-| sha256       | 616d6acbb8dedf63b77911859f5f3b84042728eec1da338f942c7a3eb22739ec |
-| md5          | de7d7db594c779600965c1fda9ce8522                                 |
-
-#### Wichtige Infos:
-- Das SSH-Passwort ist 123456
-- Auf dem Pi ist neben Pihole auch Unbound installiert. Soll das Pihole Unbound nutzen, muss es vom Nutzer eingerichtet werden.
-- Alles weitere in der dem ZIP beiligenden Datei 'wichtig.txt'.
-- Dateiname endet auf .img. Wenn notwendig, einfach umbenennen auf .iso umbenennen.
-- **Problembehandlung**
-	- Falls sich seit dem letzten Update des svpihole Images Probleme bezüglich Pihole und u. a. den neuen ABP-style Listen ergeben, dann ggf. das Pihole manuell mit den Befehl `pihole -up` aktualisieren.
-	- Falls sich die Links zu bereits hinzugefügten Listen ändern, dann diese Listen erneut mit den richtigen Links aus der [Blocklisten.md](./Blocklisten.md) hinzufügen.
-
-### Weitere Download-Quellen:
-- https://cloudflare-ipfs.com/ipfs/Qmab2Pc3pxrLqpt18JWmVvUbVptKKqaNBSevWiezgHVMkw?filename=svpihole2212.zip
-
-#### Häufig gestellte Frage:
-Worin besteht der Unterschied zur Vorversion?
-Die Version 2010 nutzt die neue Gruppenfunktion des Pi-hole 5. Die Voreinstellung bestimmt dass die Listen zum Schutz von Minderjährigen (Glückspiel/FSK18-Seiten usw...) für den Standard-Nutzer gelten. Möchte ein Nutzer auf die zuvor genannten Seiten zugreifen, schiebt er seinen PC/Tablet in die Nutzergruppe "Adults". Eine ausführliche Erläuterung finden Sie hier: https://youtu.be/_Jj4Jv1s_hE
-</details>
-
 -----
 
 ## Synology Diskstation:

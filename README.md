@@ -24,4 +24,4 @@ Seit dem Update von Pi-hole Ende März 2023 auf die Version [Pi-hole FTL v5.22, 
 -----
 
 **Disclaimer:** These pages and the entire project is in no way affiliated with Pi-hole, which you can find on https://pi-hole.net/ 
-We are only offering blocklists you can import to your Pi-hole. If you are not familiar using a terminal or linux, you can download our preconfigured rasbian image containing Pi-hole.
+We are only offering blocklists you can import to your Pi-hole.

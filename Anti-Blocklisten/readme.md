@@ -4,4 +4,3 @@ But also sometimes, you don't care, because you need to use a certain service. T
   Import these as Whitelists. These Anti-Blocklists will make sure your service works. Reguardless that our or any 
   other blocklist on the Internet blocks it.
 </p>
-![Unbenannt-1](https://github.com/user-attachments/assets/76086804-becb-45d0-988b-dce32027f802)

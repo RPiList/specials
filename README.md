@@ -8,7 +8,9 @@ Deswegen hatten wir uns überlegt, genau solche "unseriösen" Webshops in dieser
 
 Wenn Sie sich einbringen wollen, können Sie uns die URLs per eMail an RPIList@gmail.com senden oder direkt ein Issue hier auf Github eröffnen. Vielen Dank. 
 
-Man darf gespannt bleiben. :-)
+# Warum gibt es Anti-Blocklisten?
+
+Seit Pihole v6 kann man Listen importieren, die dann für die Freischaltung der Domain sorgen. Beispiel: Ein Bezahldienst im Internet wird sehr oft von Abzockern benutzt. Da unerfahrene Nutzer im Internet in Gefahr sind, wird der Dienstleister in unseren Listen gesperrt. Aber scheinbar nutzt die Post aus Österreich ebenfalls diesen Dienstleister. Und Sie kaufen Briefmarken bei der Post Österreich? Dann entweder unsere entsprechende Anti-Blocklist importieren oder die Domain von Hand freischalten. Ganz einfach.
 
 -----
 

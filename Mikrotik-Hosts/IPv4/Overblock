@@ -9,3 +9,6 @@
 # google.com, mailscanner.info, github.com/AdguardTeam, HyperPhish.com, CryptoScamDB 
 # sowie lumendatabase.org.
 
+0.0.0.0 baidu.com
+0.0.0.0 mystrikingly.com
+0.0.0.0 qrco.de

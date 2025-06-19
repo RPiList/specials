@@ -38,6 +38,7 @@ MyURLs = ['https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious',
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Overblock',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2',
@@ -188,7 +189,9 @@ MyURLs = ['https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-8-Teil-2',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9-Teil-1',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9-Teil-2',
-          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9-Teil-3',]
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9-Teil-3',
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/INT/interactivebrokers',
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/INT/traderepublic',]
 
 # END Data Division:
 

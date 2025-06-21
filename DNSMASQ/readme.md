@@ -16,6 +16,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/Fake-Science
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/gambling 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/malware 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/notserious 
+https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/Overblock 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/Phishing-Angriffe 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/pornblock1 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/pornblock2 

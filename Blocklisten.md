@@ -17,6 +17,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Overblock 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock1 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/pornblock2 
@@ -168,6 +169,8 @@ https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSqua
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9-Teil-1 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9-Teil-2 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/DE/Volks-und-Raiffeisenbank/VR-PLZ-9-Teil-3 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/INT/interactivebrokers 
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/DomainSquatting/INT/traderepublic 
 ``` 
  
 # Listen von Drittanbietern 

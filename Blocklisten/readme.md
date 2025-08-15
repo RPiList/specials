@@ -8,7 +8,7 @@ Erläuterung der einzelnen Blocklisten:
 | Child-Protection            | Webseiten die für Minderjährige nicht geeignet sind.                                   |
 | Corona-Blocklist            | Corona Webseiten die für Phishing und Betrug genutzt werden.                           |
 | Crypto                      | Domains auf denen Cryptomining und Co. betrieben wird.                                 |
-| DomainSquatting1-4          | Angriffe durch möglich [TypoSquatting](https://de.wikipedia.org/wiki/Typosquatting)    |
+| DomainSquatting1-4          | Angriffe durch [TypoSquatting](https://de.wikipedia.org/wiki/Typosquatting)            |
 | EasyList                    | Erweiterte Easylist, vornehmlich um Werbung zu blockieren.                             |
 | Fake-Science                | Liste der sog. Predatory Publishers a.k.a Fake Science.                                |
 | Gambling                    | Domains auf denen Glücksspiele angeboten werden.                                       |

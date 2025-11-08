@@ -32,7 +32,7 @@ services:
       # Siehe: https://github.com/pi-hole/docker-pi-hole?tab=readme-ov-file#optional-variables
       - FTLCONF_dns_revServers=
       # Verbindung zu Unbound
-      - FTLCONF_dns_upstreams=unbound # Hardcoded to our Unbound server
+      - FTLCONF_dns_upstreams=unbound#5053 # Hardcoded to our Unbound server
       - FTLCONF_dns_dnssec=true # Enable DNSSEC
     volumes:
       - etc_pihole:/etc/pihole:rw
@@ -45,7 +45,7 @@ services:
 
   unbound:
     container_name: unbound
-    image: mvance/unbound:latest
+    image: crazymax/unbound:latest
     networks:
       - pihole-unbound
     restart: unless-stopped

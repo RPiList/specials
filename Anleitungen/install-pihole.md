@@ -2,42 +2,27 @@
 
 #### Hinweise vorab
 <details>
-  <summary>- Bei Ubuntu Betriebssystemen muss der `systemd-resolved` deaktiviert werden um den Port 53 nutzen zu können</summary>
+  <summary>- Bei Ubuntu Betriebssystemen muss der `systemd-resolved` umkonfiguriert werden um den Port 53 nutzen zu können</summary>
 
-1. Root Shell erlangen
-
-- Als Root anmelden oder als User folgendes eingeben, um auf die Root Shell zu kommen
+1. Deaktivieren des Stub-Resolver's von `systemd-resolved`:
 
 ```bash
-sudo -s
+sudo sh -c 'mkdir -p /etc/systemd/resolved.conf.d && printf "[Resolve]\nDNSStubListener=no\n" | tee /etc/systemd/resolved.conf.d/no-stub.conf'
 ```
 
-2. Deaktivieren und stoppen Sie den `systemd-resolved` Dienst:
+2. Ändern des Symlink's für die `/etc/resolv.conf` Datei:
+
+```basb
+sudo sh -c 'rm -f /etc/resolv.conf && ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf'
+```
+
+3. Neustarten des `systemd-resolved` Dienstes:
 
 ```bash
-systemctl disable systemd-resolved
-systemctl stop systemd-resolved
+systemctl restart systemd-resolved
 ```
 
-3. Fügen Sie dann die folgende Zeile in den Abschnitt [main] Ihrer `/etc/NetworkManager/NetworkManager.conf` ein:
-
-```
-dns=default
-```
-
-4. Löschen Sie den Symlink `/etc/resolv.conf`
-
-```bash
-rm /etc/resolv.conf
-```
-
-5. Starte den `NetworkManager` neu
-
-```bash
-systemctl restart NetworkManager
-```
-
-Quelle: [askubuntu.com](https://askubuntu.com/questions/907246/how-to-disable-systemd-resolved-in-ubuntu)
+Quelle: [Pi-hole Documentation](https://docs.pi-hole.net/docker/tips-and-tricks/#disable-systemd-resolved-port-53)
 </details>
 
 ### Installation von Docker und Pihole über Docker compose

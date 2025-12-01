@@ -18,6 +18,6 @@ Erläuterung der einzelnen Blocklisten:
 | Phishing-Angriffe           | Domains auf denen in den letzten 30 Tagen Phishing-Angriffe durchgeführt wurden.       |
 | Pornblock1-6                | Webseiten, die für Minderjährige nicht geeignet sind.                                  |
 | Samsung                     | Domains von Samsung Tracking Diensten.                                                 |
-| Spam.Mails                  | Domains, die über eMail verteilt werden.                                               |
+| Spam.Mails                  | Domains, die über Spammails verteilt werden.                                               |
 | Streaming                   | Domains auf welchen urheberrechtlich geschütztes Material zum Streamen angeboten wird. |
 | Win10Telemetry              | Sog. Windows 10 Spy-Dienste werden geblockt.                                           |

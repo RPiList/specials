@@ -255,7 +255,6 @@ https://v.firebog.net/hosts/Prigent-Malware.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt 
 https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt 
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts 
-https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt 
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADomains.txt 
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt 
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts 

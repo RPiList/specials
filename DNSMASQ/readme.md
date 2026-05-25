@@ -37,6 +37,7 @@ https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquattin
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting/AT/Easybank 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting/AT/Eurambank 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting/AT/Hypotirol 
+https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting/AT/ING 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting/AT/Kommunalkreditinvest 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting/AT/LichtensteinischeLandesbank 
 https://raw.githubusercontent.com/RPiList/specials/master/DNSMASQ/DomainSquatting/AT/N26 

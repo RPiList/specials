@@ -10,8 +10,6 @@ https://docs.pi-hole.net/guides/unbound/
   <summary>docker-compose.yml</summary>
 
 ```yaml
-version: '2'
-
 services:
   pihole:
     container_name: pihole
@@ -24,6 +22,8 @@ services:
       - 53:53/udp   # DNS
       - 80:80/tcp   # HTTP
       - 443:443/tcp # HTTPS
+      #- 67:67/udp   # DHCP
+      #- 123:123/udp # NTP
     environment:
       # Standardangaben
       - TZ=Europe/Berlin
@@ -34,11 +34,17 @@ services:
       # Verbindung zu Unbound
       - FTLCONF_dns_upstreams=unbound#5335 # Hardcoded to our Unbound server
       - FTLCONF_dns_dnssec=true # Enable DNSSEC
+      # Restliche Angaben
+      - FTLCONF_dns_listeningMode=ALL # If using Docker's default `bridge` network setting the dns listening mode should be set to 'ALL'
     volumes:
       - etc_pihole:/etc/pihole:rw
       - etc_pihole_dnsmasq:/etc/dnsmasq.d:rw
     networks:
       - pihole-unbound
+    cap_add:
+      #- NET_ADMIN # Required if you are using Pi-hole as your DHCP server, else not needed
+      #- SYS_TIME  # Required if you are using Pi-hole as your NTP client to be able to set the host's system time
+      - SYS_NICE  # Optional, if Pi-hole should get some more processing time
     restart: unless-stopped
     depends_on:
       - unbound
@@ -59,7 +65,7 @@ services:
             do-ip4: yes
             do-udp: yes
             do-tcp: yes
-            do-ip6: no
+            do-ip6: yes
             prefer-ip6: no
             harden-glue: yes
             harden-dnssec-stripped: yes
@@ -67,12 +73,18 @@ services:
             edns-buffer-size: 1232
             prefetch: yes
             num-threads: $(nproc 2>/dev/null || echo 1)
+            so-rcvbuf: 1m
             private-address: 192.168.0.0/16
             private-address: 169.254.0.0/16
             private-address: 172.16.0.0/12
             private-address: 10.0.0.0/8
             private-address: fd00::/8
             private-address: fe80::/10
+            private-address: 192.0.2.0/24
+            private-address: 198.51.100.0/24
+            private-address: 203.0.113.0/24
+            private-address: 255.255.255.255/32
+            private-address: 2001:db8::/32
             access-control: 10.0.0.0/8 allow
             access-control: 127.0.0.0/8 allow
             access-control: 172.16.0.0/12 allow

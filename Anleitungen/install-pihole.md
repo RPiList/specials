@@ -70,8 +70,6 @@ nano docker-compose.yml
 - In den `nano`-Fenster dann folgenden Inhalt reinkopieren
 
 ```yaml
-version: "3"
-
 # More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
 services:
   pihole:
@@ -79,18 +77,22 @@ services:
     image: pihole/pihole:latest
     # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
     ports:
-      - "53:53/tcp" # DNS
-      - "53:53/udp" # DNS
-      - "67:67/udp" # DHCP server
-      - "80:80/tcp" # Webserver
+      - 53:53/tcp   # DNS
+      - 53:53/udp   # DNS
+      - 80:80/tcp   # HTTP
+      - 443:443/tcp # HTTPS
+      #- 67:67/udp   # DHCP
+      #- 123:123/udp # NTP
+    environment:
+      - TZ=Europe/Berlin
     volumes:
       # Volume mount for pihole userdata
       - './etc-pihole:/etc/pihole'
       - './etc-dnsmasq.d:/etc/dnsmasq.d'
-      # Sync Timezone
-      - '/etc/timezone:/etc/timezone:ro'
     cap_add:
-      - NET_ADMIN # Required if you are using Pi-hole as your DHCP server, else not needed
+      #- NET_ADMIN # Required if you are using Pi-hole as your DHCP server, else not needed
+      #- SYS_TIME  # Required if you are using Pi-hole as your NTP client to be able to set the host's system time
+      - SYS_NICE  # Optional, if Pi-hole should get some more processing time
     restart: unless-stopped
 ```
 

@@ -225,7 +225,8 @@ https://nsfw.oisd.nl
 ``` 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming 
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious 
-https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste 
+https://raw.githubusercontent.com/Monstanner/DuckDuckGo-Fakeshops-Blocklist/main/Blockliste
+https://raw.githubusercontent.com/nice42q/gold-de-fakeshops/refs/heads/main/blocklist-domains.txt 
 ``` 
  
  

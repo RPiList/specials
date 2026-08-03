@@ -15,8 +15,10 @@ Erläuterung der einzelnen Blocklisten:
 | Malware                     | Domains die Schadware verbreiten.                                                      |
 | MS-Office-Telemetry         | Sog. Microsoft Office Spy-Dienste werden geblockt.                                     |
 | Notserious                  | Domains auf denen Fake-Shops und sonstige Abzocker zu finden sind.                     |
+| Overblock                   | "FINDE ICH NICHT"                                                                      |
 | Phishing-Angriffe           | Domains auf denen in den letzten 30 Tagen Phishing-Angriffe durchgeführt wurden.       |
 | Pornblock1-6                | Webseiten, die für Minderjährige nicht geeignet sind.                                  |
+| ScamBlocklist               | "FINDE ICH NICHT"                                                                      |
 | Samsung                     | Domains von Samsung Tracking Diensten.                                                 |
 | Spam.Mails                  | Domains, die über Spammails verteilt werden.                                               |
 | Streaming                   | Domains auf welchen urheberrechtlich geschütztes Material zum Streamen angeboten wird. |

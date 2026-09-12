@@ -35,6 +35,7 @@ MyURLs = ['https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/easylist',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/gambling',
+          'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/MS-Office-Telemetry',
           'https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious',

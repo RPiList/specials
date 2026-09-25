@@ -1,0 +1,15 @@
+# Alle Listen des Projekts RPi-List sind selbst erstellte Listen, teilweise basierend auf Grunddaten 
+# aus verschiedener Quellen (s.u.). Genauere Erläuterung dazu finden Sie unter 
+# github.com/RPiList/specials/blob/master/Copyright%20-%20Woher%20kommen%20unsere%20Listen.md
+#
+# Wir bedanken uns bei allen Nutzern des Projekt, die uns Ihre Domains über unsere Website sowie per 
+# eMail zukommen lassen. Drittquellen sind beallslist.net, bsi.bund.de, github.com/duckduckgo/
+# tracker-radar, cybercrime-tracker.net, openphish.com, zonefiles.io, ut-capitole.fr, isc.sans.edu,
+# github.com/disconnectme, phishstats.info, easylist.to, cyberthreatcoalition.org, phishing.army, 
+# google.com sowie lumendatabase.org.
+# 
+# Offizielle Liste des BSI gem. https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Office_Telemetrie/Office_Telemetrie.pdf?__blob=publicationFile&v=5
+
+self.events.data.microsoft.com
+nexus.officeapps.live.com
+hubblecontent.osi.office.net

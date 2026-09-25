@@ -1,0 +1,1 @@
+Zuordnung nach Geldinstituten

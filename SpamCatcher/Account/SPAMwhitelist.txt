@@ -1,0 +1,7 @@
+github.com
+google.com
+w3.org
+strato.de
+amazon.com
+amazon.de
+onmicrosoft.com

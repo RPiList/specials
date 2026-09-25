@@ -1,0 +1,1 @@
+Aufteilung nach Postleitzahl.

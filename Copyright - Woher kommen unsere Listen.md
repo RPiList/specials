@@ -44,8 +44,8 @@ https://beallslist.net<br>
 https://www.bsi.bund.de<br>
 https://github.com/duckduckgo/tracker-radar<br>
 http://cybercrime-tracker.net<br>
-https://openphish.com/<br>
-https://zonefiles.io<br>
+https://openphish.com<br>
+https://netapi.com<br>
 https://www.ut-capitole.fr<br>
 https://isc.sans.edu<br>
 https://github.com/disconnectme<br>

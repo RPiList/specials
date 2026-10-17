@@ -12,7 +12,7 @@ sudo sh -c 'mkdir -p /etc/systemd/resolved.conf.d && printf "[Resolve]\nDNSStubL
 
 2. Ändern des Symlink's für die `/etc/resolv.conf` Datei:
 
-```basb
+```bash
 sudo sh -c 'rm -f /etc/resolv.conf && ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf'
 ```
 
@@ -114,30 +114,15 @@ Quellen: [Docker](https://docs.docker.com/engine/install/debian/#install-using-t
 Der `pihole` Container generiert sich ein eigenes Zufallspasswort.
 Das Passwort kann wie folgt geändert werden:
 
-<details>
-  <summary>Pi-hole Version: 5 und älter</summary>
-  
 ```bash
-docker exec -it pihole pihole -a -p
-```
-
-</details>
-
-<details>
-  <summary>Pi-hole Version: 6 und neuer</summary>
-
-  ```bash
 docker exec -it pihole pihole setpassword
 ```
-
-</details>
 
 - Der Pihole Container sollte hin und wieder aktualisiert werden
 
 ```bash
 cd ~/server/docker/pihole
-docker compose pull
-docker compose up -d
+docker compose up --force-recreate --pull always -d
 ```
 
 - Ein automatisches Update über Watchtower ist auch möglich
